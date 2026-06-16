@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "workspace": {
+    "name": "amarillo-primavera",
+    "createdAt": 1781638943016,
+    "preset": "starter"
+  },
+  "authorizedRoots": [
+    "/Users/mumoc/projects/personal/amarillo-primavera"
+  ],
+  "reload": null
+}
