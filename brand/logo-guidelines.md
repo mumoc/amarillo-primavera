@@ -5,43 +5,29 @@ tags: [identity, logo, visual]
 
 # Lineamientos de Logo
 
-El logo de Amarillo Primavera debe mantener conexión con la primavera amarilla, Colima y lo artesanal.
+El logo de Amarillo Primavera usa el **amarillo-oro** (`#E6A92E`) como color principal, en línea con la identidad definida en `brand/about.md` y `brand/colors.md`.
 
-## Elementos posibles
+## Archivos disponibles
 
-El sistema visual puede integrar:
+- `main-file.svg` — Versión vectorial principal (fuente de verdad)
+- `logo-color.png` — Versión a color completa
+- `logo-color-base.png` — Versión base con color
+- `logo-transparente.png` — Versión con fondo transparente
+- `logo-1color-transparente.png` — Versión monocromática
 
-- Un árbol primavera amarillo.
-- Flores amarillas.
-- Referencias sutiles a Colima.
-- Los volcanes de Colima: Volcán de Fuego y Nevado de Colima.
-- Una composición cálida, artesanal y memorable.
+## Usos
 
-## Dirección visual
+El logo debe usarse en:
 
-El logo debe sentirse:
-
-- Alegre.
-- Mexicano.
-- Artesanal.
-- Luminoso.
-- Fácil de reconocer.
-- Apto para etiquetas, redes sociales y empaques.
-
-## Usos importantes
-
-El logo debe funcionar para:
-
-- Facebook.
-- Instagram.
-- Etiquetas impresas.
-- Empaques.
-- Banners.
-- Material promocional.
-- Productos turísticos.
+- Facebook e Instagram
+- Etiquetas impresas
+- Empaques
+- Banners
+- Material promocional
+- Productos turísticos
 
 ## Notas
 
-Ya se ha trabajado anteriormente en ideas de logo, banner y versiones vectorizadas/SVG para Amarillo Primavera.
+El logo ya fue desarrollado en versiones vectorizadas y PNG. Usar siempre la versión SVG cuando se requiera escalabilidad o edición.
 
-La identidad puede usar el árbol primavera como símbolo principal y los volcanes como elemento contextual, sin saturar el diseño.
+Evitar crear nuevas versiones sin necesidad; los archivos actuales cubren los usos principales de la marca.
