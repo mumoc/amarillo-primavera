@@ -39,6 +39,6 @@ Contexto recopilado de conversaciones previas sobre Amarillo Primavera y trabajo
 
 ## Material pendiente o faltante
 
-- Fotos de telas.
-- Fotos del proceso.
-- Más contenido visual propio para Instagram.
+- Fotos de telas (materia prima), especialmente para la línea de muñecas de trapo Marien.
+
+*Actualizado: ya se cuenta con fotos de estilo/lifestyle, fotos de proceso/detrás de cámaras e imágenes generadas con IA — ver `brand/photography.md` para cómo usar cada tipo.*
