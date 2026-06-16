@@ -51,7 +51,7 @@ Colores dominantes presentes en los archivos de logo:
 | Deep warm brown | `#604932` | Acento oscuro principal |
 | Burnt gold | `#A86924` | Tono cálido secundario |
 | Rich mustard | `#E6A92E` | Amarillo-oro principal |
-| Bright gold | `#F2CE38` / `#F3D854` | Destque y energía |
+| Bright gold | `#F2CE38` / `#F3D854` | Destaque y energía |
 | Warm cream | `#F1E4AA` / `#F6EED3` | Fondo suave |
 | Muted purple-gray | `#7E7C8A` | Neutro sutil |
 

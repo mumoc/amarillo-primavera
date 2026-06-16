@@ -39,6 +39,7 @@ No suena corporativa ni demasiado elegante. Suena humana, luminosa y afectuosa.
 - Alegría hecha con intención.
 - Detalles que recuerdan a casa.
 - Cultura mexicana con luz propia.
+- Detalles personalizados.
 
 ## Evitar
 
