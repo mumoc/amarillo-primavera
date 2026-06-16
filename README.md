@@ -4,7 +4,7 @@ Brand, product catalog, and social media content helper.
 
 ## Structure
 
-- `brand/` — Core identity (about, voice, colors, logo)
+- `brand/` — Core identity (about, voice, colors, logo, audience, sub-brand tone, photography, hashtags)
 - `products/` — Product catalog (one folder per product with images + description)
 - `content/` — Social posts
   - `drafts/` — Work in progress
