@@ -227,10 +227,9 @@
       }
 
       .editable-image {
-        display: grid;
-        grid-template-columns: 76px 1fr;
-        gap: 10px;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
         padding: 9px;
         border: 1px solid #ead8bf;
         border-radius: 16px;
@@ -243,6 +242,16 @@
         aspect-ratio: 1;
         border-radius: 12px;
         object-fit: cover;
+      }
+
+      .editable-image.dragging {
+        opacity: 0.5;
+        border-style: dashed;
+      }
+
+      .editable-image.drag-over {
+        border-color: #d89035;
+        background: #fff3d9;
       }
 
       .image-name {
@@ -541,12 +550,18 @@
 
         return `
           <div class="gallery-layout is-editing">
-            <div class="editable-images" aria-label="Editar imagenes del producto">
+            <div class="editable-images" aria-label="Editar imagenes del producto" data-slug="${escapeHtml(product.slug)}">
               ${activeImages.map((image) => `
-                <div class="editable-image">
-                  <img src="${escapeHtml(image)}" alt="${escapeHtml(product.nombre)}">
-                  <span class="image-name">${escapeHtml(imageFilename(image))}</span>
-                  <button class="delete-image-button" data-image="${escapeHtml(image)}" type="button">Eliminar</button>
+                <div class="editable-image" draggable="true" data-image="${escapeHtml(image)}">
+                  <div class="flex items-center gap-3">
+                    <img src="${escapeHtml(image)}" alt="${escapeHtml(product.nombre)}" class="w-[76px] aspect-square rounded-xl object-cover flex-shrink-0">
+                    <span class="image-name text-sm font-semibold break-all">${escapeHtml(imageFilename(image))}</span>
+                  </div>
+                  <div class="flex gap-2">
+                    <button class="move-up-button flex-1 rounded-lg bg-amber-100 px-2 py-1 text-sm font-bold hover:bg-amber-200" data-image="${escapeHtml(image)}" type="button" title="Subir">↑</button>
+                    <button class="move-down-button flex-1 rounded-lg bg-amber-100 px-2 py-1 text-sm font-bold hover:bg-amber-200" data-image="${escapeHtml(image)}" type="button" title="Bajar">↓</button>
+                    <button class="delete-image-button flex-1 rounded-lg bg-red-100 px-2 py-1 text-sm font-bold text-red-700 hover:bg-red-200" data-image="${escapeHtml(image)}" type="button">Eliminar</button>
+                  </div>
                 </div>
               `).join("")}
             </div>
@@ -672,34 +687,80 @@
 
       detailEl.addEventListener("click", async (event) => {
         const button = event.target.closest(".delete-image-button");
-        if (!button || !activeSlug) return;
+        if (button && activeSlug) {
+          const product = getActiveProduct();
+          const image = button.dataset.image;
+          const filename = imageFilename(image);
 
-        const product = getActiveProduct();
-        const image = button.dataset.image;
-        const filename = imageFilename(image);
+          if (!confirm(`¿Eliminar esta imagen?\n${filename}`)) return;
 
-        if (!confirm(`¿Eliminar esta imagen?\n${filename}`)) return;
+          button.disabled = true;
+          button.textContent = "Eliminando...";
 
-        button.disabled = true;
-        button.textContent = "Eliminando...";
+          try {
+            const response = await fetch(`api/products/${encodeURIComponent(activeSlug)}/images/${encodeURIComponent(filename)}`, {
+              method: "DELETE",
+            });
+            const result = await response.json();
 
-        try {
-          const response = await fetch(`api/products/${encodeURIComponent(activeSlug)}/images/${encodeURIComponent(filename)}`, {
-            method: "DELETE",
-          });
-          const result = await response.json();
+            if (!response.ok || !result.ok) {
+              throw new Error(result.error || "No se pudo eliminar la imagen");
+            }
 
-          if (!response.ok || !result.ok) {
-            throw new Error(result.error || "No se pudo eliminar la imagen");
+            activeImages = activeImages.filter((item) => imageFilename(item) !== filename);
+            product.num_imagenes = result.num_imagenes;
+            renderEditForm();
+          } catch (error) {
+            button.disabled = false;
+            button.textContent = "Eliminar";
+            alert(`Error: ${error.message}`);
+          }
+          return;
+        }
+
+        // Botones de mover imagen
+        const upBtn = event.target.closest(".move-up-button");
+        const downBtn = event.target.closest(".move-down-button");
+
+        if ((upBtn || downBtn) && activeSlug) {
+          const container = event.target.closest(".editable-images");
+          if (!container) return;
+          const images = Array.from(container.querySelectorAll(".editable-image"));
+          const currentEl = event.target.closest(".editable-image");
+          const currentIndex = images.indexOf(currentEl);
+
+          let newIndex;
+          if (upBtn && currentIndex > 0) {
+            newIndex = currentIndex - 1;
+          } else if (downBtn && currentIndex < images.length - 1) {
+            newIndex = currentIndex + 1;
+          } else {
+            return;
           }
 
-          activeImages = activeImages.filter((item) => imageFilename(item) !== filename);
-          product.num_imagenes = result.num_imagenes;
-          renderEditForm();
-        } catch (error) {
-          button.disabled = false;
-          button.textContent = "Eliminar";
-          alert(`Error: ${error.message}`);
+          const targetEl = images[newIndex];
+          if (currentIndex < newIndex) {
+            targetEl.after(currentEl);
+          } else {
+            targetEl.before(currentEl);
+          }
+
+          // Actualizar activeImages con el nuevo orden del DOM
+          activeImages = Array.from(container.querySelectorAll(".editable-image")).map(el => el.dataset.image);
+
+          // Guardar nuevo orden
+          const newOrder = activeImages.map(imageFilename);
+          try {
+            await fetch(`api/products/${encodeURIComponent(activeSlug)}/images/reorder`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ order: newOrder }),
+            });
+          } catch (e) {
+            console.error("Error al guardar orden:", e);
+          }
+          // No llamamos renderEditForm() para evitar romper el render de miniaturas.
+          // El DOM ya está actualizado por el movimiento de elementos.
         }
       });
 
@@ -742,6 +803,77 @@
           saveStatus.textContent = `Error: ${error.message}`;
         } finally {
           saveButton.disabled = false;
+        }
+      });
+
+      // Drag & drop para reordenar imágenes en modo edición
+      detailEl.addEventListener("dragstart", (event) => {
+        const imageEl = event.target.closest(".editable-image");
+        if (!imageEl) return;
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.setData("text/plain", imageEl.dataset.image);
+        imageEl.classList.add("dragging");
+      });
+
+      detailEl.addEventListener("dragend", (event) => {
+        const imageEl = event.target.closest(".editable-image");
+        if (imageEl) imageEl.classList.remove("dragging");
+      });
+
+      detailEl.addEventListener("dragover", (event) => {
+        const container = event.target.closest(".editable-images");
+        if (!container) return;
+        event.preventDefault();
+        event.dataTransfer.dropEffect = "move";
+
+        const targetEl = event.target.closest(".editable-image");
+        if (targetEl) {
+          document.querySelectorAll(".editable-image").forEach(el => el.classList.remove("drag-over"));
+          targetEl.classList.add("drag-over");
+        }
+      });
+
+      detailEl.addEventListener("dragleave", (event) => {
+        const targetEl = event.target.closest(".editable-image");
+        if (targetEl) targetEl.classList.remove("drag-over");
+      });
+
+      detailEl.addEventListener("drop", async (event) => {
+        const container = event.target.closest(".editable-images");
+        if (!container) return;
+        event.preventDefault();
+
+        document.querySelectorAll(".editable-image").forEach(el => el.classList.remove("drag-over"));
+
+        const draggedImage = event.dataTransfer.getData("text/plain");
+        const targetEl = event.target.closest(".editable-image");
+        if (!targetEl || targetEl.dataset.image === draggedImage) return;
+
+        const images = Array.from(container.querySelectorAll(".editable-image"));
+        const draggedIndex = images.findIndex(el => el.dataset.image === draggedImage);
+        const targetIndex = images.findIndex(el => el.dataset.image === targetEl.dataset.image);
+
+        if (draggedIndex < targetIndex) {
+          targetEl.after(container.children[draggedIndex]);
+        } else {
+          targetEl.before(container.children[draggedIndex]);
+        }
+
+        // Actualizar activeImages con el nuevo orden
+        activeImages = Array.from(container.querySelectorAll(".editable-image")).map(el => el.dataset.image);
+
+        // Guardar nuevo orden en el servidor
+        const newOrder = activeImages.map(imageFilename);
+        const slug = container.dataset.slug;
+
+        try {
+          await fetch(`api/products/${encodeURIComponent(slug)}/images/reorder`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ order: newOrder }),
+          });
+        } catch (e) {
+          console.error("Error al guardar orden:", e);
         }
       });
 

@@ -51,7 +51,22 @@ def get_images(product_dir):
     images_dir = product_dir / "images"
     if not images_dir.exists():
         return []
-    return sorted(path.name for path in images_dir.iterdir() if path.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp", ".gif"])
+
+    files = [path.name for path in images_dir.iterdir() if path.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp", ".gif"]]
+    order_file = images_dir / "order.json"
+
+    if order_file.exists():
+        try:
+            desired_order = json.loads(order_file.read_text(encoding="utf-8"))
+            # Filtrar solo archivos que existen
+            ordered = [f for f in desired_order if f in files]
+            # Agregar archivos nuevos que no están en el orden
+            remaining = sorted(set(files) - set(ordered))
+            return ordered + remaining
+        except Exception:
+            pass
+
+    return sorted(files)
 
 
 def update_image_count(slug, count):
@@ -187,6 +202,46 @@ class CatalogHandler(SimpleHTTPRequestHandler):
             self.wfile.write(response)
 
     def do_POST(self):
+        parsed = urlparse(self.path)
+        parts = parsed.path.strip("/").split("/")
+
+        # Endpoint para reordenar imágenes: POST /api/products/<slug>/images/reorder
+        if len(parts) == 5 and parts[:2] == ["api", "products"] and parts[3] == "images" and parts[4] == "reorder":
+            slug = unquote(parts[2])
+            product_dir = PRODUCTS_DIR / slug
+            images_dir = product_dir / "images"
+            order_file = images_dir / "order.json"
+
+            if not product_dir.is_dir() or not images_dir.is_dir():
+                self.send_error(404, "Producto no encontrado")
+                return
+
+            try:
+                length = int(self.headers.get("Content-Length", "0"))
+                payload = json.loads(self.rfile.read(length).decode("utf-8"))
+                order = payload.get("order", [])
+
+                if not isinstance(order, list):
+                    raise ValueError("El campo 'order' debe ser una lista")
+
+                order_file.write_text(json.dumps(order, ensure_ascii=False, indent=2), encoding="utf-8")
+
+                response = json.dumps({"ok": True}, ensure_ascii=False).encode("utf-8")
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Content-Length", str(len(response)))
+                self.end_headers()
+                self.wfile.write(response)
+            except Exception as error:
+                response = json.dumps({"ok": False, "error": str(error)}, ensure_ascii=False).encode("utf-8")
+                self.send_response(400)
+                self.send_header("Content-Type", "application/json; charset=utf-8")
+                self.send_header("Content-Length", str(len(response)))
+                self.end_headers()
+                self.wfile.write(response)
+            return
+
+        # Endpoint normal de guardado de producto
         parsed = urlparse(self.path)
         parts = parsed.path.strip("/").split("/")
 
