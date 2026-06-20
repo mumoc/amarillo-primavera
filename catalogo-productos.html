@@ -145,6 +145,11 @@
         padding: 24px;
       }
 
+      .detail-column {
+        display: grid;
+        gap: 14px;
+      }
+
       .empty {
         min-height: 590px;
         display: grid;
@@ -157,8 +162,22 @@
 
       .detail-grid {
         display: grid;
-        grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
         gap: 24px;
+      }
+
+      .gallery-layout {
+        display: grid;
+        grid-template-columns: 92px minmax(0, 1fr);
+        gap: 14px;
+        align-items: start;
+      }
+
+      .gallery-layout.has-one {
+        grid-template-columns: 1fr;
+      }
+
+      .gallery-layout.is-editing {
+        grid-template-columns: minmax(190px, 240px) minmax(0, 1fr);
       }
 
       .main-photo {
@@ -176,9 +195,10 @@
 
       .thumbnails {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        flex-wrap: nowrap;
         gap: 10px;
-        margin-top: 12px;
+        margin: 0;
       }
 
       .thumbnail {
@@ -203,12 +223,12 @@
       .editable-images {
         display: grid;
         gap: 10px;
-        margin-top: 12px;
+        margin: 0;
       }
 
       .editable-image {
         display: grid;
-        grid-template-columns: 76px 1fr auto;
+        grid-template-columns: 76px 1fr;
         gap: 10px;
         align-items: center;
         padding: 9px;
@@ -233,6 +253,7 @@
       }
 
       .delete-image-button {
+        grid-column: 1 / -1;
         padding: 9px 11px;
         border: 1px solid #e0a38d;
         border-radius: 999px;
@@ -254,10 +275,11 @@
       .pill {
         display: inline-flex;
         margin-bottom: 20px;
-        padding: 9px 14px;
+        padding: 6px 10px;
         border-radius: 999px;
         background: #ffe7b8;
         color: #7a4512;
+        font-size: 13px;
         font-weight: 800;
       }
 
@@ -276,12 +298,12 @@
       }
 
       .tag {
-        padding: 8px 12px;
+        padding: 6px 10px;
         border: 1px solid #ead8bf;
         border-radius: 999px;
         background: #f6efe4;
         color: #846135;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 700;
       }
 
@@ -335,6 +357,11 @@
         margin-top: 4px;
       }
 
+      .detail-actions {
+        display: flex;
+        justify-content: flex-end;
+      }
+
       .save-button {
         padding: 12px 16px;
         border: 0;
@@ -379,10 +406,16 @@
       @media (max-width: 880px) {
         .header { align-items: start; flex-direction: column; }
 
-        .catalog,
-        .detail-grid {
+        .catalog {
           grid-template-columns: 1fr;
         }
+
+        .gallery-layout,
+        .gallery-layout.is-editing {
+          grid-template-columns: 78px minmax(0, 1fr);
+        }
+
+        .thumbnail { width: 72px; }
 
         .sidebar {
           position: static;
@@ -409,17 +442,21 @@
           <div class="product-list" id="product-list"></div>
         </aside>
 
-        <section class="panel detail" id="detail">
-          <div class="empty">
-            <p>Selecciona un producto de la lista para ver su detalle.</p>
-          </div>
-        </section>
+        <div class="detail-column">
+          <section class="panel detail" id="detail">
+            <div class="empty">
+              <p>Selecciona un producto de la lista para ver su detalle.</p>
+            </div>
+          </section>
+          <div class="detail-actions" id="detail-actions"></div>
+        </div>
       </section>
     </main>
 
     <script>
       const listEl = document.querySelector("#product-list");
       const detailEl = document.querySelector("#detail");
+      const detailActionsEl = document.querySelector("#detail-actions");
       const countEl = document.querySelector("#product-count");
       const searchEl = document.querySelector("#search");
 
@@ -478,10 +515,8 @@
         }
 
         return `
-          <div class="main-photo">
-            <img id="main-image" src="${escapeHtml(mainImage)}" alt="${escapeHtml(product.nombre)}">
-          </div>
-          ${images.length > 1 ? `
+          <div class="gallery-layout ${images.length > 1 ? "" : "has-one"}">
+            ${images.length > 1 ? `
             <div class="thumbnails" aria-label="Imagenes del producto">
               ${images.map((image, index) => `
                 <button class="thumbnail ${index === 0 ? "is-active" : ""}" data-image="${escapeHtml(image)}" type="button">
@@ -489,7 +524,11 @@
                 </button>
               `).join("")}
             </div>
-          ` : ""}
+            ` : ""}
+            <div class="main-photo">
+              <img id="main-image" src="${escapeHtml(mainImage)}" alt="${escapeHtml(product.nombre)}">
+            </div>
+          </div>
         `;
       };
 
@@ -501,17 +540,19 @@
         }
 
         return `
-          <div class="main-photo">
-            <img id="main-image" src="${escapeHtml(activeImages[0])}" alt="${escapeHtml(product.nombre)}">
-          </div>
-          <div class="editable-images" aria-label="Editar imagenes del producto">
-            ${activeImages.map((image) => `
-              <div class="editable-image">
-                <img src="${escapeHtml(image)}" alt="${escapeHtml(product.nombre)}">
-                <span class="image-name">${escapeHtml(imageFilename(image))}</span>
-                <button class="delete-image-button" data-image="${escapeHtml(image)}" type="button">Eliminar</button>
-              </div>
-            `).join("")}
+          <div class="gallery-layout is-editing">
+            <div class="editable-images" aria-label="Editar imagenes del producto">
+              ${activeImages.map((image) => `
+                <div class="editable-image">
+                  <img src="${escapeHtml(image)}" alt="${escapeHtml(product.nombre)}">
+                  <span class="image-name">${escapeHtml(imageFilename(image))}</span>
+                  <button class="delete-image-button" data-image="${escapeHtml(image)}" type="button">Eliminar</button>
+                </div>
+              `).join("")}
+            </div>
+            <div class="main-photo">
+              <img id="main-image" src="${escapeHtml(activeImages[0])}" alt="${escapeHtml(product.nombre)}">
+            </div>
           </div>
         `;
       };
@@ -526,17 +567,15 @@
             <div>
               <p class="kicker">Amarillo Primavera</p>
               <h2>${escapeHtml(product.nombre)}</h2>
-              <div class="pill">Categoría: ${escapeHtml(product.categoria)}</div>
+              <div class="pill">${escapeHtml(product.categoria)}</div>
               <p class="description">${escapeHtml(activeDescription)}</p>
               <div class="tags">
                 ${(product.tags || []).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
               </div>
-              <div class="actions">
-                <button class="save-button" id="edit-button" type="button">Editar</button>
-              </div>
             </div>
           </div>
         `;
+        detailActionsEl.innerHTML = `<button class="save-button" id="edit-button" type="button">Editar</button>`;
       };
 
       const renderEditForm = () => {
@@ -574,6 +613,7 @@
             </div>
           </div>
         `;
+        detailActionsEl.innerHTML = "";
       };
 
       const renderDetail = async (slug) => {
@@ -584,6 +624,7 @@
         activeSlug = slug;
         renderList();
         detailEl.innerHTML = `<div class="empty"><p>Cargando detalle...</p></div>`;
+        detailActionsEl.innerHTML = "";
 
         try {
           const [descriptionResponse, images] = await Promise.all([
@@ -619,11 +660,11 @@
         thumbnail.classList.add("is-active");
       });
 
-      detailEl.addEventListener("click", (event) => {
-        if (event.target.closest("#edit-button")) {
-          renderEditForm();
-        }
+      detailActionsEl.addEventListener("click", (event) => {
+        if (event.target.closest("#edit-button")) renderEditForm();
+      });
 
+      detailEl.addEventListener("click", (event) => {
         if (event.target.closest("#cancel-edit")) {
           renderReadOnlyDetail();
         }
