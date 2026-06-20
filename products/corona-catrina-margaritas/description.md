@@ -1,6 +1,6 @@
 ---
 nombre: "Corona Catrina de Margaritas"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

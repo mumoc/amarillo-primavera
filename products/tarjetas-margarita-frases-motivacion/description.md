@@ -1,6 +1,6 @@
 ---
 nombre: "Tarjetas de Margarita con Frases de Aliento"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

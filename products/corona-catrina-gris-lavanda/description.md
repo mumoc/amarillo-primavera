@@ -1,6 +1,6 @@
 ---
 nombre: "Corona Catrina Gris y Lavanda"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Trenzas con Flores Amarillas"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

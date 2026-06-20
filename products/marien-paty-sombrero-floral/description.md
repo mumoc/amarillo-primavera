@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Paty"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

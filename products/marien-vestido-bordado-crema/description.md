@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Vestido Bordado Crema"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

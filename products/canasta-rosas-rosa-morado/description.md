@@ -1,6 +1,6 @@
 ---
 nombre: "Canasta de Rosas Rosa y Morado"
-categoria: "Floral Arrangements"
+categoria: "Arreglos florales"
 tags:
   - "#AmarilloPrimavera"
   - "#Artesanal"

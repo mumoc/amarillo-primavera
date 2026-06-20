@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Bruja Traviesa"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

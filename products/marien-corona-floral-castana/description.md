@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Corona Floral"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

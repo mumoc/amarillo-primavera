@@ -1,6 +1,6 @@
 ---
 nombre: "Tote Bag Pintada Mar y Conchas"
-categoria: "Tote Bags"
+categoria: "Bolsas tote"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
 nombre: "Tote Bag Pintada Corazón Floral"
-categoria: "Tote Bags"
+categoria: "Bolsas tote"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

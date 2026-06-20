@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Reyes Magos y María"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

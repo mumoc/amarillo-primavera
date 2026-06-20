@@ -1,6 +1,6 @@
 ---
 nombre: "Corona Catrina Mostaza y Dorado"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

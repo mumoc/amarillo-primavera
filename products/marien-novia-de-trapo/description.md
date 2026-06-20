@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Novia de Trapo"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

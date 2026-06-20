@@ -1,6 +1,6 @@
 ---
 nombre: "Tarjetas de Margarita Día de las Madres"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

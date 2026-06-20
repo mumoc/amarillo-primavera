@@ -1,6 +1,6 @@
 ---
-nombre: "Caja de Jabones Artesanales en Kraft"
-categoria: "Soap"
+nombre: "Jabones Kraft"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#JabonNatural"

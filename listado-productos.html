@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listado de Productos | Amarillo Primavera</title>
+    <style>
+      :root {
+        color: #2a2119;
+        background: #fbf5e8;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: linear-gradient(135deg, #fffaf0 0%, #f7ead5 100%);
+      }
+
+      main {
+        width: min(980px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 36px 0;
+      }
+
+      .kicker {
+        margin: 0 0 8px;
+        color: #b46c20;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 18px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(38px, 5vw, 64px);
+        line-height: 0.95;
+      }
+
+      .toolbar {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        margin: 22px 0;
+      }
+
+      input {
+        width: 100%;
+        padding: 13px 14px;
+        border: 1px solid #e5cda8;
+        border-radius: 16px;
+        background: #fff;
+        color: inherit;
+        font: inherit;
+        outline: none;
+      }
+
+      input:focus {
+        border-color: #cf8735;
+        box-shadow: 0 0 0 4px rgba(207, 135, 53, 0.16);
+      }
+
+      .count {
+        min-width: max-content;
+        padding: 10px 15px;
+        border: 1px solid #ead6b7;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.72);
+        color: #7a5125;
+        font-weight: 750;
+      }
+
+      .list {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .item {
+        display: flex;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 15px 16px;
+        border: 1px solid #ead8bf;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.86);
+        box-shadow: 0 10px 28px rgba(75, 48, 16, 0.08);
+      }
+
+      .name {
+        font-weight: 850;
+      }
+
+      .category {
+        color: #8c6a42;
+        font-size: 14px;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 640px) {
+        .toolbar,
+        .item {
+          align-items: start;
+          flex-direction: column;
+        }
+
+        .category { white-space: normal; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="kicker">Amarillo Primavera</p>
+      <h1>Listado de productos</h1>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Buscar producto..." autocomplete="off">
+        <span class="count" id="count">Cargando...</span>
+      </div>
+      <ul class="list" id="list"></ul>
+    </main>
+
+    <script>
+      const listEl = document.querySelector("#list");
+      const countEl = document.querySelector("#count");
+      const searchEl = document.querySelector("#search");
+      let products = [];
+
+      const escapeHtml = (value) => String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+
+      const render = () => {
+        const query = searchEl.value.trim().toLowerCase();
+        const filtered = products.filter((product) => {
+          return product.nombre.toLowerCase().includes(query) || product.categoria.toLowerCase().includes(query);
+        });
+
+        countEl.textContent = `${filtered.length} productos`;
+        listEl.innerHTML = filtered.map((product) => `
+          <li class="item">
+            <span class="name">${escapeHtml(product.nombre)}</span>
+            <span class="category">${escapeHtml(product.categoria)}</span>
+          </li>
+        `).join("");
+      };
+
+      searchEl.addEventListener("input", render);
+
+      fetch(`products/index.json?v=${Date.now()}`)
+        .then((response) => response.json())
+        .then((index) => {
+          products = Object.values(index).sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+          render();
+        })
+        .catch(() => {
+          countEl.textContent = "Error";
+          listEl.innerHTML = `<li class="item">No se pudo cargar el listado.</li>`;
+        });
+    </script>
+  </body>
+</html>

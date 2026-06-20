@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Pareja de Gnomos Navideños"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

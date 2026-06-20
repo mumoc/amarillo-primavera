@@ -1,6 +1,6 @@
 ---
 nombre: "Tarjetas de Margarita Multicolor Día del Maestro"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

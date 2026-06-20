@@ -1,6 +1,6 @@
 ---
 nombre: "Corona Listones Rosa y Morado"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

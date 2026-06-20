@@ -1,6 +1,6 @@
 ---
 nombre: "Organizador de Lápices Amarillo y Azul"
-categoria: "3D Printed Organizers"
+categoria: "Organizadores 3D"
 tags:
   - "#AmarilloPrimavera"
   - "#OrganizadoresArtesanales"

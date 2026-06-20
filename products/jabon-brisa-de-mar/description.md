@@ -1,6 +1,6 @@
 ---
 nombre: "Jabón Brisa de Mar"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#JabonNatural"

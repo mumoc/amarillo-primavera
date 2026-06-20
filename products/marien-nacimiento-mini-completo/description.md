@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Nacimiento Mini Completo"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

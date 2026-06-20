@@ -1,6 +1,6 @@
 ---
 nombre: "Macetas de Cemento con Frases para Suculentas"
-categoria: "Cement Planters"
+categoria: "Macetas de cemento"
 tags:
   - "#AmarilloPrimavera"
   - "#MacetasDeCemento"

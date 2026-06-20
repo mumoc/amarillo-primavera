@@ -6,7 +6,7 @@ Generated 2026-06-18. Originals in `products/raw/` were never touched.
 
 276 photos → 124 products (223 images used) + 53 images excluded (21 groups, not real/sellable products).
 Each product now lives in `products/<slug>/` with an `images/` folder and a `description.md` (Spanish name, category, tags, brand-voice description).
-The old 12 flat category folders (Rag Dolls, Soap, Floral Cards, etc.) have been removed — `categorization_report.md` is kept as a record of the original photo-sorting pass.
+The old 12 flat category folders (Muñecas de trapo, Jabones, Tarjetas florales, etc.) have been removed — `categorization_report.md` is kept as a record of the original photo-sorting pass.
 
 ## Excluded (53 images, 21 groups — not turned into products)
 
@@ -21,7 +21,7 @@ The old 12 flat category folders (Rag Dolls, Soap, Floral Cards, etc.) have been
 | Other_LetterA_Placeholder | 1 | Generic placeholder graphic |
 | Other_CraftFairDisplay | 1 | Market-stall display shot, no single clear product |
 | RagDoll_GroupShelf_SmallDolls | 1 | Shelf shot, multiple dolls |
-| Soap_Bar_MarketDisplay | 1 | Market table display, multiple items |
+| Jabones_Bar_MarketDisplay | 1 | Market table display, multiple items |
 | RagDoll_GroupShelf_FloralBaskets | 1 | Shelf shot, multiple dolls |
 | RagDoll_GroupShelf_Mixed | 1 | Shelf shot, multiple dolls |
 | Other_Collage_MultiProduct | 1 | Craft toys not matching any category |

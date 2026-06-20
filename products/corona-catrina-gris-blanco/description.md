@@ -1,6 +1,6 @@
 ---
 nombre: "Corona Catrina Gris y Blanco"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

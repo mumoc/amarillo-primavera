@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Frida, Corona de Rositas"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

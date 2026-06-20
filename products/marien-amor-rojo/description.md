@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Detalle de Amor Rojo"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
 nombre: "Set de Mini Organizadores 6 Colores"
-categoria: "3D Printed Organizers"
+categoria: "Organizadores 3D"
 tags:
   - "#AmarilloPrimavera"
   - "#OrganizadoresArtesanales"

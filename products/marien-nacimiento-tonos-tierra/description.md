@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Nacimiento en Tonos Tierra"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

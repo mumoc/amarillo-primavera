@@ -1,6 +1,6 @@
 ---
 nombre: "Centro de Mesa Vela y Flores"
-categoria: "Christmas Decor"
+categoria: "Decoración navideña"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

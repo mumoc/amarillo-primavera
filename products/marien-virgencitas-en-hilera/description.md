@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Virgencitas en Hilera"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
@@ -11,4 +11,4 @@ tags:
   - "#EspirituNavideno"
 ---
 
-Pequeñas Vírgenes de María hechas a mano, con corona dorada en forma de halo y vestido rosa, presentadas en hilera para apreciar el detalle de cada una. Esta pieza de la línea Marien conserva la delicadeza y el cuidado artesanal en cada puntada. Un detalle entrañable para acompañar el nacimiento o regalar en estas fechas especiales.
+Muñecas de trapo Marien inspiradas en la Virgencita María, hechas a mano con vestido rosa y corona dorada en forma de halo. Presentadas en hilera, cada una conserva ese encanto tierno de las piezas hechas con cariño, con detalles que recuerdan la tradición y la calidez de casa. Un detalle dulce y lleno de alma para acompañar el nacimiento o regalar en una fecha especial.

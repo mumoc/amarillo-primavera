@@ -1,6 +1,6 @@
 ---
 nombre: "Organizador de Lápices Naranja y Verde Azulado"
-categoria: "3D Printed Organizers"
+categoria: "Organizadores 3D"
 tags:
   - "#AmarilloPrimavera"
   - "#OrganizadoresArtesanales"

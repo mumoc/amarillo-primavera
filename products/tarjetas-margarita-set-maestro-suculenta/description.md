@@ -1,6 +1,6 @@
 ---
 nombre: "Set de Tarjetas de Margarita Día del Maestro"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

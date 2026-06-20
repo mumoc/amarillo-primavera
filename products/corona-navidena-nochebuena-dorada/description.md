@@ -1,6 +1,6 @@
 ---
 nombre: "Corona Navideña Nochebuena y Dorado"
-categoria: "Christmas Decor"
+categoria: "Decoración navideña"
 tags:
   - "#AmarilloPrimavera"
   - "#Navidad"

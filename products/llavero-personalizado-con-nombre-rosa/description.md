@@ -1,6 +1,6 @@
 ---
 nombre: "Llavero Personalizado con Nombre"
-categoria: "Keychains"
+categoria: "Llaveros"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

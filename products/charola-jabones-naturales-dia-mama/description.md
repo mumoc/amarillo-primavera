@@ -1,6 +1,6 @@
 ---
 nombre: "Charola de Jabones Naturales Día Mamá"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#JabonNatural"

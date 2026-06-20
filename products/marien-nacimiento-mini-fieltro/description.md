@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Nacimiento Mini de Fieltro"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

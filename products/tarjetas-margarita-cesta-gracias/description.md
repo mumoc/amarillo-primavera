@@ -1,6 +1,6 @@
 ---
 nombre: "Tarjetas de Margarita con Mensaje de Gracias"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

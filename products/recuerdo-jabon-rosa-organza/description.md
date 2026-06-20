@@ -1,6 +1,6 @@
 ---
 nombre: "Recuerdo de Rosita en Organza"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

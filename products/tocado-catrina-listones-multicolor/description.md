@@ -1,6 +1,6 @@
 ---
 nombre: "Tocado Catrina Listones Multicolor"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

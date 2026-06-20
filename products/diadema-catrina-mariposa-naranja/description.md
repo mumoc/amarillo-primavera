@@ -1,6 +1,6 @@
 ---
 nombre: "Diadema Catrina Mariposa Naranja"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

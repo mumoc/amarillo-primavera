@@ -9,7 +9,7 @@ Skill para encontrar productos en el catálogo de Amarillo Primavera usando `pro
 
 ## Cuándo usar
 - Usuario dice "busca productos de #Navidad"
-- Usuario dice "muestra todos los de categoría Rag Dolls"
+- Usuario dice "muestra todos los de categoría Muñecas de trapo"
 - Usuario dice "busca productos con 'nacimiento' o 'corona'"
 - Usuario dice "encuentra algo parecido a <slug>"
 
@@ -22,7 +22,7 @@ Lee `products/index.json` (objeto con slugs como claves) y filtra por:
 
 ## Tipos de búsqueda soportados
 1. **Por hashtag**: "#Navidad", "#HechoAMano"
-2. **Por categoría**: "Rag Dolls", "Coronas", "Jabones"
+2. **Por categoría**: "Muñecas de trapo", "Coronas", "Jabones"
 3. **Por texto en nombre**: "nacimiento", "corona", "marien"
 4. **Productos similares**: usa la categoría + tags del producto base para sugerir afines
 
@@ -45,6 +45,6 @@ Cuando el usuario pide "productos similares a <slug>":
 
 ## Mensajes al usuario (en español, cálidos)
 - "Encontré X productos que coinciden..."
-- "Mostrando productos de la categoría Rag Dolls..."
+- "Mostrando productos de la categoría Muñecas de trapo..."
 - "Aquí tienes opciones similares a Marien Nacimiento Mini..."
 - "¿Quieres ver el detalle de alguno?"

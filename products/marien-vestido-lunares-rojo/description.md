@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Vestido de Lunares"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

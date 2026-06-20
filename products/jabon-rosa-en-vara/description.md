@@ -1,6 +1,6 @@
 ---
 nombre: "Jabón Rosa en Vara"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#JabonNatural"

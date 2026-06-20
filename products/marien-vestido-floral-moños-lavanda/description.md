@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Vestido Floral con Moños Lavanda"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

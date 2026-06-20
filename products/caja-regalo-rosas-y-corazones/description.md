@@ -1,6 +1,6 @@
 ---
 nombre: "Caja de Rosas y Corazones"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

@@ -1,6 +1,6 @@
 ---
 nombre: "Vela Navideña con Nochebuena en Base de Madera"
-categoria: "Christmas Decor"
+categoria: "Decoración navideña"
 tags:
   - "#AmarilloPrimavera"
   - "#Navidad"

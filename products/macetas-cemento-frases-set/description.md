@@ -1,6 +1,6 @@
 ---
 nombre: "Set de Macetas de Cemento con Frases"
-categoria: "Cement Planters"
+categoria: "Macetas de cemento"
 tags:
   - "#AmarilloPrimavera"
   - "#MacetasDeCemento"

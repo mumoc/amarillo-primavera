@@ -1,6 +1,6 @@
 ---
 nombre: "Set de Regalo Brisa de Mar"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

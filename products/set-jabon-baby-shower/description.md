@@ -1,6 +1,6 @@
 ---
 nombre: "Set Jabón y Toalla Baby Shower"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

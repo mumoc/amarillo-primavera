@@ -1,6 +1,6 @@
 ---
 nombre: "Set Recuerdo Jabón y Toallita"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

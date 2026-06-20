@@ -1,6 +1,6 @@
 ---
 nombre: "Ramo Decorativo de Flores en Foamy"
-categoria: "Other - Uncategorized"
+categoria: "Otros"
 tags:
   - "#DecoArtesanal"
   - "#DetallesArtesanales"

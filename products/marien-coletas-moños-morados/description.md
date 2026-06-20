@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Coletas y Moños Morados"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

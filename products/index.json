@@ -1,10 +1,10 @@
 {
   "caja-grande-sets-jabon-y-toalla": {
     "slug": "caja-grande-sets-jabon-y-toalla",
-    "nombre": "Caja Grande de Sets Jabón y Toalla",
-    "categoria": "Soap",
+    "nombre": "Virgencitas",
+    "categoria": "Muñecas",
     "tags": [
-      "#JabonArtesanal",
+      "#MuñecaArtesanal",
       "#RegalosArtesanales",
       "#HechoAMano",
       "#Artesanal",
@@ -15,8 +15,8 @@
   },
   "caja-jabones-artesanales-kraft": {
     "slug": "caja-jabones-artesanales-kraft",
-    "nombre": "Caja de Jabones Artesanales en Kraft",
-    "categoria": "Soap",
+    "nombre": "Jabones Kraft",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#JabonNatural",
@@ -44,7 +44,7 @@
   "caja-regalo-rosas-y-corazones": {
     "slug": "caja-regalo-rosas-y-corazones",
     "nombre": "Caja de Rosas y Corazones",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -58,7 +58,7 @@
   "cajita-regalo-jabon-rosa": {
     "slug": "cajita-regalo-jabon-rosa",
     "nombre": "Cajita de Regalo Jabón Rosa",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -66,13 +66,13 @@
       "#Artesanal",
       "#AmarilloPrimavera"
     ],
-    "num_imagenes": 4,
+    "num_imagenes": 2,
     "ruta": "products/cajita-regalo-jabon-rosa/"
   },
   "canasta-rosas-rosa-morado": {
     "slug": "canasta-rosas-rosa-morado",
     "nombre": "Canasta de Rosas Rosa y Morado",
-    "categoria": "Floral Arrangements",
+    "categoria": "Arreglos florales",
     "tags": [
       "#AmarilloPrimavera",
       "#Artesanal",
@@ -82,25 +82,10 @@
     "num_imagenes": 1,
     "ruta": "products/canasta-rosas-rosa-morado/"
   },
-  "canasta-salsa-diabla-cumpleanos": {
-    "slug": "canasta-salsa-diabla-cumpleanos",
-    "nombre": "Canasta Salsa Diabla de Cumpleaños",
-    "categoria": "Salsa Diabla",
-    "tags": [
-      "#SalsaDiabla",
-      "#SalsaPicante",
-      "#SaboresMexicanos",
-      "#RegalosArtesanales",
-      "#HechoAMano",
-      "#AmarilloPrimavera"
-    ],
-    "num_imagenes": 1,
-    "ruta": "products/canasta-salsa-diabla-cumpleanos/"
-  },
   "centro-navideno-cono-esferas": {
     "slug": "centro-navideno-cono-esferas",
     "nombre": "Centro Navideño Cono de Esferas",
-    "categoria": "Christmas Decor",
+    "categoria": "Decoración navideña",
     "tags": [
       "#AmarilloPrimavera",
       "#Navidad",
@@ -109,13 +94,13 @@
       "#Colima",
       "#HechoAMano"
     ],
-    "num_imagenes": 3,
+    "num_imagenes": 1,
     "ruta": "products/centro-navideno-cono-esferas/"
   },
   "centro-navideno-nochebuena-eucalipto": {
     "slug": "centro-navideno-nochebuena-eucalipto",
     "nombre": "Centro Navideño Nochebuena y Eucalipto",
-    "categoria": "Christmas Decor",
+    "categoria": "Decoración navideña",
     "tags": [
       "#AmarilloPrimavera",
       "#Navidad",
@@ -127,25 +112,10 @@
     "num_imagenes": 3,
     "ruta": "products/centro-navideno-nochebuena-eucalipto/"
   },
-  "centro-navideno-vela-nochebuena": {
-    "slug": "centro-navideno-vela-nochebuena",
-    "nombre": "Centro Navideño con Vela y Nochebuena",
-    "categoria": "Christmas Decor",
-    "tags": [
-      "#AmarilloPrimavera",
-      "#Navidad",
-      "#DecoracionNavidena",
-      "#EspirituNavideno",
-      "#Colima",
-      "#HechoAMano"
-    ],
-    "num_imagenes": 2,
-    "ruta": "products/centro-navideno-vela-nochebuena/"
-  },
   "centro-vela-y-flores": {
     "slug": "centro-vela-y-flores",
     "nombre": "Centro de Mesa Vela y Flores",
-    "categoria": "Christmas Decor",
+    "categoria": "Decoración navideña",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -159,7 +129,7 @@
   "charola-jabones-naturales-dia-mama": {
     "slug": "charola-jabones-naturales-dia-mama",
     "nombre": "Charola de Jabones Naturales Día Mamá",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#JabonNatural",
@@ -174,7 +144,7 @@
   "corona-catrina-gris-blanco": {
     "slug": "corona-catrina-gris-blanco",
     "nombre": "Corona Catrina Gris y Blanco",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -189,7 +159,7 @@
   "corona-catrina-gris-lavanda": {
     "slug": "corona-catrina-gris-lavanda",
     "nombre": "Corona Catrina Gris y Lavanda",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -204,7 +174,7 @@
   "corona-catrina-margaritas": {
     "slug": "corona-catrina-margaritas",
     "nombre": "Corona Catrina de Margaritas",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -219,7 +189,7 @@
   "corona-catrina-mostaza-dorado": {
     "slug": "corona-catrina-mostaza-dorado",
     "nombre": "Corona Catrina Mostaza y Dorado",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -234,7 +204,7 @@
   "corona-catrina-multicolor": {
     "slug": "corona-catrina-multicolor",
     "nombre": "Corona Catrina Multicolor",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -249,7 +219,7 @@
   "corona-catrina-pastel-mixta": {
     "slug": "corona-catrina-pastel-mixta",
     "nombre": "Corona Catrina Pastel Mixta",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -264,7 +234,7 @@
   "corona-catrina-rosa-blanco": {
     "slug": "corona-catrina-rosa-blanco",
     "nombre": "Corona Catrina Rosa y Blanco",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -279,7 +249,7 @@
   "corona-dalias-multicolor": {
     "slug": "corona-dalias-multicolor",
     "nombre": "Corona de Dalias Multicolor",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -294,7 +264,7 @@
   "corona-floral-morado-oscuro": {
     "slug": "corona-floral-morado-oscuro",
     "nombre": "Corona Floral Morado Oscuro",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -309,7 +279,7 @@
   "corona-floral-oscura-mockup": {
     "slug": "corona-floral-oscura-mockup",
     "nombre": "Corona Floral Oscura",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -324,7 +294,7 @@
   "corona-listones-rosa-morado": {
     "slug": "corona-listones-rosa-morado",
     "nombre": "Corona Listones Rosa y Morado",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -339,7 +309,7 @@
   "corona-navidena-nochebuena-dorada": {
     "slug": "corona-navidena-nochebuena-dorada",
     "nombre": "Corona Navideña Nochebuena y Dorado",
-    "categoria": "Christmas Decor",
+    "categoria": "Decoración navideña",
     "tags": [
       "#AmarilloPrimavera",
       "#Navidad",
@@ -354,7 +324,7 @@
   "corona-primera-comunion": {
     "slug": "corona-primera-comunion",
     "nombre": "Corona de Primera Comunión",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -369,7 +339,7 @@
   "corona-rosas-amarillo-dorado": {
     "slug": "corona-rosas-amarillo-dorado",
     "nombre": "Corona de Rosas Amarillo y Dorado",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -384,7 +354,7 @@
   "corona-rosas-mostaza-dorado": {
     "slug": "corona-rosas-mostaza-dorado",
     "nombre": "Corona de Rosas Mostaza y Dorado",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -399,7 +369,7 @@
   "corona-rosas-rosa-crema": {
     "slug": "corona-rosas-rosa-crema",
     "nombre": "Corona de Rosas Rosa y Crema",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -414,7 +384,7 @@
   "corona-rosas-rosa-crema-02": {
     "slug": "corona-rosas-rosa-crema-02",
     "nombre": "Corona de Rosas Rosa y Crema II",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -429,7 +399,7 @@
   "corona-rosas-rosa-crema-03": {
     "slug": "corona-rosas-rosa-crema-03",
     "nombre": "Corona de Rosas Rosa y Crema III",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -444,7 +414,7 @@
   "diadema-catrina-mariposa-naranja": {
     "slug": "diadema-catrina-mariposa-naranja",
     "nombre": "Diadema Catrina Mariposa Naranja",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -458,8 +428,8 @@
   },
   "diademas-listones-multicolor-conjunto": {
     "slug": "diademas-listones-multicolor-conjunto",
-    "nombre": "Conjunto de Diademas Listones Multicolor",
-    "categoria": "Flower Crowns & Headbands",
+    "nombre": "Diademas de Listones",
+    "categoria": "Coronas y diademas",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -471,40 +441,10 @@
     "num_imagenes": 7,
     "ruta": "products/diademas-listones-multicolor-conjunto/"
   },
-  "diademas-listones-multicolor-exhibicion": {
-    "slug": "diademas-listones-multicolor-exhibicion",
-    "nombre": "Exhibición de Diademas Listones Multicolor",
-    "categoria": "Flower Crowns & Headbands",
-    "tags": [
-      "#AmarilloPrimavera",
-      "#HechoAMano",
-      "#CoronasDeFlores",
-      "#DiademasArtesanales",
-      "#AccesoriosFlorales",
-      "#EstiloMexicano"
-    ],
-    "num_imagenes": 3,
-    "ruta": "products/diademas-listones-multicolor-exhibicion/"
-  },
-  "diademas-listones-multicolor-par": {
-    "slug": "diademas-listones-multicolor-par",
-    "nombre": "Dúo de Diademas Listones Multicolor",
-    "categoria": "Flower Crowns & Headbands",
-    "tags": [
-      "#AmarilloPrimavera",
-      "#HechoAMano",
-      "#CoronasDeFlores",
-      "#DiademasArtesanales",
-      "#AccesoriosFlorales",
-      "#EstiloMexicano"
-    ],
-    "num_imagenes": 1,
-    "ruta": "products/diademas-listones-multicolor-par/"
-  },
   "huacalito-jabones-feliz-dia-mama": {
     "slug": "huacalito-jabones-feliz-dia-mama",
     "nombre": "Huacalito de Jabones Feliz Día Mamá",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -518,7 +458,7 @@
   "jabon-brisa-de-mar": {
     "slug": "jabon-brisa-de-mar",
     "nombre": "Jabón Brisa de Mar",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#JabonNatural",
@@ -533,7 +473,7 @@
   "jabon-rosa-en-vara": {
     "slug": "jabon-rosa-en-vara",
     "nombre": "Jabón Rosa en Vara",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#JabonNatural",
@@ -542,13 +482,13 @@
       "#RegalosArtesanales",
       "#AmarilloPrimavera"
     ],
-    "num_imagenes": 3,
+    "num_imagenes": 2,
     "ruta": "products/jabon-rosa-en-vara/"
   },
   "llavero-personalizado-con-nombre": {
     "slug": "llavero-personalizado-con-nombre",
     "nombre": "Llavero Personalizado con Nombre",
-    "categoria": "Keychains",
+    "categoria": "Llaveros",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -561,7 +501,7 @@
   "llavero-personalizado-con-nombre-koala": {
     "slug": "llavero-personalizado-con-nombre-koala",
     "nombre": "Llavero Personalizado con Nombre",
-    "categoria": "Keychains",
+    "categoria": "Llaveros",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -574,7 +514,7 @@
   "llavero-personalizado-con-nombre-oso": {
     "slug": "llavero-personalizado-con-nombre-oso",
     "nombre": "Llavero Personalizado con Nombre",
-    "categoria": "Keychains",
+    "categoria": "Llaveros",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -587,7 +527,7 @@
   "llavero-personalizado-con-nombre-rosa": {
     "slug": "llavero-personalizado-con-nombre-rosa",
     "nombre": "Llavero Personalizado con Nombre",
-    "categoria": "Keychains",
+    "categoria": "Llaveros",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -600,7 +540,7 @@
   "llavero-personalizado-con-nombre-rosa-2": {
     "slug": "llavero-personalizado-con-nombre-rosa-2",
     "nombre": "Llavero Personalizado con Nombre",
-    "categoria": "Keychains",
+    "categoria": "Llaveros",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -613,7 +553,7 @@
   "llavero-personalizado-con-nombre-rosa-3": {
     "slug": "llavero-personalizado-con-nombre-rosa-3",
     "nombre": "Llavero Personalizado con Nombre",
-    "categoria": "Keychains",
+    "categoria": "Llaveros",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -626,7 +566,7 @@
   "macetas-cemento-frases-set": {
     "slug": "macetas-cemento-frases-set",
     "nombre": "Set de Macetas de Cemento con Frases",
-    "categoria": "Cement Planters",
+    "categoria": "Macetas de cemento",
     "tags": [
       "#AmarilloPrimavera",
       "#MacetasDeCemento",
@@ -641,7 +581,7 @@
   "macetas-cemento-frases-suculentas": {
     "slug": "macetas-cemento-frases-suculentas",
     "nombre": "Macetas de Cemento con Frases para Suculentas",
-    "categoria": "Cement Planters",
+    "categoria": "Macetas de cemento",
     "tags": [
       "#AmarilloPrimavera",
       "#MacetasDeCemento",
@@ -656,7 +596,7 @@
   "marien-abuelitos-navidenos": {
     "slug": "marien-abuelitos-navidenos",
     "nombre": "Marien — Abuelitos Navideños",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -672,7 +612,7 @@
   "marien-amor-rojo": {
     "slug": "marien-amor-rojo",
     "nombre": "Marien — Detalle de Amor Rojo",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -687,7 +627,7 @@
   "marien-amor-rosa": {
     "slug": "marien-amor-rosa",
     "nombre": "Marien — Detalle de Amor Rosa",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -702,7 +642,7 @@
   "marien-bruja-traviesa": {
     "slug": "marien-bruja-traviesa",
     "nombre": "Marien — Bruja Traviesa",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -716,8 +656,8 @@
   },
   "marien-campirana-sombrero": {
     "slug": "marien-campirana-sombrero",
-    "nombre": "Marien — Campirana de Sombrero",
-    "categoria": "Rag Dolls",
+    "nombre": "Muñeca Paty",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -732,7 +672,7 @@
   "marien-cantores-navidenos": {
     "slug": "marien-cantores-navidenos",
     "nombre": "Marien — Cantores Navideños",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -748,7 +688,7 @@
   "marien-catrina-calavera": {
     "slug": "marien-catrina-calavera",
     "nombre": "Marien — Catrina Calavera",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -763,7 +703,7 @@
   "marien-coletas-moños-morados": {
     "slug": "marien-coletas-moños-morados",
     "nombre": "Marien — Coletas y Moños Morados",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -778,7 +718,7 @@
   "marien-corona-floral-castana": {
     "slug": "marien-corona-floral-castana",
     "nombre": "Marien — Corona Floral",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -793,7 +733,7 @@
   "marien-corona-rosa-collar": {
     "slug": "marien-corona-rosa-collar",
     "nombre": "Marien — Corona Rosa y Collar de Cuentas",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -808,7 +748,7 @@
   "marien-costurera": {
     "slug": "marien-costurera",
     "nombre": "Marien — Costurera",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -817,13 +757,13 @@
       "#Artesanal",
       "#TradicionMexicana"
     ],
-    "num_imagenes": 6,
+    "num_imagenes": 5,
     "ruta": "products/marien-costurera/"
   },
   "marien-frida-corona-floral": {
     "slug": "marien-frida-corona-floral",
     "nombre": "Marien — Frida, Corona Floral",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -838,7 +778,7 @@
   "marien-frida-corona-rosa": {
     "slug": "marien-frida-corona-rosa",
     "nombre": "Marien — Frida, Corona de Rositas",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -853,7 +793,7 @@
   "marien-frida-luces": {
     "slug": "marien-frida-luces",
     "nombre": "Marien — Frida entre Luces",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -868,7 +808,7 @@
   "marien-frida-rebozo-morado": {
     "slug": "marien-frida-rebozo-morado",
     "nombre": "Marien — Frida, Rebozo Morado",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -883,7 +823,7 @@
   "marien-girasoles-feliz-dia-mama": {
     "slug": "marien-girasoles-feliz-dia-mama",
     "nombre": "Marien — Girasoles para Mamá",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -898,7 +838,7 @@
   "marien-graduada": {
     "slug": "marien-graduada",
     "nombre": "Marien — Graduada",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -907,13 +847,13 @@
       "#Graduacion",
       "#RegalosArtesanales"
     ],
-    "num_imagenes": 9,
+    "num_imagenes": 3,
     "ruta": "products/marien-graduada/"
   },
   "marien-invierno-flor": {
     "slug": "marien-invierno-flor",
     "nombre": "Marien — Invierno con Flor",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -928,7 +868,7 @@
   "marien-jardinera-girasol": {
     "slug": "marien-jardinera-girasol",
     "nombre": "Marien — Jardinera del Girasol",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -943,7 +883,7 @@
   "marien-listones-rosas": {
     "slug": "marien-listones-rosas",
     "nombre": "Marien — Listones Rosas",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -958,7 +898,7 @@
   "marien-marinerita": {
     "slug": "marien-marinerita",
     "nombre": "Marien — Marinerita",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -973,7 +913,7 @@
   "marien-nacimiento-completo": {
     "slug": "marien-nacimiento-completo",
     "nombre": "Marien — Nacimiento Completo",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -989,7 +929,7 @@
   "marien-nacimiento-mini-completo": {
     "slug": "marien-nacimiento-mini-completo",
     "nombre": "Marien — Nacimiento Mini Completo",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1005,7 +945,7 @@
   "marien-nacimiento-mini-fieltro": {
     "slug": "marien-nacimiento-mini-fieltro",
     "nombre": "Marien — Nacimiento Mini de Fieltro",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1015,13 +955,13 @@
       "#NacimientoArtesanal",
       "#EspirituNavideno"
     ],
-    "num_imagenes": 8,
+    "num_imagenes": 7,
     "ruta": "products/marien-nacimiento-mini-fieltro/"
   },
   "marien-nacimiento-tonos-tierra": {
     "slug": "marien-nacimiento-tonos-tierra",
     "nombre": "Marien — Nacimiento en Tonos Tierra",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1037,7 +977,7 @@
   "marien-novia-de-trapo": {
     "slug": "marien-novia-de-trapo",
     "nombre": "Marien — Novia de Trapo",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1052,7 +992,7 @@
   "marien-overol-rayado": {
     "slug": "marien-overol-rayado",
     "nombre": "Marien — Overol Rayado",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1067,7 +1007,7 @@
   "marien-pareja-de-cantores": {
     "slug": "marien-pareja-de-cantores",
     "nombre": "Marien — Pareja de Cantores Navideños",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1077,13 +1017,13 @@
       "#DecoracionNavidena",
       "#EspirituNavideno"
     ],
-    "num_imagenes": 4,
+    "num_imagenes": 3,
     "ruta": "products/marien-pareja-de-cantores/"
   },
   "marien-pareja-de-gnomos-navidenos": {
     "slug": "marien-pareja-de-gnomos-navidenos",
     "nombre": "Marien — Pareja de Gnomos Navideños",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1099,7 +1039,7 @@
   "marien-pastores-y-reyes-nacimiento": {
     "slug": "marien-pastores-y-reyes-nacimiento",
     "nombre": "Marien — Pastores y Reyes del Nacimiento",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1115,7 +1055,7 @@
   "marien-paty-sombrero-floral": {
     "slug": "marien-paty-sombrero-floral",
     "nombre": "Marien — Paty",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1130,7 +1070,7 @@
   "marien-pañoleta-bohemia": {
     "slug": "marien-pañoleta-bohemia",
     "nombre": "Marien — Pañoleta Bohemia",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1145,7 +1085,7 @@
   "marien-primera-comunion": {
     "slug": "marien-primera-comunion",
     "nombre": "Marien — Primera Comunión",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1154,13 +1094,13 @@
       "#PrimeraComunion",
       "#RegalosArtesanales"
     ],
-    "num_imagenes": 7,
+    "num_imagenes": 5,
     "ruta": "products/marien-primera-comunion/"
   },
   "marien-reyes-magos-y-maria": {
     "slug": "marien-reyes-magos-y-maria",
     "nombre": "Marien — Reyes Magos y María",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1176,7 +1116,7 @@
   "marien-sombrero-azul-flor": {
     "slug": "marien-sombrero-azul-flor",
     "nombre": "Marien — Sombrero Azul con Flor",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1191,7 +1131,7 @@
   "marien-sombrero-girasol": {
     "slug": "marien-sombrero-girasol",
     "nombre": "Marien — Sombrerito de Girasol",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1206,7 +1146,7 @@
   "marien-sombrero-paja-pelirroja": {
     "slug": "marien-sombrero-paja-pelirroja",
     "nombre": "Marien — Sombrero de Paja Pelirroja",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1221,7 +1161,7 @@
   "marien-sombrero-paja-rebozo-naranja": {
     "slug": "marien-sombrero-paja-rebozo-naranja",
     "nombre": "Marien — Sombrero de Paja con Rebozo Naranja",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1236,7 +1176,7 @@
   "marien-trenzas-flores-amarillas": {
     "slug": "marien-trenzas-flores-amarillas",
     "nombre": "Marien — Trenzas con Flores Amarillas",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1251,7 +1191,7 @@
   "marien-trenzas-rebozo-naranja": {
     "slug": "marien-trenzas-rebozo-naranja",
     "nombre": "Marien — Trenzas y Rebozo Naranja",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1266,7 +1206,7 @@
   "marien-tres-reyes-y-maria-banca": {
     "slug": "marien-tres-reyes-y-maria-banca",
     "nombre": "Marien — Tres Reyes Magos y María",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1282,7 +1222,7 @@
   "marien-vestido-bordado-crema": {
     "slug": "marien-vestido-bordado-crema",
     "nombre": "Marien — Vestido Bordado Crema",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1297,7 +1237,7 @@
   "marien-vestido-floral-moños-lavanda": {
     "slug": "marien-vestido-floral-moños-lavanda",
     "nombre": "Marien — Vestido Floral con Moños Lavanda",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1312,7 +1252,7 @@
   "marien-vestido-floral-pelirroja": {
     "slug": "marien-vestido-floral-pelirroja",
     "nombre": "Marien — Vestido Floral Pelirroja",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1327,7 +1267,7 @@
   "marien-vestido-lunares-rojo": {
     "slug": "marien-vestido-lunares-rojo",
     "nombre": "Marien — Vestido de Lunares",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1342,7 +1282,7 @@
   "marien-vestido-satin-morado": {
     "slug": "marien-vestido-satin-morado",
     "nombre": "Marien — Vestido Satín Morado",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1357,7 +1297,7 @@
   "marien-virgen-maria-corona-dorada": {
     "slug": "marien-virgen-maria-corona-dorada",
     "nombre": "Marien — Virgen María, Corona Dorada",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1367,13 +1307,13 @@
       "#NacimientoArtesanal",
       "#EspirituNavideno"
     ],
-    "num_imagenes": 5,
+    "num_imagenes": 3,
     "ruta": "products/marien-virgen-maria-corona-dorada/"
   },
   "marien-virgencitas-en-hilera": {
     "slug": "marien-virgencitas-en-hilera",
     "nombre": "Marien — Virgencitas en Hilera",
-    "categoria": "Rag Dolls",
+    "categoria": "Muñecas de trapo",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1389,7 +1329,7 @@
   "organizador-hexagonal-figuras": {
     "slug": "organizador-hexagonal-figuras",
     "nombre": "Organizador Hexagonal para Figuras",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1403,7 +1343,7 @@
   "organizador-lapices-amarillo": {
     "slug": "organizador-lapices-amarillo",
     "nombre": "Organizador de Lápices Amarillo",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1417,7 +1357,7 @@
   "organizador-lapices-amarillo-azul": {
     "slug": "organizador-lapices-amarillo-azul",
     "nombre": "Organizador de Lápices Amarillo y Azul",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1431,7 +1371,7 @@
   "organizador-lapices-morado-rosa": {
     "slug": "organizador-lapices-morado-rosa",
     "nombre": "Organizador de Lápices Morado y Rosa",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1445,7 +1385,7 @@
   "organizador-lapices-multicolor": {
     "slug": "organizador-lapices-multicolor",
     "nombre": "Organizador de Lápices Multicolor",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1459,7 +1399,7 @@
   "organizador-lapices-naranja-azul": {
     "slug": "organizador-lapices-naranja-azul",
     "nombre": "Organizador de Lápices Naranja y Azul",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1473,7 +1413,7 @@
   "organizador-lapices-naranja-verde-azulado": {
     "slug": "organizador-lapices-naranja-verde-azulado",
     "nombre": "Organizador de Lápices Naranja y Verde Azulado",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1487,7 +1427,7 @@
   "ramo-decorativo-flores-foamy": {
     "slug": "ramo-decorativo-flores-foamy",
     "nombre": "Ramo Decorativo de Flores en Foamy",
-    "categoria": "Other - Uncategorized",
+    "categoria": "Otros",
     "tags": [
       "#DecoArtesanal",
       "#DetallesArtesanales",
@@ -1501,7 +1441,7 @@
   "recuerdo-jabon-margarita": {
     "slug": "recuerdo-jabon-margarita",
     "nombre": "Recuerdo de Margaritas",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -1515,7 +1455,7 @@
   "recuerdo-jabon-rosa-organza": {
     "slug": "recuerdo-jabon-rosa-organza",
     "nombre": "Recuerdo de Rosita en Organza",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -1538,13 +1478,13 @@
       "#HechoAMano",
       "#AmarilloPrimavera"
     ],
-    "num_imagenes": 3,
+    "num_imagenes": 2,
     "ruta": "products/salsa-diabla-frasco/"
   },
   "set-charola-jabones-dia-mama": {
     "slug": "set-charola-jabones-dia-mama",
     "nombre": "Set Charola Feliz Día Mamá",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -1558,7 +1498,7 @@
   "set-jabon-baby-shower": {
     "slug": "set-jabon-baby-shower",
     "nombre": "Set Jabón y Toalla Baby Shower",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -1572,7 +1512,7 @@
   "set-organizadores-lapices-cuatro-colores": {
     "slug": "set-organizadores-lapices-cuatro-colores",
     "nombre": "Set de Organizadores de Lápices 4 Colores",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1580,13 +1520,13 @@
       "#Colima",
       "#HechoEnMexico"
     ],
-    "num_imagenes": 2,
+    "num_imagenes": 1,
     "ruta": "products/set-organizadores-lapices-cuatro-colores/"
   },
   "set-organizadores-mini-seis-colores": {
     "slug": "set-organizadores-mini-seis-colores",
     "nombre": "Set de Mini Organizadores 6 Colores",
-    "categoria": "3D Printed Organizers",
+    "categoria": "Organizadores 3D",
     "tags": [
       "#AmarilloPrimavera",
       "#OrganizadoresArtesanales",
@@ -1600,7 +1540,7 @@
   "set-recuerdo-jabon-y-toalla": {
     "slug": "set-recuerdo-jabon-y-toalla",
     "nombre": "Set Recuerdo Jabón y Toallita",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -1614,7 +1554,7 @@
   "set-regalo-jabon-brisa-de-mar": {
     "slug": "set-regalo-jabon-brisa-de-mar",
     "nombre": "Set de Regalo Brisa de Mar",
-    "categoria": "Soap",
+    "categoria": "Jabones",
     "tags": [
       "#JabonArtesanal",
       "#RegalosArtesanales",
@@ -1628,7 +1568,7 @@
   "tarjetas-margarita-cactus-maestro": {
     "slug": "tarjetas-margarita-cactus-maestro",
     "nombre": "Tarjetas de Margarita Día del Maestro",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1641,7 +1581,7 @@
   "tarjetas-margarita-cajita-dia-madres": {
     "slug": "tarjetas-margarita-cajita-dia-madres",
     "nombre": "Tarjetas de Margarita Día de las Madres",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1654,7 +1594,7 @@
   "tarjetas-margarita-cesta-amarilla": {
     "slug": "tarjetas-margarita-cesta-amarilla",
     "nombre": "Tarjetas de Margarita en Cesta Amarilla",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1667,7 +1607,7 @@
   "tarjetas-margarita-cesta-gracias": {
     "slug": "tarjetas-margarita-cesta-gracias",
     "nombre": "Tarjetas de Margarita con Mensaje de Gracias",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1680,7 +1620,7 @@
   "tarjetas-margarita-frases-motivacion": {
     "slug": "tarjetas-margarita-frases-motivacion",
     "nombre": "Tarjetas de Margarita con Frases de Aliento",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1694,7 +1634,7 @@
   "tarjetas-margarita-multicolor-maestro": {
     "slug": "tarjetas-margarita-multicolor-maestro",
     "nombre": "Tarjetas de Margarita Multicolor Día del Maestro",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1707,7 +1647,7 @@
   "tarjetas-margarita-rosa-gracias": {
     "slug": "tarjetas-margarita-rosa-gracias",
     "nombre": "Tarjetas de Margarita Rosa de Agradecimiento",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1720,7 +1660,7 @@
   "tarjetas-margarita-set-maestro-suculenta": {
     "slug": "tarjetas-margarita-set-maestro-suculenta",
     "nombre": "Set de Tarjetas de Margarita Día del Maestro",
-    "categoria": "Floral Cards",
+    "categoria": "Tarjetas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1733,7 +1673,7 @@
   "taza-bouquet-flores-lavanda-mama": {
     "slug": "taza-bouquet-flores-lavanda-mama",
     "nombre": "Taza con Bouquet de Flores Lavanda",
-    "categoria": "Floral Arrangements",
+    "categoria": "Arreglos florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1746,7 +1686,7 @@
   "tocado-catrina-arcoiris-girasol": {
     "slug": "tocado-catrina-arcoiris-girasol",
     "nombre": "Tocado Catrina Arcoíris con Girasol",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1761,7 +1701,7 @@
   "tocado-catrina-listones-multicolor": {
     "slug": "tocado-catrina-listones-multicolor",
     "nombre": "Tocado Catrina Listones Multicolor",
-    "categoria": "Flower Crowns & Headbands",
+    "categoria": "Coronas y diademas florales",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1776,7 +1716,7 @@
   "tote-bag-pintada-corazon-floral": {
     "slug": "tote-bag-pintada-corazon-floral",
     "nombre": "Tote Bag Pintada Corazón Floral",
-    "categoria": "Tote Bags",
+    "categoria": "Bolsas tote",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1789,7 +1729,7 @@
   "tote-bag-pintada-mar-conchas": {
     "slug": "tote-bag-pintada-mar-conchas",
     "nombre": "Tote Bag Pintada Mar y Conchas",
-    "categoria": "Tote Bags",
+    "categoria": "Bolsas tote",
     "tags": [
       "#AmarilloPrimavera",
       "#HechoAMano",
@@ -1802,7 +1742,7 @@
   "vela-navidena-nochebuena-base-madera": {
     "slug": "vela-navidena-nochebuena-base-madera",
     "nombre": "Vela Navideña con Nochebuena en Base de Madera",
-    "categoria": "Christmas Decor",
+    "categoria": "Decoración navideña",
     "tags": [
       "#AmarilloPrimavera",
       "#Navidad",

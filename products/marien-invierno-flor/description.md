@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Invierno con Flor"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

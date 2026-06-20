@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Detalle de Amor Rosa"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

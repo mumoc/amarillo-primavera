@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Virgen María, Corona Dorada"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
 nombre: "Recuerdo de Margaritas"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

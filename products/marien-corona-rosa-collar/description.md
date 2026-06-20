@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Corona Rosa y Collar de Cuentas"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

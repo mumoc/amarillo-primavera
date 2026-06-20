@@ -1,6 +1,6 @@
 ---
-nombre: "Conjunto de Diademas Listones Multicolor"
-categoria: "Flower Crowns & Headbands"
+nombre: "Diademas de Listones"
+categoria: "Coronas y diademas"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

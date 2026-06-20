@@ -1,6 +1,6 @@
 ---
 nombre: "Huacalito de Jabones Feliz Día Mamá"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

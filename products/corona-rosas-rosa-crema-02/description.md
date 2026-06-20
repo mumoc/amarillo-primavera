@@ -1,6 +1,6 @@
 ---
 nombre: "Corona de Rosas Rosa y Crema II"
-categoria: "Flower Crowns & Headbands"
+categoria: "Coronas y diademas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

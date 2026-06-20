@@ -1,6 +1,6 @@
 ---
 nombre: "Centro Navideño Cono de Esferas"
-categoria: "Christmas Decor"
+categoria: "Decoración navideña"
 tags:
   - "#AmarilloPrimavera"
   - "#Navidad"

@@ -1,6 +1,6 @@
 ---
 nombre: "Taza con Bouquet de Flores Lavanda"
-categoria: "Floral Arrangements"
+categoria: "Arreglos florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

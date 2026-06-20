@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Sombrero Azul con Flor"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

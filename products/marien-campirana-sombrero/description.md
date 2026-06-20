@@ -1,6 +1,6 @@
 ---
-nombre: "Marien — Campirana de Sombrero"
-categoria: "Rag Dolls"
+nombre: "Muñeca Paty"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
@@ -10,4 +10,4 @@ tags:
   - "#Artesanal"
 ---
 
-Muñeca Marien con sombrero de paja y vestido floral azul marino, con un pequeño bolso en mano, rodeada de plantas y flores. Una pieza fresca y cercana que evoca la vida sencilla del campo. Hecha a mano con mucho cariño.
+Muñeca Paty con sombrero de paja y vestido floral azul marino, con un pequeño bolso en mano, rodeada de plantas y flores. Una pieza fresca y cercana que evoca la vida sencilla del campo. Hecha a mano con mucho cariño.

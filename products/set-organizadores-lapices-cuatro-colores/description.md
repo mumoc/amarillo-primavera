@@ -1,6 +1,6 @@
 ---
 nombre: "Set de Organizadores de Lápices 4 Colores"
-categoria: "3D Printed Organizers"
+categoria: "Organizadores 3D"
 tags:
   - "#AmarilloPrimavera"
   - "#OrganizadoresArtesanales"

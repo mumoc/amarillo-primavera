@@ -1,6 +1,6 @@
 ---
 nombre: "Tarjetas de Margarita en Cesta Amarilla"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Trenzas y Rebozo Naranja"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

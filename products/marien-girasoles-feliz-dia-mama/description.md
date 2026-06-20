@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Girasoles para Mamá"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

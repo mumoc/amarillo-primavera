@@ -1,6 +1,6 @@
 ---
 nombre: "Cajita de Regalo Jabón Rosa"
-categoria: "Soap"
+categoria: "Jabones"
 tags:
   - "#JabonArtesanal"
   - "#RegalosArtesanales"

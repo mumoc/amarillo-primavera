@@ -1,6 +1,6 @@
 ---
 nombre: "Marien — Graduada"
-categoria: "Rag Dolls"
+categoria: "Muñecas de trapo"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

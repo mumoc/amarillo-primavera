@@ -1,6 +1,6 @@
 ---
 nombre: "Tarjetas de Margarita Rosa de Agradecimiento"
-categoria: "Floral Cards"
+categoria: "Tarjetas florales"
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
