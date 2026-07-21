@@ -1,14 +1,14 @@
 export const SITE_NAME = "Amarillo Primavera";
 
-// TODO: reemplazar con el número real de WhatsApp del negocio (formato
-// internacional sin espacios ni símbolos, ej. "5213121234567").
-export const WHATSAPP_NUMBER = "5210000000000";
+// Número de WhatsApp del negocio en formato internacional sin espacios ni
+// símbolos (52 = México + número a 10 dígitos).
+export const WHATSAPP_NUMBER = "523121909068";
 
 // Redes sociales. Deja el string vacío para ocultar el enlace en el sitio.
 // Usa la URL completa (ej. "https://www.instagram.com/amarilloprimavera").
 export const SOCIAL = {
-  instagram: "",
-  facebook: "",
+  instagram: "https://www.instagram.com/amarillo.primavera",
+  facebook: "https://www.facebook.com/profile.php?id=61572558061039",
 } as const;
 
 // Enlaces sociales que sí están configurados (para render condicional y schema).
