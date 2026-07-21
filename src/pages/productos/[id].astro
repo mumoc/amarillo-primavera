@@ -36,7 +36,7 @@ const productoJsonLd = {
 };
 ---
 
-<BaseLayout title={nombre} description={descripcionCorta} image={imagenOptimizada?.src}>
+<BaseLayout title={nombre} description={descripcionCorta} image={imagenOptimizada?.src} ogType="product">
   <script type="application/ld+json" set:html={JSON.stringify(productoJsonLd)} />
   <main class="container producto">
     <div class="producto__card">
@@ -101,9 +101,17 @@ const productoJsonLd = {
         </div>
 
         <div class="producto__acciones">
-          <a href={whatsappOrderLink(nombre)} class="boton boton--whatsapp" target="_blank" rel="noopener">
+          <a
+            href={whatsappOrderLink(nombre, Astro.url.toString())}
+            class="boton boton--whatsapp"
+            target="_blank"
+            rel="noopener"
+          >
             Pedir por WhatsApp
           </a>
+          <p class="producto__ayuda">
+            Sin precios fijos: cotizamos por WhatsApp. <a href="/como-pedir/">¿Cómo funciona?</a>
+          </p>
         </div>
       </div>
     </div>
@@ -243,20 +251,38 @@ const productoJsonLd = {
 
   .producto__acciones {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.6rem;
     margin-top: auto;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(96, 73, 50, 0.12);
   }
 
+  .producto__ayuda {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-gris-morado);
+    text-align: right;
+  }
+
+  .producto__ayuda a {
+    color: var(--color-oro-quemado);
+    font-weight: 700;
+  }
+
   @media (max-width: 480px) {
     .producto__acciones {
-      justify-content: stretch;
+      align-items: stretch;
     }
 
     .producto__acciones .boton {
       width: 100%;
       justify-content: center;
+    }
+
+    .producto__ayuda {
+      text-align: center;
     }
   }
 

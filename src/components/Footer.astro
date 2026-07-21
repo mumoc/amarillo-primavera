@@ -1,6 +1,12 @@
 ---
-import { SITE_NAME } from "../config/site";
+import { SITE_NAME, socialLinks } from "../config/site";
+import Icon, { type IconName } from "./Icon.astro";
 const anio = new Date().getFullYear();
+
+const etiquetaRed: Record<string, { nombre: string; icono: IconName }> = {
+  instagram: { nombre: "Instagram", icono: "instagram" },
+  facebook: { nombre: "Facebook", icono: "facebook" },
+};
 ---
 
 <footer class="footer">
@@ -9,9 +15,26 @@ const anio = new Date().getFullYear();
     <nav aria-label="Enlaces del pie de página">
       <ul class="footer__nav">
         <li><a href="/catalogo/">Catálogo</a></li>
+        <li><a href="/como-pedir/">Cómo pedir</a></li>
         <li><a href="/sobre-la-marca/">Sobre la marca</a></li>
       </ul>
     </nav>
+    {
+      socialLinks.length > 0 && (
+        <ul class="footer__redes" aria-label="Redes sociales">
+          {socialLinks.map(({ red, url }) => {
+            const meta = etiquetaRed[red];
+            return (
+              <li>
+                <a href={url} target="_blank" rel="noopener" aria-label={meta?.nombre ?? red}>
+                  <Icon name={meta?.icono ?? "corazon"} size={22} />
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      )
+    }
     <p>&copy; {anio} {SITE_NAME}</p>
   </div>
 </footer>
@@ -54,5 +77,31 @@ const anio = new Date().getFullYear();
 
   .footer__nav a:hover {
     text-decoration: underline;
+  }
+
+  .footer__redes {
+    display: flex;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .footer__redes a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 999px;
+    color: var(--color-crema-clara);
+    border: 1px solid rgba(255, 250, 240, 0.25);
+    transition: background 0.15s ease, color 0.15s ease;
+  }
+
+  .footer__redes a:hover {
+    background: var(--color-amarillo-oro);
+    color: var(--color-marron-oscuro);
+    border-color: var(--color-amarillo-oro);
   }
 </style>
