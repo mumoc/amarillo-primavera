@@ -1,0 +1,51 @@
+---
+import { slugify } from "../lib/slug";
+
+interface Props {
+  categorias: string[];
+  activa?: string;
+}
+
+const { categorias, activa } = Astro.props;
+---
+
+<nav class="sidebar" aria-label="Categorías">
+  <a href="/catalogo/" class:list={["sidebar__item", !activa && "sidebar__item--activa"]}>
+    Todo el catálogo
+  </a>
+  {
+    categorias.map((categoria) => (
+      <a
+        href={`/catalogo/categoria/${slugify(categoria)}/`}
+        class:list={["sidebar__item", activa === categoria && "sidebar__item--activa"]}
+      >
+        {categoria}
+      </a>
+    ))
+  }
+</nav>
+
+<style>
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .sidebar__item {
+    text-decoration: none;
+    color: var(--color-marron-oscuro);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+  }
+
+  .sidebar__item:hover {
+    background: var(--color-crema);
+  }
+
+  .sidebar__item--activa {
+    background: var(--color-amarillo-oro);
+  }
+</style>

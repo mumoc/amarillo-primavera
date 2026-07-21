@@ -19,17 +19,40 @@ const { Content } = await render(producto);
 
 <BaseLayout title={nombre} description={`${nombre} — ${categoria}, una creación artesanal de Amarillo Primavera.`}>
   <main class="container producto">
-    <div class="producto__galeria">
+    <div class="producto__galeria" data-galeria>
+      <div class="producto__imagen-principal">
+        {
+          imagenes.map((imagen, i) => (
+            <Image
+              src={imagen}
+              alt={`${nombre} — foto ${i + 1}`}
+              width={640}
+              height={640}
+              loading={i === 0 ? "eager" : "lazy"}
+              data-galeria-principal
+              data-index={i}
+              hidden={i !== 0}
+            />
+          ))
+        }
+      </div>
+
       {
-        imagenes.map((imagen, i) => (
-          <Image
-            src={imagen}
-            alt={`${nombre} — foto ${i + 1}`}
-            width={640}
-            height={640}
-            loading={i === 0 ? "eager" : "lazy"}
-          />
-        ))
+        imagenes.length > 1 && (
+          <div class="producto__miniaturas">
+            {imagenes.map((imagen, i) => (
+              <button
+                type="button"
+                class:list={["producto__miniatura", i === 0 && "producto__miniatura--activa"]}
+                data-galeria-miniatura
+                data-index={i}
+                aria-label={`Ver foto ${i + 1} de ${nombre}`}
+              >
+                <Image src={imagen} alt="" width={96} height={96} loading="lazy" />
+              </button>
+            ))}
+          </div>
+        )
       }
     </div>
 
@@ -61,6 +84,29 @@ const { Content } = await render(producto);
   </main>
 </BaseLayout>
 
+<script>
+  const galeria = document.querySelector<HTMLElement>("[data-galeria]");
+
+  if (galeria) {
+    const principales = galeria.querySelectorAll<HTMLImageElement>("[data-galeria-principal]");
+    const miniaturas = galeria.querySelectorAll<HTMLButtonElement>("[data-galeria-miniatura]");
+
+    miniaturas.forEach((boton) => {
+      boton.addEventListener("click", () => {
+        const index = boton.dataset.index;
+
+        principales.forEach((img) => {
+          img.hidden = img.dataset.index !== index;
+        });
+
+        miniaturas.forEach((b) => {
+          b.classList.toggle("producto__miniatura--activa", b === boton);
+        });
+      });
+    });
+  }
+</script>
+
 <style>
   .producto {
     padding: 2.5rem 0 4rem;
@@ -80,11 +126,44 @@ const { Content } = await render(producto);
     gap: 0.75rem;
   }
 
-  .producto__galeria img {
+  .producto__imagen-principal img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: var(--radio);
+  }
+
+  .producto__miniaturas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .producto__miniatura {
+    padding: 0;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    background: none;
+    line-height: 0;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  .producto__miniatura img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .producto__miniatura:hover {
+    border-color: var(--color-dorado-brillante);
+  }
+
+  .producto__miniatura--activa {
+    border-color: var(--color-amarillo-oro);
   }
 
   .producto__categoria {

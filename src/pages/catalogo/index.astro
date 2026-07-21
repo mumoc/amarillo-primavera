@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ProductCard from "../../components/ProductCard.astro";
 import SearchBox from "../../components/SearchBox.astro";
-import { slugify } from "../../lib/slug";
+import CategorySidebar from "../../components/CategorySidebar.astro";
 
 const productos = (await getCollection("products")).sort((a, b) =>
   a.data.nombre.localeCompare(b.data.nombre, "es"),
@@ -17,26 +17,24 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
   <main class="container catalogo">
     <h1>Catálogo</h1>
 
-    <SearchBox />
+    <div class="catalogo__layout">
+      <aside class="catalogo__sidebar">
+        <CategorySidebar categorias={categorias} />
+      </aside>
 
-    <nav class="categorias" aria-label="Filtrar por categoría">
-      {
-        categorias.map((categoria) => (
-          <a href={`/catalogo/categoria/${slugify(categoria)}/`} class="categoria-chip">
-            {categoria}
-          </a>
-        ))
-      }
-    </nav>
+      <div class="catalogo__contenido">
+        <SearchBox />
 
-    <p class="catalogo__conteo" id="conteo">{productos.length} productos</p>
-    <p class="catalogo__filtro" id="filtro-activo" hidden>
-      Mostrando resultados para <strong id="filtro-tag"></strong> —
-      <a href="/catalogo/">ver todos</a>
-    </p>
+        <p class="catalogo__conteo" id="conteo">{productos.length} productos</p>
+        <p class="catalogo__filtro" id="filtro-activo" hidden>
+          Mostrando resultados para <strong id="filtro-tag"></strong> —
+          <a href="/catalogo/">ver todos</a>
+        </p>
 
-    <div class="catalogo__grid" id="grid">
-      {productos.map((producto) => <ProductCard producto={producto} />)}
+        <div class="catalogo__grid" id="grid">
+          {productos.map((producto) => <ProductCard producto={producto} />)}
+        </div>
+      </div>
     </div>
   </main>
 </BaseLayout>
@@ -71,26 +69,28 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
     padding: 2.5rem 0 3rem;
   }
 
-  .categorias {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
+  .catalogo__layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2.5rem;
+    align-items: start;
   }
 
-  .categoria-chip {
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-decoration: none;
-    background: var(--color-crema);
-    color: var(--color-oro-quemado);
-    padding: 0.35rem 0.8rem;
-    border-radius: 999px;
+  @media (max-width: 760px) {
+    .catalogo__layout {
+      grid-template-columns: 1fr;
+    }
   }
 
-  .categoria-chip:hover {
-    background: var(--color-amarillo-oro);
-    color: var(--color-marron-oscuro);
+  .catalogo__sidebar {
+    position: sticky;
+    top: 5.5rem;
+  }
+
+  @media (max-width: 760px) {
+    .catalogo__sidebar {
+      position: static;
+    }
   }
 
   .catalogo__conteo {

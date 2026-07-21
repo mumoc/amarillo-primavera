@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import ProductCard from "../../../components/ProductCard.astro";
+import CategorySidebar from "../../../components/CategorySidebar.astro";
 import { slugify } from "../../../lib/slug";
 
 export async function getStaticPaths() {
@@ -12,28 +13,63 @@ export async function getStaticPaths() {
     params: { categoria: slugify(categoria) },
     props: {
       categoria,
+      categorias,
       productos: productos.filter((p) => p.data.categoria === categoria),
     },
   }));
 }
 
-const { categoria, productos } = Astro.props;
+const { categoria, categorias, productos } = Astro.props;
+const categoriasOrdenadas = [...categorias].sort((a, b) => a.localeCompare(b, "es"));
 ---
 
 <BaseLayout title={categoria} description={`Productos de la categoría ${categoria} en Amarillo Primavera.`}>
   <main class="container catalogo">
-    <p><a href="/catalogo/">&larr; Todo el catálogo</a></p>
-    <h1>{categoria}</h1>
-    <p class="catalogo__conteo">{productos.length} productos</p>
-    <div class="catalogo__grid">
-      {productos.map((producto) => <ProductCard producto={producto} />)}
+    <h1>Catálogo</h1>
+
+    <div class="catalogo__layout">
+      <aside class="catalogo__sidebar">
+        <CategorySidebar categorias={categoriasOrdenadas} activa={categoria} />
+      </aside>
+
+      <div class="catalogo__contenido">
+        <h2>{categoria}</h2>
+        <p class="catalogo__conteo">{productos.length} productos</p>
+        <div class="catalogo__grid">
+          {productos.map((producto) => <ProductCard producto={producto} />)}
+        </div>
+      </div>
     </div>
   </main>
 </BaseLayout>
 
 <style>
   .catalogo {
-    padding: 1.5rem 0 3rem;
+    padding: 2.5rem 0 3rem;
+  }
+
+  .catalogo__layout {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  @media (max-width: 760px) {
+    .catalogo__layout {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .catalogo__sidebar {
+    position: sticky;
+    top: 5.5rem;
+  }
+
+  @media (max-width: 760px) {
+    .catalogo__sidebar {
+      position: static;
+    }
   }
 
   .catalogo__conteo {
