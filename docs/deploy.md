@@ -1,38 +1,30 @@
-# Deploy — Cloudflare Pages
+# Deploy — Cloudflare
 
-Estos pasos requieren tu sesión de Cloudflare/GitHub y no se pueden automatizar
-desde aquí.
+**Estado: en producción.** `https://amarilloprimavera.com` está en vivo.
 
-## 1. Conectar el repo a Cloudflare Pages
+## Cómo quedó configurado
 
-1. Dashboard de Cloudflare → **Workers & Pages** → **Create** → pestaña **Pages** → **Connect to Git**.
-2. Selecciona el repo `mumoc/amarillo-primavera`.
-3. Configuración de build:
-   - **Framework preset:** Astro
-   - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-4. Deploy. Cada push a `main` vuelve a desplegar automáticamente; los PRs generan preview deployments.
+- **Hosting:** Cloudflare Workers Builds (Git-integrado vía "Workers & Pages → Connect to Git"), no un proyecto Pages clásico — Cloudflare unificó ambos productos y ese flujo del dashboard crea un Worker.
+- **Assets:** `wrangler.jsonc` en la raíz del repo con `assets.directory: "./dist"` y sin entrypoint de servidor, para que Cloudflare sirva `dist/` como archivos estáticos puros (ver la nota del bug de imágenes en `docs/plan-implementacion.md` — sin esto, Astro genera referencias a un endpoint `/_image` que no existe en un build estático).
+- **Build:** `npm run build` → `dist/`. Deploy automático en cada push a `main`.
+- **Dominio:** `amarilloprimavera.com` conectado como Custom Domain directo al Worker, SSL activo.
+- **CMS:** Worker de OAuth (`amarillo-primavera-cms-auth.mumo-crls.workers.dev`) desplegado y conectado — `/admin/` funcional con login por GitHub.
 
-## 2. Conectar el dominio
+## Si hace falta rehacer algo
 
-En el proyecto de Pages → **Custom domains** → agregar `amarilloprimavera.com`
-(y `www.amarilloprimavera.com` si se quiere ese alias). Como el dominio ya
-está en el mismo Cloudflare Registrar/cuenta, el DNS se configura solo.
+- **Redesplegar manualmente** (sin esperar el push): `npx wrangler deploy` desde la raíz del repo (usa `wrangler.jsonc`).
+- **Reconectar el dominio a otro Worker/proyecto**: dashboard de Cloudflare → el Worker → Settings → Domains & Routes.
+- **Rotar credenciales del CMS**: ver la sección correspondiente en `worker/README.md`.
 
-## 3. Activar el CMS (Sveltia)
-
-Sigue `worker/README.md` para desplegar el Worker de OAuth y conectar
-`public/admin/config.yml` a su URL real.
-
-## 4. Pendientes antes de considerar el sitio "listo para producción"
+## Pendientes de contenido (no bloquean el sitio)
 
 - **Número de WhatsApp real**: `src/config/site.ts` tiene un placeholder
   (`5210000000000`). Reemplazar con el número real del negocio antes de
   anunciar el sitio.
 - **Campo `disponible`**: todos los productos migrados quedaron en
   `disponible: true` por defecto (no había dato de existencia real en el
-  catálogo anterior). Ajustar producto por producto vía el CMS una vez esté
-  activo, o pedirle a Claude que lo haga en lote si me das la lista.
+  catálogo anterior). Ajustar producto por producto vía el CMS, o pedirle a
+  Claude que lo haga en lote si se da la lista.
 - **Categorías casi duplicadas**: "Coronas y diademas" / "Coronas y diademas
   florales" y "Muñecas" / "Muñecas de trapo" generan páginas de categoría
   separadas. Vale la pena unificarlas como limpieza de contenido.

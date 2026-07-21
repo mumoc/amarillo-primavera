@@ -1,12 +1,12 @@
 # Plan de Implementación — Sitio Amarillo Primavera
 
-Última actualización: 2026-07-20
+Última actualización: 2026-07-21 — **sitio en vivo en producción.**
 
 ## Stack decidido
 
-- **Astro** (Content Collections para productos y, a futuro, blog)
-- **Hosting:** Cloudflare Pages, integrado con GitHub (deploy automático en push a `main`)
-- **Dominio:** `amarilloprimavera.com` (ya comprado en Cloudflare Registrar)
+- **Astro** (Content Collections para productos y, a futuro, blog), `output: "static"`
+- **Hosting:** Cloudflare Workers con Static Assets (Workers Builds, integrado con GitHub — deploy automático en push a `main`). Nota: no terminó siendo un proyecto "Pages" clásico sino un Worker con `assets.directory` (ver `wrangler.jsonc` en la raíz) — Cloudflare unificó ambos productos y el flujo "Connect to Git" del dashboard crea un Worker. Funcionalmente es equivalente a lo planeado (deploy automático en push, previews en PRs).
+- **Dominio:** `amarilloprimavera.com` — conectado y en vivo
 - **Buscador:** Fuse.js en cliente, sobre un JSON generado en build
 - **Tags:** filtrado por query param + páginas estáticas por categoría
 - **CMS admin (no-técnicos):** Sveltia CMS con OAuth vía Cloudflare Worker
@@ -38,14 +38,37 @@
 | 3 — Tags y filtrado | ✅ Completa |
 | 4 — Buscador Fuse.js | ✅ Completa |
 | 5 — Blog | Diferida |
-| 6 — CMS Sveltia + OAuth Worker | ✅ Código completo — falta activar (ver `worker/README.md`) |
-| 7 — Deploy Cloudflare Pages + dominio | ⏳ Requiere acción manual en el dashboard de Cloudflare — ver `docs/deploy.md` |
+| 6 — CMS Sveltia + OAuth Worker | ✅ Completa y activa |
+| 7 — Deploy Cloudflare + dominio | ✅ Completa — sitio en vivo |
 | 8 — Skills de Claude Code | ✅ Completa |
 
-Pendientes que requieren tu cuenta/sesión (no automatizables): crear el GitHub
-OAuth App, `wrangler login`, desplegar el Worker, conectar el repo a
-Cloudflare Pages, conectar el dominio. Todo documentado paso a paso en
-`docs/deploy.md` y `worker/README.md`.
+**Todas las fases del lanzamiento inicial están completas.** Sitio en vivo en
+`https://amarilloprimavera.com`: home, catálogo (120 productos), páginas por
+categoría, buscador, CTA de WhatsApp, y `/admin/` (Sveltia CMS) con login por
+GitHub funcionando vía el Worker de OAuth
+(`amarillo-primavera-cms-auth.mumo-crls.workers.dev`).
+
+Solo Fase 5 (blog) queda diferida, como se decidió.
+
+### Bug encontrado y resuelto durante el deploy
+
+El primer deploy conectado vía dashboard sirvió las imágenes rotas: el HTML
+generado apuntaba a un endpoint `/_image?href=...` (comportamiento de Astro en
+modo SSR) que devolvía 404, en vez de a los `.webp` estáticos que sí genera
+`output: "static"`. Causa: al conectar el repo por "Workers & Pages → Connect
+to Git", Cloudflare crea un **Worker** (no un proyecto Pages clásico) y, sin
+un `wrangler.jsonc` en la raíz, no quedó claro que debía servir `dist/` como
+assets estáticos puros. Se agregó `wrangler.jsonc` con
+`assets.directory: "./dist"` y sin entrypoint de servidor — eso fuerza el
+mismo comportamiento estático verificado en local. Verificado con `wrangler
+deploy` manual y confirmado con el redeploy automático subsecuente.
+
+### Pendientes de contenido (no bloquean el sitio, quedan para después)
+
+- **Número de WhatsApp real**: `src/config/site.ts` sigue con un placeholder (`5210000000000`) — reemplazar antes de anunciar el sitio.
+- **Campo `disponible`**: todos los productos quedaron en `true` por defecto (no había dato real de existencia en el catálogo anterior).
+- **Categorías casi duplicadas**: "Coronas y diademas" / "...florales" y "Muñecas" / "Muñecas de trapo".
+- **`products/PENDIENTES/`**: "creaciones de madera" y fotos sueltas de raíz siguen sin catalogar.
 
 ## Fases
 
@@ -81,16 +104,17 @@ Cloudflare Pages, conectar el dominio. Todo documentado paso a paso en
 ### Fase 5 — Blog (diferida)
 - Se retoma después del lanzamiento inicial
 
-### Fase 6 — CMS: Sveltia CMS + OAuth Worker
-- Cloudflare Worker para el flujo OAuth con GitHub
-- `admin/config.yml` apuntando al schema de Fase 1
+### Fase 6 — CMS: Sveltia CMS + OAuth Worker ✅
+- Cloudflare Worker para el flujo OAuth con GitHub — desplegado en `amarillo-primavera-cms-auth.mumo-crls.workers.dev`
+- `public/admin/config.yml` apuntando al schema de Fase 1 y a la URL real del Worker
 - Colección editable de productos: nombre, categoría, tags, descripción, disponibilidad, imágenes con reordenamiento
+- GitHub OAuth App creado, credenciales configuradas como Worker secrets (`GITHUB_CLIENT_SECRET`, `AUTH_SECRET`)
 
-### Fase 7 — Deploy (Cloudflare Pages + dominio)
-- Conectar repo de GitHub a Cloudflare Pages, deploy automático en `main`
-- Configurar dominio `amarilloprimavera.com`
-- Variables de entorno / secrets del Worker de OAuth
-- Lanzamiento de sitio + CMS juntos
+### Fase 7 — Deploy (Cloudflare + dominio) ✅
+- Repo conectado vía Cloudflare Workers Builds (Git-integrado), deploy automático en `main`
+- Dominio `amarilloprimavera.com` conectado directamente al Worker (Custom Domain), con SSL activo
+- `wrangler.jsonc` agregado para servir `dist/` como assets estáticos puros (ver bug resuelto arriba)
+- Sitio + CMS en vivo juntos, como se decidió
 
 ### Fase 8 — Skills de Claude Code
 - Migrar lógica de los 5 skills de OpenCode (`agregar-producto`, `editar-producto`, `buscar-productos`, `generar-indice-productos`, `product-page-preview`) a skills de Claude Code
