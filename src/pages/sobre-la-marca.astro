@@ -1,53 +1,147 @@
 ---
+import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import logo from "../assets/brand/logo.png";
+import fotoCorona from "../content/products/corona-rosas-amarillo-dorado/images/FlowerCrown_Yellow_01.jpg";
+import fotoMarien from "../content/products/marien-frida-corona-floral/images/RagDoll_Frida_01.jpg";
+import fotoJabon from "../content/products/jabon-brisa-de-mar/images/Soap_Bar_BeachTheme_01.jpg";
 ---
 
-<BaseLayout title="Sobre la marca" description="La historia detrás de Amarillo Primavera.">
+<BaseLayout title="Sobre la marca" description="La historia detrás de Amarillo Primavera: de dónde venimos, qué nos inspira y cómo hacemos cada pieza.">
+  <section class="hero">
+    <div class="container hero__inner">
+      <Image src={logo} alt="Amarillo Primavera" width={110} height={100} />
+      <h1>Somos Amarillo Primavera</h1>
+      <p class="hero__texto">
+        Nacimos en Colima, inspirados en el árbol primavera y en el amarillo como símbolo de
+        creatividad, alegría y luz. Todo lo que hacemos busca llevar un pedacito de esa primavera
+        a tus manos.
+      </p>
+    </div>
+  </section>
+
   <main class="container pagina">
-    <h1>Amarillo Primavera</h1>
-    <p>
-      Amarillo Primavera es una marca artesanal inspirada en el árbol primavera, común en Colima,
-      México, y en el color amarillo como símbolo de creatividad, felicidad, esperanza, luz y energía.
-    </p>
-    <p>
-      La marca nace desde lo hecho a mano: piezas individuales, cuidadas, con materiales de calidad y
-      hechas con cariño. No busca sentirse como producción masiva, sino como objetos con historia,
-      color y calidez.
-    </p>
+    <div class="fotos">
+      <Image src={fotoCorona} alt="Corona de flores amarillas hecha a mano" width={320} height={320} class="fotos__img" />
+      <Image src={fotoMarien} alt="Muñeca de trapo de la línea Marien" width={320} height={320} class="fotos__img fotos__img--centro" />
+      <Image src={fotoJabon} alt="Jabón artesanal inspirado en el mar" width={320} height={320} class="fotos__img" />
+    </div>
 
-    <h2>Inspiración</h2>
-    <ul>
-      <li>El árbol primavera amarillo.</li>
-      <li>Los paisajes de Colima.</li>
-      <li>Los volcanes de Colima: el Volcán de Fuego y el Nevado de Colima.</li>
-      <li>La nostalgia de lo tradicional.</li>
-      <li>Las muñecas de trapo.</li>
-      <li>Los jabones artesanales de antes.</li>
-      <li>Los bordados y detalles que recuerdan a lo hecho por una abuelita.</li>
-      <li>Los colores vivos de México.</li>
-    </ul>
+    <section class="seccion">
+      <h2>De dónde venimos</h2>
+      <p>
+        Nos inspiran los paisajes de Colima y sus volcanes —el de Fuego y el Nevado—, la nostalgia
+        de lo tradicional, las muñecas de trapo, los jabones artesanales de antes, y los bordados y
+        detalles que nos recuerdan a lo hecho por una abuelita. De ahí sale nuestra paleta de
+        colores vivos, tan mexicana como nosotros.
+      </p>
+      <p>
+        No buscamos sentirnos como producción en masa. Cada pieza nace individual, cuidada, hecha
+        con materiales de calidad y mucho cariño — porque para nosotros el valor no está solo en
+        el producto, sino en la historia y la calidez que se lleva quien lo recibe.
+      </p>
+    </section>
 
-    <h2>Esencia</h2>
-    <p>
-      Amarillo Primavera debe sentirse artesanal, alegre, cálida, mexicana, colorida, nostálgica sin
-      ser anticuada, hecha con amor, cercana y familiar, y cuidada en sus materiales y detalles.
-    </p>
+    <section class="esencia">
+      <p class="esencia__texto">
+        Queremos que cada pieza se sienta artesanal, alegre y cálida. Nostálgica sin ser anticuada.
+        Cercana, familiar, cuidada hasta en el último detalle.
+      </p>
+      <p class="esencia__firma">— Un pedacito de primavera, hecho con cariño desde Colima.</p>
+    </section>
 
-    <a href="/catalogo/" class="boton boton--primario">Ver catálogo</a>
+    <div class="cta">
+      <a href="/catalogo/" class="boton boton--primario">Ver catálogo</a>
+    </div>
   </main>
 </BaseLayout>
 
 <style>
+  .hero {
+    background: linear-gradient(
+      160deg,
+      var(--color-crema-clara) 0%,
+      var(--color-crema) 60%,
+      #fdeec3 100%
+    );
+    padding: 3.5rem 0;
+  }
+
+  .hero__inner {
+    text-align: center;
+    max-width: 640px;
+  }
+
+  .hero__inner :global(img) {
+    margin: 0 auto 1.25rem;
+  }
+
+  .hero__texto {
+    font-size: 1.05rem;
+  }
+
   .pagina {
-    padding: 2.5rem 0 3.5rem;
-    max-width: 720px;
+    padding: 3rem 0 4rem;
   }
 
-  .pagina ul {
-    padding-left: 1.25rem;
+  .fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    max-width: 760px;
+    margin: 0 auto 3rem;
   }
 
-  .pagina li {
-    margin-bottom: 0.35rem;
+  .fotos__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+  }
+
+  .fotos__img--centro {
+    transform: translateY(-0.75rem);
+  }
+
+  @media (max-width: 600px) {
+    .fotos__img--centro {
+      transform: none;
+    }
+  }
+
+  .seccion {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .esencia {
+    max-width: 620px;
+    margin: 3rem auto 0;
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    background: var(--color-crema);
+    border-radius: var(--radio);
+  }
+
+  .esencia__texto {
+    font-family: var(--font-titulos);
+    font-style: italic;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: var(--color-marron-oscuro);
+    margin-bottom: 1rem;
+  }
+
+  .esencia__firma {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--color-oro-quemado);
+  }
+
+  .cta {
+    text-align: center;
+    margin-top: 2.5rem;
   }
 </style>
