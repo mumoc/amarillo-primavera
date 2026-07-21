@@ -1,0 +1,89 @@
+<div class="buscador">
+  <input
+    type="search"
+    id="buscador-input"
+    class="buscador__input"
+    placeholder="Buscar productos (nombre, categoría, tag)…"
+    aria-label="Buscar productos"
+  />
+</div>
+
+<script>
+  import Fuse from "fuse.js";
+
+  interface ProductoIndexado {
+    id: string;
+    nombre: string;
+    categoria: string;
+    tags: string[];
+    descripcion: string;
+  }
+
+  const input = document.getElementById("buscador-input") as HTMLInputElement | null;
+  const grid = document.getElementById("grid");
+  const conteo = document.getElementById("conteo");
+
+  if (input && grid) {
+    let fuse: Fuse<ProductoIndexado> | null = null;
+
+    fetch("/productos-buscar.json")
+      .then((res) => res.json())
+      .then((productos: ProductoIndexado[]) => {
+        fuse = new Fuse(productos, {
+          keys: [
+            { name: "nombre", weight: 0.5 },
+            { name: "tags", weight: 0.3 },
+            { name: "categoria", weight: 0.15 },
+            { name: "descripcion", weight: 0.05 },
+          ],
+          threshold: 0.35,
+          ignoreLocation: true,
+        });
+      });
+
+    const tarjetas = Array.from(grid.querySelectorAll<HTMLAnchorElement>("a[data-id]"));
+
+    input.addEventListener("input", () => {
+      const query = input.value.trim();
+
+      if (!query || !fuse) {
+        tarjetas.forEach((tarjeta) => (tarjeta.hidden = false));
+        if (conteo) conteo.textContent = `${tarjetas.length} productos`;
+        return;
+      }
+
+      const resultados = new Set(fuse.search(query).map((r) => r.item.id));
+      let visibles = 0;
+
+      tarjetas.forEach((tarjeta) => {
+        const coincide = resultados.has(tarjeta.dataset.id ?? "");
+        tarjeta.hidden = !coincide;
+        if (coincide) visibles++;
+      });
+
+      if (conteo) conteo.textContent = `${visibles} productos`;
+    });
+  }
+</script>
+
+<style>
+  .buscador {
+    margin-bottom: 1.25rem;
+  }
+
+  .buscador__input {
+    width: 100%;
+    max-width: 420px;
+    font-family: var(--font-texto);
+    font-size: 0.95rem;
+    padding: 0.65rem 1rem;
+    border: 1.5px solid rgba(96, 73, 50, 0.2);
+    border-radius: 999px;
+    background: #fff;
+  }
+
+  .buscador__input:focus {
+    outline: none;
+    border-color: var(--color-amarillo-oro);
+  }
+</style>
