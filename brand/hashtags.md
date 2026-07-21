@@ -25,6 +25,27 @@ Lista de referencia para no improvisar hashtags en cada post. Se puede ampliar c
 **Organizadores**
 `#OrganizadoresArtesanales` `#DecoArtesanal`
 
+**Coronas y diademas florales** (piezas Catrina usan `#Catrina` en vez del último tag)
+`#CoronasDeFlores` `#DiademasArtesanales` `#AccesoriosFlorales` `#EstiloMexicano`
+
+**Decoración navideña** (las muñecas de nacimiento agregan también `#NacimientoArtesanal`)
+`#Navidad` `#DecoracionNavidena` `#EspirituNavideno`
+
+**Macetas de cemento**
+`#MacetasDeCemento` `#DecoParaPlantas`
+
+**Tarjetas florales**
+`#TarjetasFlorales` `#DetallesArtesanales` `#RegalosConCarino`
+
+**Llaveros**
+`#LlaverosPersonalizados` `#DetallesConNombre`
+
+**Bolsas tote**
+`#BolsasArtesanales` `#ToteBagsPintadas`
+
+**Arreglos florales**
+`#ArreglosFlorales` `#DecoArtesanal`
+
 ## Notas de uso
 
 - Combinar 1–2 generales de marca + 2–4 de categoría por post. No saturar con más de 8–10 hashtags.

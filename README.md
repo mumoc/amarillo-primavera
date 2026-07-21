@@ -27,7 +27,10 @@ raíz solo conserva:
 
 - `raw/` — fotos originales sin procesar (nunca tocadas)
 - `PENDIENTES/` — fotos sin catalogar aún (línea "creaciones de madera" + fotos sueltas)
-- `catalog_report.md`, `categorization_report.md` — bitácora de la categorización original (útil para detectar posibles duplicados, ver skill `combinar-productos`)
+
+La lista de posibles duplicados y los hashtags que se propusieron durante la
+categorización original ya se migraron a `.claude/skills/combinar-productos/`
+y `brand/hashtags.md` respectivamente.
 
 El índice de búsqueda del catálogo (`/productos-buscar.json`) se genera solo
 en cada build a partir de `src/content/products/` — no hay ningún índice
