@@ -18,7 +18,7 @@ Ver `docs/plan-implementacion.md` para el plan de fases completo y
 - `products/` — Archivo/respaldo, ya no es el catálogo activo (ver abajo)
 - `content/` — Borradores y posts publicados en redes sociales
 - `context/` — Contexto externo importado
-- `.claude/skills/` — Skills de Claude Code para mantener el catálogo (agregar, editar, buscar, previsualizar productos)
+- `.claude/skills/` — Skills de Claude Code para mantener el catálogo (agregar, editar, buscar, previsualizar, combinar productos, publicar)
 
 ## `products/` (archivo, no el catálogo activo)
 
@@ -27,7 +27,11 @@ raíz solo conserva:
 
 - `raw/` — fotos originales sin procesar (nunca tocadas)
 - `PENDIENTES/` — fotos sin catalogar aún (línea "creaciones de madera" + fotos sueltas)
-- `index.json`, `catalog_report.md`, `categorization_report.md` — bitácora de la categorización original
+- `catalog_report.md`, `categorization_report.md` — bitácora de la categorización original (útil para detectar posibles duplicados, ver skill `combinar-productos`)
+
+El índice de búsqueda del catálogo (`/productos-buscar.json`) se genera solo
+en cada build a partir de `src/content/products/` — no hay ningún índice
+manual que mantener.
 
 ## Desarrollo
 
@@ -40,7 +44,16 @@ npm run build
 ## Mantener el catálogo con Claude Code
 
 Usa los skills en `.claude/skills/`: "agrega un nuevo producto", "edita el
-producto <slug>", "busca productos de #tag", "muéstrame el producto <slug>".
+producto <slug>", "busca productos de #tag", "muéstrame el producto <slug>",
+"combina el producto X con el Y", "envíalo a producción".
+
+**Para cualquier pregunta sobre qué productos existen** (buscar, listar,
+contar, ver categorías/tags disponibles), usa `/productos-buscar.json` como
+fuente — es el índice real, generado en cada build a partir de
+`src/content/products/`. Si no existe todavía en `dist/` (no se ha corrido un
+build), corre `npm run build` primero y luego léelo desde `dist/productos-buscar.json`.
+No uses `products/catalog_report.md` ni ningún archivo viejo como índice — esos
+son solo bitácora histórica de la migración, no la fuente de verdad.
 
 ## Contenido de redes sociales
 
