@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Sombrero de Paja Pelirroja
-categoria: Muñecas de trapo
+nombre: Sombrero de Paja Pelirroja
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

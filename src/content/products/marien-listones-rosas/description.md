@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Listones Rosas
-categoria: Muñecas de trapo
+nombre: Listones Rosas
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

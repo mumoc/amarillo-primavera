@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Catrina Calavera
-categoria: Muñecas de trapo
+nombre: Catrina Calavera
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

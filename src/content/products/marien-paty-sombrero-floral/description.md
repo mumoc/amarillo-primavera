@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Paty
-categoria: Muñecas de trapo
+nombre: Paty
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

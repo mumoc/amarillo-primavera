@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Frida entre Luces
-categoria: Muñecas de trapo
+nombre: Frida entre Luces
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

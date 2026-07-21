@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Nacimiento Mini de Fieltro
-categoria: Muñecas de trapo
+nombre: Nacimiento Mini de Fieltro
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

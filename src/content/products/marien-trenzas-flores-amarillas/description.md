@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Trenzas con Flores Amarillas
-categoria: Muñecas de trapo
+nombre: Trenzas con Flores Amarillas
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

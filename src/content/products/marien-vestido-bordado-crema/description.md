@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Vestido Bordado Crema
-categoria: Muñecas de trapo
+nombre: Vestido Bordado Crema
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

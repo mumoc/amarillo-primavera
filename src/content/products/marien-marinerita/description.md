@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Marinerita
-categoria: Muñecas de trapo
+nombre: Marinerita
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

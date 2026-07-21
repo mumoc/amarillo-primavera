@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Nacimiento Completo
-categoria: Muñecas de trapo
+nombre: Nacimiento Completo
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

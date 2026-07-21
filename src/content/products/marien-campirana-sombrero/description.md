@@ -1,6 +1,6 @@
 ---
 nombre: Muñeca Paty
-categoria: Muñecas de trapo
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

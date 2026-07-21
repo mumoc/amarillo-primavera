@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Corona Rosa y Collar de Cuentas
-categoria: Muñecas de trapo
+nombre: Corona Rosa y Collar de Cuentas
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

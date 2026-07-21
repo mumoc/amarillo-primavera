@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Girasoles para Mamá
-categoria: Muñecas de trapo
+nombre: Girasoles para Mamá
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

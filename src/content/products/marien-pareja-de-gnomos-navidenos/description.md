@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Pareja de Gnomos Navideños
-categoria: Muñecas de trapo
+nombre: Pareja de Gnomos Navideños
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

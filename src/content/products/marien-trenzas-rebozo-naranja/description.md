@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Trenzas y Rebozo Naranja
-categoria: Muñecas de trapo
+nombre: Trenzas y Rebozo Naranja
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

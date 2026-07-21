@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Frida, Corona Floral
-categoria: Muñecas de trapo
+nombre: Frida, Corona Floral
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

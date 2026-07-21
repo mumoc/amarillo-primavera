@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Primera Comunión
-categoria: Muñecas de trapo
+nombre: Primera Comunión
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

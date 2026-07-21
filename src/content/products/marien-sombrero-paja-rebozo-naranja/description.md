@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Sombrero de Paja con Rebozo Naranja
-categoria: Muñecas de trapo
+nombre: Sombrero de Paja con Rebozo Naranja
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

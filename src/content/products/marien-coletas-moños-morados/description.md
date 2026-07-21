@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Coletas y Moños Morados
-categoria: Muñecas de trapo
+nombre: Coletas y Moños Morados
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

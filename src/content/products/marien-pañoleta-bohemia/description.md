@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Pañoleta Bohemia
-categoria: Muñecas de trapo
+nombre: Pañoleta Bohemia
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

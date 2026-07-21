@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Invierno con Flor
-categoria: Muñecas de trapo
+nombre: Invierno con Flor
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Jardinera del Girasol
-categoria: Muñecas de trapo
+nombre: Jardinera del Girasol
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Frida, Corona de Rositas
-categoria: Muñecas de trapo
+nombre: Frida, Corona de Rositas
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Detalle de Amor Rosa
-categoria: Muñecas de trapo
+nombre: Detalle de Amor Rosa
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

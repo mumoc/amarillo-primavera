@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Bruja Traviesa
-categoria: Muñecas de trapo
+nombre: Bruja Traviesa
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

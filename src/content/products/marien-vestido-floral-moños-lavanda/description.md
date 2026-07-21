@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Vestido Floral con Moños Lavanda
-categoria: Muñecas de trapo
+nombre: Vestido Floral con Moños Lavanda
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

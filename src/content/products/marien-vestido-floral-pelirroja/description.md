@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Vestido Floral Pelirroja
-categoria: Muñecas de trapo
+nombre: Vestido Floral Pelirroja
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

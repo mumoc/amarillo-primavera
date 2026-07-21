@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Pastores y Reyes del Nacimiento
-categoria: Muñecas de trapo
+nombre: Pastores y Reyes del Nacimiento
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

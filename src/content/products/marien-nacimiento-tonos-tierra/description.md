@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Nacimiento en Tonos Tierra
-categoria: Muñecas de trapo
+nombre: Nacimiento en Tonos Tierra
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

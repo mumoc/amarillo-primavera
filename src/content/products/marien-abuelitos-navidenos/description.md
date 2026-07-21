@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Abuelitos Navideños
-categoria: Muñecas de trapo
+nombre: Abuelitos Navideños
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

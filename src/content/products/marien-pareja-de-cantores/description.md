@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Pareja de Cantores Navideños
-categoria: Muñecas de trapo
+nombre: Pareja de Cantores Navideños
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

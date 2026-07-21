@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Vestido Satín Morado
-categoria: Muñecas de trapo
+nombre: Vestido Satín Morado
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

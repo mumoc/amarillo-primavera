@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Sombrerito de Girasol
-categoria: Muñecas de trapo
+nombre: Sombrerito de Girasol
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Overol Rayado
-categoria: Muñecas de trapo
+nombre: Overol Rayado
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

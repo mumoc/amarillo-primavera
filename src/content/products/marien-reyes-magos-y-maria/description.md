@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Reyes Magos y María
-categoria: Muñecas de trapo
+nombre: Reyes Magos y María
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

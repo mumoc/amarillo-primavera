@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Vestido de Lunares
-categoria: Muñecas de trapo
+nombre: Vestido de Lunares
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Corona Floral
-categoria: Muñecas de trapo
+nombre: Corona Floral
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Graduada
-categoria: Muñecas de trapo
+nombre: Graduada
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

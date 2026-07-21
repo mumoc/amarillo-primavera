@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Sombrero Azul con Flor
-categoria: Muñecas de trapo
+nombre: Sombrero Azul con Flor
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

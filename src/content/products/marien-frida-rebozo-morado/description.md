@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Frida, Rebozo Morado
-categoria: Muñecas de trapo
+nombre: Frida, Rebozo Morado
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

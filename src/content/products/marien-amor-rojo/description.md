@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Detalle de Amor Rojo
-categoria: Muñecas de trapo
+nombre: Detalle de Amor Rojo
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

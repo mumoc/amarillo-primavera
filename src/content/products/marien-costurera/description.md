@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Costurera
-categoria: Muñecas de trapo
+nombre: Costurera
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

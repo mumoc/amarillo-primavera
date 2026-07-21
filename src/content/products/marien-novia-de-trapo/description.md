@@ -1,6 +1,6 @@
 ---
-nombre: Marien — Novia de Trapo
-categoria: Muñecas de trapo
+nombre: Novia de Trapo
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
