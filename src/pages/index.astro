@@ -3,10 +3,67 @@ import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProductCard from "../components/ProductCard.astro";
+import Icon, { type IconName } from "../components/Icon.astro";
+import { slugify } from "../lib/slug";
 import logo from "../assets/brand/logo.png";
 
 const productos = await getCollection("products");
-const destacados = productos.slice(0, 8);
+const destacados = productos.slice(0, 4);
+
+const valores: { icono: IconName; titulo: string; texto: string }[] = [
+  {
+    icono: "corazon",
+    titulo: "Hecho con cariño",
+    texto: "Cada pieza pasa por manos artesanas, no por una línea de producción.",
+  },
+  {
+    icono: "volcan",
+    titulo: "Inspirado en Colima",
+    texto: "Paisajes, volcanes y tradición hechos color.",
+  },
+  {
+    icono: "paleta",
+    titulo: "Colores que alegran",
+    texto: "Vivos, cálidos, imposibles de ignorar.",
+  },
+  {
+    icono: "destello",
+    titulo: "Piezas con alma",
+    texto: "Nunca dos exactamente iguales — cada una tiene su encanto.",
+  },
+];
+
+const iconoPorCategoria: Record<string, IconName> = {
+  "Muñecas de trapo": "muneca",
+  Muñecas: "muneca",
+  "Coronas y diademas florales": "flor",
+  "Coronas y diademas": "flor",
+  Jabones: "gota",
+  "Organizadores 3D": "lapiz",
+  "Tarjetas florales": "sobre",
+  Llaveros: "llave",
+  "Decoración navideña": "arbol",
+  "Salsa Diabla": "picante",
+  "Macetas de cemento": "flor",
+  "Bolsas tote": "regalo",
+  "Arreglos florales": "flor",
+  Otros: "regalo",
+};
+
+const conteoPorCategoria = new Map<string, number>();
+for (const producto of productos) {
+  const categoria = producto.data.categoria;
+  conteoPorCategoria.set(categoria, (conteoPorCategoria.get(categoria) ?? 0) + 1);
+}
+
+const categoriasDestacadas = [...conteoPorCategoria.entries()]
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 6)
+  .map(([categoria, cantidad]) => ({
+    categoria,
+    cantidad,
+    icono: iconoPorCategoria[categoria] ?? "regalo",
+  }));
 ---
 
 <BaseLayout title="Inicio">
@@ -26,12 +83,57 @@ const destacados = productos.slice(0, 8);
     </div>
   </section>
 
+  <section class="container valores">
+    <div class="valores__grid">
+      {
+        valores.map((valor) => (
+          <div class="valor">
+            <span class="valor__icono">
+              <Icon name={valor.icono} size={30} />
+            </span>
+            <h3>{valor.titulo}</h3>
+            <p>{valor.texto}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
   <section class="container destacados">
     <h2>Algunas piezas del catálogo</h2>
     <div class="destacados__grid">
       {destacados.map((producto) => <ProductCard producto={producto} />)}
     </div>
     <a href="/catalogo/" class="boton boton--secundario destacados__ver-mas">Ver todo el catálogo</a>
+  </section>
+
+  <section class="categorias-home">
+    <div class="container">
+      <h2>Encuentra tu siguiente favorito</h2>
+      <div class="categorias-home__grid">
+        {
+          categoriasDestacadas.map((c) => (
+            <a href={`/catalogo/categoria/${slugify(c.categoria)}/`} class="categoria-card">
+              <span class="categoria-card__icono">
+                <Icon name={c.icono} size={26} />
+              </span>
+              <span class="categoria-card__nombre">{c.categoria}</span>
+              <span class="categoria-card__cantidad">{c.cantidad} piezas</span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="historia">
+    <div class="container historia__inner">
+      <p class="historia__texto">
+        "No buscamos sentirnos como producción en masa. Cada pieza nace individual, cuidada, hecha
+        con materiales de calidad y mucho cariño."
+      </p>
+      <a href="/sobre-la-marca/" class="boton boton--primario">Conoce nuestra historia</a>
+    </div>
   </section>
 </BaseLayout>
 
@@ -67,6 +169,40 @@ const destacados = productos.slice(0, 8);
     margin-top: 1.5rem;
   }
 
+  .valores {
+    padding: 3rem 0 0.5rem;
+  }
+
+  .valores__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .valor {
+    text-align: center;
+    padding: 1.5rem 1rem;
+  }
+
+  .valor__icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-oro-quemado);
+    margin-bottom: 0.65rem;
+  }
+
+  .valor h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .valor p {
+    font-size: 0.9rem;
+    color: var(--color-gris-morado);
+    margin: 0;
+  }
+
   .destacados {
     padding: 3rem 0;
   }
@@ -82,5 +218,72 @@ const destacados = productos.slice(0, 8);
     display: block;
     width: fit-content;
     margin-inline: auto;
+  }
+
+  .categorias-home {
+    background: var(--color-crema);
+    padding: 3rem 0;
+  }
+
+  .categorias-home h2 {
+    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  .categorias-home__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+  }
+
+  .categoria-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    text-decoration: none;
+    color: var(--color-marron-oscuro);
+    background: #fff;
+    border-radius: var(--radio);
+    padding: 1.5rem 1rem;
+    box-shadow: var(--sombra);
+    transition: transform 0.15s ease;
+    text-align: center;
+  }
+
+  .categoria-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .categoria-card__icono {
+    display: flex;
+    color: var(--color-oro-quemado);
+  }
+
+  .categoria-card__nombre {
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+
+  .categoria-card__cantidad {
+    font-size: 0.8rem;
+    color: var(--color-gris-morado);
+  }
+
+  .historia {
+    padding: 4rem 0;
+  }
+
+  .historia__inner {
+    max-width: 620px;
+    text-align: center;
+  }
+
+  .historia__texto {
+    font-family: var(--font-titulos);
+    font-style: italic;
+    font-size: 1.35rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
   }
 </style>
