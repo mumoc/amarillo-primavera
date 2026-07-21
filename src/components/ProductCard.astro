@@ -7,10 +7,15 @@ interface Props {
 }
 
 const { producto } = Astro.props;
-const { nombre, categoria, disponible, imagenes } = producto.data;
+const { nombre, categoria, disponible, imagenes, tags } = producto.data;
 ---
 
-<a href={`/productos/${producto.id}/`} class="tarjeta">
+<a
+  href={`/productos/${producto.id}/`}
+  class="tarjeta"
+  data-tags={tags.join("|").toLowerCase()}
+  data-categoria={categoria}
+>
   {
     imagenes[0] && (
       <Image

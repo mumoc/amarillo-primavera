@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import ProductCard from "../../../components/ProductCard.astro";
+import { slugify } from "../../../lib/slug";
+
+export async function getStaticPaths() {
+  const productos = await getCollection("products");
+  const categorias = [...new Set(productos.map((p) => p.data.categoria))];
+
+  return categorias.map((categoria) => ({
+    params: { categoria: slugify(categoria) },
+    props: {
+      categoria,
+      productos: productos.filter((p) => p.data.categoria === categoria),
+    },
+  }));
+}
+
+const { categoria, productos } = Astro.props;
+---
+
+<BaseLayout title={categoria} description={`Productos de la categoría ${categoria} en Amarillo Primavera.`}>
+  <main class="container catalogo">
+    <p><a href="/catalogo/">&larr; Todo el catálogo</a></p>
+    <h1>{categoria}</h1>
+    <p class="catalogo__conteo">{productos.length} productos</p>
+    <div class="catalogo__grid">
+      {productos.map((producto) => <ProductCard producto={producto} />)}
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .catalogo {
+    padding: 1.5rem 0 3rem;
+  }
+
+  .catalogo__conteo {
+    color: var(--color-gris-morado);
+    margin-bottom: 1.5rem;
+  }
+
+  .catalogo__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

@@ -2,30 +2,102 @@
 import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ProductCard from "../../components/ProductCard.astro";
+import { slugify } from "../../lib/slug";
 
 const productos = (await getCollection("products")).sort((a, b) =>
   a.data.nombre.localeCompare(b.data.nombre, "es"),
+);
+const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a, b) =>
+  a.localeCompare(b, "es"),
 );
 ---
 
 <BaseLayout title="Catálogo" description="Todo el catálogo de productos artesanales de Amarillo Primavera.">
   <main class="container catalogo">
     <h1>Catálogo</h1>
-    <p class="catalogo__conteo">{productos.length} productos</p>
-    <div class="catalogo__grid">
+
+    <nav class="categorias" aria-label="Filtrar por categoría">
+      {
+        categorias.map((categoria) => (
+          <a href={`/catalogo/categoria/${slugify(categoria)}/`} class="categoria-chip">
+            {categoria}
+          </a>
+        ))
+      }
+    </nav>
+
+    <p class="catalogo__conteo" id="conteo">{productos.length} productos</p>
+    <p class="catalogo__filtro" id="filtro-activo" hidden>
+      Mostrando resultados para <strong id="filtro-tag"></strong> —
+      <a href="/catalogo/">ver todos</a>
+    </p>
+
+    <div class="catalogo__grid" id="grid">
       {productos.map((producto) => <ProductCard producto={producto} />)}
     </div>
   </main>
 </BaseLayout>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const tag = params.get("tag");
+
+  if (tag) {
+    const tagNormalizado = tag.toLowerCase().replace(/^#/, "");
+    const tarjetas = document.querySelectorAll<HTMLAnchorElement>("#grid a[data-tags]");
+    let visibles = 0;
+
+    tarjetas.forEach((tarjeta) => {
+      const tags = (tarjeta.dataset.tags ?? "").replace(/#/g, "");
+      const coincide = tags.split("|").some((t) => t.includes(tagNormalizado));
+      tarjeta.hidden = !coincide;
+      if (coincide) visibles++;
+    });
+
+    const conteo = document.getElementById("conteo");
+    const filtroActivo = document.getElementById("filtro-activo");
+    const filtroTag = document.getElementById("filtro-tag");
+    if (conteo) conteo.textContent = `${visibles} productos`;
+    if (filtroTag) filtroTag.textContent = `#${tagNormalizado}`;
+    if (filtroActivo) filtroActivo.hidden = false;
+  }
+</script>
 
 <style>
   .catalogo {
     padding: 2.5rem 0 3rem;
   }
 
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .categoria-chip {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    background: var(--color-crema);
+    color: var(--color-oro-quemado);
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+  }
+
+  .categoria-chip:hover {
+    background: var(--color-amarillo-oro);
+    color: var(--color-marron-oscuro);
+  }
+
   .catalogo__conteo {
     color: var(--color-gris-morado);
+    margin-bottom: 0.25rem;
+  }
+
+  .catalogo__filtro {
     margin-bottom: 1.5rem;
+    font-size: 0.9rem;
   }
 
   .catalogo__grid {

@@ -45,7 +45,13 @@ const { Content } = await render(producto);
       </div>
 
       <div class="producto__tags">
-        {tags.map((tag) => <span class="producto__tag">{tag}</span>)}
+        {
+          tags.map((tag) => (
+            <a href={`/catalogo/?tag=${encodeURIComponent(tag.replace(/^#/, ""))}`} class="producto__tag">
+              {tag}
+            </a>
+          ))
+        }
       </div>
 
       <a href={whatsappOrderLink(nombre)} class="boton boton--whatsapp" target="_blank" rel="noopener">
@@ -99,9 +105,15 @@ const { Content } = await render(producto);
 
   .producto__tag {
     font-size: 0.8rem;
+    text-decoration: none;
     background: var(--color-crema);
     color: var(--color-oro-quemado);
     padding: 0.25rem 0.6rem;
     border-radius: 999px;
+  }
+
+  .producto__tag:hover {
+    background: var(--color-amarillo-oro);
+    color: var(--color-marron-oscuro);
   }
 </style>
