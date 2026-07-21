@@ -77,11 +77,13 @@ const productoJsonLd = {
     </div>
 
     <div class="producto__info">
-      <span class:list={["insignia", disponible ? "insignia--disponible" : "insignia--pedido"]}>
-        {disponible ? "Disponible" : "Sobre pedido"}
-      </span>
-      <h1>{nombre}</h1>
-      <p class="producto__categoria">{categoria}</p>
+      <div class="producto__cabecera">
+        <span class:list={["insignia", disponible ? "insignia--disponible" : "insignia--pedido"]}>
+          {disponible ? "Disponible" : "Sobre pedido"}
+        </span>
+        <h1>{nombre}</h1>
+        <p class="producto__categoria">{categoria}</p>
+      </div>
 
       <div class="producto__descripcion">
         <Content />
@@ -97,9 +99,11 @@ const productoJsonLd = {
         }
       </div>
 
-      <a href={whatsappOrderLink(nombre)} class="boton boton--whatsapp" target="_blank" rel="noopener">
-        Pedir por WhatsApp
-      </a>
+      <div class="producto__acciones">
+        <a href={whatsappOrderLink(nombre)} class="boton boton--whatsapp" target="_blank" rel="noopener">
+          Pedir por WhatsApp
+        </a>
+      </div>
     </div>
   </main>
 </BaseLayout>
@@ -143,14 +147,19 @@ const productoJsonLd = {
 
   .producto__galeria {
     display: grid;
-    gap: 0.75rem;
+    align-content: start;
+    gap: 0.85rem;
+    background: #fff;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+    padding: 1rem;
   }
 
   .producto__imagen-principal img {
     width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: var(--radio);
+    border-radius: calc(var(--radio) - 4px);
   }
 
   .producto__miniaturas {
@@ -186,20 +195,58 @@ const productoJsonLd = {
     border-color: var(--color-amarillo-oro);
   }
 
+  .producto__info {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+    padding: 2rem;
+  }
+
+  .producto__cabecera {
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid rgba(96, 73, 50, 0.12);
+  }
+
+  .producto__cabecera h1 {
+    margin-top: 0.5rem;
+  }
+
   .producto__categoria {
     color: var(--color-gris-morado);
     font-weight: 700;
+    margin: 0;
   }
 
   .producto__descripcion {
-    margin: 1rem 0 1.25rem;
+    margin: 0 0 1.25rem;
   }
 
   .producto__tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-    margin-bottom: 1.75rem;
+  }
+
+  .producto__acciones {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(96, 73, 50, 0.12);
+  }
+
+  @media (max-width: 480px) {
+    .producto__acciones {
+      justify-content: stretch;
+    }
+
+    .producto__acciones .boton {
+      width: 100%;
+      justify-content: center;
+    }
   }
 
   .producto__tag {
