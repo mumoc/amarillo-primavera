@@ -39,70 +39,72 @@ const productoJsonLd = {
 <BaseLayout title={nombre} description={descripcionCorta} image={imagenOptimizada?.src}>
   <script type="application/ld+json" set:html={JSON.stringify(productoJsonLd)} />
   <main class="container producto">
-    <div class="producto__galeria" data-galeria>
-      <div class="producto__imagen-principal">
-        {
-          imagenes.map((imagen, i) => (
-            <Image
-              src={imagen}
-              alt={`${nombre} — foto ${i + 1}`}
-              width={640}
-              height={640}
-              loading={i === 0 ? "eager" : "lazy"}
-              data-galeria-principal
-              data-index={i}
-              hidden={i !== 0}
-            />
-          ))
-        }
-      </div>
-
-      {
-        imagenes.length > 1 && (
-          <div class="producto__miniaturas">
-            {imagenes.map((imagen, i) => (
-              <button
-                type="button"
-                class:list={["producto__miniatura", i === 0 && "producto__miniatura--activa"]}
-                data-galeria-miniatura
+    <div class="producto__card">
+      <div class="producto__galeria" data-galeria>
+        <div class="producto__imagen-principal">
+          {
+            imagenes.map((imagen, i) => (
+              <Image
+                src={imagen}
+                alt={`${nombre} — foto ${i + 1}`}
+                width={640}
+                height={640}
+                loading={i === 0 ? "eager" : "lazy"}
+                data-galeria-principal
                 data-index={i}
-                aria-label={`Ver foto ${i + 1} de ${nombre}`}
-              >
-                <Image src={imagen} alt="" width={140} height={140} loading="lazy" />
-              </button>
-            ))}
-          </div>
-        )
-      }
-    </div>
+                hidden={i !== 0}
+              />
+            ))
+          }
+        </div>
 
-    <div class="producto__info">
-      <div class="producto__cabecera">
-        <span class:list={["insignia", disponible ? "insignia--disponible" : "insignia--pedido"]}>
-          {disponible ? "Disponible" : "Sobre pedido"}
-        </span>
-        <h1>{nombre}</h1>
-        <p class="producto__categoria">{categoria}</p>
-      </div>
-
-      <div class="producto__descripcion">
-        <Content />
-      </div>
-
-      <div class="producto__tags">
         {
-          tags.map((tag) => (
-            <a href={`/catalogo/?tag=${encodeURIComponent(tag.replace(/^#/, ""))}`} class="producto__tag">
-              {tag}
-            </a>
-          ))
+          imagenes.length > 1 && (
+            <div class="producto__miniaturas">
+              {imagenes.map((imagen, i) => (
+                <button
+                  type="button"
+                  class:list={["producto__miniatura", i === 0 && "producto__miniatura--activa"]}
+                  data-galeria-miniatura
+                  data-index={i}
+                  aria-label={`Ver foto ${i + 1} de ${nombre}`}
+                >
+                  <Image src={imagen} alt="" width={140} height={140} loading="lazy" />
+                </button>
+              ))}
+            </div>
+          )
         }
       </div>
 
-      <div class="producto__acciones">
-        <a href={whatsappOrderLink(nombre)} class="boton boton--whatsapp" target="_blank" rel="noopener">
-          Pedir por WhatsApp
-        </a>
+      <div class="producto__info">
+        <div class="producto__cabecera">
+          <span class:list={["insignia", disponible ? "insignia--disponible" : "insignia--pedido"]}>
+            {disponible ? "Disponible" : "Sobre pedido"}
+          </span>
+          <h1>{nombre}</h1>
+          <p class="producto__categoria">{categoria}</p>
+        </div>
+
+        <div class="producto__descripcion">
+          <Content />
+        </div>
+
+        <div class="producto__tags">
+          {
+            tags.map((tag) => (
+              <a href={`/catalogo/?tag=${encodeURIComponent(tag.replace(/^#/, ""))}`} class="producto__tag">
+                {tag}
+              </a>
+            ))
+          }
+        </div>
+
+        <div class="producto__acciones">
+          <a href={whatsappOrderLink(nombre)} class="boton boton--whatsapp" target="_blank" rel="noopener">
+            Pedir por WhatsApp
+          </a>
+        </div>
       </div>
     </div>
   </main>
@@ -134,14 +136,22 @@ const productoJsonLd = {
 <style>
   .producto {
     padding: 2.5rem 0 4rem;
+  }
+
+  .producto__card {
     display: grid;
     grid-template-columns: 1.1fr 1fr;
-    gap: 2.5rem;
+    gap: 2rem;
+    background: #fff;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+    padding: 2rem;
   }
 
   @media (max-width: 760px) {
-    .producto {
+    .producto__card {
       grid-template-columns: 1fr;
+      padding: 1.25rem;
     }
   }
 
@@ -149,10 +159,6 @@ const productoJsonLd = {
     display: grid;
     align-content: start;
     gap: 0.85rem;
-    background: #fff;
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
-    padding: 1rem;
   }
 
   .producto__imagen-principal img {
@@ -198,10 +204,15 @@ const productoJsonLd = {
   .producto__info {
     display: flex;
     flex-direction: column;
-    background: #fff;
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
-    padding: 2rem;
+    border-left: 1px solid rgba(96, 73, 50, 0.12);
+    padding-left: 2rem;
+  }
+
+  @media (max-width: 760px) {
+    .producto__info {
+      border-left: none;
+      padding-left: 0;
+    }
   }
 
   .producto__cabecera {
