@@ -172,7 +172,8 @@ const productoJsonLd = {
   .producto__imagen-principal img {
     width: 100%;
     aspect-ratio: 1 / 1;
-    object-fit: cover;
+    object-fit: contain;
+    background: var(--color-crema);
     border-radius: calc(var(--radio) - 4px);
   }
 
@@ -188,7 +189,7 @@ const productoJsonLd = {
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
-    background: none;
+    background: var(--color-crema);
     line-height: 0;
     width: 100px;
     height: 100px;
@@ -198,7 +199,7 @@ const productoJsonLd = {
   .producto__miniatura img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .producto__miniatura:hover {
