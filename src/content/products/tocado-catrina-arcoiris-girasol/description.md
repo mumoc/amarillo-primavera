@@ -2,13 +2,14 @@
 nombre: Tocado Catrina Arcoíris con Girasol
 categoria: Coronas y diademas florales
 tags:
-  - "#AmarilloPrimavera"
-  - "#HechoAMano"
-  - "#CoronasDeFlores"
-  - "#DiademasArtesanales"
-  - "#AccesoriosFlorales"
-  - "#Catrina"
-disponible: true
+  - '#AmarilloPrimavera'
+  - '#HechoAMano'
+  - '#CoronasDeFlores'
+  - '#DiademasArtesanales'
+  - '#AccesoriosFlorales'
+  - '#Catrina'
+tono: ''
+disponible: false
 imagenes:
   - images/FlowerCrown_Catrina_RibbonRainbow_Sunflower_01.jpg
 ---
