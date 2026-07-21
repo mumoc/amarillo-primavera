@@ -1,18 +1,65 @@
 ---
-import { SITE_NAME } from "../config/site";
+import { Image } from "astro:assets";
+import { SITE_NAME, socialLinks, whatsappLink } from "../config/site";
+import Icon, { type IconName } from "./Icon.astro";
+import logo from "../assets/brand/logo.png";
 const anio = new Date().getFullYear();
+
+const etiquetaRed: Record<string, { nombre: string; icono: IconName }> = {
+  instagram: { nombre: "Instagram", icono: "instagram" },
+  facebook: { nombre: "Facebook", icono: "facebook" },
+};
 ---
 
 <footer class="footer">
   <div class="container footer__inner">
-    <p>{SITE_NAME} · Hecho a mano en Colima, México.</p>
-    <nav aria-label="Enlaces del pie de página">
-      <ul class="footer__nav">
+    <div class="footer__marca">
+      <a href="/" class="footer__logo">
+        <Image src={logo} alt={SITE_NAME} width={44} height={40} />
+        <span>{SITE_NAME}</span>
+      </a>
+      <p class="footer__tagline">Hecho a mano en Colima, México.</p>
+    </div>
+
+    <nav class="footer__col" aria-label="Enlaces del pie de página">
+      <h2 class="footer__titulo">Explora</h2>
+      <ul class="footer__lista">
         <li><a href="/catalogo/">Catálogo</a></li>
+        <li><a href="/como-pedir/">Cómo pedir</a></li>
         <li><a href="/sobre-la-marca/">Sobre la marca</a></li>
       </ul>
     </nav>
-    <p>&copy; {anio} {SITE_NAME}</p>
+
+    <div class="footer__col">
+      <h2 class="footer__titulo">Síguenos</h2>
+      {
+        socialLinks.length > 0 && (
+          <ul class="footer__redes" aria-label="Redes sociales">
+            {socialLinks.map(({ red, url }) => {
+              const meta = etiquetaRed[red];
+              return (
+                <li>
+                  <a href={url} target="_blank" rel="noopener" aria-label={meta?.nombre ?? red}>
+                    <Icon name={meta?.icono ?? "corazon"} size={22} />
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        )
+      }
+      <a href={whatsappLink()} class="footer__whatsapp" target="_blank" rel="noopener">
+        <Icon name="whatsapp" size={18} />
+        Pedir por WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div class="footer__barra">
+    <div class="container footer__barra-inner">
+      <p>&copy; {anio} {SITE_NAME}</p>
+      <p>Hecho con cariño 🌼</p>
+    </div>
   </div>
 </footer>
 
@@ -25,34 +72,140 @@ const anio = new Date().getFullYear();
   }
 
   .footer__inner {
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2.75rem 0 2.25rem;
+  }
+
+  .footer__logo {
+    display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem 2rem;
+    gap: 0.6rem;
+    text-decoration: none;
+    color: var(--color-crema-clara);
+    font-family: var(--font-titulos);
+    font-weight: 700;
+    font-size: 1.15rem;
+  }
+
+  .footer__tagline {
+    margin: 0.75rem 0 0;
     font-size: 0.9rem;
+    color: rgba(255, 250, 240, 0.75);
+    max-width: 24rem;
   }
 
-  .footer p {
-    margin: 0;
+  .footer__titulo {
+    font-family: var(--font-titulos);
+    font-size: 0.95rem;
+    color: var(--color-dorado-brillante);
+    margin: 0 0 0.9rem;
   }
 
-  .footer__nav {
+  .footer__lista {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.55rem;
     margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.92rem;
+  }
+
+  .footer__lista a {
+    text-decoration: none;
+    color: var(--color-crema-clara);
+  }
+
+  .footer__lista a:hover {
+    text-decoration: underline;
+  }
+
+  .footer__redes {
+    display: flex;
+    gap: 0.75rem;
+    margin: 0 0 1.1rem;
     padding: 0;
     list-style: none;
   }
 
-  .footer__nav a {
-    text-decoration: none;
-    font-weight: 700;
+  .footer__redes a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 999px;
+    color: var(--color-crema-clara);
+    border: 1px solid rgba(255, 250, 240, 0.3);
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
 
-  .footer__nav a:hover {
+  .footer__redes a:hover {
+    background: var(--color-amarillo-oro);
+    color: var(--color-marron-oscuro);
+    border-color: var(--color-amarillo-oro);
+  }
+
+  .footer__whatsapp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-dorado-brillante);
+  }
+
+  .footer__whatsapp:hover {
     text-decoration: underline;
+  }
+
+  .footer__barra {
+    border-top: 1px solid rgba(255, 250, 240, 0.15);
+  }
+
+  .footer__barra-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    padding: 1rem 0;
+    font-size: 0.82rem;
+    color: rgba(255, 250, 240, 0.7);
+  }
+
+  .footer__barra-inner p {
+    margin: 0;
+  }
+
+  @media (max-width: 640px) {
+    .footer__inner {
+      grid-template-columns: 1fr;
+      gap: 1.75rem;
+      text-align: center;
+    }
+
+    .footer__logo {
+      justify-content: center;
+    }
+
+    .footer__tagline {
+      margin-inline: auto;
+    }
+
+    .footer__lista {
+      align-items: center;
+    }
+
+    .footer__redes {
+      justify-content: center;
+    }
+
+    .footer__barra-inner {
+      justify-content: center;
+      text-align: center;
+    }
   }
 </style>

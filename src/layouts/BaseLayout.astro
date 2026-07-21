@@ -2,13 +2,14 @@
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import { SITE_NAME } from "../config/site";
+import { SITE_NAME, socialLinks } from "../config/site";
 
 interface Props {
   title: string;
   description?: string;
   image?: string;
   noindex?: boolean;
+  ogType?: "website" | "product" | "article";
 }
 
 const {
@@ -16,6 +17,7 @@ const {
   description = "Catálogo de productos artesanales de Amarillo Primavera, hechos a mano en Colima, México.",
   image = "/og-image.png",
   noindex = false,
+  ogType = "website",
 } = Astro.props;
 
 const tituloCompleto = title === SITE_NAME ? SITE_NAME : `${title} | ${SITE_NAME}`;
@@ -30,6 +32,7 @@ const organizacionJsonLd = {
   logo: new URL("/favicon-512.png", Astro.site).toString(),
   description: "Marca artesanal mexicana, hecha a mano en Colima. Muñecas de trapo, jabones, coronas florales y más.",
   areaServed: "MX",
+  ...(socialLinks.length > 0 ? { sameAs: socialLinks.map((s) => s.url) } : {}),
 };
 ---
 
@@ -48,7 +51,7 @@ const organizacionJsonLd = {
     <link rel="manifest" href="/site.webmanifest" />
     <meta name="theme-color" content="#e6a92e" />
 
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={SITE_NAME} />
     <meta property="og:title" content={tituloCompleto} />
     <meta property="og:description" content={description} />

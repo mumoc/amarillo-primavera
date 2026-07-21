@@ -1,0 +1,224 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Icon, { type IconName } from "../components/Icon.astro";
+import { whatsappLink } from "../config/site";
+import fotoProceso from "../content/products/corona-rosas-amarillo-dorado/images/FlowerCrown_Yellow_01.jpg";
+
+const pasos: { icono: IconName; titulo: string; texto: string }[] = [
+  {
+    icono: "lupa",
+    titulo: "Explora el catálogo",
+    texto:
+      "Date una vuelta por el catálogo y guarda la pieza que te robó el corazón. Recuerda: cada una es única, hecha a mano.",
+  },
+  {
+    icono: "chat",
+    titulo: "Escríbenos por WhatsApp",
+    texto:
+      "Desde cada producto hay un botón directo a WhatsApp con el nombre de la pieza. Cuéntanos cuál te gustó o qué tienes en mente.",
+  },
+  {
+    icono: "corazon-manos",
+    titulo: "Cotizamos juntos",
+    texto:
+      "Como todo es artesanal y a veces sobre pedido, acordamos por WhatsApp los detalles, el precio y los tiempos de tu pieza.",
+  },
+  {
+    icono: "camion",
+    titulo: "Entrega y pago",
+    texto:
+      "Entregamos en Colima y a veces hacemos envíos. El pago es por transferencia o en efectivo. ¡Y tu pedacito de primavera es tuyo!",
+  },
+];
+---
+
+<BaseLayout
+  title="Cómo pedir"
+  description="Pedir en Amarillo Primavera es fácil: explora el catálogo, escríbenos por WhatsApp y acordamos los detalles. Entrega en Colima, pago por transferencia o efectivo."
+>
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1>¿Cómo hago mi pedido?</h1>
+      <p class="hero__texto">
+        No tenemos carrito ni pagos en línea — y es a propósito. Cada pieza es hecha a mano, así que
+        preferimos platicar contigo por WhatsApp para cuidar cada detalle de tu pedido.
+      </p>
+    </div>
+  </section>
+
+  <main class="container pagina">
+    <ol class="pasos">
+      {
+        pasos.map((paso, i) => (
+          <li class="paso">
+            <span class="paso__numero">{i + 1}</span>
+            <span class="paso__icono">
+              <Icon name={paso.icono} size={30} />
+            </span>
+            <h2 class="paso__titulo">{paso.titulo}</h2>
+            <p class="paso__texto">{paso.texto}</p>
+          </li>
+        ))
+      }
+    </ol>
+
+    <section class="detalle">
+      <Image
+        src={fotoProceso}
+        alt="Corona de flores amarillas hecha a mano por Amarillo Primavera"
+        width={480}
+        height={480}
+        class="detalle__img"
+      />
+      <div class="detalle__texto">
+        <h2>Lo que debes saber</h2>
+        <ul class="detalle__lista">
+          <li>
+            <strong>Sin precios fijos:</strong> cotizamos por WhatsApp, porque cada pieza es distinta.
+          </li>
+          <li>
+            <strong>Hecho a mano / sobre pedido:</strong> algunas piezas están listas y otras las
+            hacemos para ti — te decimos los tiempos al momento.
+          </li>
+          <li>
+            <strong>Entrega en Colima</strong> · envíos ocasionales a otras partes, pregúntanos.
+          </li>
+          <li><strong>Pago:</strong> transferencia o efectivo.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="cta">
+      <a href="/catalogo/" class="boton boton--primario">Ver catálogo</a>
+      <a href={whatsappLink()} class="boton boton--whatsapp" target="_blank" rel="noopener">
+        <Icon name="whatsapp" size={20} />
+        Escríbenos por WhatsApp
+      </a>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(
+      160deg,
+      var(--color-crema-clara) 0%,
+      var(--color-crema) 60%,
+      #fdeec3 100%
+    );
+    padding: 3.5rem 0;
+  }
+
+  .hero__inner {
+    text-align: center;
+    max-width: 640px;
+  }
+
+  .hero__texto {
+    font-size: 1.05rem;
+  }
+
+  .pagina {
+    padding: 3rem 0 4rem;
+  }
+
+  .pasos {
+    list-style: none;
+    margin: 0 0 3.5rem;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .paso {
+    position: relative;
+    background: #fff;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+    padding: 2.25rem 1.5rem 1.75rem;
+    text-align: center;
+  }
+
+  .paso__numero {
+    position: absolute;
+    top: -0.9rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1.9rem;
+    height: 1.9rem;
+    display: grid;
+    place-items: center;
+    background: var(--color-amarillo-oro);
+    color: var(--color-marron-oscuro);
+    font-family: var(--font-titulos);
+    font-weight: 700;
+    border-radius: 999px;
+  }
+
+  .paso__icono {
+    display: inline-flex;
+    color: var(--color-oro-quemado);
+    margin-bottom: 0.6rem;
+  }
+
+  .paso__titulo {
+    font-size: 1.1rem;
+    margin: 0 0 0.5rem;
+  }
+
+  .paso__texto {
+    font-size: 0.92rem;
+    color: var(--color-gris-morado);
+    margin: 0;
+  }
+
+  .detalle {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+    align-items: center;
+    background: var(--color-crema);
+    border-radius: var(--radio);
+    padding: 2rem;
+  }
+
+  .detalle__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: var(--radio);
+    box-shadow: var(--sombra);
+  }
+
+  .detalle__texto h2 {
+    margin-top: 0;
+  }
+
+  .detalle__lista {
+    margin: 0;
+    padding-left: 1.1rem;
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  .detalle__lista li {
+    line-height: 1.5;
+  }
+
+  @media (max-width: 700px) {
+    .detalle {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+  }
+
+  .cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+</style>
