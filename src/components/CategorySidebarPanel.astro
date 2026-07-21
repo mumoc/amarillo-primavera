@@ -1,0 +1,97 @@
+---
+import CategorySidebar from "./CategorySidebar.astro";
+
+interface Props {
+  categorias: string[];
+  activa?: string;
+}
+
+const { categorias, activa } = Astro.props;
+---
+
+<div class="panel-categorias">
+  <button
+    type="button"
+    class="panel-categorias__toggle"
+    id="toggle-categorias"
+    aria-expanded="false"
+    aria-controls="lista-categorias"
+  >
+    <span>Filtrar por categoría</span>
+    <svg
+      class="panel-categorias__chevron"
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M6 9l6 6 6-6" />
+    </svg>
+  </button>
+
+  <div class="panel-categorias__lista" id="lista-categorias">
+    <CategorySidebar categorias={categorias} activa={activa} />
+  </div>
+</div>
+
+<script>
+  const boton = document.getElementById("toggle-categorias");
+  const lista = document.getElementById("lista-categorias");
+
+  if (boton && lista) {
+    boton.addEventListener("click", () => {
+      const abierto = lista.classList.toggle("panel-categorias__lista--abierta");
+      boton.classList.toggle("panel-categorias__toggle--activo", abierto);
+      boton.setAttribute("aria-expanded", String(abierto));
+    });
+  }
+</script>
+
+<style>
+  .panel-categorias__toggle {
+    display: none;
+  }
+
+  @media (max-width: 760px) {
+    .panel-categorias__toggle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      background: #fff;
+      border: 1px solid rgba(96, 73, 50, 0.15);
+      border-radius: var(--radio);
+      padding: 0.85rem 1.1rem;
+      font-family: var(--font-texto);
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--color-marron-oscuro);
+      cursor: pointer;
+      margin-bottom: 1rem;
+    }
+
+    .panel-categorias__chevron {
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    .panel-categorias__toggle--activo .panel-categorias__chevron {
+      transform: rotate(180deg);
+    }
+
+    .panel-categorias__lista {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease;
+    }
+
+    .panel-categorias__lista--abierta {
+      max-height: 700px;
+    }
+  }
+</style>

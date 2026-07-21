@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import ProductCard from "../../components/ProductCard.astro";
 import SearchBox from "../../components/SearchBox.astro";
-import CategorySidebar from "../../components/CategorySidebar.astro";
+import CategorySidebarPanel from "../../components/CategorySidebarPanel.astro";
 
 const productos = (await getCollection("products")).sort((a, b) =>
   a.data.nombre.localeCompare(b.data.nombre, "es"),
@@ -17,14 +17,14 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
   <main class="container catalogo">
     <h1>Catálogo</h1>
 
+    <SearchBox />
+
     <div class="catalogo__layout">
       <aside class="catalogo__sidebar">
-        <CategorySidebar categorias={categorias} />
+        <CategorySidebarPanel categorias={categorias} />
       </aside>
 
       <div class="catalogo__contenido">
-        <SearchBox />
-
         <p class="catalogo__conteo" id="conteo">{productos.length} productos</p>
         <p class="catalogo__filtro" id="filtro-activo" hidden>
           Mostrando resultados para <strong id="filtro-tag"></strong> —
@@ -74,11 +74,13 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
     grid-template-columns: 200px 1fr;
     gap: 2.5rem;
     align-items: start;
+    margin-top: 1.5rem;
   }
 
   @media (max-width: 760px) {
     .catalogo__layout {
       grid-template-columns: 1fr;
+      margin-top: 1rem;
     }
   }
 

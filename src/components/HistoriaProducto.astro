@@ -135,6 +135,7 @@ function numero(i: number): string {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+    min-width: 0;
   }
 
   /* Cabecera */
@@ -216,6 +217,7 @@ function numero(i: number): string {
     display: flex;
     flex-direction: column;
     gap: 3.5rem;
+    min-width: 0;
   }
 
   .etapa {
@@ -255,6 +257,7 @@ function numero(i: number): string {
     border-radius: var(--radio);
     box-shadow: var(--sombra);
     object-fit: cover;
+    min-width: 0;
   }
 
   .etapa__imagenes--una {
@@ -271,6 +274,7 @@ function numero(i: number): string {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    min-width: 0;
   }
 
   .etapa__imagenes--dos img {
@@ -339,9 +343,16 @@ function numero(i: number): string {
 
   .historia__galeria img {
     width: 100%;
+    min-width: 0;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: var(--radio);
     box-shadow: var(--sombra);
+  }
+
+  @media (max-width: 600px) {
+    .historia__galeria {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
