@@ -2,6 +2,7 @@
 import { getCollection, render } from "astro:content";
 import { Image, getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import HistoriaProducto from "../../components/HistoriaProducto.astro";
 import { whatsappOrderLink, SITE_NAME } from "../../config/site";
 
 export async function getStaticPaths() {
@@ -13,7 +14,7 @@ export async function getStaticPaths() {
 }
 
 const { producto } = Astro.props;
-const { nombre, categoria, tags, disponible, imagenes } = producto.data;
+const { nombre, categoria, tags, disponible, imagenes, historia } = producto.data;
 const { Content } = await render(producto);
 
 const descripcionCorta = `${nombre} — ${categoria}, una creación artesanal de Amarillo Primavera.`;
@@ -116,6 +117,8 @@ const productoJsonLd = {
       </div>
     </div>
   </main>
+
+  {historia && <HistoriaProducto historia={historia} />}
 </BaseLayout>
 
 <script>
