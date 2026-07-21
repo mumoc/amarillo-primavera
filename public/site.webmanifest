@@ -1,0 +1,21 @@
+{
+  "name": "Amarillo Primavera",
+  "short_name": "Amarillo Primavera",
+  "description": "Catálogo de productos artesanales hechos a mano en Colima, México.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf0",
+  "theme_color": "#e6a92e",
+  "icons": [
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

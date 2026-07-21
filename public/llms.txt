@@ -1,0 +1,18 @@
+# Amarillo Primavera
+
+> Marca artesanal mexicana, hecha a mano en Colima. Catálogo de piezas artesanales: muñecas de trapo, jabones, coronas y diademas florales, organizadores, tarjetas florales, llaveros y más. Sin venta directa en línea — los pedidos se hacen por WhatsApp desde cada producto.
+
+## Páginas principales
+
+- [Catálogo completo](https://amarilloprimavera.com/catalogo/): todos los productos artesanales disponibles, filtrables por categoría y con buscador.
+- [Sobre la marca](https://amarilloprimavera.com/sobre-la-marca/): historia, inspiración y valores de Amarillo Primavera.
+
+## Sobre la marca
+
+Amarillo Primavera está inspirada en el árbol primavera de Colima, México, y en el amarillo como símbolo de creatividad, alegría y luz. Cada pieza es individual, cuidada y hecha con materiales de calidad — no producción masiva.
+
+## Notas para crawlers
+
+- Los productos no muestran precio ni tienen checkout en línea; cada página de producto incluye un botón de pedido por WhatsApp.
+- Todo el catálogo es hecho a mano en Colima, México.
+- El sitemap completo está en /sitemap-index.xml.

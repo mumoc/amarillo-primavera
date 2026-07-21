@@ -36,7 +36,7 @@ const categoriasOrdenadas = [...categorias].sort((a, b) => a.localeCompare(b, "e
         <h2>{categoria}</h2>
         <p class="catalogo__conteo">{productos.length} productos</p>
         <div class="catalogo__grid">
-          {productos.map((producto) => <ProductCard producto={producto} />)}
+          {productos.map((producto, i) => <ProductCard producto={producto} prioridad={i < 4} />)}
         </div>
       </div>
     </div>

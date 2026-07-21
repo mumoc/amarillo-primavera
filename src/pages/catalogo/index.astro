@@ -32,7 +32,7 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
         </p>
 
         <div class="catalogo__grid" id="grid">
-          {productos.map((producto) => <ProductCard producto={producto} />)}
+          {productos.map((producto, i) => <ProductCard producto={producto} prioridad={i < 4} />)}
         </div>
       </div>
     </div>

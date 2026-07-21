@@ -1,8 +1,8 @@
 ---
 import { getCollection, render } from "astro:content";
-import { Image } from "astro:assets";
+import { Image, getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { whatsappOrderLink } from "../../config/site";
+import { whatsappOrderLink, SITE_NAME } from "../../config/site";
 
 export async function getStaticPaths() {
   const productos = await getCollection("products");
@@ -15,9 +15,29 @@ export async function getStaticPaths() {
 const { producto } = Astro.props;
 const { nombre, categoria, tags, disponible, imagenes } = producto.data;
 const { Content } = await render(producto);
+
+const descripcionCorta = `${nombre} — ${categoria}, una creación artesanal de Amarillo Primavera.`;
+
+const imagenOptimizada = imagenes[0]
+  ? await getImage({ src: imagenes[0], width: 640, height: 640 })
+  : null;
+
+const productoJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: nombre,
+  category: categoria,
+  description: producto.body?.trim().slice(0, 500) || descripcionCorta,
+  image: imagenOptimizada ? [new URL(imagenOptimizada.src, Astro.site).toString()] : undefined,
+  brand: { "@type": "Brand", name: SITE_NAME },
+  ...(disponible
+    ? { offers: { "@type": "Offer", availability: "https://schema.org/InStock", url: Astro.url.toString() } }
+    : {}),
+};
 ---
 
-<BaseLayout title={nombre} description={`${nombre} — ${categoria}, una creación artesanal de Amarillo Primavera.`}>
+<BaseLayout title={nombre} description={descripcionCorta} image={imagenOptimizada?.src}>
+  <script type="application/ld+json" set:html={JSON.stringify(productoJsonLd)} />
   <main class="container producto">
     <div class="producto__galeria" data-galeria>
       <div class="producto__imagen-principal">

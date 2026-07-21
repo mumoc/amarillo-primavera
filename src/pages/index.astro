@@ -69,7 +69,7 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
 <BaseLayout title="Inicio">
   <section class="hero">
     <div class="container hero__inner">
-      <Image src={logo} alt="Amarillo Primavera" width={140} height={128} />
+      <Image src={logo} alt="Amarillo Primavera" width={140} height={128} loading="eager" fetchpriority="high" />
       <h1>Un pedacito de primavera, hecho a mano</h1>
       <p class="hero__texto">
         Amarillo Primavera es una marca artesanal inspirada en el árbol primavera de Colima y en el
@@ -102,7 +102,7 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
   <section class="container destacados">
     <h2>Algunas piezas del catálogo</h2>
     <div class="destacados__grid">
-      {destacados.map((producto) => <ProductCard producto={producto} />)}
+      {destacados.map((producto) => <ProductCard producto={producto} prioridad />)}
     </div>
     <a href="/catalogo/" class="boton boton--secundario destacados__ver-mas">Ver todo el catálogo</a>
   </section>

@@ -4,9 +4,10 @@ import type { CollectionEntry } from "astro:content";
 
 interface Props {
   producto: CollectionEntry<"products">;
+  prioridad?: boolean;
 }
 
-const { producto } = Astro.props;
+const { producto, prioridad = false } = Astro.props;
 const { nombre, categoria, disponible, imagenes, tags } = producto.data;
 ---
 
@@ -24,6 +25,7 @@ const { nombre, categoria, disponible, imagenes, tags } = producto.data;
         alt={nombre}
         width={320}
         height={320}
+        loading={prioridad ? "eager" : "lazy"}
         class="tarjeta__imagen"
       />
     )
