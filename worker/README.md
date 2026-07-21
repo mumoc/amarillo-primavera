@@ -5,53 +5,66 @@ Cloudflare Worker que implementa el flujo de OAuth con GitHub para Sveltia CMS
 `/auth` redirige a GitHub, `/callback` intercambia el código por un token y se
 lo pasa de vuelta al admin vía `postMessage`.
 
-## Pasos para activarlo (requieren tu cuenta, no se pueden automatizar)
+## Estado: desplegado ✅
 
-### 1. Crear el GitHub OAuth App
+- Worker en vivo: `https://amarillo-primavera-cms-auth.mumo-crls.workers.dev`
+- GitHub OAuth App creado, `GITHUB_CLIENT_ID` en `wrangler.toml`, secretos
+  (`GITHUB_CLIENT_SECRET`, `AUTH_SECRET`) configurados con `wrangler secret put`
+- `public/admin/config.yml` ya apunta a esta URL
 
-En <https://github.com/settings/developers> → "New OAuth App":
+Falta solo: conectar el repo a Cloudflare Pages (ver `docs/deploy.md`) para
+que `/admin/` sea accesible en el sitio público, y probar el login real desde
+ahí.
 
-- **Application name:** Amarillo Primavera CMS
-- **Homepage URL:** `https://amarilloprimavera.com` (o la URL de preview de Cloudflare Pages mientras el dominio no esté conectado)
-- **Authorization callback URL:** `https://<nombre-del-worker>.<tu-subdominio>.workers.dev/callback`
-  (el subdominio lo asigna Cloudflare al desplegar por primera vez — puedes desplegar primero con un client_id de prueba, ver la URL asignada, y luego crear el OAuth App con esa URL)
+## Referencia — cómo se hizo (por si hay que rehacerlo o rotar credenciales)
 
-Guarda el **Client ID** y genera un **Client Secret**.
+### 1. Registrar el subdominio workers.dev de la cuenta (una sola vez)
 
-### 2. Autenticar wrangler con tu cuenta de Cloudflare
+Se hace desde el dashboard de Cloudflare la primera vez que se despliega un
+Worker en una cuenta nueva.
+
+### 2. Autenticar wrangler
 
 ```
 cd worker
 npx wrangler login
 ```
 
-### 3. Configurar el Client ID (no es secreto)
-
-Edita `wrangler.toml` y reemplaza `REEMPLAZAR_CON_CLIENT_ID` con el Client ID real.
-
-### 4. Configurar los secretos
+### 3. Desplegar una vez para obtener la URL asignada
 
 ```
-npx wrangler secret put GITHUB_CLIENT_SECRET
-npx wrangler secret put AUTH_SECRET   # cualquier cadena aleatoria larga, ej: openssl rand -hex 32
-```
-
-### 5. Desplegar
-
-```
-npm install
 npx wrangler deploy
 ```
 
-Wrangler imprime la URL final (`https://amarillo-primavera-cms-auth.<subdominio>.workers.dev`).
+### 4. Crear el GitHub OAuth App
 
-### 6. Conectar la URL del Worker al CMS
+En <https://github.com/settings/developers> → "New OAuth App", usando la URL
+del paso 3:
 
-Edita `public/admin/config.yml` en la raíz del repo y reemplaza `base_url` con
-la URL real del Worker. Vuelve a desplegar el sitio (push a `main`).
+- **Homepage URL:** `https://amarilloprimavera.com`
+- **Authorization callback URL:** `https://<worker>.<subdominio>.workers.dev/callback`
 
-### 7. Probar
+### 5. Configurar credenciales
 
-Abre `https://amarilloprimavera.com/admin/` (o la URL de preview), inicia
-sesión con GitHub y confirma que se ve la colección "Productos" con los 120
-productos migrados.
+- `GITHUB_CLIENT_ID` va en `wrangler.toml` (no es secreto).
+- `GITHUB_CLIENT_SECRET` y `AUTH_SECRET` se configuran con:
+
+  ```
+  npx wrangler secret put GITHUB_CLIENT_SECRET
+  npx wrangler secret put AUTH_SECRET   # cadena aleatoria: openssl rand -hex 32
+  ```
+
+### 6. Redesplegar y conectar el CMS
+
+```
+npx wrangler deploy
+```
+
+Actualizar `base_url` en `public/admin/config.yml` con la URL del Worker y
+hacer push a `main`.
+
+### 7. Rotar credenciales si hace falta
+
+Si el Client Secret se expone accidentalmente (ej. se comparte en texto
+plano), regenerarlo en GitHub y volver a correr `wrangler secret put
+GITHUB_CLIENT_SECRET` con el nuevo valor.

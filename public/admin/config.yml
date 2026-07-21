@@ -2,9 +2,7 @@ backend:
   name: github
   repo: mumoc/amarillo-primavera
   branch: main
-  # Reemplazar con la URL real del Worker una vez desplegado (Fase 6),
-  # ej. https://amarillo-primavera-cms-auth.<subdominio>.workers.dev
-  base_url: "https://REEMPLAZAR-CON-URL-DEL-WORKER.workers.dev"
+  base_url: "https://amarillo-primavera-cms-auth.mumo-crls.workers.dev"
   auth_endpoint: auth
 
 media_folder: ""
