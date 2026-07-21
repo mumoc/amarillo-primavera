@@ -1,0 +1,61 @@
+---
+import { Image } from "astro:assets";
+import logo from "../assets/brand/logo.png";
+import { SITE_NAME } from "../config/site";
+---
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="/" class="header__marca">
+      <Image src={logo} alt={SITE_NAME} width={48} height={44} />
+      <span>{SITE_NAME}</span>
+    </a>
+    <nav class="header__nav">
+      <a href="/catalogo/">Catálogo</a>
+      <a href="/sobre-la-marca/">Sobre la marca</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .header {
+    background: var(--color-crema-clara);
+    border-bottom: 1px solid rgba(96, 73, 50, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.85rem 0;
+  }
+
+  .header__marca {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    text-decoration: none;
+    font-family: var(--font-titulos);
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--color-marron-oscuro);
+  }
+
+  .header__nav {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+  }
+
+  .header__nav a {
+    text-decoration: none;
+  }
+
+  .header__nav a:hover {
+    color: var(--color-oro-quemado);
+  }
+</style>

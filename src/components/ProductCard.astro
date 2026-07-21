@@ -1,0 +1,70 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  producto: CollectionEntry<"products">;
+}
+
+const { producto } = Astro.props;
+const { nombre, categoria, disponible, imagenes } = producto.data;
+---
+
+<a href={`/productos/${producto.id}/`} class="tarjeta">
+  {
+    imagenes[0] && (
+      <Image
+        src={imagenes[0]}
+        alt={nombre}
+        width={320}
+        height={320}
+        class="tarjeta__imagen"
+      />
+    )
+  }
+  <div class="tarjeta__info">
+    <span class:list={["insignia", disponible ? "insignia--disponible" : "insignia--pedido"]}>
+      {disponible ? "Disponible" : "Sobre pedido"}
+    </span>
+    <h3 class="tarjeta__nombre">{nombre}</h3>
+    <p class="tarjeta__categoria">{categoria}</p>
+  </div>
+</a>
+
+<style>
+  .tarjeta {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: #fff;
+    border-radius: var(--radio);
+    overflow: hidden;
+    box-shadow: var(--sombra);
+    transition: transform 0.15s ease;
+  }
+
+  .tarjeta:hover {
+    transform: translateY(-3px);
+  }
+
+  .tarjeta__imagen {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .tarjeta__info {
+    padding: 0.9rem 1rem 1.1rem;
+  }
+
+  .tarjeta__nombre {
+    font-size: 1.05rem;
+    margin: 0.4rem 0 0.15rem;
+  }
+
+  .tarjeta__categoria {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--color-gris-morado);
+  }
+</style>

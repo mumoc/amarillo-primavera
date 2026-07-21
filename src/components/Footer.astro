@@ -1,0 +1,32 @@
+---
+import { SITE_NAME } from "../config/site";
+const anio = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>{SITE_NAME} · Hecho a mano en Colima, México.</p>
+    <p>&copy; {anio} {SITE_NAME}</p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--color-marron-oscuro);
+    color: var(--color-crema-clara);
+    margin-top: 4rem;
+  }
+
+  .footer__inner {
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+</style>

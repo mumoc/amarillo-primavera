@@ -7,21 +7,31 @@
   --color-oro-quemado: #a86924;
   --color-dorado-brillante: #f2ce38;
   --color-crema: #f6eed3;
+  --color-crema-clara: #fffaf0;
   --color-gris-morado: #7e7c8a;
+  --color-verde-disponible: #4b7f52;
 
   --font-titulos: "Fraunces Variable", serif;
   --font-texto: "Nunito Sans Variable", sans-serif;
+
+  --radio: 12px;
+  --sombra: 0 4px 16px rgba(96, 73, 50, 0.12);
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  background: var(--color-crema);
+  background: var(--color-crema-clara);
   color: var(--color-marron-oscuro);
   font-family: var(--font-texto);
+  line-height: 1.5;
 }
 
 h1,
@@ -30,4 +40,77 @@ h3,
 h4 {
   font-family: var(--font-titulos);
   font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  width: min(1160px, calc(100% - 2.5rem));
+  margin-inline: auto;
+}
+
+.boton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-texto);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.boton:hover {
+  transform: translateY(-1px);
+}
+
+.boton--whatsapp {
+  background: #25d366;
+  color: #08331b;
+}
+
+.boton--primario {
+  background: var(--color-amarillo-oro);
+  color: var(--color-marron-oscuro);
+}
+
+.boton--secundario {
+  background: transparent;
+  color: var(--color-marron-oscuro);
+  border: 1.5px solid var(--color-marron-oscuro);
+}
+
+.insignia {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+}
+
+.insignia--disponible {
+  background: rgba(75, 127, 82, 0.14);
+  color: var(--color-verde-disponible);
+}
+
+.insignia--pedido {
+  background: rgba(168, 105, 36, 0.14);
+  color: var(--color-oro-quemado);
 }

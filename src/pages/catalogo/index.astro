@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProductCard from "../../components/ProductCard.astro";
+
+const productos = (await getCollection("products")).sort((a, b) =>
+  a.data.nombre.localeCompare(b.data.nombre, "es"),
+);
+---
+
+<BaseLayout title="Catálogo" description="Todo el catálogo de productos artesanales de Amarillo Primavera.">
+  <main class="container catalogo">
+    <h1>Catálogo</h1>
+    <p class="catalogo__conteo">{productos.length} productos</p>
+    <div class="catalogo__grid">
+      {productos.map((producto) => <ProductCard producto={producto} />)}
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .catalogo {
+    padding: 2.5rem 0 3rem;
+  }
+
+  .catalogo__conteo {
+    color: var(--color-gris-morado);
+    margin-bottom: 1.5rem;
+  }
+
+  .catalogo__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1.5rem;
+  }
+</style>

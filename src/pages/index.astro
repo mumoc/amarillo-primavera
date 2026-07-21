@@ -2,37 +2,85 @@
 import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
+import ProductCard from "../components/ProductCard.astro";
+import logo from "../assets/brand/logo.png";
 
 const productos = await getCollection("products");
+const destacados = productos.slice(0, 8);
 ---
 
-<BaseLayout title="Catálogo">
-  <main style="max-width: 1100px; margin: 0 auto; padding: 2rem 1rem;">
-    <h1>Catálogo — Amarillo Primavera</h1>
-    <p>{productos.length} productos migrados.</p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem;">
-      {
-        productos.map((producto) => (
-          <a
-            href={`/productos/${producto.id}/`}
-            style="text-decoration: none; color: inherit;"
-          >
-            {producto.data.imagenes[0] && (
-              <Image
-                src={producto.data.imagenes[0]}
-                alt={producto.data.nombre}
-                width={220}
-                height={220}
-                style="width: 100%; height: 220px; object-fit: cover; border-radius: 8px;"
-              />
-            )}
-            <h3>{producto.data.nombre}</h3>
-            <p style="font-size: 0.85rem; opacity: 0.8;">
-              {producto.data.categoria} · {producto.data.disponible ? "Disponible" : "Sobre pedido"}
-            </p>
-          </a>
-        ))
-      }
+<BaseLayout title="Inicio">
+  <section class="hero">
+    <div class="container hero__inner">
+      <Image src={logo} alt="Amarillo Primavera" width={140} height={128} />
+      <h1>Un pedacito de primavera, hecho a mano</h1>
+      <p class="hero__texto">
+        Amarillo Primavera es una marca artesanal inspirada en el árbol primavera de Colima y en el
+        amarillo como símbolo de creatividad, alegría y luz. Piezas individuales, cuidadas, hechas con
+        cariño — no producción masiva, sino objetos con historia y calidez.
+      </p>
+      <div class="hero__botones">
+        <a href="/catalogo/" class="boton boton--primario">Ver catálogo</a>
+        <a href="/sobre-la-marca/" class="boton boton--secundario">Sobre la marca</a>
+      </div>
     </div>
-  </main>
+  </section>
+
+  <section class="container destacados">
+    <h2>Algunas piezas del catálogo</h2>
+    <div class="destacados__grid">
+      {destacados.map((producto) => <ProductCard producto={producto} />)}
+    </div>
+    <a href="/catalogo/" class="boton boton--secundario destacados__ver-mas">Ver todo el catálogo</a>
+  </section>
 </BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(
+      160deg,
+      var(--color-crema-clara) 0%,
+      var(--color-crema) 60%,
+      #fdeec3 100%
+    );
+    padding: 3.5rem 0;
+  }
+
+  .hero__inner {
+    text-align: center;
+    max-width: 640px;
+  }
+
+  .hero__inner :global(img) {
+    margin: 0 auto 1.25rem;
+  }
+
+  .hero__texto {
+    font-size: 1.05rem;
+  }
+
+  .hero__botones {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+
+  .destacados {
+    padding: 3rem 0;
+  }
+
+  .destacados__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .destacados__ver-mas {
+    display: block;
+    width: fit-content;
+    margin-inline: auto;
+  }
+</style>
