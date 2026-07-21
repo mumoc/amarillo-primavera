@@ -1,5 +1,5 @@
 {
-  "name": "amarillo-primavera",
+  "name": "amarillo-primavera-cms-auth",
   "compatibility_date": "2026-07-01",
   "assets": {
     "directory": "./dist"
