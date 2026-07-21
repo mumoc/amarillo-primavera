@@ -22,7 +22,9 @@ const { title, description = "Catálogo de productos artesanales de Amarillo Pri
   </head>
   <body>
     <Header />
-    <slot />
+    <div class="page-content">
+      <slot />
+    </div>
     <Footer />
   </body>
 </html>
