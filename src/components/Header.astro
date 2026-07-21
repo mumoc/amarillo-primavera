@@ -10,12 +10,47 @@ import { SITE_NAME } from "../config/site";
       <Image src={logo} alt={SITE_NAME} width={48} height={44} loading="eager" />
       <span>{SITE_NAME}</span>
     </a>
-    <nav class="header__nav">
+
+    <button
+      type="button"
+      class="header__toggle"
+      id="header-toggle"
+      aria-expanded="false"
+      aria-controls="header-nav"
+      aria-label="Abrir menú"
+    >
+      <span class="header__toggle-linea"></span>
+      <span class="header__toggle-linea"></span>
+      <span class="header__toggle-linea"></span>
+    </button>
+
+    <nav class="header__nav" id="header-nav">
       <a href="/catalogo/">Catálogo</a>
       <a href="/sobre-la-marca/">Sobre la marca</a>
     </nav>
   </div>
 </header>
+
+<script>
+  const boton = document.getElementById("header-toggle");
+  const menu = document.getElementById("header-nav");
+
+  if (boton && menu) {
+    boton.addEventListener("click", () => {
+      const abierto = menu.classList.toggle("header__nav--abierto");
+      boton.classList.toggle("header__toggle--activo", abierto);
+      boton.setAttribute("aria-expanded", String(abierto));
+    });
+
+    menu.querySelectorAll("a").forEach((enlace) => {
+      enlace.addEventListener("click", () => {
+        menu.classList.remove("header__nav--abierto");
+        boton.classList.remove("header__toggle--activo");
+        boton.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+</script>
 
 <style>
   .header {
@@ -57,5 +92,68 @@ import { SITE_NAME } from "../config/site";
 
   .header__nav a:hover {
     color: var(--color-oro-quemado);
+  }
+
+  .header__toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .header__toggle-linea {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--color-marron-oscuro);
+    border-radius: 2px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .header__toggle--activo .header__toggle-linea:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .header__toggle--activo .header__toggle-linea:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header__toggle--activo .header__toggle-linea:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  @media (max-width: 640px) {
+    .header__toggle {
+      display: flex;
+    }
+
+    .header__nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      gap: 0;
+      background: var(--color-crema-clara);
+      border-bottom: 1px solid rgba(96, 73, 50, 0.1);
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease;
+    }
+
+    .header__nav--abierto {
+      max-height: 200px;
+    }
+
+    .header__nav a {
+      padding: 0.9rem 1.25rem;
+      border-top: 1px solid rgba(96, 73, 50, 0.08);
+    }
   }
 </style>
