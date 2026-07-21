@@ -1,0 +1,33 @@
+@import "@fontsource-variable/fraunces";
+@import "@fontsource-variable/nunito-sans";
+
+:root {
+  --color-amarillo-oro: #e6a92e;
+  --color-marron-oscuro: #604932;
+  --color-oro-quemado: #a86924;
+  --color-dorado-brillante: #f2ce38;
+  --color-crema: #f6eed3;
+  --color-gris-morado: #7e7c8a;
+
+  --font-titulos: "Fraunces Variable", serif;
+  --font-texto: "Nunito Sans Variable", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--color-crema);
+  color: var(--color-marron-oscuro);
+  font-family: var(--font-texto);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-titulos);
+  font-weight: 600;
+}
