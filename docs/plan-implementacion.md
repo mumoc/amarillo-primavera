@@ -28,6 +28,25 @@
 | Orden de lanzamiento | Todo junto: sitio público + CMS se lanzan al mismo tiempo, no por etapas |
 | Canal de pedido (CTA de producto) | WhatsApp click-to-chat, mensaje prellenado con el nombre del producto |
 
+## Estado
+
+| Fase | Estado |
+|---|---|
+| 0 — Higiene del repo | ✅ Completa |
+| 1 — Astro + Content Collections | ✅ Completa |
+| 2 — Páginas del sitio | ✅ Completa |
+| 3 — Tags y filtrado | ✅ Completa |
+| 4 — Buscador Fuse.js | ✅ Completa |
+| 5 — Blog | Diferida |
+| 6 — CMS Sveltia + OAuth Worker | ✅ Código completo — falta activar (ver `worker/README.md`) |
+| 7 — Deploy Cloudflare Pages + dominio | ⏳ Requiere acción manual en el dashboard de Cloudflare — ver `docs/deploy.md` |
+| 8 — Skills de Claude Code | ✅ Completa |
+
+Pendientes que requieren tu cuenta/sesión (no automatizables): crear el GitHub
+OAuth App, `wrangler login`, desplegar el Worker, conectar el repo a
+Cloudflare Pages, conectar el dominio. Todo documentado paso a paso en
+`docs/deploy.md` y `worker/README.md`.
+
 ## Fases
 
 ### Fase 0 — Higiene del repo (bloqueante)
