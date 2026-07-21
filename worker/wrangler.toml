@@ -1,0 +1,13 @@
+name = "amarillo-primavera-cms-auth"
+main = "src/index.ts"
+compatibility_date = "2026-07-01"
+
+# No secreto — se usa en la URL de autorización, es público por diseño.
+# Reemplaza con el Client ID real después de crear el GitHub OAuth App.
+[vars]
+GITHUB_CLIENT_ID = "REEMPLAZAR_CON_CLIENT_ID"
+
+# Secretos (no van aquí, se configuran con `wrangler secret put`):
+#   GITHUB_CLIENT_SECRET  — Client Secret del GitHub OAuth App
+#   AUTH_SECRET           — cualquier cadena aleatoria larga, ej:
+#                            openssl rand -hex 32

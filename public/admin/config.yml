@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: mumoc/amarillo-primavera
+  branch: main
+  # Reemplazar con la URL real del Worker una vez desplegado (Fase 6),
+  # ej. https://amarillo-primavera-cms-auth.<subdominio>.workers.dev
+  base_url: "https://REEMPLAZAR-CON-URL-DEL-WORKER.workers.dev"
+  auth_endpoint: auth
+
+media_folder: ""
+public_folder: ""
+
+collections:
+  - name: "products"
+    label: "Productos"
+    label_singular: "Producto"
+    folder: "src/content/products"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    path: "{{slug}}/description"
+    media_folder: "images"
+    public_folder: ""
+    identifier_field: nombre
+    summary: "{{nombre}} — {{categoria}}"
+    fields:
+      - { label: "Nombre", name: "nombre", widget: "string" }
+      - { label: "Categoría", name: "categoria", widget: "string" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["#AmarilloPrimavera", "#HechoAMano", "#Artesanal"]
+      - label: "Tono especial (opcional)"
+        name: "tono"
+        widget: "text"
+        required: false
+        hint: "Solo si el producto rompe con la voz por defecto — ver brand/sub-brand-tone.md"
+      - label: "Disponible"
+        name: "disponible"
+        widget: "boolean"
+        default: true
+        hint: "Aunque no haya existencia, el producto sigue siendo pedible por WhatsApp — este campo solo cambia la insignia que se muestra."
+      - label: "Imágenes"
+        name: "imagenes"
+        widget: "list"
+        hint: "El orden de la lista es el orden en que se muestran en la galería."
+        field: { label: "Imagen", name: "imagen", widget: "image" }
+      - { label: "Descripción", name: "body", widget: "markdown" }
