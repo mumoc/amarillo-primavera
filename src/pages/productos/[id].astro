@@ -48,7 +48,7 @@ const { Content } = await render(producto);
                 data-index={i}
                 aria-label={`Ver foto ${i + 1} de ${nombre}`}
               >
-                <Image src={imagen} alt="" width={96} height={96} loading="lazy" />
+                <Image src={imagen} alt="" width={140} height={140} loading="lazy" />
               </button>
             ))}
           </div>
@@ -147,8 +147,8 @@ const { Content } = await render(producto);
     cursor: pointer;
     background: none;
     line-height: 0;
-    width: 64px;
-    height: 64px;
+    width: 100px;
+    height: 100px;
     flex-shrink: 0;
   }
 
