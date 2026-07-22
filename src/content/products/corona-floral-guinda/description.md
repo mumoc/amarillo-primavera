@@ -2,15 +2,20 @@
 nombre: Corona Floral Guinda
 categoria: Coronas y diademas florales
 tags:
-  - "#AmarilloPrimavera"
-  - "#HechoAMano"
-  - "#CoronasDeFlores"
-  - "#DiademasArtesanales"
-  - "#AccesoriosFlorales"
-  - "#EstiloMexicano"
+  - '#AmarilloPrimavera'
+  - '#HechoAMano'
+  - '#CoronasDeFlores'
+  - '#DiademasArtesanales'
+  - '#AccesoriosFlorales'
+  - '#EstiloMexicano'
+tono: ''
 disponible: true
 imagenes:
-  - images/FlowerCrown_DarkFloral_Model_01.jpg
+  - corona 5.jpg
+  - corona 2.jpg
+  - corona.jpg
+  - corona 3.jpg
+  - corona 4.jpg
 ---
 
 Nuestra Corona Floral nació para una ocasión muy especial: una fiesta de disfraces en la que queríamos crear una pieza única para alguien muy cercano a nuestra familia. Sabíamos que no sería una corona cualquiera; debía reflejar su personalidad elegante, auténtica y llena de carácter.
