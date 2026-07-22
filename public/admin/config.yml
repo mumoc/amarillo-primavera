@@ -42,5 +42,10 @@ collections:
         name: "imagenes"
         widget: "list"
         hint: "El orden de la lista es el orden en que se muestran en la galería."
-        field: { label: "Imagen", name: "imagen", widget: "image" }
+        field:
+          label: "Imagen"
+          name: "imagen"
+          widget: "image"
+          media_folder: "images"
+          public_folder: "images"
       - { label: "Descripción", name: "body", widget: "markdown" }
