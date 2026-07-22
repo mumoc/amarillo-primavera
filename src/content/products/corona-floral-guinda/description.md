@@ -11,8 +11,8 @@ tags:
 tono: ''
 disponible: true
 imagenes:
-  - corona 5.jpg
   - corona 2.jpg
+  - corona 5.jpg
   - corona.jpg
   - corona 3.jpg
   - corona 4.jpg
