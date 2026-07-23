@@ -1,5 +1,5 @@
 ---
-nombre: Corona Navideña Nochebuena y Dorado
+nombre: Corona Navideña
 categoria: Decoración navideña
 tags:
   - "#AmarilloPrimavera"
