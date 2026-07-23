@@ -1,5 +1,5 @@
 ---
-nombre: Canasta de Rosas Rosa y Morado
+nombre: Canasta de Rosas de Jabón
 categoria: Arreglos florales
 tags:
   - "#AmarilloPrimavera"
