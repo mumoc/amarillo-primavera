@@ -13,4 +13,4 @@ imagenes:
   - images/RagDoll_Overalls_Curly_01.jpg
 ---
 
-Muñeca Marien de coletas rubias y rizadas, vestida con un overol a rayas, fresca y juguetona. Una pieza sencilla y entrañable, perfecta para los amantes de lo clásico con un toque artesanal. Hecha a mano con cariño.
+Muñeca de coletas rubias y rizadas, vestida con un overol a rayas, fresca y juguetona. Una pieza sencilla y entrañable, perfecta para los amantes de lo clásico con un toque artesanal. Hecha a mano con cariño.

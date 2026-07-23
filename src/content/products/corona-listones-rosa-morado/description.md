@@ -1,5 +1,5 @@
 ---
-nombre: Corona Listones Rosa y Morado
+nombre: Guare Michoacana
 categoria: Coronas y diademas florales
 tags:
   - "#AmarilloPrimavera"

@@ -14,4 +14,4 @@ imagenes:
   - images/RagDoll_PolkaDot_RedBag_02.jpg
 ---
 
-Muñeca Marien con un vestido rojo de lunares, sombrero café y un bolso rojo a juego. Una pieza llena de estilo y carácter, hecha a mano con mucho detalle. Ideal para regalar o coleccionar.
+Muñeca con un vestido rojo de lunares, sombrero café y un bolso rojo a juego. Una pieza llena de estilo y carácter, hecha a mano con mucho detalle. Ideal para regalar o coleccionar.

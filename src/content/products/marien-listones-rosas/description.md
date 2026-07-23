@@ -13,4 +13,4 @@ imagenes:
   - images/RagDoll_PinkFlower_BlackFloral_01.jpg
 ---
 
-Muñeca Marien con listones rosas en el cabello, una flor rosa en la cintura, falda floral en blanco y negro y zapatitos rosas. Un conjunto dulce y coqueto, armado con mucho detalle y cariño. Ideal como regalo lleno de color.
+Muñeca con listones rosas en el cabello, una flor rosa en la cintura, falda floral en blanco y negro y zapatitos rosas. Un conjunto dulce y coqueto, armado con mucho detalle y cariño. Ideal como regalo lleno de color.

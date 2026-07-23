@@ -13,4 +13,4 @@ imagenes:
   - images/RagDoll_Gardener_SunHat_01.jpg
 ---
 
-Muñeca Marien de cabello rubio de estambre, con sombrero de paja adornado con un girasol y vestido floral. Una pieza luminosa que evoca tardes de jardín y sol primaveral. Hecha a mano con mucho cariño.
+Muñeca de cabello rubio de estambre, con sombrero de paja adornado con un girasol y vestido floral. Una pieza luminosa que evoca tardes de jardín y sol primaveral. Hecha a mano con mucho cariño.
