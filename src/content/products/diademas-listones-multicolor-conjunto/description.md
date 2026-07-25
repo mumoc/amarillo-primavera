@@ -1,6 +1,6 @@
 ---
 nombre: Diademas de Listones
-categoria: Coronas y diademas
+categoria: Coronas y diademas florales
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

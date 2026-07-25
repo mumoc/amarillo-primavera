@@ -1,6 +1,6 @@
 ---
 nombre: Guare Michoacana
-categoria: Coronas y diademas florales
+categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
