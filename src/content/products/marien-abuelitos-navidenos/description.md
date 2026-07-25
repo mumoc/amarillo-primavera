@@ -1,5 +1,5 @@
 ---
-nombre: Abuelitos Navideños
+nombre: Pareja Escandinava
 categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"

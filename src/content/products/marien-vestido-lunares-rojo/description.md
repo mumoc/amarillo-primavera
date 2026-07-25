@@ -1,6 +1,6 @@
 ---
 nombre: Corona Rosa
-categoria: Muñecas
+categoria: Coronas y diademas florales
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
