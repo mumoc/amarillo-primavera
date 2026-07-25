@@ -1,6 +1,6 @@
 ---
-nombre: Vestido Bordado Crema
-categoria: Muñecas
+nombre: Kits de Cuidado Personal
+categoria: Jabones
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

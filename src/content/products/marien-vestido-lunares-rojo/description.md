@@ -1,5 +1,5 @@
 ---
-nombre: Vestido de Lunares
+nombre: Corona Rosa
 categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"

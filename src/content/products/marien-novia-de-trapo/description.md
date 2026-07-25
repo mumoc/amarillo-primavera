@@ -1,5 +1,5 @@
 ---
-nombre: Novia de Trapo
+nombre: Colimota
 categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"

@@ -10,7 +10,6 @@ tags:
   - "#AmarilloPrimavera"
 disponible: true
 imagenes:
-  - images/Soap_RoseStick_Pink_01.jpg
   - images/Soap_RoseStick_Pink_02.jpg
 ---
 

@@ -1,5 +1,5 @@
 ---
-nombre: Sombrerito de Girasol
+nombre: Frida Flores Rosas
 categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
