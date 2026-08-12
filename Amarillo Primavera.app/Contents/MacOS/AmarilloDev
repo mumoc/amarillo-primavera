@@ -1,0 +1,5 @@
+#!/bin/bash
+osascript -e 'tell application "Terminal"
+    activate
+    do script "cd \"/Users/moshi/projects/amarillo-primavera\" && ./start-dev.command"
+end tell'
