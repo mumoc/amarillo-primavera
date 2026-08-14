@@ -9,8 +9,7 @@ tags:
   - "#TradicionMexicana"
   - "#RegalosArtesanales"
 disponible: true
-imagenes:
-  - images/RagDoll_FloralCrown_DarkHair_01.jpg
+imagenes: []
 ---
 
 Muñeca con una delicada corona de flores rosas, collar de cuentas y falda floral, una combinación llena de color y ternura. Cada detalle está pensado para recordar la dulzura de las muñecas de la abuela. Perfecta para regalar o coleccionar.
