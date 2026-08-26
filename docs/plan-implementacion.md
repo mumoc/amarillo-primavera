@@ -1,6 +1,6 @@
 # Plan de Implementación — Sitio Amarillo Primavera
 
-Última actualización: 2026-07-21 — **sitio en vivo en producción.**
+Última actualización: 2026-08-26 — **sitio en vivo en producción.**
 
 ## Stack decidido
 
@@ -43,12 +43,18 @@
 | 8 — Skills de Claude Code | ✅ Completa |
 
 **Todas las fases del lanzamiento inicial están completas.** Sitio en vivo en
-`https://amarilloprimavera.com`: home, catálogo (120 productos), páginas por
+`https://amarilloprimavera.com`: home, catálogo (77 productos), páginas por
 categoría, buscador, CTA de WhatsApp, y `/admin/` (Sveltia CMS) con login por
 GitHub funcionando vía el Worker de OAuth
 (`amarillo-primavera-cms-auth.mumo-crls.workers.dev`).
 
 Solo Fase 5 (blog) queda diferida, como se decidió.
+
+Verificación del 2026-08-26: `main` sincronizado con `origin/main`, árbol
+limpio, y el último commit desplegado (los productos eliminados dan 404 en
+vivo). El catálogo del repo y el de producción coinciden: 77 productos en
+`src/content/products/` y 77 en `/productos-buscar.json`. El build local
+genera 93 páginas.
 
 ### Bug encontrado y resuelto durante el deploy
 
@@ -63,12 +69,44 @@ assets estáticos puros. Se agregó `wrangler.jsonc` con
 mismo comportamiento estático verificado en local. Verificado con `wrangler
 deploy` manual y confirmado con el redeploy automático subsecuente.
 
+### Toolchain local (resuelto el 2026-08-26)
+
+`npm run dev` y `npm run build` fallaban en local con
+`Node.js v20.20.2 is not supported by Astro! Please upgrade to ">=22.12.0"`.
+Causa: `mise.toml` fijaba solo `npm`, no Node, así que se usaba el Node 20 del
+sistema. Producción nunca se vio afectada porque Cloudflare compila con su
+propio Node. Correcciones:
+
+- `mise.toml` ahora fija `node = "22"`. Se quitó el `npm = "latest"`: era un pin
+  flotante que arrastraba npm 12, el cual bloquea los install scripts por
+  defecto (`esbuild` postinstall) — ahora se usa el npm que trae Node 22.
+- `start-dev.command` resuelve Node vía mise y falla con un mensaje claro si la
+  versión es menor a 22. Antes, al abrirlo directo desde Finder, bash no cargaba
+  `~/.zshrc`, mise no se activaba y tomaba el Node del sistema.
+- `Amarillo Primavera.app` apuntaba a una ruta absoluta inexistente
+  (`/Users/moshi/projects/amarillo-primavera`); ahora resuelve la raíz del repo
+  relativa al bundle.
+
+Verificado: `npm install`, `npm run build` (93 páginas, 77 productos en el
+índice), `npm run dev` (home, catálogo y detalle de producto responden 200) y el
+doble clic del launcher en un entorno limpio sin mise activado.
+
+### Dependencias (resuelto el 2026-08-26)
+
+`npm audit` reportaba 3 vulnerabilidades (2 altas, 1 moderada) — `js-yaml`,
+`nanoid` y `postcss`, todas transitivas de `astro`/`vite` y solo de tiempo de
+build. Resueltas con `npm audit fix`: parches menores dentro del lockfile
+(`js-yaml` 4.3.0→4.3.1, `postcss` 8.5.20→8.5.26, `nanoid` 3.3.16→3.3.18), sin
+cambios en dependencias directas. `npm audit` ahora reporta 0 vulnerabilidades y
+el build sigue pasando.
+
 ### Pendientes de contenido (no bloquean el sitio, quedan para después)
 
-- **Número de WhatsApp real**: `src/config/site.ts` sigue con un placeholder (`5210000000000`) — reemplazar antes de anunciar el sitio.
-- **Campo `disponible`**: todos los productos quedaron en `true` por defecto (no había dato real de existencia en el catálogo anterior).
-- **Categorías casi duplicadas**: "Coronas y diademas" / "...florales" y "Muñecas" / "Muñecas de trapo".
-- **`products/PENDIENTES/`**: "creaciones de madera" y fotos sueltas de raíz siguen sin catalogar.
+- ~~**Número de WhatsApp real**~~ — resuelto: `src/config/site.ts` ya tiene el número real.
+- ~~**Categorías casi duplicadas**~~ — resuelto: se consolidaron. Hoy quedan 12 categorías, sin "Coronas y diademas" ni "Muñecas de trapo" sueltas.
+- **Campo `disponible`**: los 77 productos siguen en `true` (no hay dato real de existencia).
+- **`products/PENDIENTES/`**: "creaciones de madera" y fotos sueltas de raíz siguen sin catalogar (34 archivos).
+- **`content/published/`**: aún no existe; los 4 borradores de redes siguen en `content/drafts/`.
 
 ## Fases
 
@@ -82,7 +120,7 @@ deploy` manual y confirmado con el redeploy automático subsecuente.
 ### Fase 1 — Astro + Content Collections
 - Scaffold de Astro con adapter de Cloudflare
 - Schema Zod de producto: nombre, categoría, tags, tono opcional, imágenes, slug, **disponibilidad** (sin precio)
-- Migrar los 120 productos de `products/<slug>/` a `src/content/products/<slug>/`
+- Migrar los 120 productos de `products/<slug>/` a `src/content/products/<slug>/` (el catálogo se ha depurado desde entonces; hoy son 77)
 - Optimización de imágenes con `astro:assets`
 - `products/index.json`, `catalog_report.md`, `categorization_report.md`, `raw/` quedan fuera de `src/` (bitácora/respaldo, no parte del sitio)
 - Aplicar tipografía Fraunces + Nunito Sans
@@ -95,7 +133,7 @@ deploy` manual y confirmado con el redeploy automático subsecuente.
 
 ### Fase 3 — Tags y filtrado
 - Filtrado por query param sobre el listado (`?tag=...`)
-- Páginas estáticas por `categoria` (12 valores del catálogo actual)
+- Páginas estáticas por `categoria` (12 valores en el catálogo actual)
 
 ### Fase 4 — Buscador (Fuse.js)
 - JSON generado en build (nombre, categoría, tags, descripción)

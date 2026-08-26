@@ -1,2 +1,4 @@
 [tools]
-npm = "latest"
+# Astro 7 requiere Node >= 22.12. Sin este pin se usa el Node del sistema y
+# `npm run dev` / `npm run build` fallan en local.
+node = "22"
