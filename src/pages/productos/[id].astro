@@ -91,6 +91,20 @@ const productoJsonLd = {
           <Content />
         </div>
 
+        {
+          /* La historia vive debajo de la tarjeta, fuera de la primera pantalla.
+             Sin este enlace hay que descubrirla haciendo scroll. */
+          historia && (
+            <a href="#historia" class="producto__historia-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 5.5A1.5 1.5 0 015.5 4H10a2 2 0 012 2v13a1.5 1.5 0 00-1.5-1.5h-5A1.5 1.5 0 014 16z" />
+                <path d="M20 5.5A1.5 1.5 0 0018.5 4H14a2 2 0 00-2 2v13a1.5 1.5 0 011.5-1.5h5A1.5 1.5 0 0020 16z" />
+              </svg>
+              Conoce su historia
+            </a>
+          )
+        }
+
         <div class="producto__tags">
           {
             tags.map((tag) => (
@@ -118,7 +132,7 @@ const productoJsonLd = {
     </div>
   </main>
 
-  {historia && <HistoriaProducto historia={historia} />}
+  {historia && <div id="historia"><HistoriaProducto historia={historia} /></div>}
 </BaseLayout>
 
 <script>
@@ -253,12 +267,35 @@ const productoJsonLd = {
     gap: 0.4rem;
   }
 
+  .producto__historia-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    align-self: flex-start;
+    margin-bottom: 1.15rem;
+    padding: 0.6rem 1.05rem;
+    border-radius: 999px;
+    background: rgba(230, 169, 46, 0.18);
+    color: var(--color-oro-quemado);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.15s ease;
+  }
+
+  .producto__historia-link:hover {
+    background: rgba(230, 169, 46, 0.3);
+  }
+
   .producto__acciones {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 0.6rem;
-    margin-top: auto;
+    /* Sin `margin-top: auto`: anclaba el CTA al fondo de una columna estirada a
+       la altura de la imagen, dejando un vacío de ~200px en los productos con
+       descripción corta. */
+    margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: 1px solid rgba(96, 73, 50, 0.12);
   }

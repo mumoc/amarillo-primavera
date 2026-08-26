@@ -130,3 +130,13 @@ img {
   background: rgba(168, 105, 36, 0.14);
   color: var(--color-oro-quemado);
 }
+
+/* Marca los productos que tienen una historia escrita. Es el contenido que
+   mejor cuenta la marca, así que se distingue con el amarillo-oro. */
+.insignia--historia {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  background: rgba(230, 169, 46, 0.18);
+  color: var(--color-oro-quemado);
+}

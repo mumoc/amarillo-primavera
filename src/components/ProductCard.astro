@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { producto, prioridad = false } = Astro.props;
-const { nombre, categoria, disponible, imagenes, tags } = producto.data;
+const { nombre, categoria, disponible, imagenes, tags, historia } = producto.data;
 ---
 
 <a
@@ -31,9 +31,27 @@ const { nombre, categoria, disponible, imagenes, tags } = producto.data;
     )
   }
   <div class="tarjeta__info">
-    <span class:list={["insignia", disponible ? "insignia--disponible" : "insignia--pedido"]}>
-      {disponible ? "Disponible" : "Sobre pedido"}
-    </span>
+    <div class="tarjeta__insignias">
+      {
+        /* Solo se marca la excepción. Con todo el catálogo en `disponible: true`,
+           una insignia "Disponible" en las 77 tarjetas no informa nada y compite
+           con la foto. En la ficha del producto sí se muestran ambos estados. */
+        !disponible && <span class="insignia insignia--pedido">Sobre pedido</span>
+      }
+      {
+        /* Se deriva del dato: cualquier producto al que se le escriba una
+           `historia` en el frontmatter la muestra sin tocar este componente. */
+        historia && (
+          <span class="insignia insignia--historia">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 5.5A1.5 1.5 0 015.5 4H10a2 2 0 012 2v13a1.5 1.5 0 00-1.5-1.5h-5A1.5 1.5 0 014 16z" />
+              <path d="M20 5.5A1.5 1.5 0 0018.5 4H14a2 2 0 00-2 2v13a1.5 1.5 0 011.5-1.5h5A1.5 1.5 0 0020 16z" />
+            </svg>
+            Con historia
+          </span>
+        )
+      }
+    </div>
     <h3 class="tarjeta__nombre">{nombre}</h3>
     <p class="tarjeta__categoria">{categoria}</p>
   </div>
@@ -63,6 +81,16 @@ const { nombre, categoria, disponible, imagenes, tags } = producto.data;
 
   .tarjeta__info {
     padding: 0.9rem 1rem 1.1rem;
+  }
+
+  .tarjeta__insignias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .tarjeta__insignias:empty {
+    display: none;
   }
 
   .tarjeta__nombre {

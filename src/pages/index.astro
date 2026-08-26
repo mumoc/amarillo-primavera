@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 import { Image } from "astro:assets";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProductCard from "../components/ProductCard.astro";
@@ -8,7 +8,32 @@ import { slugify } from "../lib/slug";
 import logo from "../assets/brand/logo.png";
 
 const productos = await getCollection("products");
-const destacados = productos.slice(0, 4);
+
+// Los productos con `historia` van primero: es el contenido que mejor cuenta
+// la marca, así que encabeza el escaparate. Conforme se escriban más historias
+// entran solas, sin tocar este archivo.
+const conHistoria = productos.filter((p) => p.data.historia);
+
+// El resto de los lugares se llenan con una pieza por categoría, empezando por
+// las categorías con más piezas. Antes era `productos.slice(0, 4)`, que
+// devolvía los primeros por id — en la práctica cuatro cajas de jabón casi
+// idénticas, como si la marca vendiera una sola cosa.
+const porCategoria = new Map<string, CollectionEntry<"products">[]>();
+for (const producto of productos) {
+  if (conHistoria.includes(producto)) continue;
+  const lista = porCategoria.get(producto.data.categoria) ?? [];
+  lista.push(producto);
+  porCategoria.set(producto.data.categoria, lista);
+}
+
+const categoriasYaUsadas = new Set(conHistoria.map((p) => p.data.categoria));
+const relleno = [...porCategoria.entries()]
+  .sort((a, b) => b[1].length - a[1].length)
+  // Evita repetir la categoría de un producto que ya entró por su historia.
+  .filter(([categoria]) => !categoriasYaUsadas.has(categoria))
+  .map(([, lista]) => lista[0]);
+
+const destacados = [...conHistoria, ...relleno].slice(0, 4);
 
 const valores: { icono: IconName; titulo: string; texto: string }[] = [
   {
