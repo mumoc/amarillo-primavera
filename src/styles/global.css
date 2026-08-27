@@ -112,6 +112,47 @@ img {
   border: 1.5px solid var(--color-marron-oscuro);
 }
 
+/* Paspartú — el marco crema es lo constante entre fotos de calidad y fondos
+   muy dispares: la foto nunca sangra, siempre lleva la misma proporción y un
+   velo cálido que iguala la temperatura de color. Utilidad compartida por la
+   tarjeta, la ficha de producto y la historia. */
+.paspartu {
+  --paspartu-marco: 0.875rem;
+  position: relative;
+  background: var(--color-crema-clara);
+  padding: var(--paspartu-marco);
+  border: 1px solid rgba(96, 73, 50, 0.14);
+}
+
+.paspartu__ventana {
+  position: relative;
+  overflow: hidden;
+}
+
+.paspartu__ventana img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.paspartu__ventana::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--color-amarillo-oro);
+  opacity: 0.07;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.paspartu__filete {
+  position: absolute;
+  inset: calc(var(--paspartu-marco) / 2);
+  border: 1px solid rgba(230, 169, 46, 0.45);
+  pointer-events: none;
+}
+
 .insignia {
   display: inline-block;
   font-size: 0.78rem;

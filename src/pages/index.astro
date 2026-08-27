@@ -33,7 +33,11 @@ const relleno = [...porCategoria.entries()]
   .filter(([categoria]) => !categoriasYaUsadas.has(categoria))
   .map(([, lista]) => lista[0]);
 
-const destacados = [...conHistoria, ...relleno].slice(0, 4);
+// La primera pieza encabeza el hero y las cuatro siguientes llenan la reja, de
+// modo que ninguna foto se repita dos veces en la misma pantalla.
+const escaparate = [...conHistoria, ...relleno];
+const heroProducto = escaparate[0];
+const destacados = escaparate.slice(1, 5);
 
 const valores: { icono: IconName; titulo: string; texto: string }[] = [
   {
@@ -94,17 +98,64 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
 <BaseLayout title="Inicio">
   <section class="hero">
     <div class="container hero__inner">
-      <Image src={logo} alt="Amarillo Primavera" width={140} height={128} loading="eager" fetchpriority="high" />
-      <h1>Un pedacito de primavera, hecho a mano</h1>
-      <p class="hero__texto">
-        Somos una marca artesanal inspirada en el árbol primavera de Colima y en el amarillo como
-        símbolo de creatividad, alegría y luz. Hacemos piezas individuales, cuidadas, con cariño —
-        no producción masiva, sino objetos con historia y calidez.
-      </p>
-      <div class="hero__botones">
-        <a href="/catalogo/" class="boton boton--primario">Ver catálogo</a>
-        <a href="/sobre-la-marca/" class="boton boton--secundario">Sobre la marca</a>
+      <div class="hero__texto-col">
+        <Image
+          src={logo}
+          alt="Amarillo Primavera"
+          width={96}
+          height={88}
+          loading="eager"
+          fetchpriority="high"
+          class="hero__logo"
+        />
+        <h1>Un pedacito de primavera, hecho a mano</h1>
+        <p class="hero__entrada">
+          Piezas individuales, cuidadas, con materiales de calidad. Nunca dos exactamente iguales —
+          cada una tiene su encanto.
+        </p>
+        <div class="hero__botones">
+          <a href="/catalogo/" class="boton boton--primario">Ver catálogo</a>
+          <a href="/sobre-la-marca/" class="boton boton--secundario">Sobre la marca</a>
+        </div>
       </div>
+
+      {
+        /* La pieza que encabeza el escaparate entra ya en la primera pantalla:
+           antes había que bajar ~500px en escritorio y ~1400px en móvil para
+           ver la primera foto de producto. */
+        heroProducto?.data.imagenes[0] && (
+          <a href={`/productos/${heroProducto.id}/`} class="hero__pieza paspartu">
+            <div class="paspartu__ventana hero__ventana">
+              <Image
+                src={heroProducto.data.imagenes[0]}
+                alt={heroProducto.data.nombre}
+                width={560}
+                height={620}
+                loading="eager"
+                fetchpriority="high"
+              />
+            </div>
+            <span class="paspartu__filete" aria-hidden="true"></span>
+            <div class="hero__pie">
+              <div>
+                <span class="hero__pieza-nombre">{heroProducto.data.nombre}</span>
+                <span class="hero__pieza-categoria">{heroProducto.data.categoria}</span>
+              </div>
+              {
+                heroProducto.data.historia && (
+                  <span class="insignia insignia--historia">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M4 5.5A1.5 1.5 0 015.5 4H10a2 2 0 012 2v13a1.5 1.5 0 00-1.5-1.5h-5A1.5 1.5 0 014 16z" />
+                      <path d="M20 5.5A1.5 1.5 0 0018.5 4H14a2 2 0 00-2 2v13a1.5 1.5 0 011.5-1.5h5A1.5 1.5 0 0020 16z" />
+                    </svg>
+                    Con historia
+                  </span>
+                )
+              }
+            </div>
+          </a>
+        )
+      }
     </div>
   </section>
 
@@ -114,10 +165,12 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
         valores.map((valor) => (
           <div class="valor">
             <span class="valor__icono">
-              <Icon name={valor.icono} size={30} />
+              <Icon name={valor.icono} size={19} />
             </span>
-            <h3>{valor.titulo}</h3>
-            <p>{valor.texto}</p>
+            <div class="valor__cuerpo">
+              <h3>{valor.titulo}</h3>
+              <p>{valor.texto}</p>
+            </div>
           </div>
         ))
       }
@@ -165,65 +218,137 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
 <style>
   .hero {
     background: linear-gradient(
-      160deg,
+      158deg,
       var(--color-crema-clara) 0%,
-      var(--color-crema) 60%,
-      #fdeec3 100%
+      var(--color-crema) 100%
     );
-    padding: 3.5rem 0;
+    padding: 3.25rem 0 3.5rem;
   }
 
+  /* Partido: el texto deja de ser lo único de la primera pantalla y una pieza
+     real entra junto a él. */
   .hero__inner {
-    text-align: center;
-    max-width: 640px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
   }
 
-  .hero__inner :global(img) {
-    margin: 0 auto 1.25rem;
+  .hero__logo {
+    margin-bottom: 1.1rem;
   }
 
-  .hero__texto {
-    font-size: 1.05rem;
+  .hero h1 {
+    font-size: clamp(2rem, 4.2vw, 3.5rem);
+    letter-spacing: -0.02em;
+    margin-bottom: 1.1rem;
+    text-wrap: balance;
+  }
+
+  .hero__entrada {
+    font-size: 1.06rem;
+    line-height: 1.65;
+    max-width: 42ch;
+    margin-bottom: 0;
   }
 
   .hero__botones {
     display: flex;
-    gap: 1rem;
-    justify-content: center;
+    gap: 0.9rem;
     flex-wrap: wrap;
-    margin-top: 1.5rem;
+    margin-top: 1.6rem;
   }
 
+  .hero__pieza {
+    --paspartu-marco: 1.35rem;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 18px 46px rgba(96, 73, 50, 0.13);
+    transition: transform 0.15s ease;
+  }
+
+  .hero__pieza:hover {
+    transform: translateY(-3px);
+  }
+
+  .hero__ventana {
+    aspect-ratio: 4 / 5;
+  }
+
+  .hero__pie {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0.25rem 0.15rem;
+  }
+
+  .hero__pieza-nombre {
+    display: block;
+    font-family: var(--font-titulos);
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+
+  .hero__pieza-categoria {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--color-gris-morado);
+    margin-top: 0.1rem;
+  }
+
+  /* Banda horizontal compacta en vez de cuatro bloques altos: en móvil los
+     valores ya no empujan el catálogo fuera de la pantalla. */
   .valores {
-    padding: 3rem 0 0.5rem;
+    padding: 0;
+    border-bottom: 1px solid rgba(96, 73, 50, 0.12);
   }
 
   .valores__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0;
   }
 
   .valor {
-    text-align: center;
-    padding: 1.5rem 1rem;
+    display: flex;
+    gap: 0.7rem;
+    align-items: flex-start;
+    padding: 1.6rem 1.5rem;
+    border-left: 1px solid rgba(96, 73, 50, 0.1);
+  }
+
+  .valor:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+
+  .valor:last-child {
+    padding-right: 0;
   }
 
   .valor__icono {
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: var(--color-oro-quemado);
-    margin-bottom: 0.65rem;
+    flex-shrink: 0;
+    margin-top: 0.15rem;
+  }
+
+  .valor__cuerpo {
+    min-width: 0;
   }
 
   .valor h3 {
-    font-size: 1.05rem;
-    margin-bottom: 0.35rem;
+    font-family: var(--font-texto);
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.15rem;
   }
 
   .valor p {
-    font-size: 0.9rem;
+    font-size: 0.83rem;
+    line-height: 1.5;
     color: var(--color-gris-morado);
     margin: 0;
   }
@@ -310,5 +435,65 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
     font-size: 1.35rem;
     line-height: 1.4;
     margin-bottom: 1.5rem;
+  }
+
+  @media (max-width: 900px) {
+    .hero__inner {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    /* La pieza va primero: en móvil, ver el producto importa más que leer el
+       párrafo de marca. */
+    .hero__pieza {
+      order: -1;
+      max-width: 380px;
+      margin-inline: auto;
+      width: 100%;
+    }
+
+    .hero__ventana {
+      aspect-ratio: 1 / 1;
+    }
+
+    /* El encabezado ya lleva el logo; repetirlo aquí solo empuja el texto. */
+    .hero__logo {
+      display: none;
+    }
+
+    .valores__grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .valor {
+      padding: 1.2rem 1rem;
+      border-left: none;
+    }
+
+    .valor:nth-child(odd) {
+      padding-left: 0;
+    }
+
+    .valor:nth-child(even) {
+      padding-right: 0;
+      border-left: 1px solid rgba(96, 73, 50, 0.1);
+    }
+  }
+
+  @media (max-width: 560px) {
+    .hero {
+      padding: 2rem 0 2.25rem;
+    }
+
+    .hero__logo {
+      width: 72px;
+      height: auto;
+      margin-bottom: 0.9rem;
+    }
+
+    .hero__botones .boton {
+      flex: 1 1 auto;
+      justify-content: center;
+    }
   }
 </style>

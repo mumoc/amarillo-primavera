@@ -13,23 +13,26 @@ const { nombre, categoria, disponible, imagenes, tags, historia } = producto.dat
 
 <a
   href={`/productos/${producto.id}/`}
-  class="tarjeta"
+  class="tarjeta paspartu"
   data-id={producto.id}
   data-tags={tags.join("|").toLowerCase()}
   data-categoria={categoria}
 >
   {
     imagenes[0] && (
-      <Image
-        src={imagenes[0]}
-        alt={nombre}
-        width={320}
-        height={320}
-        loading={prioridad ? "eager" : "lazy"}
-        class="tarjeta__imagen"
-      />
+      <div class="paspartu__ventana tarjeta__ventana">
+        <Image
+          src={imagenes[0]}
+          alt={nombre}
+          width={320}
+          height={320}
+          loading={prioridad ? "eager" : "lazy"}
+        />
+      </div>
     )
   }
+  <span class="paspartu__filete" aria-hidden="true"></span>
+
   <div class="tarjeta__info">
     <div class="tarjeta__insignias">
       {
@@ -62,31 +65,27 @@ const { nombre, categoria, disponible, imagenes, tags, historia } = producto.dat
     display: block;
     text-decoration: none;
     color: inherit;
-    background: #fff;
-    border-radius: var(--radio);
-    overflow: hidden;
-    box-shadow: var(--sombra);
-    transition: transform 0.15s ease;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
   }
 
   .tarjeta:hover {
     transform: translateY(-3px);
+    box-shadow: 0 10px 26px rgba(96, 73, 50, 0.13);
   }
 
-  .tarjeta__imagen {
-    width: 100%;
+  .tarjeta__ventana {
     aspect-ratio: 1 / 1;
-    object-fit: cover;
   }
 
   .tarjeta__info {
-    padding: 0.9rem 1rem 1.1rem;
+    padding: 0.85rem 0.2rem 0.15rem;
   }
 
   .tarjeta__insignias {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
+    margin-bottom: 0.5rem;
   }
 
   .tarjeta__insignias:empty {
@@ -95,7 +94,7 @@ const { nombre, categoria, disponible, imagenes, tags, historia } = producto.dat
 
   .tarjeta__nombre {
     font-size: 1.05rem;
-    margin: 0.4rem 0 0.15rem;
+    margin: 0 0 0.15rem;
   }
 
   .tarjeta__categoria {

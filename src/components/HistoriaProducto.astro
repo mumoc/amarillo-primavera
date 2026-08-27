@@ -32,12 +32,12 @@ function numero(i: number): string {
 <section class="historia">
   <div class="container historia__contenedor">
     <header class="historia__cabecera">
-      <span class="historia__kicker">Del taller de Amarillo Primavera</span>
+      <span class="historia__kicker">Del taller</span>
       <h2 class="historia__titulo">{historia.titulo}</h2>
     </header>
 
     {
-      historia.bloques.map((bloque, i) => {
+      historia.bloques.map((bloque) => {
         if (bloque.tipo === "quote") {
           return (
             <blockquote class="historia__quote">
@@ -48,8 +48,12 @@ function numero(i: number): string {
 
         if (bloque.tipo === "imagen") {
           return (
-            <figure class="historia__imagen">
-              <Image src={bloque.src} alt={bloque.alt ?? ""} width={1000} height={700} />
+            <figure class="historia__imagen paspartu">
+              <div class="paspartu__ventana historia__ventana">
+                <Image src={bloque.src} alt={bloque.alt ?? ""} width={1000} height={700} />
+              </div>
+              <span class="paspartu__filete" aria-hidden="true" />
+              {bloque.alt && <figcaption>{bloque.alt}</figcaption>}
             </figure>
           );
         }
@@ -74,20 +78,35 @@ function numero(i: number): string {
                   {etapa.texto && <p class="etapa__texto">{etapa.texto}</p>}
                   {etapa.imagenes.length === 1 && (
                     <div class="etapa__imagenes etapa__imagenes--una">
-                      <Image src={etapa.imagenes[0]} alt="" width={800} height={600} />
+                      <div class="paspartu">
+                        <div class="paspartu__ventana etapa__ventana">
+                          <Image src={etapa.imagenes[0]} alt="" width={800} height={600} />
+                        </div>
+                        <span class="paspartu__filete" aria-hidden="true" />
+                      </div>
                     </div>
                   )}
                   {etapa.imagenes.length === 2 && (
                     <div class="etapa__imagenes etapa__imagenes--dos">
                       {etapa.imagenes.map((img) => (
-                        <Image src={img} alt="" width={500} height={500} />
+                        <div class="paspartu">
+                          <div class="paspartu__ventana etapa__ventana">
+                            <Image src={img} alt="" width={500} height={500} />
+                          </div>
+                          <span class="paspartu__filete" aria-hidden="true" />
+                        </div>
                       ))}
                     </div>
                   )}
                   {etapa.imagenes.length > 2 && (
                     <div class="etapa__imagenes etapa__imagenes--tira">
                       {etapa.imagenes.map((img) => (
-                        <Image src={img} alt="" width={420} height={420} />
+                        <div class="paspartu">
+                          <div class="paspartu__ventana etapa__ventana">
+                            <Image src={img} alt="" width={420} height={420} />
+                          </div>
+                          <span class="paspartu__filete" aria-hidden="true" />
+                        </div>
                       ))}
                     </div>
                   )}
@@ -103,7 +122,7 @@ function numero(i: number): string {
               <blockquote>
                 <p>"{bloque.texto}"</p>
               </blockquote>
-              {bloque.autor && <figcaption>— {bloque.autor}</figcaption>}
+              {bloque.autor && <figcaption>{bloque.autor}</figcaption>}
             </figure>
           );
         }
@@ -112,7 +131,12 @@ function numero(i: number): string {
           return (
             <div class="historia__galeria">
               {bloque.imagenes.map((img) => (
-                <Image src={img} alt="" width={480} height={480} />
+                <div class="paspartu">
+                  <div class="paspartu__ventana historia__galeria-ventana">
+                    <Image src={img} alt="" width={480} height={480} />
+                  </div>
+                  <span class="paspartu__filete" aria-hidden="true" />
+                </div>
               ))}
             </div>
           );
@@ -126,191 +150,178 @@ function numero(i: number): string {
 
 <style>
   .historia {
-    padding: 5rem 0 6rem;
+    padding: 4.5rem 0 5.5rem;
     background: var(--color-crema-clara);
     border-top: 1px solid rgba(96, 73, 50, 0.1);
   }
 
+  /* Reja editorial: una columna de margen para números y etiquetas, y una
+     columna de lectura con medida fija. Antes todo estaba centrado, bloque
+     tras bloque, lo que hace que todo pese igual y cansa de leer. */
   .historia__contenedor {
-    display: flex;
-    flex-direction: column;
-    gap: 3.5rem;
+    display: grid;
+    grid-template-columns: 8.25rem minmax(0, 1fr);
+    column-gap: 2.5rem;
+    row-gap: 2.75rem;
+    align-items: start;
     min-width: 0;
   }
 
-  /* Cabecera */
+  /* Por defecto cada bloque vive en la columna de lectura. */
+  .historia__contenedor > * {
+    grid-column: 2;
+    min-width: 0;
+  }
+
   .historia__cabecera {
-    max-width: 680px;
-    margin-inline: auto;
-    text-align: center;
+    display: contents;
   }
 
   .historia__kicker {
-    display: block;
-    font-size: 0.8rem;
+    grid-column: 1;
+    text-align: right;
+    padding-top: 0.6rem;
+    font-size: 0.69rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--color-oro-quemado);
-    margin-bottom: 0.75rem;
   }
 
   .historia__titulo {
+    grid-column: 2;
     margin: 0;
-    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    font-size: clamp(1.85rem, 3.6vw, 2.75rem);
+    letter-spacing: -0.025em;
+    max-width: 20ch;
   }
 
-  /* Quote destacado */
+  /* Cita: alineada a la columna y apoyada en un filete de oro, no centrada. */
   .historia__quote {
-    max-width: 780px;
-    margin: 1rem auto;
-    padding: 0;
-    text-align: center;
+    margin: 0;
+    padding: 0 0 0 1.6rem;
+    border-left: 2px solid var(--color-amarillo-oro);
   }
 
   .historia__quote p {
     font-family: var(--font-titulos);
     font-style: italic;
     font-weight: 500;
-    font-size: clamp(1.4rem, 3vw, 2.1rem);
-    line-height: 1.45;
+    font-size: clamp(1.35rem, 2.6vw, 1.85rem);
+    line-height: 1.42;
     color: var(--color-marron-oscuro);
+    margin: 0;
+    max-width: 24ch;
+  }
+
+  /* Imagen destacada */
+  .historia__imagen {
     margin: 0;
   }
 
-  /* Imagen hero */
-  .historia__imagen {
-    max-width: 920px;
-    margin: 0 auto;
+  .historia__ventana {
+    aspect-ratio: 16 / 11;
   }
 
-  .historia__imagen img {
-    width: 100%;
-    height: auto;
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
+  .historia__imagen figcaption {
+    padding-top: 0.75rem;
+    font-size: 0.8rem;
+    color: var(--color-gris-morado);
   }
 
-  /* Texto (párrafos) */
-  .historia__texto {
-    max-width: 640px;
-    margin-inline: auto;
-  }
-
+  /* Texto */
   .historia__texto p {
     font-size: 1.05rem;
-    line-height: 1.8;
-    color: var(--color-marron-oscuro);
+    line-height: 1.78;
+    color: #5f4c39;
+    max-width: 60ch;
   }
 
   .historia__texto p:last-child {
     margin-bottom: 0;
   }
 
-  /* Timeline */
+  /* Timeline: los números viven en el margen, sobre una línea continua. */
   .historia__timeline {
     list-style: none;
     margin: 0;
     padding: 0;
-    max-width: 880px;
-    margin-inline: auto;
     display: flex;
     flex-direction: column;
-    gap: 3.5rem;
-    min-width: 0;
+    gap: 2.5rem;
   }
 
   .etapa {
-    max-width: 680px;
-    margin-inline: auto;
-    text-align: center;
+    position: relative;
+    padding-left: 2.5rem;
+    border-left: 1px solid rgba(96, 73, 50, 0.18);
+    min-width: 0;
   }
 
   .etapa__numero {
-    display: block;
+    position: absolute;
+    left: 0;
+    top: -0.35rem;
+    transform: translateX(calc(-100% - 2.5rem));
+    width: 8.25rem;
+    text-align: right;
     font-family: var(--font-titulos);
-    font-size: 0.95rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1;
     color: var(--color-amarillo-oro);
-    letter-spacing: 0.08em;
-    margin-bottom: 0.5rem;
+    font-variant-numeric: tabular-nums;
   }
 
   .etapa__titulo {
-    margin: 0 0 0.65rem;
+    margin: 0 0 0.6rem;
     font-size: 1.4rem;
   }
 
   .etapa__texto {
     font-size: 1rem;
-    line-height: 1.75;
-    color: var(--color-marron-oscuro);
-    margin: 0 0 1.5rem;
+    line-height: 1.72;
+    color: #5f4c39;
+    margin: 0 0 1.25rem;
+    max-width: 58ch;
   }
 
-  .etapa__imagenes {
-    max-width: 880px;
-    margin-inline: auto;
-  }
-
-  .etapa__imagenes img {
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
-    object-fit: cover;
-    min-width: 0;
+  .etapa__ventana {
+    aspect-ratio: 4 / 3;
   }
 
   .etapa__imagenes--una {
-    max-width: 560px;
-    margin-inline: auto;
-  }
-
-  .etapa__imagenes--una img {
-    width: 100%;
-    height: auto;
+    max-width: 26rem;
   }
 
   .etapa__imagenes--dos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    gap: 1.1rem;
+    max-width: 38rem;
     min-width: 0;
-  }
-
-  .etapa__imagenes--dos img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
   }
 
   .etapa__imagenes--tira {
     display: flex;
-    gap: 1rem;
+    gap: 1.1rem;
     overflow-x: auto;
     padding-bottom: 0.5rem;
     scroll-snap-type: x proximity;
   }
 
-  .etapa__imagenes--tira img {
+  .etapa__imagenes--tira > .paspartu {
     flex: 0 0 auto;
-    width: 240px;
-    aspect-ratio: 1 / 1;
+    width: 15rem;
     scroll-snap-align: start;
   }
 
-  @media (max-width: 600px) {
-    .etapa__imagenes--dos {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  /* Testimonio editorial */
+  /* Testimonio */
   .historia__testimonio {
-    max-width: 700px;
-    margin: 0 auto;
-    text-align: center;
+    margin: 0;
     background: var(--color-crema);
-    border-radius: var(--radio);
-    padding: 2.5rem 2rem;
+    padding: 2.1rem 2.4rem;
+    max-width: 41rem;
   }
 
   .historia__testimonio blockquote {
@@ -320,37 +331,68 @@ function numero(i: number): string {
   .historia__testimonio p {
     font-family: var(--font-titulos);
     font-style: italic;
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     line-height: 1.5;
     color: var(--color-marron-oscuro);
     margin: 0 0 0.85rem;
   }
 
   .historia__testimonio figcaption {
-    font-size: 0.9rem;
+    font-size: 0.69rem;
     font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
     color: var(--color-oro-quemado);
   }
 
-  /* Galería final */
+  /* Galería */
   .historia__galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-    max-width: 1000px;
-    margin-inline: auto;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.1rem;
   }
 
-  .historia__galeria img {
-    width: 100%;
-    min-width: 0;
+  .historia__galeria-ventana {
     aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
+  }
+
+  @media (max-width: 860px) {
+    /* La columna de margen desaparece: en pantallas angostas robaría el ancho
+       de lectura. Los números pasan a ir sobre el título. */
+    .historia__contenedor {
+      grid-template-columns: minmax(0, 1fr);
+      column-gap: 0;
+    }
+
+    .historia__contenedor > *,
+    .historia__titulo {
+      grid-column: 1;
+    }
+
+    .historia__kicker {
+      grid-column: 1;
+      text-align: left;
+      padding-top: 0;
+      margin-bottom: -1.75rem;
+    }
+
+    .etapa {
+      padding-left: 1.5rem;
+    }
+
+    .etapa__numero {
+      position: static;
+      display: block;
+      transform: none;
+      width: auto;
+      text-align: left;
+      font-size: 1.5rem;
+      margin-bottom: 0.35rem;
+    }
   }
 
   @media (max-width: 600px) {
+    .etapa__imagenes--dos,
     .historia__galeria {
       grid-template-columns: 1fr;
     }

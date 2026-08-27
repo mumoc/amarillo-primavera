@@ -3,17 +3,28 @@ import { getCollection, render } from "astro:content";
 import { Image, getImage } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import HistoriaProducto from "../../components/HistoriaProducto.astro";
+import ProductCard from "../../components/ProductCard.astro";
 import { whatsappOrderLink, SITE_NAME } from "../../config/site";
+import { slugify } from "../../lib/slug";
 
 export async function getStaticPaths() {
   const productos = await getCollection("products");
   return productos.map((producto) => ({
     params: { id: producto.id },
-    props: { producto },
+    props: {
+      producto,
+      // Otras piezas de la misma categoría, con las que tienen historia al
+      // frente. Sin esto la ficha es un callejón sin salida: se ve el producto
+      // y ahí se acaba la sesión.
+      relacionados: productos
+        .filter((otro) => otro.id !== producto.id && otro.data.categoria === producto.data.categoria)
+        .sort((a, b) => Number(Boolean(b.data.historia)) - Number(Boolean(a.data.historia)))
+        .slice(0, 4),
+    },
   }));
 }
 
-const { producto } = Astro.props;
+const { producto, relacionados } = Astro.props;
 const { nombre, categoria, tags, disponible, imagenes, historia } = producto.data;
 const { Content } = await render(producto);
 
@@ -42,21 +53,24 @@ const productoJsonLd = {
   <main class="container producto">
     <div class="producto__card">
       <div class="producto__galeria" data-galeria>
-        <div class="producto__imagen-principal">
-          {
-            imagenes.map((imagen, i) => (
-              <Image
-                src={imagen}
-                alt={`${nombre} — foto ${i + 1}`}
-                width={640}
-                height={640}
-                loading={i === 0 ? "eager" : "lazy"}
-                data-galeria-principal
-                data-index={i}
-                hidden={i !== 0}
-              />
-            ))
-          }
+        <div class="producto__imagen-principal paspartu">
+          <div class="paspartu__ventana producto__ventana">
+            {
+              imagenes.map((imagen, i) => (
+                <Image
+                  src={imagen}
+                  alt={`${nombre} — foto ${i + 1}`}
+                  width={640}
+                  height={640}
+                  loading={i === 0 ? "eager" : "lazy"}
+                  data-galeria-principal
+                  data-index={i}
+                  hidden={i !== 0}
+                />
+              ))
+            }
+          </div>
+          <span class="paspartu__filete" aria-hidden="true" />
         </div>
 
         {
@@ -133,6 +147,26 @@ const productoJsonLd = {
   </main>
 
   {historia && <div id="historia"><HistoriaProducto historia={historia} /></div>}
+
+  {
+    relacionados.length > 0 && (
+      <section class="relacionados">
+        <div class="container">
+          <div class="relacionados__cabecera">
+            <h2>Más de {categoria.toLowerCase()}</h2>
+            <a href={`/catalogo/categoria/${slugify(categoria)}/`} class="relacionados__ver-mas">
+              Ver toda la categoría →
+            </a>
+          </div>
+          <div class="relacionados__grid">
+            {relacionados.map((otro) => (
+              <ProductCard producto={otro} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
 </BaseLayout>
 
 <script>
@@ -165,12 +199,55 @@ const productoJsonLd = {
 
   .producto__card {
     display: grid;
-    grid-template-columns: 1.1fr 1fr;
-    gap: 2rem;
-    background: #fff;
-    border-radius: var(--radio);
-    box-shadow: var(--sombra);
-    padding: 2rem;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 3.25rem;
+    padding: 0;
+  }
+
+  .producto__ventana {
+    aspect-ratio: 1 / 1;
+    /* Un punto más cálida que el marco, para que se lea como la ventana del
+       paspartú cuando la foto no llena el cuadro. */
+    background: var(--color-crema);
+  }
+
+  .relacionados {
+    background: var(--color-crema);
+    padding: 3.25rem 0 3.75rem;
+    margin-top: 3.5rem;
+  }
+
+  .relacionados__cabecera {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+  }
+
+  .relacionados__cabecera h2 {
+    font-size: clamp(1.3rem, 2.6vw, 1.65rem);
+    margin: 0;
+  }
+
+  .relacionados__ver-mas {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--color-oro-quemado);
+    text-decoration: none;
+  }
+
+  .relacionados__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 860px) {
+    .relacionados__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
   }
 
   @media (max-width: 760px) {
@@ -186,12 +263,12 @@ const productoJsonLd = {
     gap: 0.85rem;
   }
 
-  .producto__imagen-principal img {
+  .producto__imagen-principal :global(img) {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: 100%;
+    /* `contain`, no `cover`: en la ficha se ve la pieza completa, sin recortar.
+       El sobrante queda dentro de la ventana del paspartú. */
     object-fit: contain;
-    background: var(--color-crema);
-    border-radius: calc(var(--radio) - 4px);
   }
 
   .producto__miniaturas {
