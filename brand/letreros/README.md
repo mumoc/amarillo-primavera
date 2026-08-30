@@ -8,6 +8,9 @@ tags: [letreros, impresion, promocion]
 Material impreso para exhibir junto a los productos en ferias, tianguis y
 puntos de venta.
 
+Son dos y se complementan: `letrero-beneficios` engancha a tres metros,
+`letrero-historia` premia a quien se acercó. Conviene llevar los dos.
+
 ## `letrero-beneficios.html`
 
 Letrero para la canasta de jabones. La idea: quien pasa no ve un jabón, ve para
@@ -41,10 +44,49 @@ El letrero no promete resultados médicos ni de tratamiento: habla de cómo se
 siente el baño. Conviene mantenerlo así — "empareja el tono" en vez de promesas
 de aclarado, que son afirmaciones cosméticas reguladas.
 
+## `letrero-historia.html`
+
+El letrero largo, para poner junto a la canasta y que la gente lo lea de
+cerca. Cuenta de dónde vienen los jabones, en primera persona y con las
+palabras de quien los hace.
+
+Solo sale en carta vertical: en media carta el texto quedaría demasiado chico
+para leerse.
+
+### Qué cuenta
+
+- **El papá.** Hacía jabones de coco rallado, bolas rústicas envueltas en el
+  papel de estraza de las tortillas. *«¿Qué hiciste, papá?» «Un jabón para que
+  se bañen, de coco.»* No quería jabones comerciales con químicos: quería algo
+  natural. De ahí viene todo.
+- **La abuelita.** Los cajones que olían a jabón, la ropa que olía bonito. Es
+  la cita que abre el letrero, y es la que explica por qué la marca vende
+  aromas y no barras.
+- **Aprender sola.** Cuarenta años atrás en Zamora, sin internet, con revistas
+  españolas y a puro probar. El primer jabón fue de lavanda y fue para ella.
+- **Lo que llevan y lo que no**, en dos columnas.
+- **El trabajo:** 90 a 100 gramos por barra, doce horas seguidas para un
+  pedido de cincuenta.
+
+### Pendiente antes de imprimir
+
+La firma dice `[NOMBRE]` sobre fondo amarillo. **Hay que reemplazarlo por el
+nombre real** antes de mandarlo a la imprenta. Está resaltado a propósito para
+que no se escape.
+
+## Sobre el "100 % natural"
+
+El pie de los dos letreros decía "100 % naturales". Se cambió por **"sin
+espumantes ni grasa animal"**.
+
+Los jabones parten de una base de glicerina comercial, así que "100 % natural"
+es una afirmación que no se sostiene si alguien pregunta. La lista de lo que
+*no* llevan es concreta, verificable y convence más que el porcentaje.
+
 ## Exportar a PDF
 
-Con la skill `exportar-impresos` ("exporta el letrero"). El PDF no se guarda en
-el repo, se regenera desde el HTML.
+Con la skill `exportar-impresos` ("exporta el letrero"). Los PDF no se guardan
+en el repo, se regeneran desde el HTML.
 
 Imprimir al **100 % / tamaño real**, sin "ajustar a la página". La cabecera
 amarilla es una mancha grande de tinta: sale mejor en imprenta digital que en

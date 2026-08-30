@@ -17,7 +17,8 @@ exportan igual sin internet y sin el servidor de Astro corriendo.
 | Impreso | Archivo | Qué sale |
 |---------|---------|----------|
 | Etiquetas de jabón | `brand/etiquetas/etiqueta-jabon.html` | 7 hojas de etiquetas de 7 × 4.5 cm |
-| Letrero de canasta | `brand/letreros/letrero-beneficios.html` | Carta vertical + media carta |
+| Letrero de beneficios | `brand/letreros/letrero-beneficios.html` | Carta vertical + media carta |
+| Letrero de historia | `brand/letreros/letrero-historia.html` | Carta vertical |
 
 Cada carpeta tiene su `README.md` con el detalle de las variantes.
 
@@ -67,6 +68,9 @@ Qué buscar:
   `logo-1color-transparente.png`; si aparece la caja blanca, Chrome no aplicó la
   fusión y el PDF no sirve.
 - Que no se corte el nombre "Amarillo Primavera" ni se empalme el texto.
+- Que en `letrero-historia.html` ya **no** aparezca el marcador `[NOMBRE]`
+  resaltado en amarillo. Si sigue ahí, avísale al usuario antes de entregar:
+  ese letrero no se puede imprimir con el marcador puesto.
 
 Entrega el PDF al usuario con `SendUserFile`.
 
