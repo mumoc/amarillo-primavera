@@ -13,6 +13,23 @@ Está escrito con sus palabras a propósito. Al redactar, **preferir sus frases
 textuales sobre cualquier reescritura** — suenan a persona real y eso es
 justamente lo que no se puede copiar.
 
+## Cómo se llama y cómo quiere que le digan
+
+**María de los Ángeles Moreno Villegas.**
+
+Su esposo le decía **«La Morocha»**, y a ella le encantaba. El resto de la
+familia y los conocidos le dicen **«Tita»**.
+
+Hoy quiere ser conocida como **La Morocha**. Esa es la decisión: cuando firme
+una pieza, un letrero o un texto de la marca, va como La Morocha, con el nombre
+completo debajo.
+
+No usar «Tita» en material público a menos que ella lo pida.
+
+**Por qué importa:** un apodo que le puso su esposo y que ella eligió conservar
+es exactamente el tipo de detalle que hace que una marca artesanal se sienta de
+alguien y no de una empresa. Vale la pena que aparezca.
+
 ## Empezó con su papá
 
 Su primer contacto con el jabón fue ver a su papá hacerlos. Hacía jabones de
@@ -115,9 +132,9 @@ No son textuales, se redactaron a partir del material y ya están en uso:
 
 ## Pendientes por preguntar
 
-- **El nombre de ella.** El letrero de historia tiene un marcador `[NOMBRE]`
-  esperando. Sin esto no se puede imprimir.
 - ¿Alguna historia de clientes que la haya conmovido? ¿Qué le dicen los que
   regresan por más?
-- ¿Cuándo y por qué se mudó de Zamora a Colima?
+- ¿Cuándo y por qué se mudó de Zamora a Colima? Puede existir un documento
+  fuera del repo que ya lo cuente; si aparece, integrarlo aquí. Se buscó
+  "Zamora" y "Michoacán" en todo el proyecto y no hay nada.
 - ¿En qué momento dejó de ser para ella y se volvió negocio?

@@ -68,11 +68,12 @@ para leerse.
 - **El trabajo:** 90 a 100 gramos por barra, doce horas seguidas para un
   pedido de cincuenta.
 
-### Pendiente antes de imprimir
+### La firma
 
-La firma dice `[NOMBRE]` sobre fondo amarillo. **Hay que reemplazarlo por el
-nombre real** antes de mandarlo a la imprenta. Está resaltado a propósito para
-que no se escape.
+Firma como **La Morocha**, con el nombre completo debajo: María de los Ángeles
+Moreno Villegas. Ese apodo se lo puso su esposo y es como quiere ser conocida.
+No usar "Tita" en material público. Contexto en
+`brand/historia-fundadora.md`.
 
 ## De dónde sale el texto
 

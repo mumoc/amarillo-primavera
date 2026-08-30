@@ -6,6 +6,10 @@ catálogo** (Astro, en `src/`) y la **biblioteca de marca** (en `brand/`).
 El negocio es de la mamá y la esposa del dueño del repo; ellas hacen las piezas.
 Él aporta el sitio y el branding.
 
+La fundadora es **María de los Ángeles Moreno Villegas**, y quiere ser conocida
+como **«La Morocha»** — así firma el material de la marca. No uses "Tita" en
+material público.
+
 ## Antes de escribir cualquier texto de la marca
 
 Lee `brand/voice.md`. Siempre. La voz es cálida, alegre, cercana, mexicana,
