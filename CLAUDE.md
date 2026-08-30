@@ -3,12 +3,18 @@
 Marca artesanal de Colima, México. Este repo tiene dos cosas: el **sitio de
 catálogo** (Astro, en `src/`) y la **biblioteca de marca** (en `brand/`).
 
-El negocio es de la mamá y la esposa del dueño del repo; ellas hacen las piezas.
-Él aporta el sitio y el branding.
+El repo es de **Carlos (mumoc)**, que aporta el sitio y el branding. Las piezas
+las hacen su mamá y su esposa.
 
-La fundadora es **María de los Ángeles Moreno Villegas**, y quiere ser conocida
-como **«La Morocha»** — así firma el material de la marca. No uses "Tita" en
-material público.
+- **María de los Ángeles Moreno Villegas**, su mamá, es la fundadora. Quiere ser
+  conocida como **«La Morocha»** — así firma el material de la marca. No uses
+  "Tita" en público.
+- **Adela**, esposa de Carlos, es hoy **socia** de la marca.
+
+Los nombres de la familia y quién es quién están en
+`brand/historia-fundadora.md`. Ojo: cuando la fundadora dice «mi papá» habla de
+**Ernesto** (el del oficio); **Jesús** es su esposo (el promotor). Es fácil
+confundirlos.
 
 ## Antes de escribir cualquier texto de la marca
 

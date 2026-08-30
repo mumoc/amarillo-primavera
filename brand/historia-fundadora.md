@@ -15,13 +15,18 @@ justamente lo que no se puede copiar.
 
 ## Quién es quién
 
+Todo está contado desde la voz de la fundadora. Cuando ella dice «mi papá» se
+refiere a Ernesto; cuando aparece Jesús, es su esposo.
+
 | Nombre | Quién es |
 |---|---|
 | **María de los Ángeles Moreno Villegas, «La Morocha»** | La fundadora. Hace los jabones |
-| **Jesús** | Su papá. Hacía los jabones de coco y fue su promotor toda la vida |
+| **Ernesto** | Su papá. Hacía los jabones de coco rústicos: el origen del oficio |
+| **Jesús** | Su esposo. El promotor: financió todo y la acompañó siempre |
 | **Maruja** | Su hermana |
-| **Maly** | Su hija mayor |
-| **Emilio y Mateo** | Sus nietos. Mateo le dice «Agui» |
+| **Adela** | Esposa de Carlos y hoy **socia de la marca** junto con ella |
+| **Maly, Chuyo, Sus y Carlos** | Sus cuatro hijos, en ese orden. Carlos (mumoc) es el menor y lleva el sitio y el branding |
+| **Emilio (13) y Mateo (8)** | Hijos de Carlos, nietos de ella. Mateo le dice «Agui» |
 
 ## Cómo se llama y cómo quiere que le digan
 
@@ -40,9 +45,9 @@ No usar «Tita» en material público a menos que ella lo pida.
 es exactamente el tipo de detalle que hace que una marca artesanal se sienta de
 alguien y no de una empresa. Vale la pena que aparezca.
 
-## Empezó con su papá
+## Empezó con su papá Ernesto
 
-Su primer contacto con el jabón fue ver a su papá hacerlos. Hacía jabones de
+Su primer contacto con el jabón fue ver a su papá, **Ernesto**, hacerlos. Hacía jabones de
 coco rallado: agarraba la mezcla, hacía una bola y ya. Rudimentario, pero suyo.
 
 Se los regalaba a todos, envueltos en el papel café de las tortillas (papel de
@@ -110,8 +115,9 @@ que contarla explícitamente porque sola no se ve.
 
 ## Jesús, el promotor
 
-Su papá no solo le heredó el oficio. **Fue quien lo financió y lo validó cuando
-todavía no era un negocio.**
+Su esposo. Si Ernesto le dio el oficio, **Jesús fue quien lo financió y lo
+validó cuando todavía no era un negocio.** Financió los gustos de ella y los de
+sus cuatro hijos.
 
 > «Él fue mi promotor, fue todo. Me apoyó en una y otra cosa.»
 
@@ -164,7 +170,7 @@ Cuando ya estaba enfermo, seguía yendo a las expos a acompañarla y a llevarla.
 
 Ella ve a Jesús en sus nietos.
 
-**Emilio**, igualito a su bisabuelo: *«Pásele, pásele, lleve jabones y pague.»*
+**Emilio**, igualito a su abuelo Jesús: *«Pásele, pásele, lleve jabones y pague.»*
 
 En un evento en el Centro de las Artes, el Dr. Lugo, presidente de Zamora, se
 acercó con Emilio:
@@ -181,10 +187,11 @@ acercó con Emilio:
 > «Veo mucho de Jesús en él. Por él pude hacer muchas cosas, incluido lo de los
 > jabones.»
 
-**Por qué importa:** cierra el círculo. El mismo impulso aparece en tres
-generaciones — el papá que regalaba jabones de coco, ella que empezó haciéndolos
-para sí, y los nietos que quieren ir a vender al jardín. Es el mejor final
-posible para cualquier texto largo de la marca.
+**Por qué importa:** cierra el círculo, y son **dos herencias que confluyen**.
+De Ernesto viene el oficio: hacer jabón y regalarlo. De Jesús viene el empuje:
+promover, vender, acompañar. Los dos reaparecen en los nietos — Emilio
+ofreciendo la mercancía y Mateo insistiendo en volver al jardín. Es el mejor
+final posible para cualquier texto largo de la marca.
 
 ### Nota de precisión
 
@@ -208,13 +215,13 @@ No las parafrasees: pierden lo que las hace funcionar.
 | «El primer jabón que hice fue de lavanda, y fue para mí.» | Íntimo; funciona como cierre |
 | «La verdad es que los hago con gusto.» | Cerrar hablando del trabajo, sin quejarse de él |
 | «¿Es para los gastos?» «No, para mis gustos.» | La mejor línea del material. Dice que esto siempre fue por gusto, no por necesidad |
-| «No importa, mientras estés feliz vale la pena.» | Lo que le decía su papá cuando el negocio no funcionaba |
-| «¿Necesitas peniques para comprar tus cosas?» | Cómo le ofrecía ayuda su papá |
+| «No importa, mientras estés feliz vale la pena.» | Lo que le decía Jesús, su esposo, cuando el negocio no funcionaba |
+| «¿Necesitas peniques para comprar tus cosas?» | Cómo le ofrecía ayuda Jesús |
 | «Déjame quedarme un ratito aquí.» «¿No te cansas?» «No, déjame distraerme.» | Él ya enfermo, acompañándola en las expos |
-| «Pásele, pásele, lleve jabones y pague.» | Emilio de niño, igual que su bisabuelo |
+| «Pásele, pásele, lleve jabones y pague.» | Emilio de niño, igual que su abuelo Jesús |
 | «Agui, ¿cuándo vamos a vender al jardín otra vez? Vamos.» | Mateo hoy. Sirve de cierre |
-| «Veo mucho de Jesús en él.» | El hilo entre generaciones |
-| «Él fue mi promotor, fue todo.» | Resume lo que fue su papá |
+| «Veo mucho de Jesús en él.» | Dicho de Mateo. El hilo entre generaciones |
+| «Él fue mi promotor, fue todo.» | Resume lo que fue Jesús |
 
 ### Frases derivadas ya aprobadas
 
@@ -238,7 +245,8 @@ No son textuales, se redactaron a partir del material y ya están en uso:
 - ¿Alguna historia de clientes que la haya conmovido? ¿Qué le dicen los que
   regresan por más?
 - ¿Cuándo murió Jesús? ¿Siguió haciendo jabones igual después?
-- ¿Maly o los demás hijos participan hoy en la marca?
+- ¿Cómo y cuándo entró Adela como socia? Es parte de la historia viva de la marca.
+- ¿Chuyo, Sus o Maly participan hoy en la marca?
 - ¿Cuándo y por qué se mudó de Zamora a Colima? Puede existir un documento
   fuera del repo que ya lo cuente; si aparece, integrarlo aquí. Se buscó
   "Zamora" y "Michoacán" en todo el proyecto y no hay nada.

@@ -24,7 +24,7 @@ sesión. Este archivo es el índice con detalle.
 
 | Archivo | Qué contiene | Cuándo abrirlo |
 |---|---|---|
-| `historia-fundadora.md` | La historia contada por ella: el papá, la abuelita, Zamora, aprender sola. Con sus frases textuales | Para cualquier texto que tenga que explicar **por qué** existe la marca |
+| `historia-fundadora.md` | La historia contada por ella: su papá Ernesto y los jabones de coco, la abuelita, Zamora, aprender sola, y Jesús como promotor. Incluye quién es quién y un banco de frases textuales | Para cualquier texto que tenga que explicar **por qué** existe la marca |
 | `proceso-y-materiales.md` | Qué llevan y qué no los jabones, el proceso, tiempos, pesos, abasto | Para responder preguntas de producto **sin inventar** |
 
 Estos dos son los más nuevos y los que más se subutilizan. Casi cualquier texto
