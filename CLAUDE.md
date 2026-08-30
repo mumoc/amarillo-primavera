@@ -9,7 +9,8 @@ las hacen su mamá y su esposa.
 - **María de los Ángeles Moreno Villegas**, su mamá, es la fundadora. Quiere ser
   conocida como **«La Morocha»** — así firma el material de la marca. No uses
   "Tita" en público.
-- **Adela**, esposa de Carlos, es hoy **socia** de la marca.
+- **Adela**, esposa de Carlos, es **socia fundadora** — no ayudante ni
+  encargada de redes. Lleva la venta, las tiendas a consignación y los stands.
 
 Los nombres de la familia y quién es quién están en
 `brand/historia-fundadora.md`. Ojo: cuando la fundadora dice «mi papá» habla de
@@ -28,6 +29,7 @@ nostálgica — nunca corporativa ni técnica.
 | Escribir copy, posts, descripciones | `brand/voice.md` |
 | Contar de dónde viene la marca, por qué existe | `brand/historia-fundadora.md` |
 | Nombres de la familia, quién es quién | `brand/historia-fundadora.md` |
+| Quién hace qué, cómo opera el negocio | `brand/equipo-y-roles.md` |
 | Responder qué llevan los jabones, cómo se hacen, cuánto tardan | `brand/proceso-y-materiales.md` |
 | Saber a quién le hablas | `brand/audience.md` |
 | Colores exactos | `brand/colors.md` |
@@ -57,7 +59,10 @@ nostálgica — nunca corporativa ni técnica.
    pedido de cincuenta, una barra a la vez).
 5. **No inventes aromas, ingredientes ni productos.** Si no está en
    `brand/proceso-y-materiales.md` o en `src/content/products/`, no existe.
-6. **No imprimas las cifras de dinero** de la historia familiar (5 000, 10 000
+6. **El oficio tiene 40 años; la marca, menos de 2** (nace en diciembre de
+   2024). No presentes a Amarillo Primavera como un negocio con trayectoria
+   comercial larga. Ver `brand/equipo-y-roles.md`.
+7. **No imprimas las cifras de dinero** de la historia familiar (5 000, 10 000
    pesos) sin aclarar la época: son de hace décadas, probablemente en pesos
    viejos. Leídas hoy dan una idea equivocada.
 

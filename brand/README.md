@@ -26,6 +26,7 @@ sesión. Este archivo es el índice con detalle.
 |---|---|---|
 | `historia-fundadora.md` | La historia contada por ella: su papá Ernesto y los jabones de coco, la abuelita, Zamora, aprender sola, y Jesús como promotor. Incluye quién es quién y un banco de frases textuales | Para cualquier texto que tenga que explicar **por qué** existe la marca |
 | `proceso-y-materiales.md` | Qué llevan y qué no los jabones, el proceso, tiempos, pesos, abasto | Para responder preguntas de producto **sin inventar** |
+| `equipo-y-roles.md` | Las dos socias, qué hace cada una, cuándo nace la marca (dic 2024) | Antes de hablar de la marca como negocio |
 
 Estos dos son los más nuevos y los que más se subutilizan. Casi cualquier texto
 de venta mejora si sale de ahí en vez de salir de la imaginación.

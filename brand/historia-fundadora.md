@@ -9,6 +9,11 @@ Contada por ella misma, en agosto de 2026. Es el material de origen de la
 marca: de aquí salen los letreros, los textos del sitio y cualquier cosa que
 tenga que explicar por qué Amarillo Primavera no es jabón de supermercado.
 
+**No todo lo de aquí es material público.** Los datos familiares —la muerte de
+Jesús, la relación con los nietos, los montos de dinero— son registro interno
+para entender la marca. Lo que sí se puede publicar está marcado como citable
+más abajo.
+
 Está escrito con sus palabras a propósito. Al redactar, **preferir sus frases
 textuales sobre cualquier reescritura** — suenan a persona real y eso es
 justamente lo que no se puede copiar.
@@ -158,6 +163,19 @@ Y aunque el negocio no funcionara:
 ser rentable, nació con permiso de no serlo. Eso explica el cuidado por pieza
 que no tendría sentido en una operación pensada para el margen.
 
+### El abuelo con Emilio
+
+Con su nieto Emilio, Jesús cambió. Carlos lo cuenta así: *«mi papá "abueleó" con
+Emilio»* — el papá firme y frío se volvió un abuelo cariñoso y amoroso. Emilio
+fue el nieto consentido.
+
+**Mateo casi no alcanzó a conocerlo.** Nació el 4 de julio de 2018 y lo vio
+siendo bebé de unas semanas, y después ya muy esporádicamente.
+
+Que hoy Mateo sea justamente el que insiste en ir a vender, y que ella diga que
+ve mucho de Jesús en él, tiene ese peso extra: es un parecido que Mateo no
+aprendió conviviendo.
+
 ### Ya enfermo
 
 Cuando ya estaba enfermo, seguía yendo a las expos a acompañarla y a llevarla.
@@ -165,6 +183,11 @@ Cuando ya estaba enfermo, seguía yendo a las expos a acompañarla y a llevarla.
 > —Déjame quedarme un ratito aquí.
 > —¿No te cansas?
 > —No, déjame distraerme.
+
+**Jesús murió el 13 de octubre de 2018.**
+
+Con él, la marca perdió a su promotor. Ese hueco no se llenó hasta que Adela
+entró como socia, seis años después (ver `brand/equipo-y-roles.md`).
 
 ## Lo que se repite en los nietos
 
@@ -244,8 +267,7 @@ No son textuales, se redactaron a partir del material y ya están en uso:
 
 - ¿Alguna historia de clientes que la haya conmovido? ¿Qué le dicen los que
   regresan por más?
-- ¿Cuándo murió Jesús? ¿Siguió haciendo jabones igual después?
-- ¿Cómo y cuándo entró Adela como socia? Es parte de la historia viva de la marca.
+- ¿Siguió haciendo jabones igual después de que murió Jesús, o paró un tiempo?
 - ¿Chuyo, Sus o Maly participan hoy en la marca?
 - ¿Cuándo y por qué se mudó de Zamora a Colima? Puede existir un documento
   fuera del repo que ya lo cuente; si aparece, integrarlo aquí. Se buscó
