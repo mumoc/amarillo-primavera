@@ -74,6 +74,12 @@ La firma dice `[NOMBRE]` sobre fondo amarillo. **Hay que reemplazarlo por el
 nombre real** antes de mandarlo a la imprenta. Está resaltado a propósito para
 que no se escape.
 
+## De dónde sale el texto
+
+Todo el contenido de estos letreros sale de `brand/historia-fundadora.md` y
+`brand/proceso-y-materiales.md`. Si hay que reescribir algo, empieza por ahí:
+las frases textuales de la fundadora están marcadas como citables.
+
 ## Sobre el "100 % natural"
 
 El pie de los dos letreros decía "100 % naturales". Se cambió por **"sin

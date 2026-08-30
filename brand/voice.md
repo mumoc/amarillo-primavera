@@ -41,6 +41,16 @@ No suena corporativa ni demasiado elegante. Suena humana, luminosa y afectuosa.
 - Cultura mexicana con luz propia.
 - Detalles personalizados.
 
+## De dónde sacar material real
+
+Antes de inventar una frase, revisa `brand/historia-fundadora.md`: tiene un
+banco de frases textuales de la fundadora. Una frase suya siempre gana contra
+una redactada.
+
+Para hablar del producto sin equivocarte (qué llevan, qué no, cuánto tardan),
+`brand/proceso-y-materiales.md`. Ahí también está por qué **no** se debe decir
+"100 % natural".
+
 ## Evitar
 
 - Sonar industrial o genérico.

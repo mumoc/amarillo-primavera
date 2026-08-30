@@ -9,6 +9,11 @@ Amarillo Primavera es una marca artesanal inspirada en el árbol primavera, com�
 
 La marca nace desde lo hecho a mano: piezas individuales, cuidadas, con materiales de calidad y hechas con cariño. No busca sentirse como producción masiva, sino como objetos con historia, color y calidez.
 
+> La historia real de cómo empezó todo — el papá que hacía jabones de coco, la
+> abuelita y sus cajones perfumados, cuarenta años aprendiendo sola — está en
+> `brand/historia-fundadora.md`. Este archivo describe la esencia; ese cuenta
+> de dónde salió.
+
 ## Inspiración
 
 Amarillo Primavera toma referencias de:
