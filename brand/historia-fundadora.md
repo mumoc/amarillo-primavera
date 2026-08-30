@@ -13,6 +13,16 @@ Está escrito con sus palabras a propósito. Al redactar, **preferir sus frases
 textuales sobre cualquier reescritura** — suenan a persona real y eso es
 justamente lo que no se puede copiar.
 
+## Quién es quién
+
+| Nombre | Quién es |
+|---|---|
+| **María de los Ángeles Moreno Villegas, «La Morocha»** | La fundadora. Hace los jabones |
+| **Jesús** | Su papá. Hacía los jabones de coco y fue su promotor toda la vida |
+| **Maruja** | Su hermana |
+| **Maly** | Su hija mayor |
+| **Emilio y Mateo** | Sus nietos. Mateo le dice «Agui» |
+
 ## Cómo se llama y cómo quiere que le digan
 
 **María de los Ángeles Moreno Villegas.**
@@ -98,6 +108,91 @@ para vender mejor.
 gente (por eso los letreros y las etiquetas importan), y que la historia hay
 que contarla explícitamente porque sola no se ve.
 
+## Jesús, el promotor
+
+Su papá no solo le heredó el oficio. **Fue quien lo financió y lo validó cuando
+todavía no era un negocio.**
+
+> «Él fue mi promotor, fue todo. Me apoyó en una y otra cosa.»
+
+Siempre le preguntaba:
+
+> «¿Necesitas peniques para comprar tus cosas?»
+
+Y no le daba un peso: le daba 5 000, 10 000.
+
+### La escena de la expo
+
+Estaba en una expo con su hermana Maruja cuando le habló Jesús.
+
+> Maruja: «Te habló Jesús, ¿verdad? ¿Que si querías dinero?»
+> —Sí.
+>
+> Llegaba en un ratito, sacaba de la cartera 10 000 pesos, y Maruja se quedaba
+> boquiabierta.
+>
+> Maruja: «¿Es para los gastos?»
+> —No, para mis gustos.
+> Maruja: «Ay, a mi Juan nunca me dio dinero para mí.»
+
+**Por qué importa:** es la escena más viva de todo el material. Tiene diálogo,
+tiene un testigo que reacciona, y el juego entre *gastos* y *gustos* dice en
+dos palabras que esto nunca fue por necesidad, fue por gusto.
+
+### El permiso a que no fuera negocio
+
+> «Sacaba dinero de abajo de las piedras o exprimía a sus clientes. Siempre me
+> apoyó.»
+
+Y aunque el negocio no funcionara:
+
+> «No importa, mientras estés feliz vale la pena.»
+
+**Por qué importa:** replantea la marca entera. Amarillo Primavera no nació para
+ser rentable, nació con permiso de no serlo. Eso explica el cuidado por pieza
+que no tendría sentido en una operación pensada para el margen.
+
+### Ya enfermo
+
+Cuando ya estaba enfermo, seguía yendo a las expos a acompañarla y a llevarla.
+
+> —Déjame quedarme un ratito aquí.
+> —¿No te cansas?
+> —No, déjame distraerme.
+
+## Lo que se repite en los nietos
+
+Ella ve a Jesús en sus nietos.
+
+**Emilio**, igualito a su bisabuelo: *«Pásele, pásele, lleve jabones y pague.»*
+
+En un evento en el Centro de las Artes, el Dr. Lugo, presidente de Zamora, se
+acercó con Emilio:
+
+> Dr. Lugo: «A ver, usted qué hace aquí, debería estar divirtiéndose, no
+> trabajando.»
+> Ella: «Él juega a que vende, me ayuda aquí.»
+> Dr. Lugo: «Bueno, los niños deben divertirse, no trabajar.»
+
+**Mateo**, el más chico, es el que hoy le insiste:
+
+> «Agui, ¿cuándo vamos a vender al jardín otra vez? Vamos.»
+
+> «Veo mucho de Jesús en él. Por él pude hacer muchas cosas, incluido lo de los
+> jabones.»
+
+**Por qué importa:** cierra el círculo. El mismo impulso aparece en tres
+generaciones — el papá que regalaba jabones de coco, ella que empezó haciéndolos
+para sí, y los nietos que quieren ir a vender al jardín. Es el mejor final
+posible para cualquier texto largo de la marca.
+
+### Nota de precisión
+
+Las cantidades (5 000, 10 000 pesos) son de hace décadas y probablemente en
+pesos viejos, antes de la revaluación de 1993. **No imprimir esas cifras sin
+aclarar la época**, porque leídas hoy dan una idea equivocada. Si se usa la
+escena, funciona igual sin el número.
+
 ## Frases citables
 
 Listas para usar tal cual en letreros, posts o descripciones. **Son textuales.**
@@ -112,6 +207,14 @@ No las parafrasees: pierden lo que las hace funcionar.
 | «Fui aprendiendo a puro probar.» | Autodidacta, cuarenta años de oficio |
 | «El primer jabón que hice fue de lavanda, y fue para mí.» | Íntimo; funciona como cierre |
 | «La verdad es que los hago con gusto.» | Cerrar hablando del trabajo, sin quejarse de él |
+| «¿Es para los gastos?» «No, para mis gustos.» | La mejor línea del material. Dice que esto siempre fue por gusto, no por necesidad |
+| «No importa, mientras estés feliz vale la pena.» | Lo que le decía su papá cuando el negocio no funcionaba |
+| «¿Necesitas peniques para comprar tus cosas?» | Cómo le ofrecía ayuda su papá |
+| «Déjame quedarme un ratito aquí.» «¿No te cansas?» «No, déjame distraerme.» | Él ya enfermo, acompañándola en las expos |
+| «Pásele, pásele, lleve jabones y pague.» | Emilio de niño, igual que su bisabuelo |
+| «Agui, ¿cuándo vamos a vender al jardín otra vez? Vamos.» | Mateo hoy. Sirve de cierre |
+| «Veo mucho de Jesús en él.» | El hilo entre generaciones |
+| «Él fue mi promotor, fue todo.» | Resume lo que fue su papá |
 
 ### Frases derivadas ya aprobadas
 
@@ -134,6 +237,8 @@ No son textuales, se redactaron a partir del material y ya están en uso:
 
 - ¿Alguna historia de clientes que la haya conmovido? ¿Qué le dicen los que
   regresan por más?
+- ¿Cuándo murió Jesús? ¿Siguió haciendo jabones igual después?
+- ¿Maly o los demás hijos participan hoy en la marca?
 - ¿Cuándo y por qué se mudó de Zamora a Colima? Puede existir un documento
   fuera del repo que ya lo cuente; si aparece, integrarlo aquí. Se buscó
   "Zamora" y "Michoacán" en todo el proyecto y no hay nada.
