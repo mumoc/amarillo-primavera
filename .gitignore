@@ -6,3 +6,6 @@ dist/
 .env
 .env.*
 !.env.example
+
+# los PDF de etiquetas se generan con la skill exportar-etiquetas
+brand/etiquetas/*.pdf
