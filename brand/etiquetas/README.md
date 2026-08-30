@@ -14,7 +14,7 @@ México" y dos renglones en blanco para escribir a mano de qué es el jabón.
 - `etiqueta-jabon.html` — fuente editable (logo y tipografías van incrustados,
   funciona sin internet).
 - `etiqueta-jabon.pdf` — **no está en el repo**, se genera con la skill
-  `exportar-etiquetas` ("exporta las etiquetas"). Salen 7 hojas tamaño
+  `exportar-impresos` ("exporta las etiquetas"). Salen 7 hojas tamaño
   carta/A4:
   1. 10 etiquetas, **sobria horizontal** (logo a la izquierda).
   2. 10 etiquetas, **sobria centrada**.
@@ -39,7 +39,7 @@ si no las medidas salen mal. Papel recomendado: opalina o adhesivo mate.
 
 ## Cómo editarla
 
-Editar el HTML y volver a exportar con la skill `exportar-etiquetas`, que corre:
+Editar el HTML y volver a exportar con la skill `exportar-impresos`, que corre:
 
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless \
       --no-pdf-header-footer --print-to-pdf=etiqueta-jabon.pdf \
