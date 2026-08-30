@@ -3,11 +3,15 @@ type: brand
 tags: [proceso, materiales, produccion, jabones]
 ---
 
-# Proceso y Materiales de los Jabones
+# Proceso y Materiales — Jabones
 
 Cómo se hacen realmente los jabones, contado por quien los hace (agosto 2026).
 Sirve para escribir con precisión, para responder preguntas de clientes sin
 inventar, y para no prometer de más.
+
+> **Este archivo cubre solo los jabones.** Amarillo Primavera hace muñecas de
+> trapo, coronas y diademas florales, arreglos, decoración navideña y más — y de
+> esas líneas todavía no hay nada documentado. Ver `brand/lineas-de-producto.md`.
 
 Contexto de origen en `brand/historia-fundadora.md`.
 

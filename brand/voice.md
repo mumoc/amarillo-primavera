@@ -48,7 +48,7 @@ banco de frases textuales de la fundadora. Una frase suya siempre gana contra
 una redactada.
 
 Para hablar del producto sin equivocarte (qué llevan, qué no, cuánto tardan),
-`brand/proceso-y-materiales.md`. Ahí también está por qué **no** se debe decir
+`brand/proceso-jabones.md`. Ahí también está por qué **no** se debe decir
 "100 % natural".
 
 ## Evitar

@@ -7,7 +7,11 @@ tags: [identity, origin, story, fundadora]
 
 Contada por ella misma, en agosto de 2026. Es el material de origen de la
 marca: de aquí salen los letreros, los textos del sitio y cualquier cosa que
-tenga que explicar por qué Amarillo Primavera no es jabón de supermercado.
+tenga que explicar por qué Amarillo Primavera no es artesanía de tienda.
+
+> **Ojo:** lo que sigue es el origen de **los jabones**. La marca también hace
+> muñecas de trapo, coronas, flores y más, y el origen de esas líneas todavía no
+> está contado. Ver `brand/lineas-de-producto.md`.
 
 **No todo lo de aquí es material público.** Los datos familiares —la muerte de
 Jesús, la relación con los nietos, los montos de dinero— son registro interno

@@ -3,6 +3,12 @@
 Marca artesanal de Colima, México. Este repo tiene dos cosas: el **sitio de
 catálogo** (Astro, en `src/`) y la **biblioteca de marca** (en `brand/`).
 
+**No es una marca de jabones.** Hace muñecas de trapo (33 productos, la línea
+más grande), jabones (15), coronas y diademas florales (15), arreglos, macetas,
+llaveros y más. Solo los jabones tienen proceso documentado, así que es fácil
+sesgarse hacia ellos al escribir: no lo hagas. Ver
+`brand/lineas-de-producto.md`.
+
 El repo es de **Carlos (mumoc)**, que aporta el sitio y el branding. Las piezas
 las hacen su mamá y su esposa.
 
@@ -30,7 +36,8 @@ nostálgica — nunca corporativa ni técnica.
 | Contar de dónde viene la marca, por qué existe | `brand/historia-fundadora.md` |
 | Nombres de la familia, quién es quién | `brand/historia-fundadora.md` |
 | Quién hace qué, cómo opera el negocio | `brand/equipo-y-roles.md` |
-| Responder qué llevan los jabones, cómo se hacen, cuánto tardan | `brand/proceso-y-materiales.md` |
+| Responder qué llevan los jabones, cómo se hacen, cuánto tardan | `brand/proceso-jabones.md` |
+| Saber qué líneas de producto existen y cuáles faltan documentar | `brand/lineas-de-producto.md` |
 | Saber a quién le hablas | `brand/audience.md` |
 | Colores exactos | `brand/colors.md` |
 | Usar el logo | `brand/logo-guidelines.md` |
@@ -47,7 +54,7 @@ nostálgica — nunca corporativa ni técnica.
 1. **Nunca escribas "100 % natural"** ni equivalentes. Los jabones parten de una
    base de glicerina comercial y la afirmación no se sostiene. Usa la lista de
    lo que **no** llevan: sin espumantes, sin grasa animal, sin endurecedores.
-   Ver `brand/proceso-y-materiales.md`.
+   Ver `brand/proceso-jabones.md`.
 2. **No prometas resultados de tratamiento** de piel (acné, alergias,
    aclaramiento). Son afirmaciones cosméticas reguladas. Habla de cómo se siente
    el baño, no de lo que cura.
@@ -58,7 +65,7 @@ nostálgica — nunca corporativa ni técnica.
    menos de 10 minutos; el argumento es otro (doce horas seguidas para un
    pedido de cincuenta, una barra a la vez).
 5. **No inventes aromas, ingredientes ni productos.** Si no está en
-   `brand/proceso-y-materiales.md` o en `src/content/products/`, no existe.
+   `brand/proceso-jabones.md` o en `src/content/products/`, no existe.
 6. **El oficio tiene 40 años; la marca, menos de 2** (nace en diciembre de
    2024). No presentes a Amarillo Primavera como un negocio con trayectoria
    comercial larga. Ver `brand/equipo-y-roles.md`.

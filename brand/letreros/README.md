@@ -78,7 +78,7 @@ No usar "Tita" en material público. Contexto en
 ## De dónde sale el texto
 
 Todo el contenido de estos letreros sale de `brand/historia-fundadora.md` y
-`brand/proceso-y-materiales.md`. Si hay que reescribir algo, empieza por ahí:
+`brand/proceso-jabones.md`. Si hay que reescribir algo, empieza por ahí:
 las frases textuales de la fundadora están marcadas como citables.
 
 ## Sobre el "100 % natural"
