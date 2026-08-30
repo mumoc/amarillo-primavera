@@ -86,6 +86,9 @@ usa poco.
 
 ## Pendientes por preguntar
 
+Lista completa y priorizada en `brand/PENDIENTES.md`.
+
+
 - ¿En qué tiendas están a consignación? Sirve para el sitio y para saber dónde
   mandar gente.
 - ¿A qué jardines y expos han ido? ¿Cuáles funcionaron mejor?

@@ -11,10 +11,16 @@ algo de la marca, la respuesta está aquí.
 El mapa rápido está en el `CLAUDE.md` de la raíz, que se carga solo en cada
 sesión. Este archivo es el índice con detalle.
 
+## Qué falta
+
+**`PENDIENTES.md`** — lista única de lo que hace falta documentar, agrupada por
+qué tan urgente es. Es el archivo que hay que abrir primero.
+
 ## Identidad
 
 | Archivo | Qué contiene | Cuándo abrirlo |
 |---|---|---|
+| `PENDIENTES.md` | Lo que falta documentar, priorizado | **Al empezar cualquier trabajo de marca** |
 | `about.md` | Inspiración, esencia, dirección comercial | Para entender el "de qué va" la marca |
 | `voice.md` | Tono, personalidad, frases guía, qué evitar | **Siempre que escribas texto** |
 | `audience.md` | Los tres públicos: turista, clientela local, redes | Antes de decidir el tono de una pieza |

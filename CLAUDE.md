@@ -23,6 +23,16 @@ Los nombres de la familia y quién es quién están en
 **Ernesto** (el del oficio); **Jesús** es su esposo (el promotor). Es fácil
 confundirlos.
 
+## Pendientes
+
+**`brand/PENDIENTES.md` tiene lo que falta documentar.** Revísalo al empezar. Si
+el usuario contesta alguna de esas preguntas en la conversación, documéntala en
+el archivo que le toca, táchala en PENDIENTES y commitea — no la dejes solo en
+el chat.
+
+El hueco más grande: las muñecas son la línea más numerosa del catálogo y no
+tienen nada escrito.
+
 ## Antes de escribir cualquier texto de la marca
 
 Lee `brand/voice.md`. Siempre. La voz es cálida, alegre, cercana, mexicana,

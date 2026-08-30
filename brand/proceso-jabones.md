@@ -93,6 +93,9 @@ semana de holgura si hay que pedir esencias.
 
 ## Pendientes por preguntar
 
+Lista completa y priorizada en `brand/PENDIENTES.md`.
+
+
 - Detalle fino de los colorantes (ella ofreció ampliarlo después).
 - Confirmar el nombre del endurecedor que no usa.
 - Si algún jabón se recomienda para condiciones específicas de piel (acné,

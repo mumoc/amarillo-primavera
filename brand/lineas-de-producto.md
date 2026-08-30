@@ -49,6 +49,8 @@ por default, que es donde sí hay material.
 
 ## Qué preguntar para llenarlo
 
+Esto está priorizado en `brand/PENDIENTES.md`.
+
 Las mismas preguntas que funcionaron para los jabones:
 
 - ¿Por qué empezó con las muñecas? ¿Cuál fue la primera y para quién?

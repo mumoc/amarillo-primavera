@@ -269,6 +269,9 @@ No son textuales, se redactaron a partir del material y ya están en uso:
 
 ## Pendientes por preguntar
 
+Lista completa y priorizada en `brand/PENDIENTES.md`.
+
+
 - ¿Alguna historia de clientes que la haya conmovido? ¿Qué le dicen los que
   regresan por más?
 - ¿Siguió haciendo jabones igual después de que murió Jesús, o paró un tiempo?
