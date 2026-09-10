@@ -9,3 +9,6 @@ dist/
 
 # los PDF se generan con la skill exportar-impresos
 brand/**/*.pdf
+
+# config personal de Claude Code (las skills sí se comparten)
+.claude/settings.local.json
