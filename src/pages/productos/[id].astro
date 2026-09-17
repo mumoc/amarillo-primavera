@@ -30,6 +30,20 @@ const { Content } = await render(producto);
 
 const descripcionCorta = `${nombre} — ${categoria}, una creación artesanal de Amarillo Primavera.`;
 
+// Meta description: el primer tramo de la descripción real, cortado en una
+// palabra completa. Con la plantilla genérica las 77 fichas se veían iguales en
+// los resultados de búsqueda.
+const textoPlano = (producto.body ?? "")
+  .replace(/[*_`#>\[\]]/g, "")
+  .replace(/\s+/g, " ")
+  .trim();
+const metaDescripcion =
+  textoPlano.length === 0
+    ? descripcionCorta
+    : textoPlano.length <= 155
+      ? textoPlano
+      : `${textoPlano.slice(0, 155).replace(/\s+\S*$/, "")}…`;
+
 const imagenOptimizada = imagenes[0]
   ? await getImage({ src: imagenes[0], width: 640, height: 640 })
   : null;
@@ -42,13 +56,12 @@ const productoJsonLd = {
   description: producto.body?.trim().slice(0, 500) || descripcionCorta,
   image: imagenOptimizada ? [new URL(imagenOptimizada.src, Astro.site).toString()] : undefined,
   brand: { "@type": "Brand", name: SITE_NAME },
-  ...(disponible
-    ? { offers: { "@type": "Offer", availability: "https://schema.org/InStock", url: Astro.url.toString() } }
-    : {}),
+  // Sin `offers`: Google exige `price` en un Offer y aquí se cotiza por
+  // WhatsApp. Un Offer sin precio marca las 77 fichas como inválidas.
 };
 ---
 
-<BaseLayout title={nombre} description={descripcionCorta} image={imagenOptimizada?.src} ogType="product">
+<BaseLayout title={nombre} description={metaDescripcion} image={imagenOptimizada?.src} ogType="product">
   <script type="application/ld+json" set:html={JSON.stringify(productoJsonLd)} />
   <main class="container producto">
     <div class="producto__card">
@@ -62,7 +75,10 @@ const productoJsonLd = {
                   alt={`${nombre} — foto ${i + 1}`}
                   width={640}
                   height={640}
+                  widths={[360, 640]}
+                  sizes="(max-width: 760px) calc(100vw - 4.5rem), 560px"
                   loading={i === 0 ? "eager" : "lazy"}
+                  fetchpriority={i === 0 ? "high" : undefined}
                   data-galeria-principal
                   data-index={i}
                   hidden={i !== 0}

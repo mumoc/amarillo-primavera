@@ -13,7 +13,7 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
 );
 ---
 
-<BaseLayout title="Catálogo" description="Todo el catálogo de productos artesanales de Amarillo Primavera.">
+<BaseLayout title="Catálogo" description={`Las ${productos.length} piezas de Amarillo Primavera: muñecas de trapo, jabones, coronas florales y más, hechas a mano en Colima. Pide la tuya por WhatsApp.`}>
   <main class="container catalogo">
     <h1>Catálogo</h1>
 
@@ -25,6 +25,7 @@ const categorias = [...new Set(productos.map((p) => p.data.categoria))].sort((a,
       </aside>
 
       <div class="catalogo__contenido">
+        <h2 class="sr-only">Todas las piezas</h2>
         <p class="catalogo__conteo" id="conteo">{productos.length} productos</p>
         <p class="catalogo__filtro" id="filtro-activo" hidden>
           Mostrando resultados para <strong id="filtro-tag"></strong> —

@@ -4,12 +4,15 @@
 :root {
   --color-amarillo-oro: #e6a92e;
   --color-marron-oscuro: #604932;
-  --color-oro-quemado: #a86924;
+  /* Oro quemado y gris morado se usan solo como color de texto. Los hex de la
+     paleta (#a86924, #7e7c8a en brand/colors.md) no llegan a 4.5:1 sobre el
+     crema, así que aquí van un punto más oscuros. */
+  --color-oro-quemado: #8c561c;
   --color-dorado-brillante: #f2ce38;
   --color-crema: #f6eed3;
   --color-crema-clara: #fffaf0;
-  --color-gris-morado: #7e7c8a;
-  --color-verde-disponible: #4b7f52;
+  --color-gris-morado: #6b6977;
+  --color-verde-disponible: #3d6843;
 
   --font-titulos: "Fraunces Variable", serif;
   --font-texto: "Nunito Sans Variable", sans-serif;
@@ -64,6 +67,18 @@ a {
   color: inherit;
 }
 
+/* Encabezados que ordenan el documento para lectores de pantalla y buscadores
+   sin cambiar el diseño. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 [hidden] {
   display: none !important;
 }
@@ -103,7 +118,8 @@ img {
 
 .boton--primario {
   background: var(--color-amarillo-oro);
-  color: var(--color-marron-oscuro);
+  /* Más oscuro que el marrón de marca: sobre el amarillo-oro no llegaba a 4.5:1. */
+  color: #4a3826;
 }
 
 .boton--secundario {

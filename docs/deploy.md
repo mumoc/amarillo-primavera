@@ -10,6 +10,22 @@
 - **Dominio:** `amarilloprimavera.com` conectado como Custom Domain directo al Worker, SSL activo.
 - **CMS:** Worker de OAuth (`amarillo-primavera-cms-auth.mumo-crls.workers.dev`) desplegado y conectado — `/admin/` funcional con login por GitHub.
 
+## Buscadores y rendimiento
+
+Revisado el 2026-09-17 con Lighthouse (móvil): SEO 100, rendimiento ~93.
+
+**En el código (ya está):**
+- `@astrojs/sitemap` → `/sitemap-index.xml`, referenciado en `public/robots.txt`. `/admin/` va con `Disallow` y `noindex`.
+- Canonical, meta description, Open Graph y Twitter en `src/layouts/BaseLayout.astro`. Cada ficha usa el inicio de su descripción real como meta description.
+- JSON-LD: `Organization`/`LocalBusiness` en todas las páginas, `Product` en cada ficha (sin `offers`, ver `docs/decisiones.md`).
+- `public/_headers`: cache de un año, `immutable`, para `/_astro/*` (los nombres llevan hash).
+
+**Fuera del código (dashboards):**
+- [ ] Google Search Console: propiedad de **Dominio** para `amarilloprimavera.com`, verificada por TXT en Cloudflare DNS; enviar `https://amarilloprimavera.com/sitemap-index.xml`.
+- [ ] Cloudflare → SSL/TLS → Edge Certificates → **Always Use HTTPS** (hoy `http://` responde 200 sin redirigir).
+- [ ] `www.amarilloprimavera.com` no tiene registro DNS: agregarlo y redirigirlo al dominio sin `www`.
+- Nota: las URLs sin barra final (`/catalogo`) redirigen con 307, que es el comportamiento de Workers Static Assets. Todos los enlaces internos, el canonical y el sitemap ya usan la barra, así que no urge.
+
 ## Si hace falta rehacer algo
 
 - **Redesplegar manualmente** (sin esperar el push): `npx wrangler deploy` desde la raíz del repo (usa `wrangler.jsonc`).

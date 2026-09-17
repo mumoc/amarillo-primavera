@@ -29,6 +29,8 @@ antes de cambiar algo. El historial completo del plan está en git.
 | Canal de pedido | WhatsApp click-to-chat, mensaje prellenado con el nombre del producto |
 | CMS | Sveltia, no Decap |
 | Blog | Diferido |
+| Datos estructurados de producto | `Product` sin `offers`: Google exige `price` en un `Offer` y aquí se cotiza por WhatsApp |
+| Colores de texto | `--color-oro-quemado` y `--color-gris-morado` en `global.css` son más oscuros que los hex de `brand/colors.md`, para llegar a contraste 4.5:1 |
 | Fotos originales (`products/`) | Se quedan en git, pero sin duplicados de lo que ya está en `src/content/products/` |
 
 ## Bugs resueltos que pueden volver

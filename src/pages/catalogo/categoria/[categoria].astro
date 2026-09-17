@@ -23,7 +23,7 @@ const { categoria, categorias, productos } = Astro.props;
 const categoriasOrdenadas = [...categorias].sort((a, b) => a.localeCompare(b, "es"));
 ---
 
-<BaseLayout title={categoria} description={`Productos de la categoría ${categoria} en Amarillo Primavera.`}>
+<BaseLayout title={categoria} description={`${categoria}: ${productos.length} piezas hechas a mano en Colima por Amarillo Primavera. Pide la tuya por WhatsApp.`}>
   <main class="container catalogo">
     <h1>Catálogo</h1>
 

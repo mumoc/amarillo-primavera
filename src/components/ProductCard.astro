@@ -26,6 +26,8 @@ const { nombre, categoria, disponible, imagenes, tags, historia } = producto.dat
           alt={nombre}
           width={320}
           height={320}
+          widths={[200, 320, 480]}
+          sizes="(max-width: 860px) 45vw, 280px"
           loading={prioridad ? "eager" : "lazy"}
         />
       </div>

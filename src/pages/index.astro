@@ -95,7 +95,10 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
   }));
 ---
 
-<BaseLayout title="Inicio">
+<BaseLayout
+  title="Amarillo Primavera — muñecas de trapo, jabones y coronas florales hechas a mano en Colima"
+  description="Muñecas de trapo, jabones, coronas florales y más piezas hechas a mano en Colima, con color y mucho cariño. Explora el catálogo y pide la tuya por WhatsApp."
+>
   <section class="hero">
     <div class="container hero__inner">
       <div class="hero__texto-col">
@@ -160,6 +163,7 @@ const categoriasDestacadas = [...conteoPorCategoria.entries()]
   </section>
 
   <section class="container valores">
+    <h2 class="sr-only">Lo que hace especial cada pieza</h2>
     <div class="valores__grid">
       {
         valores.map((valor) => (
