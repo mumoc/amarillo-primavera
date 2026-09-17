@@ -21,7 +21,7 @@ Revisado el 2026-09-17 con Lighthouse (móvil): SEO 100, rendimiento ~93.
 - `public/_headers`: cache de un año, `immutable`, para `/_astro/*` (los nombres llevan hash).
 
 **Fuera del código (dashboards):**
-- [ ] Google Search Console: propiedad de **Dominio** para `amarilloprimavera.com`, verificada por TXT en Cloudflare DNS; enviar `https://amarilloprimavera.com/sitemap-index.xml`.
+- [x] Google Search Console (hecho el 2026-09-17): propiedad de **Dominio** para `amarilloprimavera.com`, verificada por TXT en Cloudflare DNS; enviar `https://amarilloprimavera.com/sitemap-index.xml`.
 - [ ] Cloudflare → SSL/TLS → Edge Certificates → **Always Use HTTPS** (hoy `http://` responde 200 sin redirigir).
 - [ ] `www.amarilloprimavera.com` no tiene registro DNS: agregarlo y redirigirlo al dominio sin `www`.
 - Nota: las URLs sin barra final (`/catalogo`) redirigen con 307, que es el comportamiento de Workers Static Assets. Todos los enlaces internos, el canonical y el sitemap ya usan la barra, así que no urge.
