@@ -11,7 +11,7 @@ Esta guía describe el material que realmente existe hoy, no un ideal aspiracion
 
 - **Fotos de estilo/lifestyle.** Producto mostrado en contexto, no solo en fondo plano. Es el material principal para posts de Instagram y Facebook.
 - **Fotos de proceso / detrás de cámaras.** Muestran el lado hecho a mano de la marca. Son las que mejor comunican "artesanal" y "hecho con cariño" de forma creíble.
-- **Imágenes generadas con IA / ilustradas.** Útiles para conceptos que no se pueden fotografiar fácil (ej. el árbol primavera con los volcanes de Colima de fondo, ver `context/colima-visual-references.md`). Funcionan bien como fondos, banners o piezas de marca, no como sustituto de fotos reales de producto.
+- **Imágenes generadas con IA / ilustradas.** Útiles para conceptos que no se pueden fotografiar fácil (ej. el árbol primavera con los volcanes de Colima de fondo — son dos, el Volcán de Fuego y el Nevado de Colima; se pidió realista y con el árbol grande en primer plano). Funcionan bien como fondos, banners o piezas de marca, no como sustituto de fotos reales de producto.
 
 ## Cuándo usar cada una
 

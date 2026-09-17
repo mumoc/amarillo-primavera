@@ -1,9 +1,0 @@
-#!/bin/bash
-# Resuelve la raíz del repo relativa al bundle (.app vive en la raíz del repo),
-# en vez de una ruta absoluta hardcodeada que se rompe al mover/clonar el repo.
-REPO="$(cd "$(dirname "$0")/../../.." && pwd)"
-
-osascript -e "tell application \"Terminal\"
-    activate
-    do script \"cd '$REPO' && ./start-dev.command\"
-end tell"

@@ -24,9 +24,8 @@ todos los productos.
    `src/content/products/<slug>/description.md` — el JSON no trae la lista
    de imágenes ni el frontmatter completo (`disponible`, `tono`, etc.).
 
-No uses `products/catalog_report.md`, `products/categorization_report.md` ni
-ningún archivo bajo `products/` en la raíz como índice — esos son solo
-bitácora histórica de la migración original, no reflejan el catálogo actual.
+No uses nada bajo `products/` en la raíz como índice: son fotos originales y
+fotos sin catalogar, no reflejan el catálogo actual.
 
 ## Búsquedas puntuales (si no quieres regenerar el build)
 

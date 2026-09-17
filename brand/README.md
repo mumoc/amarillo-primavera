@@ -8,8 +8,9 @@ tags: [indice, referencia]
 Todo lo que define a Amarillo Primavera. Si vas a escribir, diseñar o imprimir
 algo de la marca, la respuesta está aquí.
 
-El mapa rápido está en el `CLAUDE.md` de la raíz, que se carga solo en cada
-sesión. Este archivo es el índice con detalle.
+El mapa rápido está en el `AGENTS.md` de la raíz (`CLAUDE.md` es un enlace a
+ese mismo archivo), que se carga solo en cada sesión. Este archivo es el
+índice con detalle.
 
 ## Qué falta
 
@@ -68,4 +69,4 @@ generan con la skill `exportar-impresos` y no se guardan en git.
 1. Archivo `.md` en `brand/` con frontmatter `type: brand` y sus `tags`.
 2. Agrégalo a la tabla que le toque en este índice.
 3. Si es algo que la IA debe consultar seguido, agrégalo también a la tabla de
-   `CLAUDE.md` de la raíz — si no está ahí, en la práctica no se lee.
+   `AGENTS.md` de la raíz — si no está ahí, en la práctica no se lee.
