@@ -71,3 +71,10 @@
 /productos/marien-vestido-lunares-rojo   /productos/vestido-lunares-rojo/  301
 /productos/marien-vestido-satin-morado/  /productos/vestido-satin-morado/  301
 /productos/marien-vestido-satin-morado   /productos/vestido-satin-morado/  301
+
+# Variantes percent-encoded: los slugs con ñ llegan como %C3%B1 y no hacen
+# match contra la regla con la ñ literal (daban 404).
+/productos/marien-coletas-mo%C3%B1os-morados/  /productos/coletas-mo%C3%B1os-morados/  301
+/productos/marien-coletas-mo%C3%B1os-morados   /productos/coletas-mo%C3%B1os-morados/  301
+/productos/marien-pa%C3%B1oleta-bohemia/       /productos/pa%C3%B1oleta-bohemia/       301
+/productos/marien-pa%C3%B1oleta-bohemia        /productos/pa%C3%B1oleta-bohemia/       301
