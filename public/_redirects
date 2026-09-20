@@ -78,3 +78,7 @@
 /productos/marien-coletas-mo%C3%B1os-morados   /productos/coletas-mo%C3%B1os-morados/  301
 /productos/marien-pa%C3%B1oleta-bohemia/       /productos/pa%C3%B1oleta-bohemia/       301
 /productos/marien-pa%C3%B1oleta-bohemia        /productos/pa%C3%B1oleta-bohemia/       301
+
+# La ficha "Corona Rosa" vivia en un slug de muñeca; se separan en dos productos.
+/productos/vestido-lunares-rojo/  /productos/corona-rosa-listones-morados/  301
+/productos/vestido-lunares-rojo   /productos/corona-rosa-listones-morados/  301
