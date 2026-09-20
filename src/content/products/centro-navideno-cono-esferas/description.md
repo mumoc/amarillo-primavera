@@ -8,7 +8,6 @@ tags:
   - '#EspirituNavideno'
   - '#Colima'
   - '#HechoAMano'
-tono: ''
 disponible: true
 imagenes:
   - images/ChristmasDecor_OrnamentCone_01.jpg

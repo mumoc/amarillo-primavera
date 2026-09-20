@@ -86,3 +86,7 @@
 # La ficha de los kits vivia en un slug de muñeca.
 /productos/vestido-bordado-crema/  /productos/kits-cuidado-personal/  301
 /productos/vestido-bordado-crema   /productos/kits-cuidado-personal/  301
+
+# El slug describia a otra muñeca (rubia con sombrero de girasol).
+/productos/sombrero-girasol/  /productos/frida-flores-rosas/  301
+/productos/sombrero-girasol   /productos/frida-flores-rosas/  301
