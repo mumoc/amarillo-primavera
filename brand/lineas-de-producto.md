@@ -19,7 +19,7 @@ esta tabla — aquí solo para dar proporción.
 
 | Línea | Productos | ¿Documentada? |
 |---|---:|---|
-| **Muñecas** (de trapo, las "Marien") | 33 | ✘ Nada |
+| **Muñecas** (de trapo) | 33 | ✘ Nada |
 | **Jabones** | 15 | ✔ `brand/proceso-jabones.md` |
 | **Coronas y diademas florales** | 15 | ✘ Nada |
 | Decoración navideña | 4 | ✘ |
@@ -37,8 +37,7 @@ Total: 77 productos.
 ## El hueco más grande
 
 **Las muñecas son la línea más numerosa del catálogo y no tienen nada
-documentado**: ni de dónde vienen, ni cómo se hacen, ni con qué materiales, ni
-por qué se llaman Marien.
+documentado**: ni de dónde vienen, ni cómo se hacen, ni con qué materiales.
 
 `brand/about.md` menciona las muñecas de trapo como una de las inspiraciones de
 la marca, así que hay una historia ahí que nadie ha contado. Las coronas y
@@ -54,7 +53,6 @@ Esto está priorizado en `brand/PENDIENTES.md`.
 Las mismas preguntas que funcionaron para los jabones:
 
 - ¿Por qué empezó con las muñecas? ¿Cuál fue la primera y para quién?
-- ¿De dónde sale el nombre "Marien"?
 - ¿Qué materiales lleva una muñeca? ¿Cuánto tarda una?
 - ¿Qué **no** lleva, o qué evita usar?
 - Lo mismo para las coronas y diademas.

@@ -16,7 +16,7 @@ Lista de referencia para no improvisar hashtags en cada post. Se puede ampliar c
 **Jabones** (Jabón de Bambú, Jabón de Menta y Romero, Ola Brisa Marina)
 `#JabonArtesanal` `#JabonNatural` `#CuidadoNatural` `#AutocuidadoArtesanal`
 
-**Muñecas de trapo (línea Marien)**
+**Muñecas de trapo**
 `#MunecasDeTrapo` `#MuñecasArtesanales` `#TradicionMexicana` `#JuguetesArtesanales`
 
 **Salsa Diabla** (tono distinto, ver `brand/sub-brand-tone.md`)

@@ -23,8 +23,8 @@ Sin esto no se puede avanzar en cosas que ya están pedidas.
 
 - [ ] **Las muñecas: origen, proceso y materiales.**
   Es la línea más grande del catálogo (33 productos) y no hay nada escrito.
-  Preguntar: por qué empezó, cuál fue la primera y para quién, de dónde sale el
-  nombre "Marien", qué materiales lleva, cuánto tarda una, qué evita usar.
+  Preguntar: por qué empezó, cuál fue la primera y para quién, qué materiales
+  lleva, cuánto tarda una, qué evita usar.
   → Iría en un archivo nuevo, "proceso-munecas.md", que todavía no existe.
   Ver `brand/lineas-de-producto.md`.
 

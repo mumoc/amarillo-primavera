@@ -31,4 +31,4 @@ En línea con `brand/colors.md`: luz cálida, tonos dorados y naturales, nada de
 
 ## Pendiente
 
-Fotos de telas (materia prima) siguen siendo un hueco, especialmente para la línea de muñecas de trapo Marien. Vale la pena capturarlas cuando se pueda.
+Fotos de telas (materia prima) siguen siendo un hueco, especialmente para la línea de muñecas de trapo. Vale la pena capturarlas cuando se pueda.

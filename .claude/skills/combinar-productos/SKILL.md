@@ -16,8 +16,8 @@ pares quedaron señalados como posiblemente el mismo producto fotografiado en
 tandas distintas — sin confirmar, hay que revisarlos con el usuario antes de
 combinar:
 
-- **marien-nacimiento-mini-fieltro** (8 fotos) vs **marien-nacimiento-mini-completo** (3 fotos) — parecen el mismo set de nacimiento mini en fieltro.
-- **marien-nacimiento-completo** (5 fotos) — escena de nacimiento completa; revisar si no es también el mismo set que los dos anteriores.
+- **nacimiento-mini-fieltro** (8 fotos) vs **nacimiento-mini-completo** (3 fotos) — parecen el mismo set de nacimiento mini en fieltro.
+- **nacimiento-completo** (5 fotos) — escena de nacimiento completa; revisar si no es también el mismo set que los dos anteriores.
 - **set-organizadores-lapices-cuatro-colores** (2 fotos) vs **organizador-lapices-multicolor** (1 foto) — posiblemente el mismo set de organizadores de 4 colores.
 - **diademas-listones-multicolor-exhibicion** (3 fotos) vs **diademas-listones-multicolor-conjunto** (7 fotos) — foto de exhibición grupal vs. fotos por pares de las mismas diademas de listones.
 - **macetas-cemento-frases-set** (1 foto) vs **macetas-cemento-frases-suculentas** (1 foto) — posiblemente las mismas macetas de cemento, dos recortes de la misma sesión.
