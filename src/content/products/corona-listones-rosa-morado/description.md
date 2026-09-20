@@ -4,13 +4,13 @@ categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
-  - "#CoronasDeFlores"
-  - "#DiademasArtesanales"
-  - "#AccesoriosFlorales"
-  - "#EstiloMexicano"
+  - "#MunecasDeTrapo"
+  - "#MuñecasArtesanales"
+  - "#TradicionMexicana"
+  - "#RegalosArtesanales"
 disponible: true
 imagenes:
-  - images/FlowerCrown_RibbonPinkPurple_01.jpg
+  - images/RagDoll_GuareMichoacana_01.jpg
 ---
 
-Una corona floral adornada con un gran moño de listones en tonos rosa y morado, perfecta para sumar un toque alegre a cualquier look. Hecha a mano con cariño, ideal para fiestas, fotos y celebraciones especiales. Un detalle que alegra y le da color al día.
+Muñeca de trapo vestida de guare michoacana: blusa blanca, delantal morado, falda larga oscura y un rebozo de franjas de colores cruzado a la espalda. Trenzas de estambre negro y un listón morado en el cabello. Un homenaje a la tradición purépecha, cosido a mano con todo el cariño.
