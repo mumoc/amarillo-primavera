@@ -1,5 +1,5 @@
 ---
-nombre: Corona Floral
+nombre: Muñeca de Corona Floral
 categoria: Muñecas
 tags:
   - "#AmarilloPrimavera"

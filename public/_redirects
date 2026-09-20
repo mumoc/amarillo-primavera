@@ -82,3 +82,7 @@
 # La ficha "Corona Rosa" vivia en un slug de muñeca; se separan en dos productos.
 /productos/vestido-lunares-rojo/  /productos/corona-rosa-listones-morados/  301
 /productos/vestido-lunares-rojo   /productos/corona-rosa-listones-morados/  301
+
+# La ficha de los kits vivia en un slug de muñeca.
+/productos/vestido-bordado-crema/  /productos/kits-cuidado-personal/  301
+/productos/vestido-bordado-crema   /productos/kits-cuidado-personal/  301
