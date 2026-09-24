@@ -12,10 +12,8 @@ tags:
 disponible: true
 imagenes:
   - images/RagDoll_Nativity_Mary_01.jpg
-  - images/RagDoll_Nativity_Mary_02.jpg
   - images/RagDoll_Nativity_Mary_03.jpg
   - images/RagDoll_Nativity_Virgin_01.jpg
-  - images/Soap_GiftSet_Collage_01.jpg
 ---
 
 Nuestras Virgencitas son muñecas de tela hechas a mano, inspiradas en la Virgen María y elaboradas con dedicación para acompañar momentos de fe y celebración. Cada pieza está confeccionada con vestido rosa, velo azul y un delicado halo dorado, cuidando cada detalle para transmitir ternura, calidez y devoción.
