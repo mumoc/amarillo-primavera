@@ -90,3 +90,7 @@
 # El slug describia a otra muñeca (rubia con sombrero de girasol).
 /productos/sombrero-girasol/  /productos/frida-flores-rosas/  301
 /productos/sombrero-girasol   /productos/frida-flores-rosas/  301
+
+# La Colimota estaba en un slug de novia; el vestido es de manta, no de boda.
+/productos/novia-de-trapo/  /productos/colimota/  301
+/productos/novia-de-trapo   /productos/colimota/  301
