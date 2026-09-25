@@ -262,9 +262,9 @@ No son textuales, se redactaron a partir del material y ya están en uso:
 
 ## Dónde se está usando
 
-- `brand/letreros/letrero-historia.html` — el letrero largo de exhibición sale
+- `content/impresos/letreros/letrero-historia.html` — el letrero largo de exhibición sale
   casi todo de aquí.
-- `brand/letreros/letrero-beneficios.html` — la idea de "te llevas cómo te vas
+- `content/impresos/letreros/letrero-beneficios.html` — la idea de "te llevas cómo te vas
   a sentir" viene de la sección de aromas.
 
 ## Pendientes por preguntar

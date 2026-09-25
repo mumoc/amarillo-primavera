@@ -63,6 +63,6 @@ Las mismas preguntas que funcionaron para los jabones:
   jabón**. Menciona el rango: muñecas, jabones, coronas y flores.
 - Si es de una línea específica, usa el material de esa línea. Si no existe,
   pregunta antes de inventar.
-- Los letreros actuales (`brand/letreros/`) son **específicos de jabones** y
+- Los letreros actuales (`content/impresos/letreros/`) son **específicos de jabones** y
   están bien así: son para la canasta de jabones. Si se va a exhibir el resto,
   hacen falta otros.

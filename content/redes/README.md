@@ -1,5 +1,5 @@
 ---
-type: brand
+type: content
 tags: [redes, instagram, contenido, historico]
 ---
 
@@ -15,9 +15,9 @@ Una carpeta por **tema o temporada**, y dentro, cada pieza con dos archivos
 que comparten nombre:
 
 ```
-brand/redes/
+content/redes/
   <tema>/
-    README.md                 ← ideas del tema y lista de piezas hechas
+    README.md                 ← ideas del tema y lista de piezas (opcional)
     <año>-<nombre>.html       ← el diseño (fuente de verdad)
     <año>-<nombre>.md         ← texto del post, hashtags, productos, decisiones
     <año>-<nombre>.png        ← la imagen final (no se guarda en git)
@@ -28,14 +28,37 @@ brand/redes/
 - El `.md` de cada pieza tiene el texto tal como se publicó (o se va a
   publicar). Si se cambia algo en Instagram después de publicar, actualízalo
   aquí también.
+- Un post que es solo texto (sin diseño) es solo el `.md`.
 - El `README.md` del tema junta las ideas: lo que funcionó, lo que quedó
-  pendiente y lo que se podría hacer la próxima vez.
+  pendiente y lo que se podría hacer la próxima vez. Vale la pena en cuanto el
+  tema tiene más de una pieza o ideas sueltas que no quieres perder.
+
+## El `.md` de cada pieza
+
+Frontmatter común para poder filtrar por estado y plataforma:
+
+```yaml
+---
+title: Flores y catrinas — Día de Muertos 2026
+type: post
+platform: instagram        # instagram | facebook | ambas
+status: draft              # draft | lista | publicada
+fecha: 2026-09-24          # cuándo se hizo; al publicar, agrega publicada: AAAA-MM-DD
+tags: [instagram, dia-de-muertos]
+---
+```
+
+Luego el texto del post tal como se publica, y si hay diseño: productos que
+aparecen, decisiones y pendientes.
 
 ## Temas
 
 | Carpeta | Qué hay |
 |---|---|
-| `dia-de-muertos/` | Coronas, diademas y muñecas catrinas |
+| `dia-de-muertos/` | Coronas, diademas y muñecas catrinas. Post "Flores y catrinas" 2026 |
+| `marca/` | Presentación de la marca (Facebook) e impulso inicial (Instagram). Borradores de texto |
+| `jabones/` | Jabón Ola Brisa Marina (Instagram). Borrador de texto |
+| `salsa-diabla/` | Salsa Diabla (Facebook). Borrador de texto; tono en `brand/sub-brand-tone.md` |
 
 ## Cómo regenerar la imagen
 

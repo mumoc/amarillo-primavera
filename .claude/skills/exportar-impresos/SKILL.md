@@ -1,12 +1,12 @@
 ---
 name: exportar-impresos
-description: Exporta a PDF listo para imprimir el material impreso de la marca (etiquetas de jabón, letreros de canasta). Usa cuando el usuario dice "exporta las etiquetas", "genera el PDF del letrero", "quiero imprimir las etiquetas", "dame esto para la imprenta", o después de editar cualquier HTML dentro de `brand/`.
+description: Exporta a PDF listo para imprimir el material impreso de la marca (etiquetas de jabón, letreros de canasta). Usa cuando el usuario dice "exporta las etiquetas", "genera el PDF del letrero", "quiero imprimir las etiquetas", "dame esto para la imprenta", o después de editar cualquier HTML dentro de `content/impresos/`.
 ---
 
 # Exportar Impresos a PDF
 
-Cada impreso de la marca vive como un HTML en `brand/`, y ese HTML es la fuente
-de verdad. Los PDF **no** se guardan en el repo (están en `.gitignore`): se
+Cada impreso de la marca vive como un HTML en `content/impresos/`, y ese HTML
+es la fuente de verdad del impreso (los textos salen de `brand/`). Los PDF **no** se guardan en el repo (están en `.gitignore`): se
 regeneran cuando se necesitan.
 
 Los HTML llevan el logo y las tipografías incrustadas en base64, así que se
@@ -16,9 +16,9 @@ exportan igual sin internet y sin el servidor de Astro corriendo.
 
 | Impreso | Archivo | Qué sale |
 |---------|---------|----------|
-| Etiquetas de jabón | `brand/etiquetas/etiqueta-jabon.html` | 7 hojas de etiquetas de 7 × 4.5 cm |
-| Letrero de beneficios | `brand/letreros/letrero-beneficios.html` | Carta vertical + media carta |
-| Letrero de historia | `brand/letreros/letrero-historia.html` | Carta vertical |
+| Etiquetas de jabón | `content/impresos/etiquetas/etiqueta-jabon.html` | 7 hojas de etiquetas de 7 × 4.5 cm |
+| Letrero de beneficios | `content/impresos/letreros/letrero-beneficios.html` | Carta vertical + media carta |
+| Letrero de historia | `content/impresos/letreros/letrero-historia.html` | Carta vertical |
 
 Cada carpeta tiene su `README.md` con el detalle de las variantes.
 

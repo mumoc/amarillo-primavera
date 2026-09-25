@@ -1,5 +1,5 @@
 ---
-type: brand
+type: content
 tags: [redes, dia-de-muertos, catrinas, temporada]
 ---
 

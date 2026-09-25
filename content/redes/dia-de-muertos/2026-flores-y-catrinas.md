@@ -1,9 +1,11 @@
 ---
-type: brand
-tags: [redes, instagram, dia-de-muertos, post]
+title: Flores y catrinas — Día de Muertos 2026
+type: post
+platform: instagram
+status: lista
 fecha: 2026-09-24
 formato: post vertical 1080 × 1350
-estado: lista, sin publicar
+tags: [instagram, dia-de-muertos, catrinas]
 ---
 
 # Flores y catrinas — Día de Muertos 2026
@@ -13,7 +15,7 @@ hacemos coronas, diademas y muñecas catrinas, y que también se hacen a la
 medida.
 
 - Diseño: `2026-flores-y-catrinas.html`
-- Imagen: `2026-flores-y-catrinas.png` (se regenera, ver `brand/redes/README.md`)
+- Imagen: `2026-flores-y-catrinas.png` (se regenera, ver `content/redes/README.md`)
 
 ## Texto en la imagen
 

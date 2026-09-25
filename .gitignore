@@ -8,10 +8,10 @@ dist/
 !.env.example
 
 # los PDF se generan con la skill exportar-impresos
-brand/**/*.pdf
+content/**/*.pdf
 
 # las imágenes de redes se regeneran desde su HTML
-brand/redes/**/*.png
+content/redes/**/*.png
 
 # config personal de Claude Code (las skills sí se comparten)
 .claude/settings.local.json

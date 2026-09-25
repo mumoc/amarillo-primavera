@@ -53,17 +53,12 @@ de venta mejora si sale de ahí en vez de salir de la imaginación.
 | Archivo | Qué contiene |
 |---|---|
 | `hashtags.md` | Hashtags por tipo de producto |
-| `redes/` | Posts ya hechos, por tema (`redes/dia-de-muertos/`…): diseño HTML, texto publicado, productos e ideas para la próxima. Ver `redes/README.md` |
 
-## Impresos
+## Lo que se produce con la marca
 
-| Carpeta | Qué hay |
-|---|---|
-| `etiquetas/` | Etiqueta de jabón de 7 × 4.5 cm, 7 variantes |
-| `letreros/` | Letrero de beneficios y letrero de historia, para exhibición |
-
-Cada carpeta tiene su propio `README.md`. Los HTML son la fuente; los PDF se
-generan con la skill `exportar-impresos` y no se guardan en git.
+Posts, etiquetas y letreros **no viven aquí**: están en `content/` (índice en
+`content/README.md`). Esta carpeta es solo la fuente de verdad; si algo de
+`content/` la contradice, se corrige el contenido.
 
 ## Cómo agregar algo a esta biblioteca
 

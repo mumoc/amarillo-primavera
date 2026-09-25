@@ -12,13 +12,15 @@ Primavera. En vivo en https://amarilloprimavera.com.
   - `content/products/` — el catálogo: una carpeta por producto, con `description.md` + `images/`
   - `pages/` — Home, `/catalogo/`, `/catalogo/categoria/<slug>/`, `/productos/<slug>/`, `/sobre-la-marca/`
   - `components/`, `layouts/`, `styles/`, `config/`, `lib/`
-- `brand/` — biblioteca de marca: voz, historia, equipo, colores, logo, impresos. Índice en `brand/README.md`, pendientes en `brand/PENDIENTES.md`
+- `brand/` — biblioteca de marca, la fuente de verdad: voz, historia, equipo, colores, logo, hashtags. Índice en `brand/README.md`, pendientes en `brand/PENDIENTES.md`
 - `public/admin/` — Sveltia CMS (editar el catálogo sin tocar código)
 - `worker/` — Cloudflare Worker de OAuth con GitHub para el CMS
 - `products/` — fotos originales, **no** el catálogo activo:
   - `raw/` — fotos y videos originales que no están en el sitio
   - `PENDIENTES/` — fotos sin catalogar ("creaciones de madera" y fotos sueltas)
-- `content/drafts/` — borradores de posts para redes
+- `content/` — lo que se produce con la marca. Índice en `content/README.md`
+  - `redes/<tema>/` — posts para Instagram y Facebook, con su texto e histórico
+  - `impresos/` — etiquetas y letreros (HTML fuente; los PDF no se guardan)
 - `docs/` — `decisiones.md` (por qué el sitio está hecho así) y `deploy.md`
 - `.claude/skills/` — skills para mantener el catálogo e imprimir material
 

@@ -75,7 +75,7 @@ Nada que preguntar; depende de que se llene lo de arriba.
 
 - [ ] **Ajustar el sitio** con todo el material nuevo de marca. Hoy el sitio no
       cuenta nada de la historia ni de quién hace las piezas.
-- [ ] **Letreros para muñecas y coronas.** Los de `brand/letreros/` son
+- [ ] **Letreros para muñecas y coronas.** Los de `content/impresos/letreros/` son
       específicos de la canasta de jabones. Si van a exhibir el resto del
       catálogo, hacen falta otros, y hoy no hay material para escribirlos.
 - [ ] Poner el nombre de Ernesto en el letrero de historia (*"Mi papá Ernesto

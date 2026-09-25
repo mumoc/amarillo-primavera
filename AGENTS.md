@@ -1,7 +1,14 @@
 # Amarillo Primavera
 
-Marca artesanal de Colima, México. Este repo tiene dos cosas: el **sitio de
-catálogo** (Astro, en `src/`) y la **biblioteca de marca** (en `brand/`).
+Marca artesanal de Colima, México. Este repo tiene tres cosas: el **sitio de
+catálogo** (Astro, en `src/`), la **biblioteca de marca** (en `brand/`) y el
+**contenido** que se produce con ella (en `content/`: posts, etiquetas,
+letreros).
+
+**`brand/` es solo la fuente de verdad de la marca**: voz, historia, colores,
+logo, hashtags, líneas de producto. Nada que se genere a partir de ella va ahí
+— ni posts, ni impresos, ni fotos de producto. Eso va en `content/`, `src/` o
+`products/`.
 
 **No es una marca de jabones.** Hace muñecas de trapo (33 productos, la línea
 más grande), jabones (15), coronas y diademas florales (15), arreglos, macetas,
@@ -53,13 +60,14 @@ nostálgica — nunca corporativa ni técnica.
 | Usar el logo | `brand/logo-guidelines.md` |
 | Tomar o elegir fotos | `brand/photography.md` |
 | Hashtags para redes | `brand/hashtags.md` |
-| Hacer un post, o ver qué se ha publicado y con qué texto | `brand/redes/` |
+| Hacer un post, o ver qué se ha publicado y con qué texto | `content/redes/` |
 | Un producto con tono distinto al de la marca | `brand/sub-brand-tone.md` |
 | La inspiración y esencia general | `brand/about.md` |
-| Etiquetas y letreros imprimibles | `brand/etiquetas/`, `brand/letreros/` |
+| Etiquetas y letreros imprimibles | `content/impresos/` |
 | Cambiar algo técnico del sitio o el deploy | `docs/decisiones.md`, `docs/deploy.md` |
 
-Índice completo con más detalle: `brand/README.md`.
+Índice completo con más detalle: `brand/README.md` (marca) y
+`content/README.md` (lo producido).
 
 ## Reglas que no se rompen
 
@@ -92,7 +100,13 @@ Están en `.claude/skills/`. Para catálogo: `agregar-producto`,
 `agregar-historia-producto`, `vista-previa-producto`, `enviar-a-produccion`.
 Para impresos: `exportar-impresos`.
 
-## Impresos
+## Contenido producido
 
-Los HTML en `brand/` son la fuente de verdad; los PDF **no** se guardan en git
-(`.gitignore` los excluye) y se regeneran con la skill `exportar-impresos`.
+Posts e impresos viven en `content/`. Sus HTML y `.md` son la fuente; los PDF y
+PNG **no** se guardan en git (`.gitignore` los excluye): los PDF se regeneran
+con la skill `exportar-impresos` y los PNG de redes como dice
+`content/redes/README.md`.
+
+Cada post nuevo va en `content/redes/<tema>/<año>-<nombre>`, con un `.md` que
+guarde el texto publicado, los productos y las decisiones. Es el histórico:
+antes de hacer un post, revisa si el tema ya tiene piezas e ideas.
