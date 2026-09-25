@@ -53,6 +53,7 @@ de venta mejora si sale de ahí en vez de salir de la imaginación.
 | Archivo | Qué contiene |
 |---|---|
 | `hashtags.md` | Hashtags por tipo de producto |
+| `redes/` | Posts ya hechos, por tema (`redes/dia-de-muertos/`…): diseño HTML, texto publicado, productos e ideas para la próxima. Ver `redes/README.md` |
 
 ## Impresos
 

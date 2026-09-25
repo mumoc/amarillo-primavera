@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Flores y catrinas — Día de Muertos 2026</title>
+<!--
+  Post vertical de Instagram (1080 × 1350). Texto, productos y decisiones en
+  2026-flores-y-catrinas.md. Cómo regenerar el PNG: brand/redes/README.md.
+-->
+<style>
+  @font-face {
+    font-family: "Fraunces";
+    src: url("../../../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-full-normal.woff2") format("woff2");
+    font-weight: 100 900;
+  }
+  @font-face {
+    font-family: "Fraunces";
+    src: url("../../../node_modules/@fontsource-variable/fraunces/files/fraunces-latin-full-italic.woff2") format("woff2");
+    font-weight: 100 900;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Nunito Sans";
+    src: url("../../../node_modules/@fontsource-variable/nunito-sans/files/nunito-sans-latin-wght-normal.woff2") format("woff2");
+    font-weight: 200 1000;
+  }
+
+  :root {
+    --oro: #E6A92E;
+    --oro-quemado: #A86924;
+    --cafe: #604932;
+    --cafe-oscuro: #3d2c1c;
+    --crema: #F6EED3;
+    --crema-2: #F1E4AA;
+    --cempasuchil: #EA8A1E;
+    --rosa: #D63A6E;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+
+  body {
+    position: relative;
+    background:
+      radial-gradient(ellipse at 50% 40%, #fbf5e2 0%, var(--crema) 55%, #efe2bb 100%);
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--cafe-oscuro);
+  }
+
+  /* ---------- papel picado ---------- */
+  .papel {
+    position: absolute; top: 0; left: 0; width: 1080px; height: 230px; z-index: 6;
+  }
+
+  /* ---------- encabezado ---------- */
+  .encabezado {
+    position: absolute; top: 204px; left: 0; right: 0;
+    text-align: center;
+  }
+  .ceja {
+    font-size: 22px; font-weight: 800; letter-spacing: .32em;
+    text-transform: uppercase; color: var(--oro-quemado);
+  }
+  .ceja span { color: var(--rosa); padding: 0 .35em; }
+  h1 {
+    margin-top: 12px;
+    font-family: "Fraunces", serif;
+    font-variation-settings: "SOFT" 100, "WONK" 1;
+    font-weight: 700; font-size: 80px; line-height: .98;
+    letter-spacing: -.01em; color: var(--cafe-oscuro);
+  }
+  h1 em {
+    font-style: italic; font-weight: 600; color: var(--cempasuchil);
+  }
+
+  /* ---------- collage de fotos ---------- */
+  .foto {
+    position: absolute;
+    background: #fffdf6;
+    padding: 16px 16px 58px;
+    box-shadow: 0 18px 34px rgba(61, 44, 28, .22), 0 3px 8px rgba(61, 44, 28, .14);
+  }
+  .foto img {
+    display: block; width: 100%; height: 100%; object-fit: cover;
+  }
+  .foto figcaption {
+    position: absolute; left: 0; right: 0; bottom: 14px;
+    text-align: center;
+    font-family: "Fraunces", serif; font-style: italic; font-weight: 500;
+    font-size: 25px; color: var(--cafe);
+  }
+  /* Cada marco tiene la proporción de su foto: nada se recorta */
+  .foto.principal { left: 40px; top: 428px; width: 432px; transform: rotate(-3deg); z-index: 2; }
+  .foto.principal img { width: 400px; height: 533px; }
+  .foto.uno  { left: 492px; top: 404px; transform: rotate(2.5deg); z-index: 1; }
+  .foto.uno img { width: 236px; height: 344px; }
+  .foto.dos  { left: 784px; top: 420px; transform: rotate(-2.5deg); z-index: 1; }
+  .foto.dos img { width: 244px; height: 285px; }
+  .foto.tres { left: 500px; top: 838px; transform: rotate(-3deg); z-index: 3; padding: 12px; }
+  .foto.tres img { width: 236px; height: 251px; }
+
+  /* Notita de papel con cinta */
+  .nota {
+    position: absolute; left: 800px; top: 792px; width: 236px; height: 268px;
+    background: #fffaf0;
+    padding: 34px 12px 20px;
+    transform: rotate(3deg); z-index: 2;
+    box-shadow: 0 14px 26px rgba(61, 44, 28, .2), 0 2px 6px rgba(61, 44, 28, .12);
+    font-family: "Fraunces", serif; color: var(--cafe-oscuro);
+    display: flex; flex-direction: column; justify-content: center; text-align: center;
+  }
+  .nota::before {
+    content: ""; position: absolute; top: -14px; left: 50%; width: 110px; height: 32px;
+    transform: translateX(-50%) rotate(-4deg);
+    background: rgba(230, 169, 46, .55);
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+  }
+  .nota .pregunta { font-style: italic; font-size: 26px; line-height: 1.15; color: var(--cafe); }
+  .nota .respuesta { margin-top: 12px; font-weight: 700; font-size: 28px; line-height: 1.08; color: var(--cempasuchil); }
+  .nota .detalle { margin-top: 12px; font-family: "Nunito Sans", sans-serif; font-size: 19px; line-height: 1.3; color: var(--cafe); }
+
+  /* ---------- pie ---------- */
+  .pie {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 200px;
+    background: var(--cafe-oscuro);
+    color: var(--crema);
+    display: flex; align-items: center;
+    padding: 0 56px 0 70px; gap: 32px;
+    z-index: 5;
+  }
+  .pie::before {
+    /* borde festoneado arriba del pie */
+    content: ""; position: absolute; left: 0; right: 0; top: -22px; height: 24px;
+    background: radial-gradient(circle at 22px 24px, var(--cafe-oscuro) 21px, transparent 22px) repeat-x;
+    background-size: 44px 24px;
+  }
+  .pie .texto { flex: 1; }
+  .pie .lista {
+    font-family: "Fraunces", serif; font-weight: 600; font-size: 32px;
+    color: var(--oro); line-height: 1.15;
+  }
+  .pie .lista i { font-style: normal; color: var(--rosa); padding: 0 .2em; }
+  .pie .medida {
+    margin-top: 10px; font-size: 25px; font-weight: 500; line-height: 1.35;
+    color: var(--crema);
+  }
+  .pie .medida b { font-weight: 800; color: #fff; }
+  .pie .usuario {
+    margin-top: 12px; font-size: 22px; font-weight: 800; letter-spacing: .06em;
+    color: var(--crema-2); opacity: .85;
+  }
+  /* Etiqueta de tela con costura: el logo necesita fondo claro y aire alrededor */
+  .logo {
+    position: relative; z-index: 1;
+    flex: none; width: 224px; height: 212px;
+    margin-top: -64px;
+    background: var(--crema);
+    border-radius: 18px;
+    display: grid; place-items: center;
+    box-shadow: 0 12px 26px rgba(0,0,0,.35);
+    transform: rotate(2deg);
+  }
+  .logo::after {
+    content: ""; position: absolute; inset: 8px;
+    border: 2.5px dashed var(--oro-quemado); border-radius: 12px;
+    opacity: .7;
+  }
+  .logo img { width: 188px; height: auto; }
+</style>
+</head>
+<body>
+
+  <!-- Papel picado de papel de china: se genera con JS abajo -->
+  <svg class="papel" viewBox="0 0 1080 230" xmlns="http://www.w3.org/2000/svg" id="papel"></svg>
+
+  <header class="encabezado">
+    <p class="ceja">Día de Muertos <span>✿</span> Colima</p>
+    <h1>Flores y catrinas<br><em>hechas a mano</em></h1>
+  </header>
+
+  <figure class="foto principal">
+    <img src="../../../src/content/products/catrina-calavera/images/RagDoll_Catrina_01.jpg" alt="">
+    <figcaption>Muñeca Catrina</figcaption>
+  </figure>
+  <figure class="foto uno">
+    <img src="../../../src/content/products/corona-catrina-gris-lavanda/images/FlowerCrown_Catrina_GrayPurple_01.jpg" alt="">
+    <figcaption>Coronas de catrina</figcaption>
+  </figure>
+  <figure class="foto dos">
+    <img src="../../../src/content/products/diadema-catrina-mariposa-naranja/images/FlowerCrown_Catrina_ButterflyOrange_01.jpg" alt="">
+    <figcaption>Diademas de catrina</figcaption>
+  </figure>
+  <figure class="foto tres">
+    <img src="../../../src/content/products/corona-catrina-pastel-mixta/images/FlowerCrown_Catrina_PastelMixed_01.jpg" alt="">
+  </figure>
+
+  <aside class="nota">
+    <p class="pregunta">¿Lo imaginas<br>distinto?</p>
+    <p class="respuesta">Te lo hacemos<br>a tu medida</p>
+    <p class="detalle">con tus colores<br>y con mucho cariño</p>
+  </aside>
+
+  <footer class="pie">
+    <div class="texto">
+      <p class="lista">Coronas <i>·</i> Diademas <i>·</i> Muñecas</p>
+      <p class="medida">Mándanos un mensaje, <b>con gusto te atendemos.</b></p>
+      <p class="usuario">@amarillo.primavera</p>
+    </div>
+    <div class="logo"><img src="../../Logo/logo-transparente.png" alt="Amarillo Primavera"></div>
+  </footer>
+
+<script>
+(function papelPicado() {
+  const svg = document.getElementById("papel");
+  const W = 1080;
+
+  // Papel de china: colores vivos, un poco translúcidos
+  const hojas = [
+    { color: "#EE7A12", motivo: "calavera" },
+    { color: "#E0237A", motivo: "flor" },
+    { color: "#F2B21C", motivo: "calavera" },
+    { color: "#7A35A0", motivo: "flor" },
+    { color: "#159A6E", motivo: "calavera" },
+    { color: "#E0237A", motivo: "flor" },
+  ];
+  const giros = [-2.2, 1.6, -0.8, 2.4, -1.8, 1.1];
+  const n = hojas.length, hueco = 12;
+  const w = (W - hueco * (n + 1)) / n, h = 160;
+
+  // Hilo: una catenaria que cuelga un poco en medio
+  const hiloY = x => 14 + 22 * Math.sin((x / W) * Math.PI);
+
+  // --- utilidades de figuras (todas se "recortan": van en negro dentro de la máscara)
+  const circ = (x, y, r) => `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r}"/>`;
+  const gota = (x, y, rx, ry, rot) =>
+    `<ellipse cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" rx="${rx}" ry="${ry}" transform="rotate(${rot} ${x.toFixed(1)} ${y.toFixed(1)})"/>`;
+  const rombo = (x, y, s) => `<path d="M${x} ${y - s} L${x + s * .7} ${y} L${x} ${y + s} L${x - s * .7} ${y} Z"/>`;
+  const florecita = (x, y, r, petalos = 6) => {
+    let s = "";
+    for (let k = 0; k < petalos; k++) {
+      const a = (k / petalos) * 360;
+      const rad = a * Math.PI / 180;
+      s += gota(x + Math.cos(rad) * r, y + Math.sin(rad) * r, r * .38, r * .75, a + 90);
+    }
+    return s;
+  };
+
+  let defs = `
+    <filter id="sombra" x="-10%" y="-10%" width="130%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="5" dy="12" result="b"/>
+      <feFlood flood-color="#604932" flood-opacity=".28"/>
+      <feComposite in2="b" operator="in"/>
+    </filter>`;
+  let cuerpo = "";
+
+  // Hilo (detrás de las hojas) con su sombrita
+  let dHilo = `M-10 ${hiloY(-10)}`;
+  for (let x = 0; x <= W + 10; x += 20) dHilo += ` L${x} ${hiloY(x).toFixed(1)}`;
+  cuerpo += `<path d="${dHilo}" stroke="#604932" stroke-opacity=".25" stroke-width="3" fill="none" transform="translate(3 6)"/>`;
+  cuerpo += `<path d="${dHilo}" stroke="#EDE3CC" stroke-width="2.6" fill="none"/>`;
+  cuerpo += `<path d="${dHilo}" stroke="#A89877" stroke-width="1" stroke-dasharray="3 4" fill="none"/>`;
+
+  hojas.forEach((hoja, i) => {
+    const x0 = hueco + i * (w + hueco);
+    const y0 = hiloY(x0 + w / 2) - 5;
+    const cx = w / 2, cy = 26 + (h - 26) * .5;
+
+    // ---- silueta de la hoja: pestaña doblada arriba + orilla de picos abajo
+    let borde = `M0 0 H${w} V${h - 16}`;
+    const picos = 9;
+    for (let p = picos; p > 0; p--) {
+      const px = (w * (p - .5)) / picos;
+      borde += ` Q${(w * p) / picos - 2} ${h - 4} ${px} ${h} Q${(w * (p - 1)) / picos + 2} ${h - 4} ${(w * (p - 1)) / picos} ${h - 16}`;
+    }
+    borde += " Z";
+
+    // ---- recortes
+    let huecos = "";
+
+    // Cenefa: triangulitos debajo de la pestaña y arriba de los picos
+    for (let k = 0; k < 10; k++) {
+      const tx = 8 + (w - 16) * (k + .5) / 10;
+      huecos += `<path d="M${tx - 5} 22 L${tx + 5} 22 L${tx} 29 Z"/>`;
+      huecos += circ(tx, h - 27, 2.4);
+    }
+    // Línea del marco
+    huecos += `<rect x="9" y="33" width="${w - 18}" height="2.2"/>`;
+    huecos += `<rect x="9" y="${h - 36}" width="${w - 18}" height="2.2"/>`;
+    huecos += `<rect x="9" y="33" width="2.2" height="${h - 67}"/>`;
+    huecos += `<rect x="${w - 11.2}" y="33" width="2.2" height="${h - 67}"/>`;
+
+    // Motivo central (queda como papel, con sus propios recortes finos)
+    let dentroMotivo;
+    if (hoja.motivo === "calavera") {
+      const cr = 34, cyC = cy - 6;
+      dentroMotivo = (x, y) =>
+        Math.hypot(x - cx, (y - cyC) * 1.02) < cr + 6 ||
+        (Math.abs(x - cx) < 24 && y > cyC && y < cyC + cr + 18);
+      // contorno recortado para que se lea la silueta
+      huecos += `<path d="M${cx - 23} ${cyC + 24} A33 33 0 1 1 ${cx + 23} ${cyC + 24} L${cx + 20} ${cyC + 41} Q${cx} ${cyC + 47} ${cx - 20} ${cyC + 41} Z" fill="none" stroke="#000" stroke-width="2.4"/>`;
+      // ojos: florecitas
+      huecos += florecita(cx - 14, cyC - 2, 6.5, 6) + circ(cx - 14, cyC - 2, 2.6);
+      huecos += florecita(cx + 14, cyC - 2, 6.5, 6) + circ(cx + 14, cyC - 2, 2.6);
+      // nariz: corazoncito invertido
+      huecos += `<path d="M${cx} ${cyC + 18} L${cx - 5} ${cyC + 11} Q${cx - 5} ${cyC + 7} ${cx - 2} ${cyC + 8} L${cx} ${cyC + 10} L${cx + 2} ${cyC + 8} Q${cx + 5} ${cyC + 7} ${cx + 5} ${cyC + 11} Z"/>`;
+      // dientes
+      for (let d = -3; d <= 3; d++) huecos += `<rect x="${cx + d * 5.4 - 1.6}" y="${cyC + 27}" width="3.2" height="9" rx="1.2"/>`;
+      huecos += `<rect x="${cx - 19}" y="${cyC + 24}" width="38" height="1.8"/>`;
+      // frente: tres gotitas y rombos en las mejillas
+      huecos += gota(cx, cyC - 24, 2.2, 5.5, 0) + gota(cx - 8, cyC - 21, 2, 4.6, -25) + gota(cx + 8, cyC - 21, 2, 4.6, 25);
+      huecos += rombo(cx - 24, cyC + 12, 3.5) + rombo(cx + 24, cyC + 12, 3.5);
+    } else {
+      const R = 40;
+      dentroMotivo = (x, y) => Math.hypot(x - cx, y - cy) < R + 6;
+      // flor grande: pétalos separados en dos anillos, con contorno
+      for (let k = 0; k < 10; k++) {
+        const a = (k / 10) * 360, rad = a * Math.PI / 180;
+        huecos += gota(cx + Math.cos(rad) * 24, cy + Math.sin(rad) * 24, 4.6, 10, a + 90);
+      }
+      for (let k = 0; k < 8; k++) {
+        const a = (k / 8) * 360 + 22, rad = a * Math.PI / 180;
+        huecos += gota(cx + Math.cos(rad) * 11, cy + Math.sin(rad) * 11, 2.4, 4.8, a + 90);
+      }
+      huecos += circ(cx, cy, 3.4);
+      huecos += `<circle cx="${cx}" cy="${cy}" r="${R - 3}" fill="none" stroke="#000" stroke-width="2.2"/>`;
+      for (let k = 0; k < 16; k++) {
+        const a = (k / 16) * Math.PI * 2 + .2;
+        huecos += circ(cx + Math.cos(a) * 37, cy + Math.sin(a) * 37, 1.9);
+      }
+    }
+
+    // Fondo calado: celosía de gotitas alrededor del motivo
+    const paso = 11.5;
+    for (let gy = 44, fila = 0; gy < h - 42; gy += paso, fila++) {
+      for (let gx = 18 + (fila % 2) * paso / 2; gx < w - 14; gx += paso) {
+        if (dentroMotivo(gx, gy)) continue;
+        huecos += gota(gx, gy, 2.1, 4.3, (fila % 2 ? 35 : -35));
+      }
+    }
+
+    // ---- máscara y filtros propios de cada hoja (ruido distinto = arrugas distintas)
+    defs += `
+      <mask id="m${i}" maskUnits="userSpaceOnUse" x="-20" y="-20" width="${w + 40}" height="${h + 40}">
+        <path d="${borde}" fill="#fff"/>
+        <g fill="#000">${huecos}</g>
+      </mask>
+      <filter id="arruga${i}" x="-5%" y="-5%" width="110%" height="115%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.018 0.045" numOctaves="3" seed="${i * 7 + 3}" result="ondas"/>
+        <feDisplacementMap in="SourceGraphic" in2="ondas" scale="7" xChannelSelector="R" yChannelSelector="G" result="doblada"/>
+        <feTurbulence type="fractalNoise" baseFrequency="0.05 0.08" numOctaves="4" seed="${i * 13 + 1}" result="grano"/>
+        <feDiffuseLighting in="grano" surfaceScale="2.4" lighting-color="#ffffff" result="luz">
+          <feDistantLight azimuth="235" elevation="58"/>
+        </feDiffuseLighting>
+        <feComponentTransfer in="luz" result="luzSuave">
+          <feFuncR type="linear" slope=".55" intercept=".52"/>
+          <feFuncG type="linear" slope=".55" intercept=".52"/>
+          <feFuncB type="linear" slope=".55" intercept=".52"/>
+        </feComponentTransfer>
+        <feBlend in="doblada" in2="luzSuave" mode="multiply" result="texturada"/>
+        <feComposite in="texturada" in2="doblada" operator="in" result="recorte"/>
+        <feComponentTransfer in="recorte">
+          <feFuncA type="linear" slope=".9"/>
+        </feComponentTransfer>
+      </filter>
+      <linearGradient id="pliegue${i}" x1="0" x2="1" y1="0" y2="0">
+        <stop offset="0" stop-color="#000" stop-opacity=".10"/>
+        <stop offset=".25" stop-color="#fff" stop-opacity=".08"/>
+        <stop offset=".495" stop-color="#fff" stop-opacity=".0"/>
+        <stop offset=".5" stop-color="#000" stop-opacity=".16"/>
+        <stop offset=".51" stop-color="#fff" stop-opacity=".18"/>
+        <stop offset=".75" stop-color="#000" stop-opacity=".04"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".12"/>
+      </linearGradient>
+      <linearGradient id="caida${i}" x1="0" x2="0" y1="0" y2="1">
+        <stop offset="0" stop-color="#fff" stop-opacity=".12"/>
+        <stop offset=".5" stop-color="#000" stop-opacity="0"/>
+        <stop offset=".52" stop-color="#000" stop-opacity=".08"/>
+        <stop offset=".54" stop-color="#fff" stop-opacity=".06"/>
+        <stop offset="1" stop-color="#000" stop-opacity=".10"/>
+      </linearGradient>`;
+
+    const hojaSVG = `
+      <g mask="url(#m${i})">
+        <rect x="-5" y="-5" width="${w + 10}" height="${h + 10}" fill="${hoja.color}"/>
+        <rect x="-5" y="-5" width="${w + 10}" height="${h + 10}" fill="url(#pliegue${i})"/>
+        <rect x="-5" y="-5" width="${w + 10}" height="${h + 10}" fill="url(#caida${i})"/>
+        <!-- pestaña doblada sobre el hilo -->
+        <rect x="-5" y="-5" width="${w + 10}" height="19" fill="#000" fill-opacity=".16"/>
+        <rect x="-5" y="13" width="${w + 10}" height="1.5" fill="#fff" fill-opacity=".25"/>
+      </g>`;
+
+    cuerpo += `
+      <g transform="translate(${x0.toFixed(1)} ${y0.toFixed(1)}) rotate(${giros[i]} ${w / 2} 0)">
+        <g filter="url(#sombra)">${hojaSVG}</g>
+        <g filter="url(#arruga${i})">${hojaSVG}</g>
+      </g>`;
+  });
+
+  svg.innerHTML = `<defs>${defs}</defs>${cuerpo}`;
+})();
+</script>
+</body>
+</html>

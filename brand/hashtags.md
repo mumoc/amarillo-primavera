@@ -46,6 +46,11 @@ Lista de referencia para no improvisar hashtags en cada post. Se puede ampliar c
 **Arreglos florales**
 `#ArreglosFlorales` `#DecoArtesanal`
 
+## Por temporada
+
+**Día de Muertos** (se suma a los de la categoría del producto)
+`#DiaDeMuertos` `#Catrina`
+
 ## Notas de uso
 
 - Combinar 1–2 generales de marca + 2–4 de categoría por post. No saturar con más de 8–10 hashtags.

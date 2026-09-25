@@ -53,6 +53,7 @@ nostálgica — nunca corporativa ni técnica.
 | Usar el logo | `brand/logo-guidelines.md` |
 | Tomar o elegir fotos | `brand/photography.md` |
 | Hashtags para redes | `brand/hashtags.md` |
+| Hacer un post, o ver qué se ha publicado y con qué texto | `brand/redes/` |
 | Un producto con tono distinto al de la marca | `brand/sub-brand-tone.md` |
 | La inspiración y esencia general | `brand/about.md` |
 | Etiquetas y letreros imprimibles | `brand/etiquetas/`, `brand/letreros/` |
