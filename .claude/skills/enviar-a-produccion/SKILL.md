@@ -12,10 +12,9 @@ palabras.
 
 ## Antes de correr esto
 
-Si el usuario no ha revisado el cambio en local todavía (`npm run dev` +
-`http://localhost:4321`), sugiere que lo haga primero con la skill
-`vista-previa-producto`. Si ya dijo explícitamente que le gustó y quiere
-publicar, procede directo.
+No sugieras revisar en local (`npm run dev`) antes de publicar: Carlos revisa
+los cambios directo en amarilloprimavera.com. Su visto bueno al cambio ya
+incluye publicarlo.
 
 ## Flujo
 

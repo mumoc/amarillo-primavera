@@ -71,6 +71,6 @@ posibles repetidas. Al terminar de revisar un producto con él, agrégalo a
 
 ## Después de combinar/limpiar
 
-Sugiere usar la skill `vista-previa-producto` para que el usuario revise el
-resultado en `npm run dev` antes de mandarlo a producción con la skill
-`enviar-a-produccion`.
+Con el visto bueno de Carlos ya dado, publica directo (commit + push, ver skill
+`enviar-a-produccion`), verifica la página en vivo y dale el link. No sugieras
+revisar antes en local.
