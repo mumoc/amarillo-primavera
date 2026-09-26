@@ -22,9 +22,9 @@ import fotoJabon from "../content/products/jabon-brisa-de-mar/images/Soap_Bar_Be
 
   <main class="container pagina">
     <div class="fotos">
-      <Image src={fotoCorona} alt="Corona de flores amarillas hecha a mano" width={320} height={320} class="fotos__img" />
-      <Image src={fotoMuneca} alt="Muñeca de trapo hecha a mano" width={320} height={320} class="fotos__img fotos__img--centro" />
-      <Image src={fotoJabon} alt="Jabón artesanal inspirado en el mar" width={320} height={320} class="fotos__img" />
+      <Image src={fotoCorona} alt="Corona de flores amarillas hecha a mano" width={320} class="fotos__img" />
+      <Image src={fotoMuneca} alt="Muñeca de trapo hecha a mano" width={320} class="fotos__img fotos__img--centro" />
+      <Image src={fotoJabon} alt="Jabón artesanal inspirado en el mar" width={320} class="fotos__img" />
     </div>
 
     <section class="seccion">
@@ -94,7 +94,8 @@ import fotoJabon from "../content/products/jabon-brisa-de-mar/images/Soap_Bar_Be
 
   .fotos__img {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    height: auto;
+    aspect-ratio: 3 / 4;
     object-fit: cover;
     border-radius: var(--radio);
     box-shadow: var(--sombra);
@@ -102,6 +103,8 @@ import fotoJabon from "../content/products/jabon-brisa-de-mar/images/Soap_Bar_Be
 
   .fotos__img--centro {
     transform: translateY(-0.75rem);
+    /* Foto vertical: se carga hacia arriba para no cortar la corona ni la cara. */
+    object-position: 50% 15%;
   }
 
   @media (max-width: 600px) {
