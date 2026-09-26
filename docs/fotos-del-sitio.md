@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 137 fotos · 13 productos revisados por Carlos.**
+**81 productos · 134 fotos · 14 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -25,6 +25,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Muñeca Floral](#muneca-floral) | 1 | 2026-09-24 | Ficha nueva con la foto que estaba en Frida. |
 | [Muñeca de Lunares Rojos](#muneca-lunares-rojos) | 2 | 2026-09-24 | Recibio la foto que estaba en virgencitas. |
 | [Tote Bag Pintada Corazón Floral](#tote-bag-pintada-corazon-floral) | 1 | 2026-09-24 | Se quito la segunda foto: eran jabones, no la bolsa. |
+| [Cantores Navideños](#cantores-navidenos) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas; queda la de frente de portada y la de lado. |
 | [Corona Navideña](#corona-navidena-nochebuena-dorada) | 1 | 2026-09-25 | Una sola foto. |
 | [Nacimiento Completo Mini](#nacimiento-completo-mini) | 4 | 2026-09-25 | De 8 fotos quedaron las 4 mejores tomas. |
 | [Organizador de Lápices Multicolor](#organizador-lapices-multicolor) | 8 | 2026-09-25 | Sin las 4 repetidas; el librero de portada, el amarillo con colores al final. |
@@ -43,7 +44,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Caja de Rosas y Corazones](#caja-regalo-rosas-y-corazones) | Jabones | 1 |
 | [Cajita de Regalo Jabón Rosa](#cajita-regalo-jabon-rosa) | Jabones | 2 |
 | [Canasta de Rosas de Jabón](#canasta-rosas-rosa-morado) | Arreglos florales | 1 |
-| [Cantores Navideños](#cantores-navidenos) | Muñecas | 5 |
 | [Catrina Calavera](#catrina-calavera) | Muñecas | 1 |
 | [Centro Navideño Cono de Esferas](#centro-navideno-cono-esferas) | Decoración navideña | 1 |
 | [Centro Navideño Nochebuena y Eucalipto](#centro-navideno-nochebuena-eucalipto) | Decoración navideña | 3 |
@@ -113,7 +113,6 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 | costurera/RagDoll_Seamstress_04.jpg | costurera/RagDoll_Seamstress_06.jpg | 0 |
 | diademas-listones-multicolor-conjunto/FlowerCrown_Catrina_RibbonMulticolor_01.jpg | tocado-catrina-listones/FlowerCrown_Catrina_RibbonMulticolor_01.jpg | idénticas |
 | primera-comunion/RagDoll_Communion_04.jpg | primera-comunion/RagDoll_Communion_05.jpg | 0 |
-| cantores-navidenos/RagDoll_Caroler_03.jpg | cantores-navidenos/RagDoll_Caroler_04.jpg | 1 |
 | charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
 | costurera/RagDoll_Seamstress_01.jpg | costurera/RagDoll_Seamstress_02.jpg | 1 |
@@ -205,15 +204,12 @@ Canasta de Rosas de Jabón · Arreglos florales · ⏳ sin revisar
 
 ### cantores-navidenos
 
-Cantores Navideños · Muñecas · ⏳ sin revisar
+Cantores Navideños · Muñecas · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | RagDoll_Caroler_01.jpg | 682×1453 | `ff853645a2007d78477d23e514c849fe` |
-| 2 | RagDoll_Caroler_02.jpg | 1139×2403 | `a794fccf630af02635680a3a4c8e03c9` |
-| 3 | RagDoll_Caroler_03.jpg | 889×1496 | `0465a8c7cd9119fe64dc16f71084b2ab` |
-| 4 | RagDoll_Caroler_04.jpg | 889×1496 | `ffb47779457489ecf6e7f57a9764a83c` |
-| 5 | RagDoll_Caroler_05.jpg | 1362×2823 | `68056744734287c1b5f7243af21d3d10` |
+| 1 | RagDoll_Caroler_05.jpg | 1362×2823 | `68056744734287c1b5f7243af21d3d10` |
+| 2 | RagDoll_Caroler_03.jpg | 889×1496 | `0465a8c7cd9119fe64dc16f71084b2ab` |
 
 ### catrina-calavera
 
