@@ -7,7 +7,8 @@
     "dev": "astro dev --force",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "indice-fotos": "node scripts/indice-fotos.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",

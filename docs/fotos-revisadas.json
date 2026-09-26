@@ -1,0 +1,51 @@
+{
+  "_nota": "Productos cuyas fotos ya reviso Carlos una por una. Al terminar de revisar otro, agregalo aqui y corre `npm run indice-fotos`.",
+  "tarjetas-margarita-de-jabon": {
+    "fecha": "2026-09-19",
+    "nota": "De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal al final."
+  },
+  "florecita-vestido-azul": {
+    "fecha": "2026-09-19",
+    "nota": "Dos tomas, rellenas a cuadrado para que no se recorten."
+  },
+  "corona-rosa-listones-morados": {
+    "fecha": "2026-09-19",
+    "nota": "Se separo de la muneca de lunares rojos."
+  },
+  "tote-bag-pintada-corazon-floral": {
+    "fecha": "2026-09-24",
+    "nota": "Se quito la segunda foto: eran jabones, no la bolsa."
+  },
+  "muneca-lunares-rojos": {
+    "fecha": "2026-09-24",
+    "nota": "Recibio la foto que estaba en virgencitas."
+  },
+  "frida-corona-floral": {
+    "fecha": "2026-09-24",
+    "nota": "Carlos identifico las tres munecas; se queda solo con la Frida."
+  },
+  "colimota": {
+    "fecha": "2026-09-24",
+    "nota": "Carlos confirmo que es la Colimota, no una novia."
+  },
+  "muneca-floral": {
+    "fecha": "2026-09-24",
+    "nota": "Ficha nueva con la foto que estaba en Frida."
+  },
+  "llavero-personalizado": {
+    "fecha": "2026-09-24",
+    "nota": "Sin las siete repetidas; una foto de Regina y una de Romina."
+  },
+  "nacimiento-completo-mini": {
+    "fecha": "2026-09-25",
+    "nota": "De 8 fotos quedaron las 4 mejores tomas."
+  },
+  "organizador-lapices-multicolor": {
+    "fecha": "2026-09-25",
+    "nota": "Sin las 4 repetidas; el librero de portada, el amarillo con colores al final."
+  },
+  "corona-navidena-nochebuena-dorada": {
+    "fecha": "2026-09-25",
+    "nota": "Una sola foto."
+  }
+}

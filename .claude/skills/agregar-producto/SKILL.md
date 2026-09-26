@@ -9,7 +9,9 @@ Crea productos nuevos en `src/content/products/`, la Content Collection de Astro
 
 ## Flujo de trabajo
 
-1. Recibe imágenes y descripción (o "recomiéndame") desde el chat.
+1. Recibe imágenes y descripción (o "recomiéndame") desde el chat. Antes de
+   seguir, saca el md5 de cada foto (`md5 -q`) y búscalo en
+   `docs/fotos-del-sitio.md`: si ya aparece, esa foto ya está en el sitio.
 2. Genera un slug amigable en minúsculas con guiones, basado en el nombre del producto (ej. `jabon-brisa-de-mar`). Verifica que no exista ya `src/content/products/<slug>/`.
 3. Crea `src/content/products/<slug>/images/` y guarda ahí las imágenes recibidas, con nombres descriptivos en inglés estilo `Categoria_Descripcion_01.jpg` (así se nombran las imágenes existentes en el catálogo).
 4. Genera nombre, categoría, descripción y hashtags siguiendo `brand/voice.md` (tono cálido, alegre, nostálgico, cercano) y `brand/hashtags.md` (1–2 hashtags generales de marca + 2–4 de categoría, máx. 8–10 en total). Si el producto pide un tono distinto al por defecto, revisa `brand/sub-brand-tone.md` antes de decidir.
@@ -35,6 +37,7 @@ Crea productos nuevos en `src/content/products/`, la Content Collection de Astro
    - `imagenes` debe listar exactamente los archivos guardados en el paso 3, en el orden en que deben mostrarse (ese orden es el que ve el usuario final — no hace falta un `order.json` aparte).
    - `tono` (campo opcional) solo si el producto rompe con la voz por defecto — ver `brand/sub-brand-tone.md`.
 
-6. No hace falta actualizar ningún índice a mano: Astro construye el catálogo (`/catalogo/`, búsqueda, páginas por categoría) automáticamente a partir de esta Content Collection en cada build.
+6. Corre `npm run indice-fotos` para que las fotos nuevas entren a
+   `docs/fotos-del-sitio.md`. Fuera de eso Astro construye el catálogo (`/catalogo/`, búsqueda, páginas por categoría) automáticamente a partir de esta Content Collection en cada build.
 7. Sugiere correr `npm run dev` y abrir `/productos/<slug>/` para revisar el resultado (ver skill `vista-previa-producto`).
 8. Pide confirmación antes de finalizar.

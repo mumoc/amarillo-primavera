@@ -62,6 +62,13 @@ lista como punto de partida (verificando que los slugs sigan existiendo en
 4. Tras confirmación, borra los archivos duplicados y actualiza el
    `imagenes:` del `description.md` para que ya no los liste.
 
+## Índice de fotos
+
+Antes de empezar, revisa `docs/fotos-del-sitio.md`: dice qué productos ya
+revisó Carlos (no les muevas fotos sin preguntarle) y trae una lista de
+posibles repetidas. Al terminar de revisar un producto con él, agrégalo a
+`docs/fotos-revisadas.json` y corre `npm run indice-fotos`.
+
 ## Después de combinar/limpiar
 
 Sugiere usar la skill `vista-previa-producto` para que el usuario revise el
