@@ -10,7 +10,6 @@ tags:
   - "#RegalosArtesanales"
 disponible: true
 imagenes:
-  - images/RagDoll_Colimota_01.jpg
   - images/RagDoll_Colimota_02.jpg
 ---
 

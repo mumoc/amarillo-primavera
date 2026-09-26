@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 126 fotos · 17 productos revisados por Carlos.**
+**81 productos · 125 fotos · 17 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -19,13 +19,13 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Corona Rosa](#corona-rosa-listones-morados) | 1 | 2026-09-19 | Se separo de la muneca de lunares rojos. |
 | [Florecita](#florecita-vestido-azul) | 2 | 2026-09-19 | Dos tomas, rellenas a cuadrado para que no se recorten. |
 | [Tarjetas de Margarita de Jabón](#tarjetas-margarita-de-jabon) | 5 | 2026-09-19 | De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal al final. |
-| [Colimota](#colimota) | 2 | 2026-09-24 | Carlos confirmo que es la Colimota, no una novia. |
 | [Frida, Corona Floral](#frida-corona-floral) | 1 | 2026-09-24 | Carlos identifico las tres munecas; se queda solo con la Frida. |
 | [Llavero Personalizado](#llavero-personalizado) | 9 | 2026-09-24 | Sin las siete repetidas; una foto de Regina y una de Romina. |
 | [Muñeca Floral](#muneca-floral) | 1 | 2026-09-24 | Ficha nueva con la foto que estaba en Frida. |
 | [Muñeca de Lunares Rojos](#muneca-lunares-rojos) | 2 | 2026-09-24 | Recibio la foto que estaba en virgencitas. |
 | [Tote Bag Pintada Corazón Floral](#tote-bag-pintada-corazon-floral) | 1 | 2026-09-24 | Se quito la segunda foto: eran jabones, no la bolsa. |
 | [Cantores Navideños](#cantores-navidenos) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas; queda la de frente de portada y la de lado. |
+| [Colimota](#colimota) | 1 | 2026-09-25 | Carlos confirmo que es la Colimota, no una novia. Las dos fotos eran la misma toma; queda la de mayor resolucion. |
 | [Corona Navideña](#corona-navidena-nochebuena-dorada) | 1 | 2026-09-25 | Una sola foto. |
 | [Costurera](#costurera) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas: la pelirroja y la castana; queda la mejor de cada una. |
 | [Diademas de Listones](#diademas-listones-multicolor-conjunto) | 1 | 2026-09-25 | Carlos pidio quitar la 1 y la 3; queda una sola foto. |
@@ -112,7 +112,6 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 | charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
 | graduada/RagDoll_Graduate_02.jpg | graduada/RagDoll_Graduate_09.jpg | 1 |
-| colimota/RagDoll_Colimota_01.jpg | colimota/RagDoll_Colimota_02.jpg | 4 |
 | vestido-floral-pelirroja/RagDoll_FloralDress_Redhead_01.jpg | vestido-floral-pelirroja/RagDoll_FloralDress_Redhead_02.jpg | 6 |
 
 ## Todas las fotos, por producto
@@ -253,12 +252,11 @@ Coletas y Moños Morados · Muñecas · ⏳ sin revisar
 
 ### colimota
 
-Colimota · Muñecas · ✅ revisado 2026-09-24
+Colimota · Muñecas · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | RagDoll_Colimota_01.jpg | 1112×1522 | `e46b12d338d55945f6aad09001c17ad5` |
-| 2 | RagDoll_Colimota_02.jpg | 1200×1600 | `2a14f4505be6abe8623e358c84d78f21` |
+| 1 | RagDoll_Colimota_02.jpg | 1200×1600 | `2a14f4505be6abe8623e358c84d78f21` |
 
 ### corona-catrina-gris-blanco
 
