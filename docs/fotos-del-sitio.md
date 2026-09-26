@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 139 fotos · 12 productos revisados por Carlos.**
+**81 productos · 137 fotos · 13 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -28,6 +28,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Corona Navideña](#corona-navidena-nochebuena-dorada) | 1 | 2026-09-25 | Una sola foto. |
 | [Nacimiento Completo Mini](#nacimiento-completo-mini) | 4 | 2026-09-25 | De 8 fotos quedaron las 4 mejores tomas. |
 | [Organizador de Lápices Multicolor](#organizador-lapices-multicolor) | 8 | 2026-09-25 | Sin las 4 repetidas; el librero de portada, el amarillo con colores al final. |
+| [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
 
 ## Pendientes de revisar
 
@@ -101,7 +102,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Tres Reyes Magos y María](#tres-reyes-y-maria-banca) | Muñecas | 1 |
 | [Vestido Floral Pelirroja](#vestido-floral-pelirroja) | Muñecas | 2 |
 | [Vestido Satín Morado](#vestido-satin-morado) | Muñecas | 1 |
-| [Virgencitas](#virgencitas) | Muñecas | 3 |
 
 ## Posibles repetidas
 
@@ -113,9 +113,6 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 | costurera/RagDoll_Seamstress_04.jpg | costurera/RagDoll_Seamstress_06.jpg | 0 |
 | diademas-listones-multicolor-conjunto/FlowerCrown_Catrina_RibbonMulticolor_01.jpg | tocado-catrina-listones/FlowerCrown_Catrina_RibbonMulticolor_01.jpg | idénticas |
 | primera-comunion/RagDoll_Communion_04.jpg | primera-comunion/RagDoll_Communion_05.jpg | 0 |
-| virgencitas/RagDoll_Nativity_Mary_01.jpg | virgencitas/RagDoll_Nativity_Mary_03.jpg | 0 |
-| virgencitas/RagDoll_Nativity_Mary_01.jpg | virgencitas/RagDoll_Nativity_Virgin_01.jpg | 0 |
-| virgencitas/RagDoll_Nativity_Mary_03.jpg | virgencitas/RagDoll_Nativity_Virgin_01.jpg | 0 |
 | cantores-navidenos/RagDoll_Caroler_03.jpg | cantores-navidenos/RagDoll_Caroler_04.jpg | 1 |
 | charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
@@ -831,10 +828,8 @@ Vestido Satín Morado · Muñecas · ⏳ sin revisar
 
 ### virgencitas
 
-Virgencitas · Muñecas · ⏳ sin revisar
+Virgencitas · Muñecas · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Nativity_Mary_01.jpg | 1600×1200 | `20e8090be4f42feea0d2996b58570e65` |
-| 2 | RagDoll_Nativity_Mary_03.jpg | 1600×1200 | `383d37ea2fa27c89a7838a3971fdb893` |
-| 3 | RagDoll_Nativity_Virgin_01.jpg | 1600×1200 | `882e50582fed4c0c268e129d87a94cc6` |
