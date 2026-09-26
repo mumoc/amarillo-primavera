@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 123 fotos · 19 productos revisados por Carlos.**
+**80 productos · 122 fotos · 19 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -90,7 +90,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Recuerdo de Margaritas](#recuerdo-jabon-margarita) | Jabones | 1 |
 | [Recuerdo de Rosita en Organza](#recuerdo-jabon-rosa-organza) | Jabones | 1 |
 | [Salsa Diabla](#salsa-diabla-frasco) | Salsa Diabla | 2 |
-| [Set Charola Feliz Día Mamá](#set-charola-jabones-dia-mama) | Jabones | 1 |
 | [Set Jabón y Toalla Baby Shower](#set-jabon-baby-shower) | Jabones | 1 |
 | [Set Recuerdo Jabón y Toallita](#set-recuerdo-jabon-y-toalla) | Jabones | 1 |
 | [Set de Regalo Brisa de Mar](#set-regalo-jabon-brisa-de-mar) | Jabones | 1 |
@@ -109,7 +108,6 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 
 | Foto A | Foto B | Distancia |
 |---|---|---|
-| charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
 
 ## Todas las fotos, por producto
@@ -670,14 +668,6 @@ Salsa Diabla · Salsa Diabla · ⏳ sin revisar
 |---|---|---|---|
 | 1 | SalsaDiabla_Jar_01.jpg | 1536×2048 | `36e6e12c9aa80528ed2d6274b9b0d8e8` |
 | 2 | SalsaDiabla_Jar_GiftBasket_01.jpg | 589×540 | `b28cc823b768c3684471da87d4c7a591` |
-
-### set-charola-jabones-dia-mama
-
-Set Charola Feliz Día Mamá · Jabones · ⏳ sin revisar
-
-| # | Archivo | Tamaño | md5 |
-|---|---|---|---|
-| 1 | Soap_GiftSet_MothersDay_01.jpg | 1200×1600 | `3a6ec49c48cd79f3b19c45caf9a721a2` |
 
 ### set-jabon-baby-shower
 
