@@ -176,8 +176,8 @@ Cajita de Regalo Jabón Rosa · Jabones · ⏳ sin revisar
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | Soap_RoseGiftBox_Pink_01.jpg | 1455×2048 | `2f5e747dac5073d16d0201858d3bd763` |
-| 2 | Soap_RoseGiftBox_Pink_02.jpg | 1536×2048 | `51cab419a08452649a4043e8d81fefad` |
+| 1 | Soap_RoseGiftBox_Pink_02.jpg | 1536×2048 | `51cab419a08452649a4043e8d81fefad` |
+| 2 | Soap_RoseGiftBox_Pink_01.jpg | 1455×2048 | `2f5e747dac5073d16d0201858d3bd763` |
 
 ### canasta-rosas-rosa-morado
 
@@ -218,8 +218,8 @@ Centro Navideño Nochebuena y Eucalipto · Decoración navideña · ⏳ sin revi
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | ChristmasDecor_PoinsettiaCandleCenterpiece_01.jpg | 1334×2048 | `e87a5f3399fa94bb98f511e44f5c44bd` |
-| 2 | ChristmasDecor_PoinsettiaCandleCenterpiece_02.jpg | 1350×1982 | `ac282c42231035206b12c4d058b33c6c` |
+| 1 | ChristmasDecor_PoinsettiaCandleCenterpiece_02.jpg | 1350×1982 | `ac282c42231035206b12c4d058b33c6c` |
+| 2 | ChristmasDecor_PoinsettiaCandleCenterpiece_01.jpg | 1334×2048 | `e87a5f3399fa94bb98f511e44f5c44bd` |
 | 3 | ChristmasDecor_PoinsettiaCandleCenterpiece_03.jpg | 1373×3051 | `2859daeed88d5c4ab219a956a82a1aa7` |
 
 ### centro-vela-y-flores
@@ -324,8 +324,8 @@ Corona Floral Guinda · Coronas y diademas florales · ⏳ sin revisar
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | FlowerCrown_DarkFloral_Piece_01.jpg | 814×801 | `1ed0c9d6216a43904c8c586e450a35d1` |
-| 2 | FlowerCrown_DarkFloral_Model_02.jpg | 1024×1536 | `e8f6c7e9d974623d682b0d63017172f3` |
+| 1 | FlowerCrown_DarkFloral_Model_02.jpg | 1024×1536 | `e8f6c7e9d974623d682b0d63017172f3` |
+| 2 | FlowerCrown_DarkFloral_Piece_01.jpg | 814×801 | `1ed0c9d6216a43904c8c586e450a35d1` |
 | 3 | FlowerCrown_DarkFloral_Model_03.jpg | 820×813 | `054044e1e5d352b2af43e5f811d177d7` |
 | 4 | FlowerCrown_DarkFloral_Model_04.jpg | 817×846 | `b53892be846fb9cbafae41aa61a1fdde` |
 | 5 | FlowerCrown_DarkFloral_Model_05.jpg | 780×790 | `2527ff4caf5ac63ea08cceac8981504a` |
@@ -517,14 +517,14 @@ Llavero Personalizado · Llaveros · ✅ revisado 2026-09-24
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | Keychain_Name_Emilio_01.jpg | 1200×1600 | `5148de3bba8fcc83b13e02ee96fc5ee1` |
-| 2 | Keychain_Name_Emilio_02.jpg | 1200×1600 | `a4176776bb361d1ec73c8372cf76ce88` |
-| 3 | Keychain_Name_Emilio_03.jpg | 1200×1600 | `96f52dec1f4680645668d50b48bb06c0` |
-| 4 | Keychain_Name_Santi_02.jpg | 899×1599 | `591529adecaf2ae236c44ed35ab179c1` |
-| 5 | Keychain_Name_JimenaBricio_03.jpg | 1200×1600 | `123ec71ee608280193cb4c13fd89de31` |
-| 6 | Keychain_Name_JimenaBricio_04.jpg | 1200×1600 | `fe656f30ae3d1b3c1b770cd5d9d7bdde` |
-| 7 | Keychain_Name_Chantal_02.jpg | 1536×2048 | `91b1b2b809d7af627e209438d5e2917e` |
-| 8 | Keychain_Name_Regina_01.jpg | 899×1599 | `aa677339ba1b789906c6cb16626eb09a` |
+| 1 | Keychain_Name_Regina_01.jpg | 899×1599 | `aa677339ba1b789906c6cb16626eb09a` |
+| 2 | Keychain_Name_Emilio_01.jpg | 1200×1600 | `5148de3bba8fcc83b13e02ee96fc5ee1` |
+| 3 | Keychain_Name_Emilio_02.jpg | 1200×1600 | `a4176776bb361d1ec73c8372cf76ce88` |
+| 4 | Keychain_Name_Emilio_03.jpg | 1200×1600 | `96f52dec1f4680645668d50b48bb06c0` |
+| 5 | Keychain_Name_Santi_02.jpg | 899×1599 | `591529adecaf2ae236c44ed35ab179c1` |
+| 6 | Keychain_Name_JimenaBricio_03.jpg | 1200×1600 | `123ec71ee608280193cb4c13fd89de31` |
+| 7 | Keychain_Name_JimenaBricio_04.jpg | 1200×1600 | `fe656f30ae3d1b3c1b770cd5d9d7bdde` |
+| 8 | Keychain_Name_Chantal_02.jpg | 1536×2048 | `91b1b2b809d7af627e209438d5e2917e` |
 | 9 | Keychain_Name_Romina_01.jpg | 899×1599 | `0446746e4276f65d695cdddb17afd6c4` |
 
 ### macetas-cemento-frases-suculentas
@@ -737,8 +737,8 @@ Tocado Catrina Listones · Coronas y diademas florales · ⏳ sin revisar
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | FlowerCrown_Catrina_RibbonMulticolor_01.jpg | 1350×1793 | `19eb5ddfc4c4532d06c75df21b211ea2` |
-| 2 | FlowerCrown_Catrina_RibbonRainbow_Sunflower_01.jpg | 1350×1808 | `0d1e0cd5ab1c80ed9571aaddab35e260` |
+| 1 | FlowerCrown_Catrina_RibbonRainbow_Sunflower_01.jpg | 1350×1808 | `0d1e0cd5ab1c80ed9571aaddab35e260` |
+| 2 | FlowerCrown_Catrina_RibbonMulticolor_01.jpg | 1350×1793 | `19eb5ddfc4c4532d06c75df21b211ea2` |
 
 ### tote-bag-estampada
 

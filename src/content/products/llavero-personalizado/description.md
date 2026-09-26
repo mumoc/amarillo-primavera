@@ -8,6 +8,7 @@ tags:
   - "#DetallesConNombre"
 disponible: true
 imagenes:
+  - images/Keychain_Name_Regina_01.jpg
   - images/Keychain_Name_Emilio_01.jpg
   - images/Keychain_Name_Emilio_02.jpg
   - images/Keychain_Name_Emilio_03.jpg
@@ -15,7 +16,6 @@ imagenes:
   - images/Keychain_Name_JimenaBricio_03.jpg
   - images/Keychain_Name_JimenaBricio_04.jpg
   - images/Keychain_Name_Chantal_02.jpg
-  - images/Keychain_Name_Regina_01.jpg
   - images/Keychain_Name_Romina_01.jpg
 ---
 

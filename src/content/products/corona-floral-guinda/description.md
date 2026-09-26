@@ -10,8 +10,8 @@ tags:
   - "#EstiloMexicano"
 disponible: true
 imagenes:
-  - images/FlowerCrown_DarkFloral_Piece_01.jpg
   - images/FlowerCrown_DarkFloral_Model_02.jpg
+  - images/FlowerCrown_DarkFloral_Piece_01.jpg
   - images/FlowerCrown_DarkFloral_Model_03.jpg
   - images/FlowerCrown_DarkFloral_Model_04.jpg
   - images/FlowerCrown_DarkFloral_Model_05.jpg
