@@ -9,6 +9,7 @@ tags:
   - "#HechoEnMexico"
 disponible: true
 imagenes:
+  - images/Organizer3D_PencilHolder_GroupSix_01.jpg
   - images/Organizer3D_PencilHolder_YellowWithPencils_01.jpg
   - images/Organizer3D_PencilHolder_YellowBlue_01.jpg
   - images/Organizer3D_PencilHolder_PurplePink_01.jpg
@@ -16,7 +17,6 @@ imagenes:
   - images/Organizer3D_PencilHolder_OrangeBlue_02.jpg
   - images/Organizer3D_PencilHolder_OrangeTeal_01.jpg
   - images/Organizer3D_PencilHolder_GroupShelf_01.jpg
-  - images/Organizer3D_PencilHolder_GroupSix_01.jpg
 ---
 
 Llena de color tu espacio con nuestro Organizador de Lápices Multicolor, una pieza con diseño de lápiz hexagonal, creada para mantener plumones, marcadores, lápices y otros artículos de escritorio siempre al alcance.
