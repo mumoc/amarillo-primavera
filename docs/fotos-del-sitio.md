@@ -402,8 +402,8 @@ Florecita · Muñecas · ✅ revisado 2026-09-19
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | RagDoll_FloralDressNavy_01.jpg | 1542×2048 | `62612073a7c7a88b96abe1dc93cb8fd4` |
-| 2 | RagDoll_FloralDressNavy_02.jpg | 1542×2048 | `59738a685eaefec96f2ae155380fe560` |
+| 1 | RagDoll_FloralDressNavy_02.jpg | 1542×2048 | `59738a685eaefec96f2ae155380fe560` |
+| 2 | RagDoll_FloralDressNavy_01.jpg | 1542×2048 | `62612073a7c7a88b96abe1dc93cb8fd4` |
 
 ### frida-corona-floral
 
