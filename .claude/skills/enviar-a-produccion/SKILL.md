@@ -35,24 +35,20 @@ publicar, procede directo.
    Si el push es rechazado porque el remoto tiene commits nuevos (alguien más
    editó desde Sveltia mientras tanto), corre `git pull --rebase origin main`
    y vuelve a intentar el push.
-4. **Deploy directo (respaldo de seguridad)** — el push a `main` debería
-   disparar un deploy automático en Cloudflare, pero esa integración ha
-   fallado antes (ver `worker/README.md`). Para garantizar que el sitio
-   quede actualizado de inmediato, corre también:
-   ```
-   npx wrangler deploy
-   ```
-   desde la raíz del repo (NO desde `worker/` — ese es un proyecto distinto,
-   ver más abajo).
+   **El push ya es la publicación**: Cloudflare despliega en automático cada
+   push a `main`. No corras `npx wrangler deploy` ni pidas `wrangler login`.
+4. **Verifica en vivo** — espera un momento y revisa con `curl` la página
+   afectada (ej. `https://amarilloprimavera.com/productos/<slug>/`) para
+   confirmar que ya muestra el cambio.
 5. Confirma al usuario que ya está en vivo y dale el link:
    `https://amarilloprimavera.com`
 
 ## Importante: nunca toques el worker del CMS
 
-Este repo tiene **dos** Workers de Cloudflare. El de arriba (paso 4) es el del
-sitio (`amarillo-primavera`, usa `wrangler.jsonc` en la raíz). Hay otro
-completamente aparte para el login del CMS (`amarillo-primavera-cms-auth`,
-vive en `worker/` con su propio `worker/wrangler.toml`) — **nunca** corras
+Este repo tiene **dos** Workers de Cloudflare: el del sitio
+(`amarillo-primavera`, usa `wrangler.jsonc` en la raíz) y otro completamente
+aparte para el login del CMS (`amarillo-primavera-cms-auth`, vive en
+`worker/` con su propio `worker/wrangler.toml`). **Nunca** corras
 `wrangler deploy` desde dentro de `worker/` como parte de este flujo, y nunca
 cambies el `name` del `wrangler.jsonc` de la raíz. Confundir estos dos ya
 causó que se sobrescribiera el worker del CMS por accidente más de una vez —
