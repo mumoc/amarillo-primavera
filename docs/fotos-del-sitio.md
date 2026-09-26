@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 132 fotos · 15 productos revisados por Carlos.**
+**81 productos · 126 fotos · 17 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -27,9 +27,11 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Tote Bag Pintada Corazón Floral](#tote-bag-pintada-corazon-floral) | 1 | 2026-09-24 | Se quito la segunda foto: eran jabones, no la bolsa. |
 | [Cantores Navideños](#cantores-navidenos) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas; queda la de frente de portada y la de lado. |
 | [Corona Navideña](#corona-navidena-nochebuena-dorada) | 1 | 2026-09-25 | Una sola foto. |
+| [Costurera](#costurera) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas: la pelirroja y la castana; queda la mejor de cada una. |
 | [Diademas de Listones](#diademas-listones-multicolor-conjunto) | 1 | 2026-09-25 | Carlos pidio quitar la 1 y la 3; queda una sola foto. |
 | [Nacimiento Completo Mini](#nacimiento-completo-mini) | 4 | 2026-09-25 | De 8 fotos quedaron las 4 mejores tomas. |
 | [Organizador de Lápices Multicolor](#organizador-lapices-multicolor) | 8 | 2026-09-25 | Sin las 4 repetidas; el librero de portada, el amarillo con colores al final. |
+| [Primera Comunión](#primera-comunion) | 2 | 2026-09-25 | De 5 fotos quedan 2: la de luz de dia (portada) y la de la comoda azul. |
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
 
 ## Pendientes de revisar
@@ -63,7 +65,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Corona de Primera Comunión](#corona-primera-comunion) | Coronas y diademas florales | 1 |
 | [Corona de Rosas Amarillo y Dorado](#corona-rosas-amarillo-dorado) | Coronas y diademas florales | 1 |
 | [Corona de Rosas Rosa y Crema](#corona-rosas-rosa-crema) | Coronas y diademas florales | 1 |
-| [Costurera](#costurera) | Muñecas | 5 |
 | [Diadema Catrina Mariposa Naranja](#diadema-catrina-mariposa-naranja) | Coronas y diademas florales | 1 |
 | [Frida Flores Rosas](#frida-flores-rosas) | Muñecas | 1 |
 | [Frida entre Luces](#frida-luces) | Muñecas | 1 |
@@ -84,7 +85,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Overol Rayado](#overol-rayado) | Muñecas | 1 |
 | [Paty](#paty) | Muñecas | 1 |
 | [Pañoleta Bohemia](#pañoleta-bohemia) | Muñecas | 1 |
-| [Primera Comunión](#primera-comunion) | Muñecas | 5 |
 | [Ramo Decorativo de Flores en Foamy](#ramo-decorativo-flores-foamy) | Otros | 1 |
 | [Recuerdo de Margaritas](#recuerdo-jabon-margarita) | Jabones | 1 |
 | [Recuerdo de Rosita en Organza](#recuerdo-jabon-rosa-organza) | Jabones | 1 |
@@ -109,19 +109,10 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 
 | Foto A | Foto B | Distancia |
 |---|---|---|
-| corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_07.jpg | 0 |
-| costurera/RagDoll_Seamstress_04.jpg | costurera/RagDoll_Seamstress_06.jpg | 0 |
-| primera-comunion/RagDoll_Communion_04.jpg | primera-comunion/RagDoll_Communion_05.jpg | 0 |
 | charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
-| costurera/RagDoll_Seamstress_01.jpg | costurera/RagDoll_Seamstress_02.jpg | 1 |
-| costurera/RagDoll_Seamstress_02.jpg | costurera/RagDoll_Seamstress_05.jpg | 1 |
 | graduada/RagDoll_Graduate_02.jpg | graduada/RagDoll_Graduate_09.jpg | 1 |
-| primera-comunion/RagDoll_Communion_01.jpg | primera-comunion/RagDoll_Communion_07.jpg | 1 |
-| costurera/RagDoll_Seamstress_01.jpg | costurera/RagDoll_Seamstress_05.jpg | 2 |
 | colimota/RagDoll_Colimota_01.jpg | colimota/RagDoll_Colimota_02.jpg | 4 |
-| primera-comunion/RagDoll_Communion_04.jpg | primera-comunion/RagDoll_Communion_06.jpg | 5 |
-| primera-comunion/RagDoll_Communion_05.jpg | primera-comunion/RagDoll_Communion_06.jpg | 5 |
 | vestido-floral-pelirroja/RagDoll_FloralDress_Redhead_01.jpg | vestido-floral-pelirroja/RagDoll_FloralDress_Redhead_02.jpg | 6 |
 
 ## Todas las fotos, por producto
@@ -388,15 +379,12 @@ Corona de Rosas Rosa y Crema · Coronas y diademas florales · ⏳ sin revisar
 
 ### costurera
 
-Costurera · Muñecas · ⏳ sin revisar
+Costurera · Muñecas · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Seamstress_01.jpg | 1266×1600 | `06dcffafb04711a88fa5ff6768b7407e` |
-| 2 | RagDoll_Seamstress_02.jpg | 1266×1600 | `199b70970544518d2de1abe98badb7f7` |
-| 3 | RagDoll_Seamstress_04.jpg | 1373×3051 | `1cd7fbf4984cd4899af81dbfcb6ae58e` |
-| 4 | RagDoll_Seamstress_05.jpg | 1266×1600 | `41b5daeb75a11122f5f9d104f43cccdb` |
-| 5 | RagDoll_Seamstress_06.jpg | 1373×3051 | `f85284017979d350fff4bae65a7652c6` |
+| 2 | RagDoll_Seamstress_04.jpg | 1373×3051 | `1cd7fbf4984cd4899af81dbfcb6ae58e` |
 
 ### diadema-catrina-mariposa-naranja
 
@@ -648,15 +636,12 @@ Pañoleta Bohemia · Muñecas · ⏳ sin revisar
 
 ### primera-comunion
 
-Primera Comunión · Muñecas · ⏳ sin revisar
+Primera Comunión · Muñecas · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Communion_01.jpg | 960×1280 | `e004fbdfdd87a98eb671aefd94c73ceb` |
 | 2 | RagDoll_Communion_04.jpg | 1536×2048 | `5d69fe5328afb38b0983ab10521f6b2d` |
-| 3 | RagDoll_Communion_05.jpg | 1536×2048 | `139d34083346e5e0b9637c3b17ad21f5` |
-| 4 | RagDoll_Communion_06.jpg | 1536×2048 | `b85aba402aef2b61cca0575ae98aa152` |
-| 5 | RagDoll_Communion_07.jpg | 960×1280 | `679b5e837d33d0b2cd1fc7a671274507` |
 
 ### ramo-decorativo-flores-foamy
 
