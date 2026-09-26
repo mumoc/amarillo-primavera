@@ -1,5 +1,5 @@
 ---
-nombre: Ramo Decorativo de Flores en Foamy
+nombre: Diadema Loca
 categoria: Otros
 tags:
   - "#DecoArtesanal"
