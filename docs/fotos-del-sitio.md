@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**80 productos · 122 fotos · 19 productos revisados por Carlos.**
+**80 productos · 122 fotos · 21 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -35,6 +35,8 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Primera Comunión](#primera-comunion) | 2 | 2026-09-25 | De 5 fotos quedan 2: la de luz de dia (portada) y la de la comoda azul. |
 | [Vestido Floral Pelirroja](#vestido-floral-pelirroja) | 1 | 2026-09-25 | Las dos fotos eran la misma toma; queda la mas nitida. |
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
+| [Caja de Jabones Chocolatitos](#caja-jabones-chocolatitos) | 1 | 2026-09-26 | Queda la foto de la caja con mas resolucion, que estaba por error en el set de baby shower. |
+| [Set Jabón y Toalla Baby Shower](#set-jabon-baby-shower) | 1 | 2026-09-26 | Recupera la foto de las bolsitas 'Mi Baby Shower' que se habia quitado de la tote bag pintada. |
 
 ## Pendientes de revisar
 
@@ -45,7 +47,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Detalle de Amor Rosa](#amor-rosa) | Muñecas | 1 |
 | [Bruja Traviesa](#bruja-traviesa) | Muñecas | 1 |
 | [Jabones Kraft](#caja-jabones-artesanales-kraft) | Jabones | 1 |
-| [Caja de Jabones Chocolatitos](#caja-jabones-chocolatitos) | Jabones | 1 |
 | [Caja de Rosas y Corazones](#caja-regalo-rosas-y-corazones) | Jabones | 1 |
 | [Cajita de Regalo Jabón Rosa](#cajita-regalo-jabon-rosa) | Jabones | 2 |
 | [Canasta de Rosas de Jabón](#canasta-rosas-rosa-morado) | Arreglos florales | 1 |
@@ -90,7 +91,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Recuerdo de Margaritas](#recuerdo-jabon-margarita) | Jabones | 1 |
 | [Recuerdo de Rosita en Organza](#recuerdo-jabon-rosa-organza) | Jabones | 1 |
 | [Salsa Diabla](#salsa-diabla-frasco) | Salsa Diabla | 2 |
-| [Set Jabón y Toalla Baby Shower](#set-jabon-baby-shower) | Jabones | 1 |
 | [Set Recuerdo Jabón y Toallita](#set-recuerdo-jabon-y-toalla) | Jabones | 1 |
 | [Set de Regalo Brisa de Mar](#set-regalo-jabon-brisa-de-mar) | Jabones | 1 |
 | [Sombrero Azul con Flor](#sombrero-azul-flor) | Muñecas | 1 |
@@ -156,11 +156,11 @@ Jabones Kraft · Jabones · ⏳ sin revisar
 
 ### caja-jabones-chocolatitos
 
-Caja de Jabones Chocolatitos · Jabones · ⏳ sin revisar
+Caja de Jabones Chocolatitos · Jabones · ✅ revisado 2026-09-26
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | Other_ChocolateBoxDisplay_01.jpg | 1349×2048 | `7b0949aeed1a5e26db05a2003cde6b8a` |
+| 1 | Soap_ChocolateBox_01.jpg | 1536×2048 | `33416d703444c3fd67ad4b4889e3d817` |
 
 ### caja-regalo-rosas-y-corazones
 
@@ -671,11 +671,11 @@ Salsa Diabla · Salsa Diabla · ⏳ sin revisar
 
 ### set-jabon-baby-shower
 
-Set Jabón y Toalla Baby Shower · Jabones · ⏳ sin revisar
+Set Jabón y Toalla Baby Shower · Jabones · ✅ revisado 2026-09-26
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | Soap_GiftSet_BabyShower_01.jpg | 1536×2048 | `33416d703444c3fd67ad4b4889e3d817` |
+| 1 | Soap_GiftSet_BabyShower_01.jpg | 873×372 | `3e6828b2f6d62e619b05ff54eb544b7d` |
 
 ### set-recuerdo-jabon-y-toalla
 
