@@ -11,13 +11,9 @@ tags:
   - "#EspirituNavideno"
 disponible: true
 imagenes:
-  - images/RagDoll_Nativity_MiniFullSet_01.jpg
-  - images/RagDoll_Nativity_MiniFullSet_02.jpg
-  - images/RagDoll_Nativity_MiniFullSet_03.jpg
-  - images/RagDoll_Nativity_FullScene_01.jpg
   - images/RagDoll_Nativity_FullScene_02.jpg
+  - images/RagDoll_Nativity_FullScene_01.jpg
   - images/RagDoll_Nativity_FullScene_03.jpg
-  - images/RagDoll_Nativity_FullScene_04.jpg
   - images/RagDoll_Nativity_FullScene_05.jpg
 ---
 
