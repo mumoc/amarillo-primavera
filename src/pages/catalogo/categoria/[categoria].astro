@@ -14,7 +14,13 @@ export async function getStaticPaths() {
     props: {
       categoria,
       categorias,
-      productos: productos.filter((p) => p.data.categoria === categoria),
+      productos: productos
+        .filter((p) => p.data.categoria === categoria)
+        .sort(
+          (a, b) =>
+            (a.data.orden ?? Infinity) - (b.data.orden ?? Infinity) ||
+            a.data.nombre.localeCompare(b.data.nombre, "es"),
+        ),
     },
   }));
 }

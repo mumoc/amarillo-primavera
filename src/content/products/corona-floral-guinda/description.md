@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#EstiloMexicano"
+orden: 7
 disponible: true
 imagenes:
   - images/FlowerCrown_DarkFloral_Model_02.jpg

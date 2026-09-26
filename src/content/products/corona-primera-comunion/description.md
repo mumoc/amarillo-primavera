@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#EstiloMexicano"
+orden: 15
 disponible: true
 imagenes:
   - images/FlowerCrown_Communion_01.jpg

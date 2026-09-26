@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#Catrina"
+orden: 6
 disponible: true
 imagenes:
   - images/FlowerCrown_Catrina_Daisy_01.jpg

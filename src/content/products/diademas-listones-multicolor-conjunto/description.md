@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#EstiloMexicano"
+orden: 12
 disponible: true
 imagenes:
   - images/FlowerCrown_RibbonMulticolor_01.jpg

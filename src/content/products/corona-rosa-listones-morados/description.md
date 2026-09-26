@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#EstiloMexicano"
+orden: 13
 disponible: true
 imagenes:
   - images/FlowerCrown_RibbonPinkPurple_01.jpg

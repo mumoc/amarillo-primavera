@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#Catrina"
+orden: 8
 disponible: true
 imagenes:
   - images/FlowerCrown_Catrina_RibbonRainbow_Sunflower_01.jpg

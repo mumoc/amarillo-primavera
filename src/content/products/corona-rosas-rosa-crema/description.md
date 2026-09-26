@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#EstiloMexicano"
+orden: 10
 disponible: true
 imagenes:
   - images/FlowerCrown_PinkRose_Mannequin_01.jpg

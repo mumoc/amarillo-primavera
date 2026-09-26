@@ -49,6 +49,8 @@ const products = defineCollection({
       tags: z.array(z.string()).default([]),
       tono: z.string().optional(),
       disponible: z.boolean().default(true),
+      // Posicion dentro de su categoria (1 = primero). Sin orden, va al final por nombre.
+      orden: z.number().int().positive().optional(),
       imagenes: z.array(image()).default([]),
       historia: z
         .object({

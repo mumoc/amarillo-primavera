@@ -38,6 +38,13 @@ collections:
         widget: "boolean"
         default: true
         hint: "Aunque no haya existencia, el producto sigue siendo pedible por WhatsApp — este campo solo cambia la insignia que se muestra."
+      - label: "Orden en su categoría"
+        name: "orden"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        required: false
+        hint: "1 = aparece primero en la página de su categoría. Déjalo vacío para que vaya al final, por nombre."
       - label: "Imágenes"
         name: "imagenes"
         widget: "list"

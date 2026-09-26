@@ -8,6 +8,7 @@ tags:
   - "#DiademasArtesanales"
   - "#AccesoriosFlorales"
   - "#Catrina"
+orden: 2
 disponible: true
 imagenes:
   - images/FlowerCrown_Catrina_GrayPurple_01.jpg
