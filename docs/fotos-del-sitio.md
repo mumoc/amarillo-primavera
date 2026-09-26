@@ -36,7 +36,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Pareja Escandinava](#abuelitos-navidenos) | Muñecas | 1 |
 | [Detalle de Amor Rojo](#amor-rojo) | Muñecas | 1 |
 | [Detalle de Amor Rosa](#amor-rosa) | Muñecas | 1 |
-| [Bolsas Tote de Tela Estampada](#bolsas-tote-tela-estampada) | Bolsas tote | 1 |
 | [Bruja Traviesa](#bruja-traviesa) | Muñecas | 1 |
 | [Jabones Kraft](#caja-jabones-artesanales-kraft) | Jabones | 1 |
 | [Caja de Jabones Chocolatitos](#caja-jabones-chocolatitos) | Jabones | 1 |
@@ -97,6 +96,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Sombrero de Paja con Rebozo Naranja](#sombrero-paja-rebozo-naranja) | Muñecas | 3 |
 | [Taza con Bouquet de Flores Lavanda](#taza-bouquet-flores-lavanda-mama) | Arreglos florales | 1 |
 | [Tocado Catrina Listones](#tocado-catrina-listones) | Coronas y diademas florales | 2 |
+| [Tote Bag Estampada](#tote-bag-estampada) | Bolsas tote | 1 |
 | [Trenzas con Flores Amarillas](#trenzas-flores-amarillas) | Muñecas | 1 |
 | [Tres Reyes Magos y María](#tres-reyes-y-maria-banca) | Muñecas | 1 |
 | [Vestido Floral Pelirroja](#vestido-floral-pelirroja) | Muñecas | 2 |
@@ -156,14 +156,6 @@ Detalle de Amor Rosa · Muñecas · ⏳ sin revisar
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_ValentineGift_Pink_01.jpg | 1599×1600 | `f09a45a28d3407602eccb9b16d48d5d0` |
-
-### bolsas-tote-tela-estampada
-
-Bolsas Tote de Tela Estampada · Bolsas tote · ⏳ sin revisar
-
-| # | Archivo | Tamaño | md5 |
-|---|---|---|---|
-| 1 | ToteBag_PrintedFabric_GroupThree_01.jpg | 1280×796 | `893d6b3c4e9569b6bc6702ffebf1f061` |
 
 ### bruja-traviesa
 
@@ -787,6 +779,14 @@ Tocado Catrina Listones · Coronas y diademas florales · ⏳ sin revisar
 |---|---|---|---|
 | 1 | FlowerCrown_Catrina_RibbonMulticolor_01.jpg | 1350×1793 | `19eb5ddfc4c4532d06c75df21b211ea2` |
 | 2 | FlowerCrown_Catrina_RibbonRainbow_Sunflower_01.jpg | 1350×1808 | `0d1e0cd5ab1c80ed9571aaddab35e260` |
+
+### tote-bag-estampada
+
+Tote Bag Estampada · Bolsas tote · ⏳ sin revisar
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | ToteBag_PrintedFabric_GroupThree_01.jpg | 1280×796 | `893d6b3c4e9569b6bc6702ffebf1f061` |
 
 ### tote-bag-pintada-corazon-floral
 

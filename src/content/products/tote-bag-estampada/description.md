@@ -1,5 +1,5 @@
 ---
-nombre: Bolsas Tote de Tela Estampada
+nombre: Tote Bag Estampada
 categoria: Bolsas tote
 tags:
   - "#AmarilloPrimavera"
