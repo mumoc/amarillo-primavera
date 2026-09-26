@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 124 fotos · 18 productos revisados por Carlos.**
+**81 productos · 123 fotos · 19 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -33,6 +33,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Nacimiento Completo Mini](#nacimiento-completo-mini) | 4 | 2026-09-25 | De 8 fotos quedaron las 4 mejores tomas. |
 | [Organizador de Lápices Multicolor](#organizador-lapices-multicolor) | 8 | 2026-09-25 | Sin las 4 repetidas; el librero de portada, el amarillo con colores al final. |
 | [Primera Comunión](#primera-comunion) | 2 | 2026-09-25 | De 5 fotos quedan 2: la de luz de dia (portada) y la de la comoda azul. |
+| [Vestido Floral Pelirroja](#vestido-floral-pelirroja) | 1 | 2026-09-25 | Las dos fotos eran la misma toma; queda la mas nitida. |
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
 
 ## Pendientes de revisar
@@ -100,7 +101,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Tote Bag Estampada](#tote-bag-estampada) | Bolsas tote | 1 |
 | [Trenzas con Flores Amarillas](#trenzas-flores-amarillas) | Muñecas | 1 |
 | [Tres Reyes Magos y María](#tres-reyes-y-maria-banca) | Muñecas | 1 |
-| [Vestido Floral Pelirroja](#vestido-floral-pelirroja) | Muñecas | 2 |
 | [Vestido Satín Morado](#vestido-satin-morado) | Muñecas | 1 |
 
 ## Posibles repetidas
@@ -111,7 +111,6 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 |---|---|---|
 | charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
-| vestido-floral-pelirroja/RagDoll_FloralDress_Redhead_01.jpg | vestido-floral-pelirroja/RagDoll_FloralDress_Redhead_02.jpg | 6 |
 
 ## Todas las fotos, por producto
 
@@ -785,12 +784,11 @@ Tres Reyes Magos y María · Muñecas · ⏳ sin revisar
 
 ### vestido-floral-pelirroja
 
-Vestido Floral Pelirroja · Muñecas · ⏳ sin revisar
+Vestido Floral Pelirroja · Muñecas · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_FloralDress_Redhead_01.jpg | 1080×1517 | `adadf64ef3652f69475ec5d27fd756e2` |
-| 2 | RagDoll_FloralDress_Redhead_02.jpg | 1080×1604 | `5296ead21e560a8a7a115bc0325545da` |
 
 ### vestido-satin-morado
 
