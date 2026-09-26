@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**81 productos · 134 fotos · 14 productos revisados por Carlos.**
+**81 productos · 132 fotos · 15 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -27,6 +27,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Tote Bag Pintada Corazón Floral](#tote-bag-pintada-corazon-floral) | 1 | 2026-09-24 | Se quito la segunda foto: eran jabones, no la bolsa. |
 | [Cantores Navideños](#cantores-navidenos) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas; queda la de frente de portada y la de lado. |
 | [Corona Navideña](#corona-navidena-nochebuena-dorada) | 1 | 2026-09-25 | Una sola foto. |
+| [Diademas de Listones](#diademas-listones-multicolor-conjunto) | 1 | 2026-09-25 | Carlos pidio quitar la 1 y la 3; queda una sola foto. |
 | [Nacimiento Completo Mini](#nacimiento-completo-mini) | 4 | 2026-09-25 | De 8 fotos quedaron las 4 mejores tomas. |
 | [Organizador de Lápices Multicolor](#organizador-lapices-multicolor) | 8 | 2026-09-25 | Sin las 4 repetidas; el librero de portada, el amarillo con colores al final. |
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
@@ -64,7 +65,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Corona de Rosas Rosa y Crema](#corona-rosas-rosa-crema) | Coronas y diademas florales | 1 |
 | [Costurera](#costurera) | Muñecas | 5 |
 | [Diadema Catrina Mariposa Naranja](#diadema-catrina-mariposa-naranja) | Coronas y diademas florales | 1 |
-| [Diademas de Listones](#diademas-listones-multicolor-conjunto) | Coronas y diademas florales | 3 |
 | [Frida Flores Rosas](#frida-flores-rosas) | Muñecas | 1 |
 | [Frida entre Luces](#frida-luces) | Muñecas | 1 |
 | [Frida, Rebozo Morado](#frida-rebozo-morado) | Muñecas | 1 |
@@ -111,7 +111,6 @@ Pares que el script ve casi iguales (misma toma, otro recorte o compresión). Ha
 |---|---|---|
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_07.jpg | 0 |
 | costurera/RagDoll_Seamstress_04.jpg | costurera/RagDoll_Seamstress_06.jpg | 0 |
-| diademas-listones-multicolor-conjunto/FlowerCrown_Catrina_RibbonMulticolor_01.jpg | tocado-catrina-listones/FlowerCrown_Catrina_RibbonMulticolor_01.jpg | idénticas |
 | primera-comunion/RagDoll_Communion_04.jpg | primera-comunion/RagDoll_Communion_05.jpg | 0 |
 | charola-jabones-naturales-dia-mama/Soap_Bar_MamaGiftSet_01.jpg | set-charola-jabones-dia-mama/Soap_GiftSet_MothersDay_01.jpg | 1 |
 | corona-primera-comunion/FlowerCrown_Communion_01.jpg | primera-comunion/RagDoll_Communion_01.jpg | 1 |
@@ -409,13 +408,11 @@ Diadema Catrina Mariposa Naranja · Coronas y diademas florales · ⏳ sin revis
 
 ### diademas-listones-multicolor-conjunto
 
-Diademas de Listones · Coronas y diademas florales · ⏳ sin revisar
+Diademas de Listones · Coronas y diademas florales · ✅ revisado 2026-09-25
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | FlowerCrown_Catrina_RibbonMulticolor_01.jpg | 1350×1793 | `19eb5ddfc4c4532d06c75df21b211ea2` |
-| 2 | FlowerCrown_RibbonMulticolor_01.jpg | 2048×1536 | `84c3580d5f90c35ab5bb3a10f2421fd8` |
-| 3 | FlowerCrown_RibbonMulticolor_02.jpg | 1600×1192 | `8515a377db63278059451627ef36e7be` |
+| 1 | FlowerCrown_RibbonMulticolor_01.jpg | 2048×1536 | `84c3580d5f90c35ab5bb3a10f2421fd8` |
 
 ### florecita-vestido-azul
 
