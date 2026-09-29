@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**80 productos · 122 fotos · 21 productos revisados por Carlos.**
+**80 productos · 125 fotos · 21 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -25,7 +25,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Muñeca de Lunares Rojos](#muneca-lunares-rojos) | 2 | 2026-09-24 | Recibio la foto que estaba en virgencitas. |
 | [Tote Bag Pintada Corazón Floral](#tote-bag-pintada-corazon-floral) | 1 | 2026-09-24 | Se quito la segunda foto: eran jabones, no la bolsa. |
 | [Cantores Navideños](#cantores-navidenos) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas; queda la de frente de portada y la de lado. |
-| [Colimota](#colimota) | 1 | 2026-09-25 | Carlos confirmo que es la Colimota, no una novia. Las dos fotos eran la misma toma; queda la de mayor resolucion. |
 | [Corona Navideña](#corona-navidena-nochebuena-dorada) | 1 | 2026-09-25 | Una sola foto. |
 | [Costurera](#costurera) | 2 | 2026-09-25 | De 5 fotos solo habia 2 tomas: la pelirroja y la castana; queda la mejor de cada una. |
 | [Diademas de Listones](#diademas-listones-multicolor-conjunto) | 1 | 2026-09-25 | Carlos pidio quitar la 1 y la 3; queda una sola foto. |
@@ -37,6 +36,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
 | [Caja de Jabones Chocolatitos](#caja-jabones-chocolatitos) | 1 | 2026-09-26 | Queda la foto de la caja con mas resolucion, que estaba por error en el set de baby shower. |
 | [Set Jabón y Toalla Baby Shower](#set-jabon-baby-shower) | 1 | 2026-09-26 | Recupera la foto de las bolsitas 'Mi Baby Shower' que se habia quitado de la tote bag pintada. |
+| [Colimota](#colimota) | 4 | 2026-09-29 | Carlos confirmo que es la Colimota. Se agregan 3 fotos del Drive (09-2026); la del jardin de frente es la portada. |
 
 ## Pendientes de revisar
 
@@ -248,11 +248,14 @@ Coletas y Moños Morados · Muñecas · ⏳ sin revisar
 
 ### colimota
 
-Colimota · Muñecas · ✅ revisado 2026-09-25
+Colimota · Muñecas · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | RagDoll_Colimota_02.jpg | 1200×1600 | `2a14f4505be6abe8623e358c84d78f21` |
+| 1 | RagDoll_Colimota_03.jpg | 1200×1594 | `a7b809ca12e5f005d8a25288773f0c97` |
+| 2 | RagDoll_Colimota_02.jpg | 1200×1600 | `2a14f4505be6abe8623e358c84d78f21` |
+| 3 | RagDoll_Colimota_04.jpg | 1200×1594 | `7a17de02b5100126e7feb9378bd882b6` |
+| 4 | RagDoll_Colimota_05.jpg | 1200×1594 | `e06315780d13537796f805ec55c3a2bb` |
 
 ### corona-catrina-gris-blanco
 
