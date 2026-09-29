@@ -12,4 +12,4 @@ imagenes:
   - images/Other_CraftBouquet_Foam_01.jpg
 ---
 
-Un ramo o topper decorativo hecho con flores de foamy y un moño, armado a mano con paciencia y buen ojo para el color. Ideal como detalle decorativo para regalos, centros de mesa o cualquier rincón que necesite un toque de alegría. Una pieza con carácter artesanal, distinta a todo lo demás del catálogo.
+Una diadema loca hecha a mano, con flores de foamy en colores vivos, pompones, limpiapipas y un moño brillante al frente. Se pone como cualquier diadema y convierte el peinado en una fiesta: ideal para el día del peinado loco, un festival o una fiesta de disfraces. Alegría hecha con intención, para lucirla de pies… bueno, de cabeza.
