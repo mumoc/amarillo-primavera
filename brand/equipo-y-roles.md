@@ -45,6 +45,8 @@ Lo que lleva:
 - La página y las redes.
 - **Venta a consignación** en varias tiendas, que ella consiguió.
 - Coordinar la salida a **jardines y expos** con stand.
+- **Ponerle nombre a las muñecas** (Paty, Florecita…). Antes de subir una
+  muñeca nueva al catálogo, el nombre se le pide a ella; no se inventa.
 
 ## Por qué funciona la sociedad
 
