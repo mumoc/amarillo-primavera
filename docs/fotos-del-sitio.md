@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**80 productos · 125 fotos · 21 productos revisados por Carlos.**
+**84 productos · 139 fotos · 21 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -50,6 +50,8 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Caja de Rosas y Corazones](#caja-regalo-rosas-y-corazones) | Jabones | 1 |
 | [Cajita de Regalo Jabón Rosa](#cajita-regalo-jabon-rosa) | Jabones | 2 |
 | [Canasta de Rosas de Jabón](#canasta-rosas-rosa-morado) | Arreglos florales | 1 |
+| [Casita Maceta](#casita-maceta) | Creaciones de madera | 4 |
+| [Casita de Madera con Farol](#casita-madera-con-farol) | Creaciones de madera | 4 |
 | [Catrina Calavera](#catrina-calavera) | Muñecas | 1 |
 | [Centro Navideño Cono de Esferas](#centro-navideno-cono-esferas) | Decoración navideña | 1 |
 | [Centro Navideño Nochebuena y Eucalipto](#centro-navideno-nochebuena-eucalipto) | Decoración navideña | 3 |
@@ -81,12 +83,14 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Kits de Cuidado Personal](#kits-cuidado-personal) | Jabones | 1 |
 | [Listones Rosas](#listones-rosas) | Muñecas | 1 |
 | [Macetas de Cemento con Frases para Suculentas](#macetas-cemento-frases-suculentas) | Macetas de cemento | 1 |
+| [Macetero de Casitas Dobles](#macetero-casitas-dobles) | Creaciones de madera | 3 |
 | [Marinerita](#marinerita) | Muñecas | 1 |
 | [Nacimiento en Tonos Tierra](#nacimiento-tonos-tierra) | Muñecas | 1 |
 | [Organizador Hexagonal para Figuras](#organizador-hexagonal-figuras) | Organizadores 3D | 2 |
 | [Overol Rayado](#overol-rayado) | Muñecas | 1 |
 | [Paty](#paty) | Muñecas | 1 |
 | [Pañoleta Bohemia](#pañoleta-bohemia) | Muñecas | 1 |
+| [Portallaves Casitas de Colores](#portallaves-casitas-de-colores) | Creaciones de madera | 3 |
 | [Diadema Loca](#ramo-decorativo-flores-foamy) | Otros | 1 |
 | [Recuerdo de Margaritas](#recuerdo-jabon-margarita) | Jabones | 1 |
 | [Recuerdo de Rosita en Organza](#recuerdo-jabon-rosa-organza) | Jabones | 1 |
@@ -195,6 +199,28 @@ Cantores Navideños · Muñecas · ✅ revisado 2026-09-25
 |---|---|---|---|
 | 1 | RagDoll_Caroler_05.jpg | 1362×2823 | `68056744734287c1b5f7243af21d3d10` |
 | 2 | RagDoll_Caroler_03.jpg | 889×1496 | `0465a8c7cd9119fe64dc16f71084b2ab` |
+
+### casita-maceta
+
+Casita Maceta · Creaciones de madera · ⏳ sin revisar
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | WoodCraft_Planter_House_01.jpg | 1200×1594 | `9abd669b91b9ac7d7c52e153583546d0` |
+| 2 | WoodCraft_Planter_House_02.jpg | 1200×1594 | `2594840b7dd92f6019dbf3add606c813` |
+| 3 | WoodCraft_Planter_House_03.jpg | 1200×1594 | `a60790bd20d3a0fa7c22bb9dc62c24aa` |
+| 4 | WoodCraft_Planter_House_04.jpg | 1200×1594 | `c6bc0151f72b4ca3705a97a553fb128f` |
+
+### casita-madera-con-farol
+
+Casita de Madera con Farol · Creaciones de madera · ⏳ sin revisar
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | WoodCraft_House_Lantern_01.jpg | 1200×1594 | `df219ded46595d2f3da6747affd04f3f` |
+| 2 | WoodCraft_House_Lantern_02.jpg | 1200×1594 | `5e1c58852ce9c64c0b4dcf7888438bc2` |
+| 3 | WoodCraft_House_Lantern_03.jpg | 1200×1594 | `4e621ee536dd136ee867a8226335a56c` |
+| 4 | WoodCraft_House_Lantern_04.jpg | 1200×1594 | `38175d7c63e2b278dd649732f48403cc` |
 
 ### catrina-calavera
 
@@ -538,6 +564,16 @@ Macetas de Cemento con Frases para Suculentas · Macetas de cemento · ⏳ sin r
 |---|---|---|---|
 | 1 | CementPlanter_PaintedQuotes_01.jpg | 2048×1109 | `1e5b079e9915fe27ff6e99ff3ed47bf2` |
 
+### macetero-casitas-dobles
+
+Macetero de Casitas Dobles · Creaciones de madera · ⏳ sin revisar
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | WoodCraft_Planter_DoubleHouse_01.jpg | 1200×904 | `57513ee5ecb2cde405c8ad3c91fd2a7f` |
+| 2 | WoodCraft_Planter_DoubleHouse_02.jpg | 1200×904 | `b731da916def997fa99a3aa8f2e94c70` |
+| 3 | WoodCraft_Planter_DoubleHouse_03.jpg | 1200×904 | `5c51c9ff56f2c87ef500a51f0d1cabd3` |
+
 ### marinerita
 
 Marinerita · Muñecas · ⏳ sin revisar
@@ -629,6 +665,16 @@ Pañoleta Bohemia · Muñecas · ⏳ sin revisar
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Gypsy_01.jpg | 960×1280 | `6828e7ede21052c80beabf42859fe341` |
+
+### portallaves-casitas-de-colores
+
+Portallaves Casitas de Colores · Creaciones de madera · ⏳ sin revisar
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | WoodCraft_KeyHolder_Houses_01.jpg | 1200×904 | `aa6f6ea7f2a2941db2d302bb2833ef4e` |
+| 2 | WoodCraft_KeyHolder_Houses_02.jpg | 1200×904 | `ec28851bda9c5a446276152e144ade49` |
+| 3 | WoodCraft_KeyHolder_Houses_03.jpg | 1200×904 | `9f26ab401ecfc9de630eec00810e4d87` |
 
 ### primera-comunion
 

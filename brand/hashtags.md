@@ -46,6 +46,9 @@ Lista de referencia para no improvisar hashtags en cada post. Se puede ampliar c
 **Arreglos florales**
 `#ArreglosFlorales` `#DecoArtesanal`
 
+**Creaciones de madera**
+`#CasitasDeMadera` `#DecoArtesanal`
+
 ## Por temporada
 
 **Día de Muertos** (se suma a los de la categoría del producto)

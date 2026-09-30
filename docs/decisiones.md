@@ -55,7 +55,7 @@ que bloquea el postinstall de `esbuild`.
 - **Campo `disponible`**: todos los productos siguen en `true`; no hay dato real
   de existencia.
 - **`products/PENDIENTES/`**: "creaciones de madera" y fotos sueltas, sin
-  catalogar (34 archivos).
+  catalogar (24 archivos; las casitas que ya están en el sitio se quitaron).
 - **Blog**: diferido.
 
 Los pendientes de marca (no del sitio) están en `brand/PENDIENTES.md`.
