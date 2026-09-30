@@ -1,8 +1,8 @@
 {
   "_nota": "Productos cuyas fotos ya reviso Carlos una por una. Al terminar de revisar otro, agregalo aqui y corre `npm run indice-fotos`.",
   "tarjetas-margarita-de-jabon": {
-    "fecha": "2026-09-19",
-    "nota": "De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal al final."
+    "fecha": "2026-09-29",
+    "nota": "De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal despues. Se suma al final la foto sobre tela del Drive."
   },
   "florecita-vestido-azul": {
     "fecha": "2026-09-19",
@@ -99,5 +99,13 @@
   "casita-madera-con-farol": {
     "fecha": "2026-09-29",
     "nota": "Nuevo. Carlos confirmo que la azul y la negra son el mismo producto."
+  },
+  "jabones-con-florecita": {
+    "fecha": "2026-09-29",
+    "nota": "Nuevo, con fotos del Drive."
+  },
+  "bolsita-regalo-jabones": {
+    "fecha": "2026-09-29",
+    "nota": "Nuevo, con fotos del Drive."
   }
 }

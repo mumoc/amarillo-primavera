@@ -14,6 +14,7 @@ imagenes:
   - images/FloralCard_Daisy_GroupTen_04.jpg
   - images/FloralCard_Daisy_GroupTen_Cactus_01.jpg
   - images/FloralCard_Daisy_GroupCrate_MamaSet_01.jpg
+  - images/FloralCard_Daisy_FabricSet_01.jpg
 ---
 
 Nuestras Tarjetas de Margarita de Jabón son un detalle pensado para sorprender y regalar una sonrisa. Cada pieza combina una delicada margarita elaborada con jabón artesanal, montada sobre un palito tipo paleta y presentada en una tarjeta decorativa con diseños cuidadosamente seleccionados y un mensaje especial.

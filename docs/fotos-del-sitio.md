@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**84 productos · 139 fotos · 25 productos revisados por Carlos.**
+**86 productos · 145 fotos · 27 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -18,7 +18,6 @@ Punto de partida cuando lleguen fotos nuevas:
 |---|---|---|---|
 | [Corona Rosa](#corona-rosa-listones-morados) | 1 | 2026-09-19 | Se separo de la muneca de lunares rojos. |
 | [Florecita](#florecita-vestido-azul) | 2 | 2026-09-19 | Dos tomas, rellenas a cuadrado para que no se recorten. |
-| [Tarjetas de Margarita de Jabón](#tarjetas-margarita-de-jabon) | 5 | 2026-09-19 | De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal al final. |
 | [Frida, Corona Floral](#frida-corona-floral) | 1 | 2026-09-24 | Carlos identifico las tres munecas; se queda solo con la Frida. |
 | [Llavero Personalizado](#llavero-personalizado) | 9 | 2026-09-24 | Sin las siete repetidas; una foto de Regina y una de Romina. |
 | [Muñeca Floral](#muneca-floral) | 1 | 2026-09-24 | Ficha nueva con la foto que estaba en Frida. |
@@ -36,11 +35,14 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
 | [Caja de Jabones Chocolatitos](#caja-jabones-chocolatitos) | 1 | 2026-09-26 | Queda la foto de la caja con mas resolucion, que estaba por error en el set de baby shower. |
 | [Set Jabón y Toalla Baby Shower](#set-jabon-baby-shower) | 1 | 2026-09-26 | Recupera la foto de las bolsitas 'Mi Baby Shower' que se habia quitado de la tote bag pintada. |
+| [Bolsita de Regalo con Jabones](#bolsita-regalo-jabones) | 2 | 2026-09-29 | Nuevo, con fotos del Drive. |
 | [Casita Maceta](#casita-maceta) | 4 | 2026-09-29 | Nuevo. Cuatro colores con planta. |
 | [Casita de Madera con Farol](#casita-madera-con-farol) | 4 | 2026-09-29 | Nuevo. Carlos confirmo que la azul y la negra son el mismo producto. |
 | [Colimota](#colimota) | 4 | 2026-09-29 | Carlos confirmo que es la Colimota. Se agregan 3 fotos del Drive (09-2026); la del jardin de frente es la portada. |
+| [Jabones con Florecita](#jabones-con-florecita) | 3 | 2026-09-29 | Nuevo, con fotos del Drive. |
 | [Macetero de Casitas Dobles](#macetero-casitas-dobles) | 3 | 2026-09-29 | Nuevo. Azul con morado de portada, verde con morado despues. |
 | [Portallaves Casitas de Colores](#portallaves-casitas-de-colores) | 3 | 2026-09-29 | Nuevo. Dos versiones del portallaves en un solo producto. |
+| [Tarjetas de Margarita de Jabón](#tarjetas-margarita-de-jabon) | 6 | 2026-09-29 | De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal despues. Se suma al final la foto sobre tela del Drive. |
 
 ## Pendientes de revisar
 
@@ -141,6 +143,15 @@ Detalle de Amor Rosa · Muñecas · ⏳ sin revisar
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_ValentineGift_Pink_01.jpg | 1599×1600 | `f09a45a28d3407602eccb9b16d48d5d0` |
+
+### bolsita-regalo-jabones
+
+Bolsita de Regalo con Jabones · Jabones · ✅ revisado 2026-09-29
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | Soap_GiftBag_YellowRibbon_01.jpg | 1200×904 | `2f2e7d135f610fc8a0007c1051bb1ef5` |
+| 2 | Soap_GiftBag_YellowRibbon_02.jpg | 1200×1594 | `07a09be01741d48666752a3523e74445` |
 
 ### bruja-traviesa
 
@@ -516,6 +527,16 @@ Jabón Rosa en Vara · Jabones · ⏳ sin revisar
 |---|---|---|---|
 | 1 | Soap_RoseStick_Pink_02.jpg | 1536×2048 | `cff3b9ab2d8ebde04ade28c29f7e2e03` |
 
+### jabones-con-florecita
+
+Jabones con Florecita · Jabones · ✅ revisado 2026-09-29
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | Soap_Bar_WrappedFlower_01.jpg | 1200×904 | `8e042d932cc0977404020fee5d0d7806` |
+| 2 | Soap_Bar_WrappedFlower_02.jpg | 1200×904 | `3948e1d7e21890689ebb5ba12a0be12d` |
+| 3 | Soap_Bar_WrappedFlower_03.jpg | 1200×904 | `ada4206321d0707344ca48455360511f` |
+
 ### jardinera-girasol
 
 Jardinera del Girasol · Muñecas · ⏳ sin revisar
@@ -762,7 +783,7 @@ Sombrero de Paja con Rebozo Naranja · Muñecas · ⏳ sin revisar
 
 ### tarjetas-margarita-de-jabon
 
-Tarjetas de Margarita de Jabón · Tarjetas florales · ✅ revisado 2026-09-19
+Tarjetas de Margarita de Jabón · Tarjetas florales · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -771,6 +792,7 @@ Tarjetas de Margarita de Jabón · Tarjetas florales · ✅ revisado 2026-09-19
 | 3 | FloralCard_Daisy_GroupTen_04.jpg | 1080×810 | `48d823e093104876be53ff90228ca68e` |
 | 4 | FloralCard_Daisy_GroupTen_Cactus_01.jpg | 1080×810 | `a40897d6566229b5ac119993eb719017` |
 | 5 | FloralCard_Daisy_GroupCrate_MamaSet_01.jpg | 1536×2048 | `62daebaf4612845244a71bee4c474fd6` |
+| 6 | FloralCard_Daisy_FabricSet_01.jpg | 1200×904 | `3c5ed6f1aa41fb1529bab174a9cba3b9` |
 
 ### taza-bouquet-flores-lavanda-mama
 
