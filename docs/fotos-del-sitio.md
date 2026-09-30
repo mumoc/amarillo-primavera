@@ -672,9 +672,9 @@ Portallaves Casitas de Colores · Creaciones de madera · ✅ revisado 2026-09-2
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | WoodCraft_KeyHolder_Houses_01.jpg | 1200×904 | `aa6f6ea7f2a2941db2d302bb2833ef4e` |
-| 2 | WoodCraft_KeyHolder_Houses_02.jpg | 1200×904 | `ec28851bda9c5a446276152e144ade49` |
-| 3 | WoodCraft_KeyHolder_Houses_03.jpg | 1200×904 | `9f26ab401ecfc9de630eec00810e4d87` |
+| 1 | WoodCraft_KeyHolder_Houses_02.jpg | 1200×904 | `ec28851bda9c5a446276152e144ade49` |
+| 2 | WoodCraft_KeyHolder_Houses_03.jpg | 1200×904 | `9f26ab401ecfc9de630eec00810e4d87` |
+| 3 | WoodCraft_KeyHolder_Houses_01.jpg | 1200×904 | `aa6f6ea7f2a2941db2d302bb2833ef4e` |
 
 ### primera-comunion
 
