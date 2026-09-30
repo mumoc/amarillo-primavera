@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**84 productos · 139 fotos · 21 productos revisados por Carlos.**
+**84 productos · 139 fotos · 25 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -36,7 +36,11 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Virgencitas](#virgencitas) | 1 | 2026-09-25 | La misma toma venia tres veces; queda una sola, la de mejor calidad. |
 | [Caja de Jabones Chocolatitos](#caja-jabones-chocolatitos) | 1 | 2026-09-26 | Queda la foto de la caja con mas resolucion, que estaba por error en el set de baby shower. |
 | [Set Jabón y Toalla Baby Shower](#set-jabon-baby-shower) | 1 | 2026-09-26 | Recupera la foto de las bolsitas 'Mi Baby Shower' que se habia quitado de la tote bag pintada. |
+| [Casita Maceta](#casita-maceta) | 4 | 2026-09-29 | Nuevo. Cuatro colores con planta. |
+| [Casita de Madera con Farol](#casita-madera-con-farol) | 4 | 2026-09-29 | Nuevo. Carlos confirmo que la azul y la negra son el mismo producto. |
 | [Colimota](#colimota) | 4 | 2026-09-29 | Carlos confirmo que es la Colimota. Se agregan 3 fotos del Drive (09-2026); la del jardin de frente es la portada. |
+| [Macetero de Casitas Dobles](#macetero-casitas-dobles) | 3 | 2026-09-29 | Nuevo. Azul con morado de portada, verde con morado despues. |
+| [Portallaves Casitas de Colores](#portallaves-casitas-de-colores) | 3 | 2026-09-29 | Nuevo. Dos versiones del portallaves en un solo producto. |
 
 ## Pendientes de revisar
 
@@ -50,8 +54,6 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Caja de Rosas y Corazones](#caja-regalo-rosas-y-corazones) | Jabones | 1 |
 | [Cajita de Regalo Jabón Rosa](#cajita-regalo-jabon-rosa) | Jabones | 2 |
 | [Canasta de Rosas de Jabón](#canasta-rosas-rosa-morado) | Arreglos florales | 1 |
-| [Casita Maceta](#casita-maceta) | Creaciones de madera | 4 |
-| [Casita de Madera con Farol](#casita-madera-con-farol) | Creaciones de madera | 4 |
 | [Catrina Calavera](#catrina-calavera) | Muñecas | 1 |
 | [Centro Navideño Cono de Esferas](#centro-navideno-cono-esferas) | Decoración navideña | 1 |
 | [Centro Navideño Nochebuena y Eucalipto](#centro-navideno-nochebuena-eucalipto) | Decoración navideña | 3 |
@@ -83,14 +85,12 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Kits de Cuidado Personal](#kits-cuidado-personal) | Jabones | 1 |
 | [Listones Rosas](#listones-rosas) | Muñecas | 1 |
 | [Macetas de Cemento con Frases para Suculentas](#macetas-cemento-frases-suculentas) | Macetas de cemento | 1 |
-| [Macetero de Casitas Dobles](#macetero-casitas-dobles) | Creaciones de madera | 3 |
 | [Marinerita](#marinerita) | Muñecas | 1 |
 | [Nacimiento en Tonos Tierra](#nacimiento-tonos-tierra) | Muñecas | 1 |
 | [Organizador Hexagonal para Figuras](#organizador-hexagonal-figuras) | Organizadores 3D | 2 |
 | [Overol Rayado](#overol-rayado) | Muñecas | 1 |
 | [Paty](#paty) | Muñecas | 1 |
 | [Pañoleta Bohemia](#pañoleta-bohemia) | Muñecas | 1 |
-| [Portallaves Casitas de Colores](#portallaves-casitas-de-colores) | Creaciones de madera | 3 |
 | [Diadema Loca](#ramo-decorativo-flores-foamy) | Otros | 1 |
 | [Recuerdo de Margaritas](#recuerdo-jabon-margarita) | Jabones | 1 |
 | [Recuerdo de Rosita en Organza](#recuerdo-jabon-rosa-organza) | Jabones | 1 |
@@ -202,7 +202,7 @@ Cantores Navideños · Muñecas · ✅ revisado 2026-09-25
 
 ### casita-maceta
 
-Casita Maceta · Creaciones de madera · ⏳ sin revisar
+Casita Maceta · Creaciones de madera · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -213,7 +213,7 @@ Casita Maceta · Creaciones de madera · ⏳ sin revisar
 
 ### casita-madera-con-farol
 
-Casita de Madera con Farol · Creaciones de madera · ⏳ sin revisar
+Casita de Madera con Farol · Creaciones de madera · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -566,7 +566,7 @@ Macetas de Cemento con Frases para Suculentas · Macetas de cemento · ⏳ sin r
 
 ### macetero-casitas-dobles
 
-Macetero de Casitas Dobles · Creaciones de madera · ⏳ sin revisar
+Macetero de Casitas Dobles · Creaciones de madera · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -668,7 +668,7 @@ Pañoleta Bohemia · Muñecas · ⏳ sin revisar
 
 ### portallaves-casitas-de-colores
 
-Portallaves Casitas de Colores · Creaciones de madera · ⏳ sin revisar
+Portallaves Casitas de Colores · Creaciones de madera · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
