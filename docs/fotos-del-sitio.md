@@ -570,9 +570,9 @@ Macetero de Casitas Dobles · Creaciones de madera · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | WoodCraft_Planter_DoubleHouse_01.jpg | 1200×904 | `57513ee5ecb2cde405c8ad3c91fd2a7f` |
-| 2 | WoodCraft_Planter_DoubleHouse_02.jpg | 1200×904 | `b731da916def997fa99a3aa8f2e94c70` |
-| 3 | WoodCraft_Planter_DoubleHouse_03.jpg | 1200×904 | `5c51c9ff56f2c87ef500a51f0d1cabd3` |
+| 1 | WoodCraft_Planter_DoubleHouse_02.jpg | 1200×904 | `b731da916def997fa99a3aa8f2e94c70` |
+| 2 | WoodCraft_Planter_DoubleHouse_03.jpg | 1200×904 | `5c51c9ff56f2c87ef500a51f0d1cabd3` |
+| 3 | WoodCraft_Planter_DoubleHouse_01.jpg | 1200×904 | `57513ee5ecb2cde405c8ad3c91fd2a7f` |
 
 ### marinerita
 
