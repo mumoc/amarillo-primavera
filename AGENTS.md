@@ -65,6 +65,7 @@ nostálgica — nunca corporativa ni técnica.
 | La inspiración y esencia general | `brand/about.md` |
 | Etiquetas y letreros imprimibles | `content/impresos/` |
 | Saber qué fotos ya están en el sitio y cuáles revisó Carlos | `docs/fotos-del-sitio.md` |
+| Subir fotos nuevas del Drive sin repetir trabajo | `npm run revisar-drive` y `docs/drive-procesadas.json` |
 | Cambiar algo técnico del sitio o el deploy | `docs/decisiones.md`, `docs/deploy.md` |
 
 Índice completo con más detalle: `brand/README.md` (marca) y

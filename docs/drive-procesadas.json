@@ -1,0 +1,1001 @@
+{
+ "_nota": "Fotos del Drive (Amarillo Primavera) ya revisadas, por md5. Las genera/consulta `npm run revisar-drive`. Si una foto del Drive no esta aqui, es nueva.",
+ "fotos": {
+  "61dbd2973badcaf9231cc29da7febf53": {
+   "estado": "en el sitio",
+   "producto": "portallaves-casitas-de-colores",
+   "archivo": "Creaciones de madera/IMG_20260709_093049927.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e3b54bd71be864842e895c35292f8e2d": {
+   "estado": "en el sitio",
+   "producto": "portallaves-casitas-de-colores",
+   "archivo": "Creaciones de madera/IMG_20260709_101614667.jpg",
+   "revisada": "2026-10-03"
+  },
+  "4320a457c8787f649c2b26849270126c": {
+   "estado": "en el sitio",
+   "producto": "portallaves-casitas-de-colores",
+   "archivo": "Creaciones de madera/IMG_20260709_101711272.jpg",
+   "revisada": "2026-10-03"
+  },
+  "46cc1c6b62c28949691bfa154773edfd": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "Creaciones de madera/IMG_20260709_101812885.jpg",
+   "revisada": "2026-10-03"
+  },
+  "699c2c5a57abcb258ea50e808576a2cc": {
+   "estado": "en el sitio",
+   "producto": "macetero-casitas-dobles",
+   "archivo": "Creaciones de madera/IMG_20260709_101831944.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ba2435386a38d2baba453d7ef84f218d": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "Creaciones de madera/IMG_20260709_101843055.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ff86b5403b2f11c54e3273ba4d3726f8": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "Creaciones de madera/IMG_20260709_101854963.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c0f071b37f4adc04e291d06c0de8dd1f": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "Creaciones de madera/IMG_20260709_114015689.jpg",
+   "revisada": "2026-10-03"
+  },
+  "bfbeff36bf52805754f1c75d65ecc3bf": {
+   "estado": "en el sitio",
+   "producto": "macetero-casitas-dobles",
+   "archivo": "Creaciones de madera/IMG_20260709_114020771.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7f9f57fbb7ff2cd1cf5ef4dd117226ea": {
+   "estado": "en el sitio",
+   "producto": "macetero-casitas-dobles",
+   "archivo": "Creaciones de madera/IMG_20260709_114031318.jpg",
+   "revisada": "2026-10-03"
+  },
+  "1fc6455599f1fc6273c7a8d77aa61e1f": {
+   "estado": "en el sitio",
+   "producto": "casita-maceta",
+   "archivo": "Creaciones de madera/IMG_20260713_105606925.jpg",
+   "revisada": "2026-10-03"
+  },
+  "574863fa417cd6aba6fd3562dd9349ba": {
+   "estado": "en el sitio",
+   "producto": "casita-maceta",
+   "archivo": "Creaciones de madera/IMG_20260713_105630054.jpg",
+   "revisada": "2026-10-03"
+  },
+  "70b341fb1c0ce66c252ef697e0cde52d": {
+   "estado": "en el sitio",
+   "producto": "casita-maceta",
+   "archivo": "Creaciones de madera/IMG_20260713_105645524.jpg",
+   "revisada": "2026-10-03"
+  },
+  "6bc168de7f6940b0490530e7c6187cef": {
+   "estado": "en el sitio",
+   "producto": "casita-maceta",
+   "archivo": "Creaciones de madera/IMG_20260713_105705224.jpg",
+   "revisada": "2026-10-03"
+  },
+  "772ef3c91fec3699def33ec69e102c2a": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "Creaciones de madera/IMG_20260713_105707075.jpg",
+   "revisada": "2026-10-03"
+  },
+  "527a4350594f50c58ebe379d742c5970": {
+   "estado": "ya estaba en el sitio",
+   "producto": "virgencitas",
+   "archivo": "FB_IMG_1789146715306.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e56df76a99276735f6bdd9394f3aa2fa": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122332964.jpg",
+   "revisada": "2026-10-03"
+  },
+  "caad1f23969d91d439c27c1077e56c7d": {
+   "estado": "ya estaba en el sitio",
+   "producto": "florecita-vestido-azul",
+   "archivo": "IMG_20260630_122351277.jpg",
+   "revisada": "2026-10-03"
+  },
+  "157c5153a085d6c9fba5a71f39483989": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122355975.jpg",
+   "revisada": "2026-10-03"
+  },
+  "9e719af2f1b3b1eeb319fe66ba925b22": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122404340.jpg",
+   "revisada": "2026-10-03"
+  },
+  "923cc43f24a74628948f89287879d525": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122412953.jpg",
+   "revisada": "2026-10-03"
+  },
+  "29085ab0b820f0cb55ef2a4d464c5228": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122526585.jpg",
+   "revisada": "2026-10-03"
+  },
+  "9c7c4dc59e79f138a95330ff646017fa": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122550953.jpg",
+   "revisada": "2026-10-03"
+  },
+  "b6f55516e1b6810641962e144e15c3fe": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122717304.jpg",
+   "revisada": "2026-10-03"
+  },
+  "8bac40882f917f8cb4e4f2ba07e6edb3": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122725951.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c0b9d8e4731c00d4bc33df58cd680aa9": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122737284.jpg",
+   "revisada": "2026-10-03"
+  },
+  "afe31eed6d028ee8ed33d3a62a568ccf": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122744885.jpg",
+   "revisada": "2026-10-03"
+  },
+  "612b596502b276a233033fd1223dc712": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122931902.jpg",
+   "revisada": "2026-10-03"
+  },
+  "3b5403c3b5d643501bcc4a3058a65afa": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122938001.jpg",
+   "revisada": "2026-10-03"
+  },
+  "3412e167840961b1fa83f176f831fd22": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122944012.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e404d6edfab6316e6d0b35c16207dd42": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_122953808.jpg",
+   "revisada": "2026-10-03"
+  },
+  "fd8d5c6edd0124e78728191bf32ebc4f": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_123101361.jpg",
+   "revisada": "2026-10-03"
+  },
+  "4f32e96e7090b17a7746789b3766732c": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_123109384.jpg",
+   "revisada": "2026-10-03"
+  },
+  "59d008970f4f24fcef5e9dc3cd5710c6": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_123113931.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7a53210e3cc21db3d7d4c63bdd145af8": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_123115070.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e09aaf81c1636dba02a3f954dd1fa3f6": {
+   "estado": "pendiente",
+   "nota": "Copia en products/PENDIENTES/, sin catalogar.",
+   "archivo": "IMG_20260630_123120207.jpg",
+   "revisada": "2026-10-03"
+  },
+  "50eeb9e853470895b1441c8e44068f99": {
+   "estado": "descartada",
+   "producto": "casita-madera-con-farol",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260710_103427341.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e9260942f92f34f1183980347d05f9ba": {
+   "estado": "en el sitio",
+   "producto": "casita-madera-con-farol",
+   "archivo": "IMG_20260710_103429812.jpg",
+   "revisada": "2026-10-03"
+  },
+  "352bd9e1b3e09a7786988ee58cf7294a": {
+   "estado": "en el sitio",
+   "producto": "casita-madera-con-farol",
+   "archivo": "IMG_20260710_103452230.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ecd4d4c420dcf42c2c74100a19776e0f": {
+   "estado": "descartada",
+   "producto": "casita-madera-con-farol",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260710_103453714.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a7b1b655f9b39d5b0057d3d627091077": {
+   "estado": "descartada",
+   "producto": "casita-madera-con-farol",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260710_103457564.jpg",
+   "revisada": "2026-10-03"
+  },
+  "21c01046c7b51e15e7ae7e27844e9261": {
+   "estado": "en el sitio",
+   "producto": "casita-madera-con-farol",
+   "archivo": "IMG_20260710_103546944.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ad43d93748343d88a591a54a908f080f": {
+   "estado": "descartada",
+   "producto": "casita-madera-con-farol",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260710_103603759.jpg",
+   "revisada": "2026-10-03"
+  },
+  "62ce1f9548eecce72df81b5615446d53": {
+   "estado": "en el sitio",
+   "producto": "casita-madera-con-farol",
+   "archivo": "IMG_20260710_103604103.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e043e33b09e6a392c73d5e34f2932d0e": {
+   "estado": "descartada",
+   "producto": "casita-madera-con-farol",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260710_103609277.jpg",
+   "revisada": "2026-10-03"
+  },
+  "8701e93d7ac64f5b40b7cda395405fcf": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260807_113030742.jpg",
+   "revisada": "2026-10-03"
+  },
+  "0a944535d9361000304c7792c9778029": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260807_113037304.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f415f3b2d32a67f58ee9ad28e445b706": {
+   "estado": "en el sitio",
+   "producto": "colimota",
+   "archivo": "IMG_20260807_113041010.jpg",
+   "revisada": "2026-10-03"
+  },
+  "efabf020d2bc2613d48620ca79263587": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260807_113043673.jpg",
+   "revisada": "2026-10-03"
+  },
+  "0ed3ea48899483e98b819869eb583a7d": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260807_113044700.jpg",
+   "revisada": "2026-10-03"
+  },
+  "41858e02d0fce563b064977cf4259627": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260807_113102585.jpg",
+   "revisada": "2026-10-03"
+  },
+  "4ad30ce891c15df5f5492e156ed940c6": {
+   "estado": "en el sitio",
+   "producto": "vestido-rosa-con-mariposa",
+   "archivo": "IMG_20260808_122524643.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a005cdceaeda710d25bf5e4d5ee0de43": {
+   "estado": "en el sitio",
+   "producto": "vestido-rosa-con-mariposa",
+   "archivo": "IMG_20260808_122634810.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e86f9fbecefb3a2e24ca3abb85985f69": {
+   "estado": "descartada",
+   "producto": "vestido-rosa-con-mariposa",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_122656795.jpg",
+   "revisada": "2026-10-03"
+  },
+  "71c20cb05a1f091dce1bd6e585b2e4fe": {
+   "estado": "en el sitio",
+   "producto": "vestido-verde-de-cuadros",
+   "archivo": "IMG_20260808_122933783.jpg",
+   "revisada": "2026-10-03"
+  },
+  "3ed1de39ee03d9f50915fd2b23380bc2": {
+   "estado": "en el sitio",
+   "producto": "vestido-verde-de-cuadros",
+   "archivo": "IMG_20260808_122953331.jpg",
+   "revisada": "2026-10-03"
+  },
+  "6959b1e593d60a45340c4284546e128f": {
+   "estado": "descartada",
+   "producto": "vestido-verde-de-cuadros",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_123004075.jpg",
+   "revisada": "2026-10-03"
+  },
+  "232e34cc9c757689e4d2aa76e03e29cc": {
+   "estado": "descartada",
+   "producto": "falda-de-rayas-lila",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_123327907.jpg",
+   "revisada": "2026-10-03"
+  },
+  "91e21205901d5864f3ee562692820972": {
+   "estado": "en el sitio",
+   "producto": "falda-de-rayas-lila",
+   "archivo": "IMG_20260808_123331565.jpg",
+   "revisada": "2026-10-03"
+  },
+  "edf4b5da4c387c798f02a7517dc44df6": {
+   "estado": "descartada",
+   "producto": "falda-de-rayas-lila",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_123336808.jpg",
+   "revisada": "2026-10-03"
+  },
+  "9f97df4cc931e88233caa2f53365a975": {
+   "estado": "en el sitio",
+   "producto": "pelirroja-de-azul-marino",
+   "archivo": "IMG_20260808_123510330.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7b2ec00c276d5c64295e08da29609719": {
+   "estado": "en el sitio",
+   "producto": "pelirroja-de-azul-marino",
+   "archivo": "IMG_20260808_123522916.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c97b9a1f847a68e160864d438a2d3f2e": {
+   "estado": "descartada",
+   "producto": "pelirroja-de-azul-marino",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_123527171.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c1ce69a6929edadf3e1781f18c9f38a9": {
+   "estado": "en el sitio",
+   "producto": "rubia-de-flores",
+   "archivo": "IMG_20260808_123817514.jpg",
+   "revisada": "2026-10-03"
+  },
+  "bdaaf90ed488f93053731de5b0ac4bd1": {
+   "estado": "en el sitio",
+   "producto": "rubia-de-flores",
+   "archivo": "IMG_20260808_123827815.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ff91a46401a99a0e4f7b8cfffbeff381": {
+   "estado": "descartada",
+   "producto": "rubia-de-flores",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_123834891.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a8e0bec336ed04af9e20f2ffedcfe3f8": {
+   "estado": "descartada",
+   "producto": "vestido-rojo-de-lunares-blancos",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_123953119.jpg",
+   "revisada": "2026-10-03"
+  },
+  "d1d17ba062390a7fd216a5afd4037ff8": {
+   "estado": "en el sitio",
+   "producto": "vestido-rojo-de-lunares-blancos",
+   "archivo": "IMG_20260808_124016142.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a03597781cc85b76fcfefa9e7ac8ca54": {
+   "estado": "en el sitio",
+   "producto": "vestido-rojo-de-lunares-blancos",
+   "archivo": "IMG_20260808_124025781.jpg",
+   "revisada": "2026-10-03"
+  },
+  "0ca081e96dd17d1669e868e38970b751": {
+   "estado": "en el sitio",
+   "producto": "overol-floral-verde-agua",
+   "archivo": "IMG_20260808_124227844.jpg",
+   "revisada": "2026-10-03"
+  },
+  "9c7a3d7586bbd2a1abf000ff30c87d65": {
+   "estado": "en el sitio",
+   "producto": "overol-floral-verde-agua",
+   "archivo": "IMG_20260808_124236523.jpg",
+   "revisada": "2026-10-03"
+  },
+  "125c846450cec7bd6568b7e10f1281b2": {
+   "estado": "descartada",
+   "producto": "overol-floral-verde-agua",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124240247.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a139d374f611fb155d60015fb5b0cac3": {
+   "estado": "descartada",
+   "producto": "overol-floral-verde-agua",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124242114.jpg",
+   "revisada": "2026-10-03"
+  },
+  "384e4c08fd8b4f0441ae94d28cba99d2": {
+   "estado": "en el sitio",
+   "producto": "frida-de-blusa-rayada",
+   "archivo": "IMG_20260808_124440592.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c40849602bb8c38ca2e4fa55886c4989": {
+   "estado": "descartada",
+   "producto": "frida-de-blusa-rayada",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124453088.jpg",
+   "revisada": "2026-10-03"
+  },
+  "5ac3b693e92995b5262f820ba3c1da08": {
+   "estado": "descartada",
+   "producto": "frida-de-blusa-rayada",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124500795.jpg",
+   "revisada": "2026-10-03"
+  },
+  "82b5fd5224b688bce978a48d93cb6899": {
+   "estado": "en el sitio",
+   "producto": "frida-de-blusa-rayada",
+   "archivo": "IMG_20260808_124508494.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ff4a251a5ddef951bc4236e1f46698dd": {
+   "estado": "descartada",
+   "producto": "frida-de-blusa-rayada",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124508739.jpg",
+   "revisada": "2026-10-03"
+  },
+  "b2c29216361e5111478f6e2f8b6a042d": {
+   "estado": "descartada",
+   "producto": "frida-de-blusa-rayada",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124612466.jpg",
+   "revisada": "2026-10-03"
+  },
+  "577bd8ddc951c592a2f6f31213d76b94": {
+   "estado": "descartada",
+   "producto": "frida-de-blusa-rayada",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124617778.jpg",
+   "revisada": "2026-10-03"
+  },
+  "49b6cd9148adf8542618d8728a3e0cfb": {
+   "estado": "en el sitio",
+   "producto": "vestido-crema-con-mono-verde",
+   "archivo": "IMG_20260808_124829452.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c5fcc64d9a88eff6cbdde67fc52c51ba": {
+   "estado": "en el sitio",
+   "producto": "vestido-crema-con-mono-verde",
+   "archivo": "IMG_20260808_124835472.jpg",
+   "revisada": "2026-10-03"
+  },
+  "8672a15341a3badea90c341007bfb8c7": {
+   "estado": "descartada",
+   "producto": "vestido-crema-con-mono-verde",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124856167.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f3098267966b170bc77d3b88e159d1c4": {
+   "estado": "descartada",
+   "producto": "vestido-crema-con-mono-verde",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260808_124903573.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f91ada96890ba4f5d9cf4cd3739465f8": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_105912594.jpg",
+   "revisada": "2026-10-03"
+  },
+  "1bc07815c691a94916f51340e07eaa03": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_105922316.jpg",
+   "revisada": "2026-10-03"
+  },
+  "827f5de886f92f316966243f6795e193": {
+   "estado": "en el sitio",
+   "producto": "frida-con-rebozo-fucsia",
+   "archivo": "IMG_20260811_105939131.jpg",
+   "revisada": "2026-10-03"
+  },
+  "965e40c52d819ea6902423c341512229": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110128128.jpg",
+   "revisada": "2026-10-03"
+  },
+  "dedca33cc198af57f3f21beb2a7a9e35": {
+   "estado": "en el sitio",
+   "producto": "frida-con-rebozo-fucsia",
+   "archivo": "IMG_20260811_110144607.jpg",
+   "revisada": "2026-10-03"
+  },
+  "23b38d058ca57e5bfa1fc65e51aa585c": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110148412.jpg",
+   "revisada": "2026-10-03"
+  },
+  "53a6b511aa179f929e0c8ad0348f90b0": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110152281.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e98ff46eab2c97771be3a9480057ee04": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110252681.jpg",
+   "revisada": "2026-10-03"
+  },
+  "07121fd8e3643bfa2eac8f142c9574f4": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110301040.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7d4452cfbdc45d359a6b2a752e568e7a": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110309767.jpg",
+   "revisada": "2026-10-03"
+  },
+  "ef2e3a928cf02128adb9f50337095ea8": {
+   "estado": "descartada",
+   "producto": "frida-con-rebozo-fucsia",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260811_110311143.jpg",
+   "revisada": "2026-10-03"
+  },
+  "97f446239d8a1df7cd32c7c3e1100d1c": {
+   "estado": "descartada",
+   "producto": "jabones-con-florecita",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260831_110046424.jpg",
+   "revisada": "2026-10-03"
+  },
+  "1200dd132a9a498c35878fb8dd6fbd20": {
+   "estado": "en el sitio",
+   "producto": "jabones-con-florecita",
+   "archivo": "IMG_20260831_110056741.jpg",
+   "revisada": "2026-10-03"
+  },
+  "4031c6acdf7dd3efacd935b94220832b": {
+   "estado": "descartada",
+   "producto": "jabones-con-florecita",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260831_110058612.jpg",
+   "revisada": "2026-10-03"
+  },
+  "0875cc8ade30dea934f58f334677b3c1": {
+   "estado": "en el sitio",
+   "producto": "bolsita-regalo-jabones",
+   "archivo": "IMG_20260831_110142785.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f48f3b408fffaae33627261a5411b0f7": {
+   "estado": "descartada",
+   "producto": "bolsita-regalo-jabones",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260831_110145376.jpg",
+   "revisada": "2026-10-03"
+  },
+  "b98550140873c2a2b3bece364b5c4918": {
+   "estado": "en el sitio",
+   "producto": "jabones-con-florecita",
+   "archivo": "IMG_20260831_110256380.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7153806ffc6918f8a76164e82296ea57": {
+   "estado": "descartada",
+   "producto": "jabones-con-florecita",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260831_110301123.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a73253a306c1fda795a2b816f530fd70": {
+   "estado": "en el sitio",
+   "producto": "jabones-con-florecita",
+   "archivo": "IMG_20260831_110318800.jpg",
+   "revisada": "2026-10-03"
+  },
+  "8b0a0d3935fe1b737d1ce09ea47abaf1": {
+   "estado": "en el sitio",
+   "producto": "tarjetas-margarita-de-jabon",
+   "archivo": "IMG_20260831_110429395.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a0e08ca2610d5bfefc7467909c9c040e": {
+   "estado": "descartada",
+   "producto": "tarjetas-margarita-de-jabon",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260831_110432502.jpg",
+   "revisada": "2026-10-03"
+  },
+  "173d3d680500c379f448deb65d2abc27": {
+   "estado": "en el sitio",
+   "producto": "bolsita-regalo-jabones",
+   "archivo": "IMG_20260831_110501020.jpg",
+   "revisada": "2026-10-03"
+  },
+  "180eda3016bda6e4fc83417e32b60b55": {
+   "estado": "descartada",
+   "producto": "bolsita-regalo-jabones",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260831_110502992.jpg",
+   "revisada": "2026-10-03"
+  },
+  "254022b5831181aad356aebb8594bd17": {
+   "estado": "no usada",
+   "nota": "Foto del stand completo; puede servir para redes o Sobre la marca.",
+   "archivo": "IMG_20260831_110742912.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c1d14f70417f043dfec551a66a36ef8e": {
+   "estado": "no usada",
+   "nota": "Foto del stand completo; puede servir para redes o Sobre la marca.",
+   "archivo": "IMG_20260831_110744165.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f94e4ac8aec25e9951a6664aa3f9be88": {
+   "estado": "no usada",
+   "nota": "Foto del stand completo; puede servir para redes o Sobre la marca.",
+   "archivo": "IMG_20260831_110746402.jpg",
+   "revisada": "2026-10-03"
+  },
+  "418c446f10d15d76613718ca4ed62306": {
+   "estado": "no usada",
+   "nota": "Foto del stand completo; puede servir para redes o Sobre la marca.",
+   "archivo": "IMG_20260831_110747513.jpg",
+   "revisada": "2026-10-03"
+  },
+  "580b6ee1c0b866abc11995aada0e7e22": {
+   "estado": "descartada",
+   "producto": "pelirroja-de-rosa-con-encaje",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111418727.jpg",
+   "revisada": "2026-10-03"
+  },
+  "d74454dd4c10ce03e8e2b9b1c3cfd739": {
+   "estado": "en el sitio",
+   "producto": "pelirroja-de-rosa-con-encaje",
+   "archivo": "IMG_20260902_111443484.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f07793e868590da44e4bdad7435ef3b5": {
+   "estado": "descartada",
+   "producto": "pelirroja-de-rosa-con-encaje",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111459930.jpg",
+   "revisada": "2026-10-03"
+  },
+  "19f2507d19638a0d080c6aa2cf20f6d9": {
+   "estado": "en el sitio",
+   "producto": "pelirroja-de-rosa-con-encaje",
+   "archivo": "IMG_20260902_111513441.jpg",
+   "revisada": "2026-10-03"
+  },
+  "c8e2a232f89f1cd32fc4931240834774": {
+   "estado": "en el sitio",
+   "producto": "pelirroja-de-rosa-con-encaje",
+   "archivo": "IMG_20260902_111604902.jpg",
+   "revisada": "2026-10-03"
+  },
+  "47236d587b1a535290c01d99223f9d01": {
+   "estado": "descartada",
+   "producto": "pelirroja-de-rosa-con-encaje",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111606164.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a6375a16ea2dddedd7595cb4db9c27b2": {
+   "estado": "descartada",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111820941.jpg",
+   "revisada": "2026-10-03"
+  },
+  "5f49f04f750206fc407cc24987cb47b7": {
+   "estado": "descartada",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111825067.jpg",
+   "revisada": "2026-10-03"
+  },
+  "626f346dfc1ed5cc2ef18f29e3c7d8a7": {
+   "estado": "en el sitio",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "archivo": "IMG_20260902_111842598.jpg",
+   "revisada": "2026-10-03"
+  },
+  "9ab06392e9955ddd7166cd29544deeb2": {
+   "estado": "descartada",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111845246.jpg",
+   "revisada": "2026-10-03"
+  },
+  "517e96a314bd1f2bb7850cb4eb55531d": {
+   "estado": "en el sitio",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "archivo": "IMG_20260902_111940886.jpg",
+   "revisada": "2026-10-03"
+  },
+  "fe613007dfbf2d1d148d9fe42c7b9751": {
+   "estado": "descartada",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_111941950.jpg",
+   "revisada": "2026-10-03"
+  },
+  "31afcb3440c3f31444355b61527a928c": {
+   "estado": "descartada",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_112003996.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7b2314eb137a624f44b601e361c2ea4e": {
+   "estado": "en el sitio",
+   "producto": "falda-roja-con-rebozo-arcoiris",
+   "archivo": "IMG_20260902_112012716.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f6289bc4feb23c6146e0126d6b81feba": {
+   "estado": "descartada",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_112159416.jpg",
+   "revisada": "2026-10-03"
+  },
+  "da4eddad78596f93baded7257ca47b20": {
+   "estado": "en el sitio",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "archivo": "IMG_20260902_112201067.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f77b3ecfefef2ca4d47410ccb777eae6": {
+   "estado": "descartada",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_112213748.jpg",
+   "revisada": "2026-10-03"
+  },
+  "b8a72650075667179567ca46f8a09ed0": {
+   "estado": "descartada",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_112222938.jpg",
+   "revisada": "2026-10-03"
+  },
+  "4dc63ec9516afba07380ee69522818df": {
+   "estado": "descartada",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260902_112224411.jpg",
+   "revisada": "2026-10-03"
+  },
+  "84d9ab726d12c1d914b01770a4ad5ff5": {
+   "estado": "en el sitio",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "archivo": "IMG_20260902_112301910.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e57a7a604636f3aedf653bde010536b7": {
+   "estado": "en el sitio",
+   "producto": "trenzas-con-vestido-azul-floral",
+   "archivo": "IMG_20260902_112303315.jpg",
+   "revisada": "2026-10-03"
+  },
+  "30dc311257f5d4596a313ae89a012320": {
+   "estado": "no usada",
+   "nota": "Tres munecas juntas en la tienda.",
+   "archivo": "IMG_20260906_083819236.jpg",
+   "revisada": "2026-10-03"
+  },
+  "dd80d42c763982ebdb7a6f52dd8f4230": {
+   "estado": "no usada",
+   "nota": "Tres munecas juntas en la tienda.",
+   "archivo": "IMG_20260906_083821127.jpg",
+   "revisada": "2026-10-03"
+  },
+  "7500970ff969121617017d4e7e79c975": {
+   "estado": "no usada",
+   "nota": "Tres munecas juntas en la tienda.",
+   "archivo": "IMG_20260906_083824368.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f564b3a624352f29827b9f74fc6b3190": {
+   "estado": "descartada",
+   "producto": "vestido-verde-con-delantal",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_084300526.jpg",
+   "revisada": "2026-10-03"
+  },
+  "021db7a344b5a4e79f5c0dd8059d3e0d": {
+   "estado": "en el sitio",
+   "producto": "vestido-verde-con-delantal",
+   "archivo": "IMG_20260906_084312646.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e2d9cb84122118e0ac64140167bbd304": {
+   "estado": "en el sitio",
+   "producto": "vestido-verde-con-delantal",
+   "archivo": "IMG_20260906_084325795.jpg",
+   "revisada": "2026-10-03"
+  },
+  "5294a71554744307bcb0f67dc92aa1c5": {
+   "estado": "descartada",
+   "producto": "vestido-verde-con-delantal",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_084330474.jpg",
+   "revisada": "2026-10-03"
+  },
+  "667a4366a179cfc2835fad432f339481": {
+   "estado": "descartada",
+   "producto": "vestido-verde-con-delantal",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_084330949.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f78c33de91f857b06f7a01d51af7e51a": {
+   "estado": "descartada",
+   "producto": "vestido-verde-con-delantal",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_084407122.jpg",
+   "revisada": "2026-10-03"
+  },
+  "5bf4ae3dbfbf36b9b107b13239d8dee3": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_084946432.jpg",
+   "revisada": "2026-10-03"
+  },
+  "aa4050b8dcabddb3caf483c05fa7dba3": {
+   "estado": "en el sitio",
+   "producto": "colimota",
+   "archivo": "IMG_20260906_085007109.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e6b32ea8fa4a4f7f44e5897b6eb2e63e": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_085021811.jpg",
+   "revisada": "2026-10-03"
+  },
+  "5681556acafc609b5303aec572c5ab6b": {
+   "estado": "en el sitio",
+   "producto": "colimota",
+   "archivo": "IMG_20260906_085024272.jpg",
+   "revisada": "2026-10-03"
+  },
+  "29b8d860790419d761e0dbf58b2ed974": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_085026212.jpg",
+   "revisada": "2026-10-03"
+  },
+  "89179d42cbed60fd5349f573f696530c": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_085218743.jpg",
+   "revisada": "2026-10-03"
+  },
+  "e6f2724d11908929f886ae4ee9dc4e48": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_085226518.jpg",
+   "revisada": "2026-10-03"
+  },
+  "8a865a5bae0048c48530ea2d61511d1c": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_085231912.jpg",
+   "revisada": "2026-10-03"
+  },
+  "14da31972e9695c7af0a99d4d31d7410": {
+   "estado": "descartada",
+   "producto": "colimota",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260906_085233299.jpg",
+   "revisada": "2026-10-03"
+  },
+  "1cd35830cf844ba670f7bd1705e312d8": {
+   "estado": "en el sitio",
+   "producto": "diadema-de-colores",
+   "archivo": "IMG_20260909_215134200.jpg",
+   "revisada": "2026-10-03"
+  },
+  "fca4925c2e6e9a9d5a3d522bf104aa1c": {
+   "estado": "en el sitio",
+   "producto": "diadema-de-colores",
+   "archivo": "IMG_20260909_215136118.jpg",
+   "revisada": "2026-10-03"
+  },
+  "3b4f6a44f1a1e36aa74482f551dea1ff": {
+   "estado": "descartada",
+   "producto": "diadema-de-colores",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260909_215138071.jpg",
+   "revisada": "2026-10-03"
+  },
+  "a0142c49e24a19986329f610d8180919": {
+   "estado": "descartada",
+   "producto": "diadema-de-colores",
+   "nota": "Misma toma que otra ya usada, con menos calidad.",
+   "archivo": "IMG_20260909_215141274.jpg",
+   "revisada": "2026-10-03"
+  },
+  "f6ac799d81e7dc42e1b81df75de74194": {
+   "estado": "en el sitio",
+   "producto": "diadema-de-colores",
+   "archivo": "IMG_20260909_215151285.jpg",
+   "revisada": "2026-10-03"
+  }
+ }
+}

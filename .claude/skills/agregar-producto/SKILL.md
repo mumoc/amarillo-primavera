@@ -9,6 +9,11 @@ Crea productos nuevos en `src/content/products/`, la Content Collection de Astro
 
 ## Flujo de trabajo
 
+0. Si las fotos vienen del Drive (carpeta «Amarillo Primavera» del Drive de
+   Adela), corre primero `npm run revisar-drive`: solo lista las que nadie ha
+   revisado. Al terminar, registra cada foto revisada en
+   `docs/drive-procesadas.json` (por md5: «en el sitio» con su producto,
+   «descartada», «no usada» o «pendiente»), para no volver a revisarla.
 1. Recibe imágenes y descripción (o "recomiéndame") desde el chat. Antes de
    seguir, saca el md5 de cada foto (`md5 -q`) y búscalo en
    `docs/fotos-del-sitio.md`: si ya aparece, esa foto ya está en el sitio.
