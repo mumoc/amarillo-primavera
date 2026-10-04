@@ -1,6 +1,6 @@
 ---
 nombre: Diadema Loca
-categoria: Otros
+categoria: Coronas y diademas florales
 tags:
   - "#DecoArtesanal"
   - "#DetallesArtesanales"

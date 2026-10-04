@@ -94,7 +94,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Overol Rayado](#overol-rayado) | Muñecas | 1 |
 | [Paty](#paty) | Muñecas | 1 |
 | [Pañoleta Bohemia](#pañoleta-bohemia) | Muñecas | 1 |
-| [Diadema Loca](#ramo-decorativo-flores-foamy) | Otros | 1 |
+| [Diadema Loca](#ramo-decorativo-flores-foamy) | Coronas y diademas florales | 1 |
 | [Recuerdo de Margaritas](#recuerdo-jabon-margarita) | Jabones | 1 |
 | [Recuerdo de Rosita en Organza](#recuerdo-jabon-rosa-organza) | Jabones | 1 |
 | [Salsa Diabla](#salsa-diabla-frasco) | Salsa Diabla | 2 |
@@ -719,7 +719,7 @@ Primera Comunión · Muñecas · ✅ revisado 2026-09-25
 
 ### ramo-decorativo-flores-foamy
 
-Diadema Loca · Otros · ⏳ sin revisar
+Diadema Loca · Coronas y diademas florales · ⏳ sin revisar
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
