@@ -814,9 +814,8 @@
    "revisada": "2026-10-03"
   },
   "f77b3ecfefef2ca4d47410ccb777eae6": {
-   "estado": "descartada",
+   "estado": "en el sitio",
    "producto": "trenzas-con-vestido-azul-floral",
-   "nota": "Misma toma que otra ya usada, con menos calidad.",
    "archivo": "IMG_20260902_112213748.jpg",
    "revisada": "2026-10-03"
   },
@@ -828,23 +827,24 @@
    "revisada": "2026-10-03"
   },
   "4dc63ec9516afba07380ee69522818df": {
-   "estado": "descartada",
+   "estado": "en el sitio",
    "producto": "trenzas-con-vestido-azul-floral",
-   "nota": "Misma toma que otra ya usada, con menos calidad.",
    "archivo": "IMG_20260902_112224411.jpg",
    "revisada": "2026-10-03"
   },
   "84d9ab726d12c1d914b01770a4ad5ff5": {
-   "estado": "en el sitio",
+   "estado": "descartada",
    "producto": "trenzas-con-vestido-azul-floral",
    "archivo": "IMG_20260902_112301910.jpg",
-   "revisada": "2026-10-03"
+   "revisada": "2026-10-03",
+   "nota": "Vista de espalda; Carlos la cambio por la de lado y la de arriba."
   },
   "e57a7a604636f3aedf653bde010536b7": {
-   "estado": "en el sitio",
+   "estado": "descartada",
    "producto": "trenzas-con-vestido-azul-floral",
    "archivo": "IMG_20260902_112303315.jpg",
-   "revisada": "2026-10-03"
+   "revisada": "2026-10-03",
+   "nota": "Vista de espalda; Carlos la cambio por la de lado y la de arriba."
   },
   "30dc311257f5d4596a313ae89a012320": {
    "estado": "no usada",

@@ -932,8 +932,8 @@ Trenzas con Vestido Azul Floral · Muñecas · ✅ revisado 2026-10-03
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Braids_BlueFloral_01.jpg | 1200×1594 | `8f18cb16e80193a0e8b2cca44ed21d3a` |
-| 2 | RagDoll_Braids_BlueFloral_02.jpg | 1200×1594 | `c9234333b471956ef9b7afba161ad2f3` |
-| 3 | RagDoll_Braids_BlueFloral_03.jpg | 1200×1594 | `fd9a79e515eb4b1edd5fd6e38e113051` |
+| 2 | RagDoll_Braids_BlueFloral_04.jpg | 1200×1594 | `40e9c1144de13ab8ebd5a2f1dbcbe5fc` |
+| 3 | RagDoll_Braids_BlueFloral_05.jpg | 1200×1594 | `b296754cfc34cd5e87383237fe203e5d` |
 
 ### trenzas-flores-amarillas
 
