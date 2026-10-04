@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**101 productos · 178 fotos · 42 productos revisados por Carlos.**
+**101 productos · 177 fotos · 42 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -57,7 +57,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Vestido Rojo de Lunares Blancos](#vestido-rojo-de-lunares-blancos) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 | [Vestido Rosa con Mariposa](#vestido-rosa-con-mariposa) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 | [Vestido Verde con Delantal](#vestido-verde-con-delantal) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
-| [Vestido Verde de Cuadros](#vestido-verde-de-cuadros) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Verde de Cuadros](#vestido-verde-de-cuadros) | 1 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 
 ## Pendientes de revisar
 
@@ -1010,7 +1010,6 @@ Vestido Verde de Cuadros · Muñecas · ✅ revisado 2026-10-03
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_GreenGingham_YellowBow_01.jpg | 1200×1594 | `929706f0b8e58898fa3789fd4b5ed00d` |
-| 2 | RagDoll_GreenGingham_YellowBow_02.jpg | 1200×1594 | `38d1dfda06e203096ff52d056f3cf459` |
 
 ### virgencitas
 
