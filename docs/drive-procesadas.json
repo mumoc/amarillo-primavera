@@ -866,9 +866,8 @@
    "revisada": "2026-10-03"
   },
   "f564b3a624352f29827b9f74fc6b3190": {
-   "estado": "descartada",
+   "estado": "en el sitio",
    "producto": "vestido-verde-con-delantal",
-   "nota": "Misma toma que otra ya usada, con menos calidad.",
    "archivo": "IMG_20260906_084300526.jpg",
    "revisada": "2026-10-03"
   },
@@ -879,10 +878,11 @@
    "revisada": "2026-10-03"
   },
   "e2d9cb84122118e0ac64140167bbd304": {
-   "estado": "en el sitio",
+   "estado": "descartada",
    "producto": "vestido-verde-con-delantal",
    "archivo": "IMG_20260906_084325795.jpg",
-   "revisada": "2026-10-03"
+   "revisada": "2026-10-03",
+   "nota": "Portada anterior; Carlos la cambio por una mas de cerca."
   },
   "5294a71554744307bcb0f67dc92aa1c5": {
    "estado": "descartada",
@@ -899,9 +899,8 @@
    "revisada": "2026-10-03"
   },
   "f78c33de91f857b06f7a01d51af7e51a": {
-   "estado": "descartada",
+   "estado": "en el sitio",
    "producto": "vestido-verde-con-delantal",
-   "nota": "Misma toma que otra ya usada, con menos calidad.",
    "archivo": "IMG_20260906_084407122.jpg",
    "revisada": "2026-10-03"
   },

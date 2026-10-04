@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**101 productos · 177 fotos · 42 productos revisados por Carlos.**
+**101 productos · 178 fotos · 42 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -56,7 +56,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Vestido Crema con Moño Verde](#vestido-crema-con-mono-verde) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 | [Vestido Rojo de Lunares Blancos](#vestido-rojo-de-lunares-blancos) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 | [Vestido Rosa con Mariposa](#vestido-rosa-con-mariposa) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
-| [Vestido Verde con Delantal](#vestido-verde-con-delantal) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Verde con Delantal](#vestido-verde-con-delantal) | 3 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 | [Vestido Verde de Cuadros](#vestido-verde-de-cuadros) | 1 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 
 ## Pendientes de revisar
@@ -1000,8 +1000,9 @@ Vestido Verde con Delantal · Muñecas · ✅ revisado 2026-10-03
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | RagDoll_GreenDress_WhiteApron_01.jpg | 1200×1594 | `6aa8c9baefa350147b02706c7775416b` |
+| 1 | RagDoll_GreenDress_WhiteApron_03.jpg | 1200×1594 | `663dfd7d0ce79969fdabd86ab705666f` |
 | 2 | RagDoll_GreenDress_WhiteApron_02.jpg | 1200×1594 | `e4d24e03a0b64eff15552ce547dea956` |
+| 3 | RagDoll_GreenDress_WhiteApron_04.jpg | 1200×1594 | `d942c854f19fd6cc5275e0398343d8f8` |
 
 ### vestido-verde-de-cuadros
 
