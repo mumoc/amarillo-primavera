@@ -974,8 +974,8 @@ Vestido Rojo de Lunares Blancos · Muñecas · ✅ revisado 2026-10-03
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
-| 1 | RagDoll_RedDress_WhiteDots_01.jpg | 1200×1594 | `5b394bbdbf54ee696da9ad932745de27` |
-| 2 | RagDoll_RedDress_WhiteDots_02.jpg | 1200×1594 | `8ad346569e31b61e293815e5a7a7f538` |
+| 1 | RagDoll_RedDress_WhiteDots_02.jpg | 1200×1594 | `8ad346569e31b61e293815e5a7a7f538` |
+| 2 | RagDoll_RedDress_WhiteDots_01.jpg | 1200×1594 | `5b394bbdbf54ee696da9ad932745de27` |
 
 ### vestido-rosa-con-mariposa
 
