@@ -7,6 +7,7 @@ tags:
   - "#DiademasArtesanales"
   - "#EstiloMexicano"
   - "#Artesanal"
+orden: 8
 disponible: true
 imagenes:
   - images/FlowerCrown_RibbonRainbow_Headband_01.jpg
