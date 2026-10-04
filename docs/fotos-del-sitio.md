@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**87 productos · 148 fotos · 28 productos revisados por Carlos.**
+**101 productos · 178 fotos · 42 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -44,6 +44,20 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Portallaves Casitas de Colores](#portallaves-casitas-de-colores) | 3 | 2026-09-29 | Nuevo. Dos versiones del portallaves en un solo producto. |
 | [Tarjetas de Margarita de Jabón](#tarjetas-margarita-de-jabon) | 6 | 2026-09-29 | De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal despues. Se suma al final la foto sobre tela del Drive. |
 | [Diadema de Colores](#diadema-de-colores) | 3 | 2026-10-03 | Nuevo, con fotos del Drive. Carlos lo pidio como producto propio, no dentro de Diademas de Listones. |
+| [Falda de Rayas Lila](#falda-de-rayas-lila) | 1 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Falda Roja con Rebozo Arcoíris](#falda-roja-con-rebozo-arcoiris) | 3 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Frida con Rebozo Fucsia](#frida-con-rebozo-fucsia) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Frida de Blusa Rayada](#frida-de-blusa-rayada) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Overol Floral Verde Agua](#overol-floral-verde-agua) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Pelirroja de Azul Marino](#pelirroja-de-azul-marino) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Pelirroja de Rosa con Encaje](#pelirroja-de-rosa-con-encaje) | 3 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Rubia de Flores](#rubia-de-flores) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Trenzas con Vestido Azul Floral](#trenzas-con-vestido-azul-floral) | 3 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Crema con Moño Verde](#vestido-crema-con-mono-verde) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Rojo de Lunares Blancos](#vestido-rojo-de-lunares-blancos) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Rosa con Mariposa](#vestido-rosa-con-mariposa) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Verde con Delantal](#vestido-verde-con-delantal) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
+| [Vestido Verde de Cuadros](#vestido-verde-de-cuadros) | 2 | 2026-10-03 | Nueva, con fotos del Drive. Nombre provisional: falta el que le ponga Adela. |
 
 ## Pendientes de revisar
 
@@ -447,6 +461,24 @@ Diademas de Listones · Coronas y diademas florales · ✅ revisado 2026-09-25
 |---|---|---|---|
 | 1 | FlowerCrown_RibbonMulticolor_01.jpg | 2048×1536 | `84c3580d5f90c35ab5bb3a10f2421fd8` |
 
+### falda-de-rayas-lila
+
+Falda de Rayas Lila · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_LilacStripes_01.jpg | 1200×1594 | `a96c0c4b5d2347f80d2438bb539b1c76` |
+
+### falda-roja-con-rebozo-arcoiris
+
+Falda Roja con Rebozo Arcoíris · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_RedSkirt_RainbowRebozo_01.jpg | 1200×1594 | `6f228ea13009c5303e62f062a472b010` |
+| 2 | RagDoll_RedSkirt_RainbowRebozo_02.jpg | 1200×1594 | `b8c7f7f2d93675032c165a48e00279c9` |
+| 3 | RagDoll_RedSkirt_RainbowRebozo_03.jpg | 1200×1594 | `e7e1f8011b4f6fb58790eb5e742369a2` |
+
 ### florecita-vestido-azul
 
 Florecita · Muñecas · ✅ revisado 2026-09-19
@@ -456,6 +488,15 @@ Florecita · Muñecas · ✅ revisado 2026-09-19
 | 1 | RagDoll_FloralDressNavy_02.jpg | 1542×2048 | `59738a685eaefec96f2ae155380fe560` |
 | 2 | RagDoll_FloralDressNavy_01.jpg | 1542×2048 | `62612073a7c7a88b96abe1dc93cb8fd4` |
 
+### frida-con-rebozo-fucsia
+
+Frida con Rebozo Fucsia · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_Frida_FuchsiaRebozo_01.jpg | 1200×1594 | `89569d351bb0525fe1c45ece8852f5b8` |
+| 2 | RagDoll_Frida_FuchsiaRebozo_02.jpg | 1200×1594 | `028e41ff952ac0f83b92d8fceebaa22c` |
+
 ### frida-corona-floral
 
 Frida, Corona Floral · Muñecas · ✅ revisado 2026-09-24
@@ -463,6 +504,15 @@ Frida, Corona Floral · Muñecas · ✅ revisado 2026-09-24
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Frida_01.jpg | 960×1280 | `08383b2121306f5ca3a5564e73817375` |
+
+### frida-de-blusa-rayada
+
+Frida de Blusa Rayada · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_Frida_StripedBlouse_01.jpg | 1200×1594 | `36051ee3947ee30c671e8dcdde135373` |
+| 2 | RagDoll_Frida_StripedBlouse_02.jpg | 1200×1594 | `b91a4c1753491f53a195a952e74d8b39` |
 
 ### frida-flores-rosas
 
@@ -674,6 +724,15 @@ Organizador de Lápices Multicolor · Organizadores 3D · ✅ revisado 2026-09-2
 | 7 | Organizer3D_PencilHolder_OrangeTeal_01.jpg | 528×960 | `3aed4730c140028ed946fb673c8382f1` |
 | 8 | Organizer3D_PencilHolder_YellowWithPencils_01.jpg | 1327×1883 | `f71cd1420d1c4d75e361006f742f4ea8` |
 
+### overol-floral-verde-agua
+
+Overol Floral Verde Agua · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_FloralJumpsuit_Mint_01.jpg | 1200×1594 | `5e25676dcde5b33dfd3adc30c81ca157` |
+| 2 | RagDoll_FloralJumpsuit_Mint_02.jpg | 1200×1594 | `13d278d2764b415220a9f03972f39a3b` |
+
 ### overol-rayado
 
 Overol Rayado · Muñecas · ⏳ sin revisar
@@ -697,6 +756,25 @@ Pañoleta Bohemia · Muñecas · ⏳ sin revisar
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_Gypsy_01.jpg | 960×1280 | `6828e7ede21052c80beabf42859fe341` |
+
+### pelirroja-de-azul-marino
+
+Pelirroja de Azul Marino · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_Redhead_NavyDress_01.jpg | 1200×1594 | `b4061210542a4ef6ea3ce16207f7e467` |
+| 2 | RagDoll_Redhead_NavyDress_02.jpg | 1200×1594 | `6aeb6fe624690bfc952be2f87b66e42f` |
+
+### pelirroja-de-rosa-con-encaje
+
+Pelirroja de Rosa con Encaje · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_Redhead_PinkLace_01.jpg | 1200×1594 | `02eee86d16763ce5c766997a3c589f25` |
+| 2 | RagDoll_Redhead_PinkLace_02.jpg | 1200×1594 | `e7f445fb1012583840d511b13c925183` |
+| 3 | RagDoll_Redhead_PinkLace_03.jpg | 1200×1594 | `934d23f6162faf6bcf6e915e0eff0722` |
 
 ### portallaves-casitas-de-colores
 
@@ -740,6 +818,15 @@ Recuerdo de Rosita en Organza · Jabones · ⏳ sin revisar
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | Soap_RoseFavor_PinkOrganza_01.jpg | 1600×1200 | `61c38830d6a8e2d7d66d462b043a58cd` |
+
+### rubia-de-flores
+
+Rubia de Flores · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_Blonde_FloralDress_01.jpg | 1200×1594 | `5d08a715dba06c20096116e8164be590` |
+| 2 | RagDoll_Blonde_FloralDress_02.jpg | 1200×1594 | `7b331517416b58c6cfeb7f12b9059c0d` |
 
 ### salsa-diabla-frasco
 
@@ -838,6 +925,16 @@ Tote Bag Pintada Corazón Floral · Bolsas tote · ✅ revisado 2026-09-24
 |---|---|---|---|
 | 1 | ToteBag_GroupFour_HeartFloral_01.jpg | 1599×989 | `44ed01b08179aeb5b19529faf9d14405` |
 
+### trenzas-con-vestido-azul-floral
+
+Trenzas con Vestido Azul Floral · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_Braids_BlueFloral_01.jpg | 1200×1594 | `8f18cb16e80193a0e8b2cca44ed21d3a` |
+| 2 | RagDoll_Braids_BlueFloral_02.jpg | 1200×1594 | `c9234333b471956ef9b7afba161ad2f3` |
+| 3 | RagDoll_Braids_BlueFloral_03.jpg | 1200×1594 | `fd9a79e515eb4b1edd5fd6e38e113051` |
+
 ### trenzas-flores-amarillas
 
 Trenzas con Flores Amarillas · Muñecas · ⏳ sin revisar
@@ -854,6 +951,15 @@ Tres Reyes Magos y María · Muñecas · ⏳ sin revisar
 |---|---|---|---|
 | 1 | RagDoll_Nativity_KingsAndMary_01.jpg | 800×449 | `f2b93f35366e259153e7d4fa7f0a03ff` |
 
+### vestido-crema-con-mono-verde
+
+Vestido Crema con Moño Verde · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_CreamFloral_GreenBow_01.jpg | 1200×1594 | `156e2a94b08e6184256f7ef4a7a6a9f4` |
+| 2 | RagDoll_CreamFloral_GreenBow_02.jpg | 1200×1594 | `ca3d7ba8cb4bdb10cc05a8f07f58c29b` |
+
 ### vestido-floral-pelirroja
 
 Vestido Floral Pelirroja · Muñecas · ✅ revisado 2026-09-25
@@ -862,6 +968,24 @@ Vestido Floral Pelirroja · Muñecas · ✅ revisado 2026-09-25
 |---|---|---|---|
 | 1 | RagDoll_FloralDress_Redhead_01.jpg | 1080×1517 | `adadf64ef3652f69475ec5d27fd756e2` |
 
+### vestido-rojo-de-lunares-blancos
+
+Vestido Rojo de Lunares Blancos · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_RedDress_WhiteDots_01.jpg | 1200×1594 | `5b394bbdbf54ee696da9ad932745de27` |
+| 2 | RagDoll_RedDress_WhiteDots_02.jpg | 1200×1594 | `8ad346569e31b61e293815e5a7a7f538` |
+
+### vestido-rosa-con-mariposa
+
+Vestido Rosa con Mariposa · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_PinkDress_Butterfly_01.jpg | 1200×1594 | `0012871c5e3cbd130bed978c6e3b3816` |
+| 2 | RagDoll_PinkDress_Butterfly_02.jpg | 1200×1594 | `b4bc1479a8b6f6342251b8d217af2341` |
+
 ### vestido-satin-morado
 
 Vestido Satín Morado · Muñecas · ⏳ sin revisar
@@ -869,6 +993,24 @@ Vestido Satín Morado · Muñecas · ⏳ sin revisar
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | RagDoll_PurpleDress_Ribbon_01.jpg | 1599×815 | `c4c343a88e248f6d1babbae5b57af27c` |
+
+### vestido-verde-con-delantal
+
+Vestido Verde con Delantal · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_GreenDress_WhiteApron_01.jpg | 1200×1594 | `6aa8c9baefa350147b02706c7775416b` |
+| 2 | RagDoll_GreenDress_WhiteApron_02.jpg | 1200×1594 | `e4d24e03a0b64eff15552ce547dea956` |
+
+### vestido-verde-de-cuadros
+
+Vestido Verde de Cuadros · Muñecas · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | RagDoll_GreenGingham_YellowBow_01.jpg | 1200×1594 | `929706f0b8e58898fa3789fd4b5ed00d` |
+| 2 | RagDoll_GreenGingham_YellowBow_02.jpg | 1200×1594 | `38d1dfda06e203096ff52d056f3cf459` |
 
 ### virgencitas
 
