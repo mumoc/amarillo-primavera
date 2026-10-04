@@ -79,7 +79,7 @@ construir algo, hay quien lo construya. Es una capacidad instalada que hoy se
 usa poco.
 
 **También hace piezas para el catálogo.** La línea «Creaciones de colección»
-es suya: las casitas de madera y las esculturas de arcilla. Ver
+es suya: esculturas y piezas hechas con diferentes técnicas. Ver
 `brand/creaciones-de-coleccion.md`.
 
 ## Al escribir

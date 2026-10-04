@@ -35,7 +35,7 @@ qué tan urgente es. Es el archivo que hay que abrir primero.
 | `proceso-jabones.md` | Qué llevan y qué no los jabones, el proceso, tiempos, pesos, abasto | Para responder preguntas de producto **sin inventar** |
 | `equipo-y-roles.md` | Las dos socias, qué hace cada una, cuándo nace la marca (dic 2024) | Antes de hablar de la marca como negocio |
 | `lineas-de-producto.md` | Qué líneas existen, cuántos productos tiene cada una y cuáles no están documentadas | Antes de escribir de la marca en general |
-| `creaciones-de-coleccion.md` | La línea de Carlos (Mumo): madera y arcilla, los dos niveles (colección y accesible), la fórmula de precio y la regla de no vender personajes con licencia | Antes de subir, describir o ponerle precio a una pieza suya |
+| `creaciones-de-coleccion.md` | La línea de Carlos (Mumo): piezas de colección en varias técnicas, los dos niveles (colección y accesible), la fórmula de precio y la regla de no vender personajes con licencia | Antes de subir, describir o ponerle precio a una pieza suya |
 
 Estos dos son los más nuevos y los que más se subutilizan. Casi cualquier texto
 de venta mejora si sale de ahí en vez de salir de la imaginación.

@@ -1,6 +1,6 @@
 ---
 nombre: Casita de Madera con Farol
-categoria: Creaciones de colección
+categoria: Creaciones de madera
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

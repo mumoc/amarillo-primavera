@@ -8,18 +8,22 @@ tags: [productos, coleccion, mumo, escultura, madera, arcilla, precios]
 La línea de **Carlos (Mumo)**. Son piezas suyas, hechas con diferentes
 técnicas: no se define por el material sino por quién las hace.
 
-Es la única línea del catálogo que no sale de las manos de La Morocha. En el
-sitio es la categoría **«Creaciones de colección»** (antes «Creaciones de
-madera»).
+En el sitio le toca la categoría **«Creaciones de colección»**. Es una
+categoría **aparte de «Creaciones de madera»**, que conserva su nombre y sus
+cuatro casitas: Carlos pidió expresamente no mezclarlas.
 
 ## Qué hay hoy
 
-| Técnica | Piezas | Estado |
-|---|---|---|
-| Madera | Casita Maceta, Casita de Madera con Farol, Macetero de Casitas Dobles, Portallaves Casitas de Colores | En el catálogo |
-| Arcilla polimérica | Una escultura-cajita (prototipo, septiembre de 2026) | Sin subir |
+Todavía **ninguna pieza en el sitio**. Las categorías salen del campo
+`categoria` de cada producto, así que «Creaciones de colección» aparecerá en el
+menú cuando se suba la primera pieza con `categoria: Creaciones de colección`.
 
-La fuente de verdad de los productos sigue siendo `src/content/products/`.
+Piezas conocidas:
+
+| Pieza | Técnica | Estado |
+|---|---|---|
+| Escultura-cajita (prototipo, septiembre de 2026) | Arcilla polimérica | Sin subir; es un personaje con licencia, ver la regla abajo |
+| Retrato de una persona, figura cabezona con sus detalles (tatuaje, reloj, pulsera) | Modelado y pintura | Publicada por Carlos en su Instagram en febrero de 2019; no está en el sitio |
 
 ## Los dos niveles
 

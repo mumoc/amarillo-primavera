@@ -71,7 +71,9 @@ Sin esto no se puede avanzar en cosas que ya están pedidas.
 
 Todo va en `creaciones-de-coleccion.md`.
 
-- [ ] ¿Qué madera usa en las casitas y de dónde salió la idea?
+- [ ] Las «Creaciones de madera» son categoría aparte: confirmar si también
+      las hace Carlos, qué madera usa y de dónde salió la idea.
+      → `lineas-de-producto.md`
 - [ ] ¿Qué temas sí se venden en arcilla? (mascotas a pedido, personajes
       propios, otra cosa). Los personajes con licencia no.
 - [ ] Horas y gramos reales de una pieza chica, medidos, para fijar la línea
@@ -107,5 +109,5 @@ Nada que preguntar; depende de que se llene lo de arriba.
 - [x] Letrero de beneficios y letrero de historia — ago 2026
 - [x] Skill `exportar-impresos` — ago 2026
 - [x] `CLAUDE.md` e índice de la biblioteca — ago 2026
-- [x] Quién hace las creaciones de madera: Carlos. La categoría pasa a
-      llamarse «Creaciones de colección» — oct 2026
+- [x] Categoría nueva «Creaciones de colección», de Carlos, documentada — oct
+      2026

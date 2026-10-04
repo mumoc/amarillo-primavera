@@ -1,6 +1,6 @@
 ---
 nombre: Macetero de Casitas Dobles
-categoria: Creaciones de colección
+categoria: Creaciones de madera
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

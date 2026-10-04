@@ -1,6 +1,6 @@
 ---
 nombre: Portallaves Casitas de Colores
-categoria: Creaciones de colección
+categoria: Creaciones de madera
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"

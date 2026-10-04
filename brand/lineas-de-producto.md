@@ -30,7 +30,8 @@ esta tabla — aquí solo para dar proporción.
 | Llaveros | 1 | ✘ |
 | Bolsas tote | 1 | ✘ |
 | Salsa Diabla | 1 | Tono propio: `brand/sub-brand-tone.md` |
-| Creaciones de colección (antes «Creaciones de madera») | 4 | ◐ Las hace Carlos, con varias técnicas: `brand/creaciones-de-coleccion.md`. Falta qué madera y de dónde sale la idea |
+| Creaciones de madera | 4 | ✘ Falta confirmar quién las hace (¿Carlos?), qué madera y de dónde sale la idea |
+| Creaciones de colección | 0 | ◐ Categoría nueva, de Carlos, aún sin piezas en el sitio: `brand/creaciones-de-coleccion.md` |
 | Otros | 1 | — |
 
 Total: 77 productos.

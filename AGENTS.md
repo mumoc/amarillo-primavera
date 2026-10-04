@@ -18,7 +18,7 @@ sesgarse hacia ellos al escribir: no lo hagas. Ver
 
 El repo es de **Carlos (mumoc)**, que aporta el sitio y el branding. Las piezas
 las hacen su mamá y su esposa. Carlos además hace las suyas: la línea
-«Creaciones de colección» (madera y arcilla), ver
+«Creaciones de colección», ver
 `brand/creaciones-de-coleccion.md`.
 
 - **María de los Ángeles Moreno Villegas**, su mamá, es la fundadora. Quiere ser
@@ -57,7 +57,7 @@ nostálgica — nunca corporativa ni técnica.
 | Quién hace qué, cómo opera el negocio | `brand/equipo-y-roles.md` |
 | Responder qué llevan los jabones, cómo se hacen, cuánto tardan | `brand/proceso-jabones.md` |
 | Saber qué líneas de producto existen y cuáles faltan documentar | `brand/lineas-de-producto.md` |
-| Las piezas de Carlos (madera, arcilla), cómo ponerles precio y qué no se vende | `brand/creaciones-de-coleccion.md` |
+| Las piezas de colección de Carlos, cómo ponerles precio y qué no se vende | `brand/creaciones-de-coleccion.md` |
 | Saber a quién le hablas | `brand/audience.md` |
 | Colores exactos | `brand/colors.md` |
 | Usar el logo | `brand/logo-guidelines.md` |
