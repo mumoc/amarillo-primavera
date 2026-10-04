@@ -67,6 +67,20 @@ Sin esto no se puede avanzar en cosas que ya están pedidas.
       las promesas de tratamiento son afirmaciones cosméticas reguladas; esto se
       escribe con cuidado o no se escribe. → `proceso-jabones.md`
 
+### Creaciones de colección (la línea de Carlos)
+
+Todo va en `creaciones-de-coleccion.md`.
+
+- [ ] ¿Qué madera usa en las casitas y de dónde salió la idea?
+- [ ] ¿Qué temas sí se venden en arcilla? (mascotas a pedido, personajes
+      propios, otra cosa). Los personajes con licencia no.
+- [ ] Horas y gramos reales de una pieza chica, medidos, para fijar la línea
+      accesible y los multiplicadores de la fórmula de precio.
+- [ ] ¿Cómo se firma la línea en público? ¿Y se muestran precios en el sitio?
+      Hoy el catálogo no muestra ninguno.
+- [ ] Fotos del prototipo de arcilla (terminado y proceso) para subirlo como
+      pieza de muestra.
+
 ---
 
 ## 🔵 Trabajo que se destraba después
@@ -93,3 +107,5 @@ Nada que preguntar; depende de que se llene lo de arriba.
 - [x] Letrero de beneficios y letrero de historia — ago 2026
 - [x] Skill `exportar-impresos` — ago 2026
 - [x] `CLAUDE.md` e índice de la biblioteca — ago 2026
+- [x] Quién hace las creaciones de madera: Carlos. La categoría pasa a
+      llamarse «Creaciones de colección» — oct 2026

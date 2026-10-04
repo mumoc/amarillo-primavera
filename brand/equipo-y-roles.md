@@ -78,6 +78,10 @@ Vale la pena tenerlo en cuenta: si una idea de producto o de exhibición requier
 construir algo, hay quien lo construya. Es una capacidad instalada que hoy se
 usa poco.
 
+**También hace piezas para el catálogo.** La línea «Creaciones de colección»
+es suya: las casitas de madera y las esculturas de arcilla. Ver
+`brand/creaciones-de-coleccion.md`.
+
 ## Al escribir
 
 - La marca habla en plural cuando se trata del negocio, pero **la voz de los

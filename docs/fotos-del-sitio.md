@@ -228,7 +228,7 @@ Cantores Navideños · Muñecas · ✅ revisado 2026-09-25
 
 ### casita-maceta
 
-Casita Maceta · Creaciones de madera · ✅ revisado 2026-09-29
+Casita Maceta · Creaciones de colección · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -239,7 +239,7 @@ Casita Maceta · Creaciones de madera · ✅ revisado 2026-09-29
 
 ### casita-madera-con-farol
 
-Casita de Madera con Farol · Creaciones de madera · ✅ revisado 2026-09-29
+Casita de Madera con Farol · Creaciones de colección · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -648,7 +648,7 @@ Macetas de Cemento con Frases para Suculentas · Macetas de cemento · ⏳ sin r
 
 ### macetero-casitas-dobles
 
-Macetero de Casitas Dobles · Creaciones de madera · ✅ revisado 2026-09-29
+Macetero de Casitas Dobles · Creaciones de colección · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
@@ -778,7 +778,7 @@ Pelirroja de Rosa con Encaje · Muñecas · ✅ revisado 2026-10-03
 
 ### portallaves-casitas-de-colores
 
-Portallaves Casitas de Colores · Creaciones de madera · ✅ revisado 2026-09-29
+Portallaves Casitas de Colores · Creaciones de colección · ✅ revisado 2026-09-29
 
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|

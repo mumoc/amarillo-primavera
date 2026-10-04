@@ -1,6 +1,6 @@
 ---
 nombre: Casita Maceta
-categoria: Creaciones de madera
+categoria: Creaciones de colección
 tags:
   - "#AmarilloPrimavera"
   - "#HechoAMano"
