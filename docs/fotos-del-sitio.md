@@ -10,7 +10,7 @@ Punto de partida cuando lleguen fotos nuevas:
 3. Los productos marcados ✅ ya los revisó Carlos foto por foto: no les quites ni reordenes fotos sin preguntarle.
 4. Los ⏳ nadie los ha revisado todavía; se revisan uno por uno, nunca en bloque.
 
-**86 productos · 145 fotos · 27 productos revisados por Carlos.**
+**87 productos · 148 fotos · 28 productos revisados por Carlos.**
 
 ## Revisados por Carlos
 
@@ -43,6 +43,7 @@ Punto de partida cuando lleguen fotos nuevas:
 | [Macetero de Casitas Dobles](#macetero-casitas-dobles) | 3 | 2026-09-29 | Nuevo. Azul con morado de portada, verde con morado despues. |
 | [Portallaves Casitas de Colores](#portallaves-casitas-de-colores) | 3 | 2026-09-29 | Nuevo. Dos versiones del portallaves en un solo producto. |
 | [Tarjetas de Margarita de Jabón](#tarjetas-margarita-de-jabon) | 6 | 2026-09-29 | De 13 fotos quedaron 5 tomas; la canasta amarilla de portada, el huacal despues. Se suma al final la foto sobre tela del Drive. |
+| [Diadema de Colores](#diadema-de-colores) | 3 | 2026-10-03 | Nuevo, con fotos del Drive. Carlos lo pidio como producto propio, no dentro de Diademas de Listones. |
 
 ## Pendientes de revisar
 
@@ -427,6 +428,16 @@ Diadema Catrina Mariposa Naranja · Coronas y diademas florales · ⏳ sin revis
 | # | Archivo | Tamaño | md5 |
 |---|---|---|---|
 | 1 | FlowerCrown_Catrina_ButterflyOrange_01.jpg | 1589×1857 | `7d4b01cdc9efbd1258cfc143c1ced22b` |
+
+### diadema-de-colores
+
+Diadema de Colores · Coronas y diademas florales · ✅ revisado 2026-10-03
+
+| # | Archivo | Tamaño | md5 |
+|---|---|---|---|
+| 1 | FlowerCrown_RibbonRainbow_Headband_01.jpg | 1200×1594 | `02e21923894c117f2d789b754875cf14` |
+| 2 | FlowerCrown_RibbonRainbow_Headband_02.jpg | 1200×904 | `990fe5122ce7971ad0816d2942518287` |
+| 3 | FlowerCrown_RibbonRainbow_Headband_03.jpg | 1200×1594 | `7f0a450396e4f297fa0496de170b2876` |
 
 ### diademas-listones-multicolor-conjunto
 
